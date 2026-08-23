@@ -263,6 +263,18 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 .show-card .price-badge{
   font-size:12px;font-weight:600;color:var(--teal);margin-top:6px;
 }
+
+/* Genre section headers */
+.genre-section-header{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:16px;font-weight:700;color:var(--text);
+  padding:16px 0 6px;margin-top:4px;
+  border-top:1px solid rgba(255,255,255,0.06);
+}
+.genre-section-header:first-child{border-top:none;padding-top:8px}
+.genre-section-count{
+  font-size:13px;font-weight:400;color:var(--text-dim);margin-left:4px;
+}
 .toggle{
   width:40px;height:22px;border-radius:11px;
   background:var(--card);position:relative;cursor:pointer;
@@ -542,7 +554,32 @@ function renderTonight() {
     container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
     return;
   }
-  container.innerHTML = tonight.map(showCard).join('');
+
+  // Group by genre when showing all
+  if (tonightGenre === 'all') {
+    const genreOrder = ['musical','play','comedy','cabaret','opera','dance','family','unknown'];
+    const groups = {};
+    tonight.forEach(s => {
+      const g = s.genre || 'unknown';
+      if (!groups[g]) groups[g] = [];
+      groups[g].push(s);
+    });
+    let html = '';
+    for (const g of genreOrder) {
+      if (!groups[g] || groups[g].length === 0) continue;
+      html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
+      html += groups[g].map(showCard).join('');
+    }
+    for (const g of Object.keys(groups)) {
+      if (!genreOrder.includes(g)) {
+        html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
+        html += groups[g].map(showCard).join('');
+      }
+    }
+    container.innerHTML = html;
+  } else {
+    container.innerHTML = tonight.map(showCard).join('');
+  }
 }
 
 function setTonightGenre(g) { tonightGenre = g; renderTonight(); }
@@ -577,7 +614,33 @@ function renderShows() {
     container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
     return;
   }
-  container.innerHTML = filtered.map(showCard).join('');
+
+  // Group by genre when showing all genres
+  if (activeGenre === 'all') {
+    const genreOrder = ['musical','play','comedy','cabaret','opera','dance','family','unknown'];
+    const groups = {};
+    filtered.forEach(s => {
+      const g = s.genre || 'unknown';
+      if (!groups[g]) groups[g] = [];
+      groups[g].push(s);
+    });
+    let html = '';
+    for (const g of genreOrder) {
+      if (!groups[g] || groups[g].length === 0) continue;
+      html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
+      html += groups[g].map(showCard).join('');
+    }
+    // Any genres not in genreOrder
+    for (const g of Object.keys(groups)) {
+      if (!genreOrder.includes(g)) {
+        html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
+        html += groups[g].map(showCard).join('');
+      }
+    }
+    container.innerHTML = html;
+  } else {
+    container.innerHTML = filtered.map(showCard).join('');
+  }
 }
 
 function showCard(s) {

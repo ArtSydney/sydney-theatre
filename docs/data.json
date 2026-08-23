@@ -15,7 +15,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 84,
-    "fetched_at": "2026-08-23T08:36:56.301005",
+    "fetched_at": "2026-08-23T08:49:23.595363",
     "sessions": []
   },
   {
@@ -34,7 +34,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 94.9,
-    "fetched_at": "2026-08-23T08:36:56.300569",
+    "fetched_at": "2026-08-23T08:49:23.594873",
     "sessions": []
   },
   {
@@ -53,7 +53,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805565",
+    "fetched_at": "2026-08-23T08:49:29.535741",
     "sessions": []
   },
   {
@@ -72,7 +72,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 65,
-    "fetched_at": "2026-08-23T08:36:56.300803",
+    "fetched_at": "2026-08-23T08:49:23.595109",
     "sessions": []
   },
   {
@@ -91,26 +91,7 @@
     "suburb": "Ultimo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805554",
-    "sessions": []
-  },
-  {
-    "id": "b92ab03b3f1a",
-    "title": "Harry Potter and the Philosopher's Stone In Concert",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-12-02",
-    "end_date": "2026-12-05",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46408-harry-potter-and-the-philosophers-stone-in-concert",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/46408-harry-potter-and-the-philosophers-stone-in-concert",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 125,
-    "fetched_at": "2026-08-23T08:36:56.300954",
+    "fetched_at": "2026-08-23T08:49:29.535730",
     "sessions": []
   },
   {
@@ -129,7 +110,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805548",
+    "fetched_at": "2026-08-23T08:49:29.535723",
     "sessions": []
   },
   {
@@ -148,7 +129,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.301008",
+    "fetched_at": "2026-08-23T08:49:23.595367",
     "sessions": []
   },
   {
@@ -167,7 +148,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": 100,
-    "fetched_at": "2026-08-23T08:36:56.301161",
+    "fetched_at": "2026-08-23T08:49:23.595532",
     "sessions": []
   },
   {
@@ -186,7 +167,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805534",
+    "fetched_at": "2026-08-23T08:49:29.535707",
     "sessions": []
   },
   {
@@ -205,7 +186,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805528",
+    "fetched_at": "2026-08-23T08:49:29.535699",
     "sessions": []
   },
   {
@@ -224,7 +205,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 83,
-    "fetched_at": "2026-08-23T08:36:56.301154",
+    "fetched_at": "2026-08-23T08:49:23.595522",
     "sessions": []
   },
   {
@@ -243,7 +224,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805521",
+    "fetched_at": "2026-08-23T08:49:29.535692",
     "sessions": []
   },
   {
@@ -262,7 +243,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 64,
-    "fetched_at": "2026-08-23T08:36:56.300939",
+    "fetched_at": "2026-08-23T08:49:23.595288",
     "sessions": []
   },
   {
@@ -281,7 +262,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805514",
+    "fetched_at": "2026-08-23T08:49:29.535683",
     "sessions": []
   },
   {
@@ -300,26 +281,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 122,
-    "fetched_at": "2026-08-23T08:36:56.300917",
-    "sessions": []
-  },
-  {
-    "id": "d0972131d051",
-    "title": "Jay Shetty LIVE: This Changes Everything",
-    "venue": "TikTok Entertainment Centre | ICC Sydney",
-    "venue_id": "icc-sydney",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "booking_url": "https://www.todaytix.com/sydney/shows/47406-jay-shetty-live-this-changes-everything-sydney",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/47406-jay-shetty-live-this-changes-everything-sydney",
-    "snippet": "",
-    "suburb": "",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.300754",
+    "fetched_at": "2026-08-23T08:49:23.595264",
     "sessions": []
   },
   {
@@ -338,7 +300,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.300818",
+    "fetched_at": "2026-08-23T08:49:23.595126",
     "sessions": []
   },
   {
@@ -357,26 +319,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805497",
-    "sessions": []
-  },
-  {
-    "id": "7cc3a361516f",
-    "title": "Simone Young conducts Mozart & Bach",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-11-06",
-    "end_date": "2026-11-08",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45744-simone-young-conducts-mozart-and-bach-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45744-simone-young-conducts-mozart-and-bach-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 55,
-    "fetched_at": "2026-08-23T08:36:56.301137",
+    "fetched_at": "2026-08-23T08:49:29.535665",
     "sessions": []
   },
   {
@@ -395,7 +338,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 70,
-    "fetched_at": "2026-08-23T08:36:56.301159",
+    "fetched_at": "2026-08-23T08:49:23.595528",
     "sessions": []
   },
   {
@@ -414,7 +357,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805482",
+    "fetched_at": "2026-08-23T08:49:29.535648",
     "sessions": []
   },
   {
@@ -433,7 +376,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805490",
+    "fetched_at": "2026-08-23T08:49:29.535657",
     "sessions": []
   },
   {
@@ -452,7 +395,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805469",
+    "fetched_at": "2026-08-23T08:49:29.535633",
     "sessions": []
   },
   {
@@ -471,7 +414,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805476",
+    "fetched_at": "2026-08-23T08:49:29.535640",
     "sessions": []
   },
   {
@@ -490,26 +433,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805463",
-    "sessions": []
-  },
-  {
-    "id": "22b400adc62e",
-    "title": "Mendelssohn’s Elijah with Bryn Terfel",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-30",
-    "end_date": "2026-10-31",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45743-mendelssohns-elijah-with-bryn-terfel-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45743-mendelssohns-elijah-with-bryn-terfel-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 85,
-    "fetched_at": "2026-08-23T08:36:56.301131",
+    "fetched_at": "2026-08-23T08:49:29.535625",
     "sessions": []
   },
   {
@@ -528,7 +452,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805448",
+    "fetched_at": "2026-08-23T08:49:29.535608",
     "sessions": []
   },
   {
@@ -547,7 +471,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805455",
+    "fetched_at": "2026-08-23T08:49:29.535616",
     "sessions": []
   },
   {
@@ -566,26 +490,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805434",
-    "sessions": []
-  },
-  {
-    "id": "9f4c9da21b2f",
-    "title": "David Hockney: Bigger & Closer (not smaller & further away)",
-    "venue": "Carriageworks",
-    "venue_id": "carriageworks",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-22",
-    "end_date": "2027-01-24",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/david-hockney-bigger-and-closer-not-smaller-and-further-away",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/david-hockney-bigger-and-closer-not-smaller-and-further-away",
-    "snippet": "Step into the vibrant world of David Hockney, one of the most celebrated artists of our time.",
-    "suburb": "Eveleigh",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805420",
+    "fetched_at": "2026-08-23T08:49:29.535593",
     "sessions": []
   },
   {
@@ -604,26 +509,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805427",
-    "sessions": []
-  },
-  {
-    "id": "37ab184ebca6",
-    "title": "Star Wars: The Empire Strikes Back in Concert",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-24",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45738-star-wars-the-empire-strikes-back-in-concert-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45738-star-wars-the-empire-strikes-back-in-concert-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 130,
-    "fetched_at": "2026-08-23T08:36:56.301123",
+    "fetched_at": "2026-08-23T08:49:29.535584",
     "sessions": []
   },
   {
@@ -642,7 +528,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": 77,
-    "fetched_at": "2026-08-23T08:36:56.300899",
+    "fetched_at": "2026-08-23T08:49:23.595238",
     "sessions": []
   },
   {
@@ -661,7 +547,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805399",
+    "fetched_at": "2026-08-23T08:49:29.535554",
     "sessions": []
   },
   {
@@ -680,7 +566,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": 75,
-    "fetched_at": "2026-08-23T08:36:56.300915",
+    "fetched_at": "2026-08-23T08:49:23.595260",
     "sessions": []
   },
   {
@@ -699,7 +585,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805386",
+    "fetched_at": "2026-08-23T08:49:29.535538",
     "sessions": []
   },
   {
@@ -718,26 +604,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805393",
-    "sessions": []
-  },
-  {
-    "id": "37c9f130f50f",
-    "title": "Beethoven & Tchaikovsky",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-14",
-    "end_date": "2026-10-17",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45737-beethoven-and-tchaikovsky-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45737-beethoven-and-tchaikovsky-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 55,
-    "fetched_at": "2026-08-23T08:36:56.300933",
+    "fetched_at": "2026-08-23T08:49:29.535547",
     "sessions": []
   },
   {
@@ -756,7 +623,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.300846",
+    "fetched_at": "2026-08-23T08:49:23.595157",
     "sessions": []
   },
   {
@@ -775,7 +642,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805365",
+    "fetched_at": "2026-08-23T08:49:29.535514",
     "sessions": []
   },
   {
@@ -794,7 +661,7 @@
     "suburb": "Cremorne",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805372",
+    "fetched_at": "2026-08-23T08:49:29.535522",
     "sessions": []
   },
   {
@@ -813,7 +680,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805379",
+    "fetched_at": "2026-08-23T08:49:29.535531",
     "sessions": []
   },
   {
@@ -832,7 +699,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 74.5,
-    "fetched_at": "2026-08-23T08:36:56.300893",
+    "fetched_at": "2026-08-23T08:49:23.595231",
     "sessions": []
   },
   {
@@ -851,7 +718,7 @@
     "suburb": "Potts Point",
     "free_event": false,
     "price_from": 76,
-    "fetched_at": "2026-08-23T08:36:56.301077",
+    "fetched_at": "2026-08-23T08:49:23.595441",
     "sessions": []
   },
   {
@@ -870,7 +737,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805331",
+    "fetched_at": "2026-08-23T08:49:29.535474",
     "sessions": []
   },
   {
@@ -889,7 +756,7 @@
     "suburb": "North Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805345",
+    "fetched_at": "2026-08-23T08:49:29.535490",
     "sessions": []
   },
   {
@@ -908,7 +775,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805357",
+    "fetched_at": "2026-08-23T08:49:29.535504",
     "sessions": []
   },
   {
@@ -916,7 +783,7 @@
     "title": "Bernie Dieter's Club Kabarett",
     "venue": "Bay 20 | Carriageworks",
     "venue_id": "carriageworks",
-    "genre": "unknown",
+    "genre": "cabaret",
     "status": "active",
     "start_date": "2026-10-08",
     "end_date": "2026-11-08",
@@ -927,7 +794,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 35,
-    "fetched_at": "2026-08-23T08:36:56.300540",
+    "fetched_at": "2026-08-23T08:49:23.594839",
     "sessions": []
   },
   {
@@ -935,7 +802,7 @@
     "title": "Dangerous When Wet",
     "venue": "Randwick Town Hall",
     "venue_id": "",
-    "genre": "unknown",
+    "genre": "play",
     "status": "active",
     "start_date": "2026-10-08",
     "end_date": "2026-10-18",
@@ -946,7 +813,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 30,
-    "fetched_at": "2026-08-23T08:36:56.301038",
+    "fetched_at": "2026-08-23T08:49:23.595397",
     "sessions": []
   },
   {
@@ -965,7 +832,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805325",
+    "fetched_at": "2026-08-23T08:49:29.535467",
     "sessions": []
   },
   {
@@ -984,7 +851,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805311",
+    "fetched_at": "2026-08-23T08:49:29.535452",
     "sessions": []
   },
   {
@@ -1003,7 +870,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805319",
+    "fetched_at": "2026-08-23T08:49:29.535460",
     "sessions": []
   },
   {
@@ -1022,7 +889,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 63,
-    "fetched_at": "2026-08-23T08:36:56.301000",
+    "fetched_at": "2026-08-23T08:49:23.595356",
     "sessions": []
   },
   {
@@ -1041,7 +908,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805288",
+    "fetched_at": "2026-08-23T08:49:29.535427",
     "sessions": []
   },
   {
@@ -1060,7 +927,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805281",
+    "fetched_at": "2026-08-23T08:49:29.535419",
     "sessions": []
   },
   {
@@ -1079,7 +946,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T08:36:56.300922",
+    "fetched_at": "2026-08-23T08:49:23.595267",
     "sessions": []
   },
   {
@@ -1098,7 +965,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805274",
+    "fetched_at": "2026-08-23T08:49:29.535411",
     "sessions": []
   },
   {
@@ -1117,7 +984,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805213",
+    "fetched_at": "2026-08-23T08:49:29.535343",
     "sessions": []
   },
   {
@@ -1136,7 +1003,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805225",
+    "fetched_at": "2026-08-23T08:49:29.535356",
     "sessions": []
   },
   {
@@ -1155,7 +1022,7 @@
     "suburb": "Eveleigh",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805232",
+    "fetched_at": "2026-08-23T08:49:29.535365",
     "sessions": []
   },
   {
@@ -1174,7 +1041,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805239",
+    "fetched_at": "2026-08-23T08:49:29.535372",
     "sessions": []
   },
   {
@@ -1193,7 +1060,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805245",
+    "fetched_at": "2026-08-23T08:49:29.535379",
     "sessions": []
   },
   {
@@ -1212,7 +1079,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805252",
+    "fetched_at": "2026-08-23T08:49:29.535388",
     "sessions": []
   },
   {
@@ -1231,7 +1098,7 @@
     "suburb": "Leichhardt",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805259",
+    "fetched_at": "2026-08-23T08:49:29.535396",
     "sessions": []
   },
   {
@@ -1250,7 +1117,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805192",
+    "fetched_at": "2026-08-23T08:49:29.535317",
     "sessions": []
   },
   {
@@ -1269,7 +1136,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805199",
+    "fetched_at": "2026-08-23T08:49:29.535327",
     "sessions": []
   },
   {
@@ -1288,7 +1155,7 @@
     "suburb": "Redfern",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805206",
+    "fetched_at": "2026-08-23T08:49:29.535335",
     "sessions": []
   },
   {
@@ -1307,7 +1174,7 @@
     "suburb": "The Rocks",
     "free_event": false,
     "price_from": 45,
-    "fetched_at": "2026-08-23T08:36:56.300984",
+    "fetched_at": "2026-08-23T08:49:23.595341",
     "sessions": []
   },
   {
@@ -1315,7 +1182,7 @@
     "title": "Girls Gone Wild",
     "venue": "Made in Hub at PACT Centre for Emerging Artists",
     "venue_id": "",
-    "genre": "unknown",
+    "genre": "play",
     "status": "active",
     "start_date": "2026-09-23",
     "end_date": "2026-09-26",
@@ -1326,7 +1193,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 39,
-    "fetched_at": "2026-08-23T08:36:56.301075",
+    "fetched_at": "2026-08-23T08:49:23.595436",
     "sessions": []
   },
   {
@@ -1345,7 +1212,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 30,
-    "fetched_at": "2026-08-23T08:36:56.301188",
+    "fetched_at": "2026-08-23T08:49:23.595561",
     "sessions": []
   },
   {
@@ -1364,7 +1231,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805152",
+    "fetched_at": "2026-08-23T08:49:29.535274",
     "sessions": []
   },
   {
@@ -1383,7 +1250,7 @@
     "suburb": "Vaucluse",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805160",
+    "fetched_at": "2026-08-23T08:49:29.535282",
     "sessions": []
   },
   {
@@ -1402,7 +1269,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805167",
+    "fetched_at": "2026-08-23T08:49:29.535291",
     "sessions": []
   },
   {
@@ -1421,7 +1288,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805174",
+    "fetched_at": "2026-08-23T08:49:29.535299",
     "sessions": []
   },
   {
@@ -1440,7 +1307,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805145",
+    "fetched_at": "2026-08-23T08:49:29.535265",
     "sessions": []
   },
   {
@@ -1459,7 +1326,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805138",
+    "fetched_at": "2026-08-23T08:49:29.535258",
     "sessions": []
   },
   {
@@ -1478,26 +1345,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": 60,
-    "fetched_at": "2026-08-23T08:36:56.300941",
-    "sessions": []
-  },
-  {
-    "id": "a2870432b832",
-    "title": "Umberto Clerici conducts Dvořák",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-18",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45730-umberto-clerici-conducts-dvorak-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45730-umberto-clerici-conducts-dvorak-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 55,
-    "fetched_at": "2026-08-23T08:36:56.301129",
+    "fetched_at": "2026-08-23T08:49:23.595292",
     "sessions": []
   },
   {
@@ -1516,7 +1364,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805105",
+    "fetched_at": "2026-08-23T08:49:29.535220",
     "sessions": []
   },
   {
@@ -1535,7 +1383,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805111",
+    "fetched_at": "2026-08-23T08:49:29.535227",
     "sessions": []
   },
   {
@@ -1554,7 +1402,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805118",
+    "fetched_at": "2026-08-23T08:49:29.535235",
     "sessions": []
   },
   {
@@ -1573,7 +1421,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805130",
+    "fetched_at": "2026-08-23T08:49:29.535248",
     "sessions": []
   },
   {
@@ -1592,7 +1440,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 105,
-    "fetched_at": "2026-08-23T08:36:56.300947",
+    "fetched_at": "2026-08-23T08:49:23.595297",
     "sessions": []
   },
   {
@@ -1611,7 +1459,7 @@
     "suburb": "Lane Cove",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805076",
+    "fetched_at": "2026-08-23T08:49:29.535185",
     "sessions": []
   },
   {
@@ -1630,7 +1478,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805082",
+    "fetched_at": "2026-08-23T08:49:29.535193",
     "sessions": []
   },
   {
@@ -1649,26 +1497,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805090",
-    "sessions": []
-  },
-  {
-    "id": "4a2c038fef36",
-    "title": "Listen to This: Discover Beethoven",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-09-15",
-    "end_date": "2026-09-15",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45749-listen-to-this-discover-beethoven-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45749-listen-to-this-discover-beethoven-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 54,
-    "fetched_at": "2026-08-23T08:36:56.301140",
+    "fetched_at": "2026-08-23T08:49:29.535201",
     "sessions": []
   },
   {
@@ -1687,7 +1516,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805037",
+    "fetched_at": "2026-08-23T08:49:29.535127",
     "sessions": []
   },
   {
@@ -1706,7 +1535,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805050",
+    "fetched_at": "2026-08-23T08:49:29.535141",
     "sessions": []
   },
   {
@@ -1725,7 +1554,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805057",
+    "fetched_at": "2026-08-23T08:49:29.535149",
     "sessions": []
   },
   {
@@ -1744,7 +1573,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805064",
+    "fetched_at": "2026-08-23T08:49:29.535157",
     "sessions": []
   },
   {
@@ -1763,7 +1592,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805070",
+    "fetched_at": "2026-08-23T08:49:29.535165",
     "sessions": []
   },
   {
@@ -1782,26 +1611,7 @@
     "suburb": "Sydney",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.805001",
-    "sessions": []
-  },
-  {
-    "id": "19251df6b989",
-    "title": "Carnival of the Animals",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-09-12",
-    "end_date": "2026-09-12",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45727-carnival-of-the-animals-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45727-carnival-of-the-animals-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 52,
-    "fetched_at": "2026-08-23T08:36:56.301156",
+    "fetched_at": "2026-08-23T08:49:29.535089",
     "sessions": []
   },
   {
@@ -1820,7 +1630,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804988",
+    "fetched_at": "2026-08-23T08:49:29.535072",
     "sessions": []
   },
   {
@@ -1839,7 +1649,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804973",
+    "fetched_at": "2026-08-23T08:49:29.535051",
     "sessions": []
   },
   {
@@ -1858,7 +1668,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804980",
+    "fetched_at": "2026-08-23T08:49:29.535059",
     "sessions": []
   },
   {
@@ -1877,26 +1687,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804967",
-    "sessions": []
-  },
-  {
-    "id": "d21db55d4aa3",
-    "title": "Mozart’s Requiem with Stephen Layton",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-09-09",
-    "end_date": "2026-09-12",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45726-mozarts-requiem-with-stephen-layton-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45726-mozarts-requiem-with-stephen-layton-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": 85,
-    "fetched_at": "2026-08-23T08:36:56.300928",
+    "fetched_at": "2026-08-23T08:49:29.535044",
     "sessions": []
   },
   {
@@ -1915,7 +1706,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804944",
+    "fetched_at": "2026-08-23T08:49:29.535021",
     "sessions": []
   },
   {
@@ -1934,7 +1725,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804953",
+    "fetched_at": "2026-08-23T08:49:29.535029",
     "sessions": []
   },
   {
@@ -1942,7 +1733,7 @@
     "title": "All Star Circus",
     "venue": "The Virago | Fool's Paradise: Entertainment Quarter",
     "venue_id": "entertainment-quarter",
-    "genre": "unknown",
+    "genre": "cabaret",
     "status": "active",
     "start_date": "2026-09-05",
     "end_date": "2026-10-11",
@@ -1953,7 +1744,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 22,
-    "fetched_at": "2026-08-23T08:36:56.300903",
+    "fetched_at": "2026-08-23T08:49:23.595244",
     "sessions": []
   },
   {
@@ -1972,7 +1763,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804854",
+    "fetched_at": "2026-08-23T08:49:29.534937",
     "sessions": []
   },
   {
@@ -1991,7 +1782,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804869",
+    "fetched_at": "2026-08-23T08:49:29.534952",
     "sessions": []
   },
   {
@@ -2010,7 +1801,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804758",
+    "fetched_at": "2026-08-23T08:49:29.534847",
     "sessions": []
   },
   {
@@ -2029,7 +1820,7 @@
     "suburb": "Rozelle",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804767",
+    "fetched_at": "2026-08-23T08:49:29.534857",
     "sessions": []
   },
   {
@@ -2048,7 +1839,7 @@
     "suburb": "Bondi Beach",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804840",
+    "fetched_at": "2026-08-23T08:49:29.534921",
     "sessions": []
   },
   {
@@ -2067,7 +1858,7 @@
     "suburb": "Dawes Point",
     "free_event": false,
     "price_from": 77,
-    "fetched_at": "2026-08-23T08:36:56.300557",
+    "fetched_at": "2026-08-23T08:49:23.594858",
     "sessions": []
   },
   {
@@ -2086,7 +1877,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804636",
+    "fetched_at": "2026-08-23T08:49:29.534724",
     "sessions": []
   },
   {
@@ -2105,26 +1896,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804643",
-    "sessions": []
-  },
-  {
-    "id": "d6dfa8d3f0c8",
-    "title": "Book Club: Anne of Green Gables by Lucy Maud Montgomery",
-    "venue": "",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-09-03",
-    "end_date": "2026-09-03",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/book-club-anne-of-green-gables-by-lucy-maud-montgomery",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/book-club-anne-of-green-gables-by-lucy-maud-montgomery",
-    "snippet": "Talk and discussion of Anne of Green Gables by Lucy Maud Montgomery by the Western Classics Book Club",
-    "suburb": "Surry Hills",
-    "free_event": true,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804656",
+    "fetched_at": "2026-08-23T08:49:29.534731",
     "sessions": []
   },
   {
@@ -2143,7 +1915,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804663",
+    "fetched_at": "2026-08-23T08:49:29.534751",
     "sessions": []
   },
   {
@@ -2162,7 +1934,7 @@
     "suburb": "Dawes Point",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804703",
+    "fetched_at": "2026-08-23T08:49:29.534793",
     "sessions": []
   },
   {
@@ -2181,7 +1953,7 @@
     "suburb": "The Rocks",
     "free_event": false,
     "price_from": 46,
-    "fetched_at": "2026-08-23T08:36:56.301107",
+    "fetched_at": "2026-08-23T08:49:23.595475",
     "sessions": []
   },
   {
@@ -2200,7 +1972,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804584",
+    "fetched_at": "2026-08-23T08:49:29.534670",
     "sessions": []
   },
   {
@@ -2219,7 +1991,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804611",
+    "fetched_at": "2026-08-23T08:49:29.534696",
     "sessions": []
   },
   {
@@ -2238,7 +2010,7 @@
     "suburb": "Lane Cove",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804628",
+    "fetched_at": "2026-08-23T08:49:29.534715",
     "sessions": []
   },
   {
@@ -2257,7 +2029,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 94.9,
-    "fetched_at": "2026-08-23T08:36:56.300896",
+    "fetched_at": "2026-08-23T08:49:23.595234",
     "sessions": []
   },
   {
@@ -2276,26 +2048,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804551",
-    "sessions": []
-  },
-  {
-    "id": "9833a11d3006",
-    "title": "The 17th Rex Cramphorn Memorial Lecture",
-    "venue": "Chau Chak Wing Museum",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-31",
-    "end_date": "2026-08-31",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-17th-rex-cramphorn-memorial-lecture",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-17th-rex-cramphorn-memorial-lecture",
-    "snippet": "Evoking Country: towards a land-based performing arts praxis",
-    "suburb": "Camperdown",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804544",
+    "fetched_at": "2026-08-23T08:49:29.534638",
     "sessions": []
   },
   {
@@ -2314,7 +2067,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804512",
+    "fetched_at": "2026-08-23T08:49:29.534598",
     "sessions": []
   },
   {
@@ -2333,7 +2086,7 @@
     "suburb": "Bondi Beach",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804337",
+    "fetched_at": "2026-08-23T08:49:29.534415",
     "sessions": []
   },
   {
@@ -2352,7 +2105,7 @@
     "suburb": "Coogee",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804409",
+    "fetched_at": "2026-08-23T08:49:29.534492",
     "sessions": []
   },
   {
@@ -2371,7 +2124,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": 80,
-    "fetched_at": "2026-08-23T08:36:56.300564",
+    "fetched_at": "2026-08-23T08:49:23.594868",
     "sessions": []
   },
   {
@@ -2390,7 +2143,7 @@
     "suburb": "Potts Point",
     "free_event": false,
     "price_from": 94,
-    "fetched_at": "2026-08-23T08:36:56.300906",
+    "fetched_at": "2026-08-23T08:49:23.595248",
     "sessions": []
   },
   {
@@ -2409,7 +2162,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 54,
-    "fetched_at": "2026-08-23T08:36:56.301080",
+    "fetched_at": "2026-08-23T08:49:23.595445",
     "sessions": []
   },
   {
@@ -2428,7 +2181,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804083",
+    "fetched_at": "2026-08-23T08:49:29.534124",
     "sessions": []
   },
   {
@@ -2447,7 +2200,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804089",
+    "fetched_at": "2026-08-23T08:49:29.534132",
     "sessions": []
   },
   {
@@ -2466,7 +2219,7 @@
     "suburb": "Redfern",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804121",
+    "fetched_at": "2026-08-23T08:49:29.534166",
     "sessions": []
   },
   {
@@ -2485,7 +2238,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804133",
+    "fetched_at": "2026-08-23T08:49:29.534194",
     "sessions": []
   },
   {
@@ -2504,7 +2257,7 @@
     "suburb": "Bondi Beach",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804172",
+    "fetched_at": "2026-08-23T08:49:29.534238",
     "sessions": []
   },
   {
@@ -2523,26 +2276,7 @@
     "suburb": "Five Dock",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804188",
-    "sessions": []
-  },
-  {
-    "id": "0d9ecf515f55",
-    "title": "The Cat Empire",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-27",
-    "end_date": "2026-08-29",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46409-the-cat-empire",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/46409-the-cat-empire",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.301142",
+    "fetched_at": "2026-08-23T08:49:29.534256",
     "sessions": []
   },
   {
@@ -2561,7 +2295,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804050",
+    "fetched_at": "2026-08-23T08:49:29.534088",
     "sessions": []
   },
   {
@@ -2580,7 +2314,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": 22,
-    "fetched_at": "2026-08-23T08:36:56.300860",
+    "fetched_at": "2026-08-23T08:49:23.595189",
     "sessions": []
   },
   {
@@ -2599,7 +2333,7 @@
     "suburb": "Sydney",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803898",
+    "fetched_at": "2026-08-23T08:49:29.533922",
     "sessions": []
   },
   {
@@ -2618,7 +2352,7 @@
     "suburb": "Surry Hills",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803930",
+    "fetched_at": "2026-08-23T08:49:29.533954",
     "sessions": []
   },
   {
@@ -2637,7 +2371,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803638",
+    "fetched_at": "2026-08-23T08:49:29.533663",
     "sessions": []
   },
   {
@@ -2656,7 +2390,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803652",
+    "fetched_at": "2026-08-23T08:49:29.533680",
     "sessions": []
   },
   {
@@ -2675,26 +2409,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803668",
-    "sessions": []
-  },
-  {
-    "id": "7e397ca0e4de",
-    "title": "Games Night: Old School Edition - Singles 40+",
-    "venue": "Pyrmont Bridge Hotel",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-25",
-    "end_date": "2026-08-25",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/games-night-old-school-edition-singles-40",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/games-night-old-school-edition-singles-40",
-    "snippet": "Remember when a good night out just meant a table, some snacks, and a game you actually cared about winning?",
-    "suburb": "Pyrmont",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803806",
+    "fetched_at": "2026-08-23T08:49:29.533698",
     "sessions": []
   },
   {
@@ -2713,26 +2428,7 @@
     "suburb": "Cremorne",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803125",
-    "sessions": []
-  },
-  {
-    "id": "10f1476a9087",
-    "title": "Special Event: Tampa - 25th Year Anniversary",
-    "venue": "Australian National Maritime Museum",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-23",
-    "end_date": "2026-08-23",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/special-event-tampa-25th-year-anniversary",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/special-event-tampa-25th-year-anniversary",
-    "snippet": "TAMPA The Turning Point – exclusive screening and panel discussion",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803292",
+    "fetched_at": "2026-08-23T08:49:29.533113",
     "sessions": []
   },
   {
@@ -2751,7 +2447,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 63,
-    "fetched_at": "2026-08-23T08:36:56.300748",
+    "fetched_at": "2026-08-23T08:49:23.595061",
     "sessions": []
   },
   {
@@ -2770,26 +2466,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T08:36:56.301120",
-    "sessions": []
-  },
-  {
-    "id": "b1e01237b3a9",
-    "title": "Tchaikovsky’s First Piano Concerto",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-21",
-    "end_date": "2026-08-23",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45722-tchaikovskys-first-piano-concerto-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45722-tchaikovskys-first-piano-concerto-sso-2026",
-    "snippet": "",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.300936",
+    "fetched_at": "2026-08-23T08:49:23.595489",
     "sessions": []
   },
   {
@@ -2808,26 +2485,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803402",
-    "sessions": []
-  },
-  {
-    "id": "76d9be06b436",
-    "title": "Festival of Dangerous Ideas: Afterlives Interrupted",
-    "venue": "Chau Chak Wing Museum",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-21",
-    "end_date": "2026-08-30",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/festival-of-dangerous-ideas-afterlives-interrupted",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/festival-of-dangerous-ideas-afterlives-interrupted",
-    "snippet": "A gallery tour led by members of the ground-breaking Human Remains Research Project team",
-    "suburb": "Camperdown",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804504",
+    "fetched_at": "2026-08-23T08:49:29.533413",
     "sessions": []
   },
   {
@@ -2846,7 +2504,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803370",
+    "fetched_at": "2026-08-23T08:49:29.533379",
     "sessions": []
   },
   {
@@ -2865,7 +2523,7 @@
     "suburb": "Newtown",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803553",
+    "fetched_at": "2026-08-23T08:49:29.533571",
     "sessions": []
   },
   {
@@ -2884,7 +2542,7 @@
     "suburb": "Alexandria",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804378",
+    "fetched_at": "2026-08-23T08:49:29.534459",
     "sessions": []
   },
   {
@@ -2903,7 +2561,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803147",
+    "fetched_at": "2026-08-23T08:49:29.533139",
     "sessions": []
   },
   {
@@ -2922,7 +2580,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 30,
-    "fetched_at": "2026-08-23T08:36:56.300908",
+    "fetched_at": "2026-08-23T08:49:23.595252",
     "sessions": []
   },
   {
@@ -2941,7 +2599,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803659",
+    "fetched_at": "2026-08-23T08:49:29.533688",
     "sessions": []
   },
   {
@@ -2960,7 +2618,7 @@
     "suburb": "Alexandria",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803646",
+    "fetched_at": "2026-08-23T08:49:29.533672",
     "sessions": []
   },
   {
@@ -2979,7 +2637,7 @@
     "suburb": "Potts Point",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803185",
+    "fetched_at": "2026-08-23T08:49:29.533194",
     "sessions": []
   },
   {
@@ -2998,7 +2656,7 @@
     "suburb": "Lewisham",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803139",
+    "fetched_at": "2026-08-23T08:49:29.533129",
     "sessions": []
   },
   {
@@ -3017,7 +2675,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803394",
+    "fetched_at": "2026-08-23T08:49:29.533405",
     "sessions": []
   },
   {
@@ -3036,7 +2694,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T08:36:56.300572",
+    "fetched_at": "2026-08-23T08:49:23.594877",
     "sessions": []
   },
   {
@@ -3055,7 +2713,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803157",
+    "fetched_at": "2026-08-23T08:49:29.533150",
     "sessions": []
   },
   {
@@ -3074,7 +2732,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803386",
+    "fetched_at": "2026-08-23T08:49:29.533395",
     "sessions": []
   },
   {
@@ -3093,7 +2751,7 @@
     "suburb": "Bellevue Hill",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804041",
+    "fetched_at": "2026-08-23T08:49:29.534077",
     "sessions": []
   },
   {
@@ -3112,7 +2770,7 @@
     "suburb": "Potts Point",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803627",
+    "fetched_at": "2026-08-23T08:49:29.533650",
     "sessions": []
   },
   {
@@ -3131,7 +2789,7 @@
     "suburb": "Redfern",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803477",
+    "fetched_at": "2026-08-23T08:49:29.533491",
     "sessions": []
   },
   {
@@ -3139,7 +2797,7 @@
     "title": "Velvet Inferno",
     "venue": "The Studio | Sydney Opera House",
     "venue_id": "sydney-opera-house",
-    "genre": "unknown",
+    "genre": "cabaret",
     "status": "active",
     "start_date": "2026-07-24",
     "end_date": "2026-09-13",
@@ -3150,7 +2808,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T08:36:56.300850",
+    "fetched_at": "2026-08-23T08:49:23.595162",
     "sessions": []
   },
   {
@@ -3169,7 +2827,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804745",
+    "fetched_at": "2026-08-23T08:49:29.534834",
     "sessions": []
   },
   {
@@ -3188,7 +2846,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803252",
+    "fetched_at": "2026-08-23T08:49:29.533260",
     "sessions": []
   },
   {
@@ -3207,7 +2865,7 @@
     "suburb": "Cremorne",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804961",
+    "fetched_at": "2026-08-23T08:49:29.535037",
     "sessions": []
   },
   {
@@ -3226,7 +2884,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803974",
+    "fetched_at": "2026-08-23T08:49:29.534001",
     "sessions": []
   },
   {
@@ -3245,7 +2903,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804370",
+    "fetched_at": "2026-08-23T08:49:29.534450",
     "sessions": []
   },
   {
@@ -3264,7 +2922,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804220",
+    "fetched_at": "2026-08-23T08:49:29.534292",
     "sessions": []
   },
   {
@@ -3283,7 +2941,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804025",
+    "fetched_at": "2026-08-23T08:49:29.534059",
     "sessions": []
   },
   {
@@ -3302,7 +2960,7 @@
     "suburb": "Newtown",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803985",
+    "fetched_at": "2026-08-23T08:49:29.534012",
     "sessions": []
   },
   {
@@ -3321,7 +2979,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803486",
+    "fetched_at": "2026-08-23T08:49:29.533501",
     "sessions": []
   },
   {
@@ -3340,7 +2998,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804181",
+    "fetched_at": "2026-08-23T08:49:29.534247",
     "sessions": []
   },
   {
@@ -3359,7 +3017,7 @@
     "suburb": "Enmore",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803993",
+    "fetched_at": "2026-08-23T08:49:29.534021",
     "sessions": []
   },
   {
@@ -3378,7 +3036,7 @@
     "suburb": "Alexandria",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804246",
+    "fetched_at": "2026-08-23T08:49:29.534322",
     "sessions": []
   },
   {
@@ -3397,7 +3055,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 59.95,
-    "fetched_at": "2026-08-23T08:36:56.300950",
+    "fetched_at": "2026-08-23T08:49:23.595304",
     "sessions": []
   },
   {
@@ -3416,7 +3074,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803236",
+    "fetched_at": "2026-08-23T08:49:29.533243",
     "sessions": []
   },
   {
@@ -3435,7 +3093,7 @@
     "suburb": "Haymarket",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:36:56.300810",
+    "fetched_at": "2026-08-23T08:49:23.595116",
     "sessions": []
   },
   {
@@ -3454,26 +3112,7 @@
     "suburb": "Haymarket",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803103",
-    "sessions": []
-  },
-  {
-    "id": "7b38283609bb",
-    "title": "Sunday Sounds",
-    "venue": "Chinese Garden of Friendship",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-04-05",
-    "end_date": "2026-12-06",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/sunday-sounds",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sunday-sounds",
-    "snippet": "Experience a harmonious blend of nature and melody in the Chinese Garden of Friendship",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804904",
+    "fetched_at": "2026-08-23T08:49:29.533090",
     "sessions": []
   },
   {
@@ -3492,7 +3131,7 @@
     "suburb": "Redfern",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804239",
+    "fetched_at": "2026-08-23T08:49:29.534314",
     "sessions": []
   },
   {
@@ -3511,26 +3150,7 @@
     "suburb": "Glebe",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804810",
-    "sessions": []
-  },
-  {
-    "id": "1d1d658b0b4a",
-    "title": "Dancing group for Chinese speakers",
-    "venue": "Ron Williams Community Centre",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-01-27",
-    "end_date": "2026-12-15",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers",
-    "snippet": "Stay active, connect and celebrate culture through dance! ",
-    "suburb": "Redfern",
-    "free_event": true,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.803619",
+    "fetched_at": "2026-08-23T08:49:29.534890",
     "sessions": []
   },
   {
@@ -3538,7 +3158,7 @@
     "title": "La Ronde",
     "venue": "The Grand Electric",
     "venue_id": "",
-    "genre": "unknown",
+    "genre": "play",
     "status": "active",
     "start_date": "2025-10-16",
     "end_date": "2026-09-20",
@@ -3549,26 +3169,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 70,
-    "fetched_at": "2026-08-23T08:36:56.300890",
-    "sessions": []
-  },
-  {
-    "id": "b95064cf2954",
-    "title": "Ghosts, Grog & The Rocks: Haunted Pubs & Cellar Tour",
-    "venue": "",
-    "venue_id": "",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2025-09-11",
-    "end_date": "2026-12-31",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/haunted-sydney-pub-tour",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/haunted-sydney-pub-tour",
-    "snippet": "Explore all things ghostly as we visit Sydney's most haunted pubs. ",
-    "suburb": "The Rocks",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T08:37:00.804033",
+    "fetched_at": "2026-08-23T08:49:23.595226",
     "sessions": []
   }
 ]

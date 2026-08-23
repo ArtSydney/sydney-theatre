@@ -191,6 +191,11 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 }
 .gantt-bar .g-title{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600}
 .gantt-bar .g-venue{font-size:12px;color:var(--text-dim);margin-top:2px}
+.gantt-bar .g-dates{font-size:11px;color:var(--text-dim);margin-top:2px}
+.gantt-bar .g-dates span{color:var(--gold)}
+.gantt-bar .g-book{font-size:12px;font-weight:600;color:var(--coral);margin-top:6px}
+.gantt-bar.clickable{cursor:pointer;transition:background .15s}
+.gantt-bar.clickable:active{background:var(--surface)}
 .gantt-bar .g-range{
   margin-top:6px;height:6px;background:rgba(36,157,143,0.2);border-radius:3px;
   position:relative;overflow:hidden;
@@ -206,6 +211,20 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
   padding:8px 0 12px;
 }
 .toggle-row label{font-size:13px;color:var(--text-dim)}
+
+/* Venue filter */
+.venue-filter-row{padding:0 0 8px}
+.venue-filter-row select{
+  width:100%;padding:8px 12px;
+  background:var(--card);color:var(--text);
+  border:1px solid rgba(255,255,255,0.08);border-radius:10px;
+  font-family:'Inter',sans-serif;font-size:13px;
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 5l3 3 3-3' fill='none' stroke='%239a9590' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center;
+  cursor:pointer;
+}
+.venue-filter-row select:focus{outline:none;border-color:var(--teal)}
 .toggle{
   width:40px;height:22px;border-radius:11px;
   background:var(--card);position:relative;cursor:pointer;
@@ -267,6 +286,11 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
     <!-- Shows Tab -->
     <div id="tab-shows" class="tab-panel">
       <div class="filter-bar" id="genre-filters"></div>
+      <div class="venue-filter-row">
+        <select id="venue-select" onchange="setVenue(this.value)">
+          <option value="all">All venues</option>
+        </select>
+      </div>
       <div class="toggle-row">
         <label>Show closed</label>
         <button class="toggle" id="toggle-closed" onclick="toggleClosed()"></button>
@@ -318,6 +342,7 @@ let DATA = [];
 let THEATRES = {};
 let showClosed = false;
 let activeGenre = 'all';
+let activeVenue = 'all';
 let calMonth = new Date().getMonth();
 let calYear = new Date().getFullYear();
 
@@ -395,9 +420,18 @@ function renderShows() {
     `<button class="filter-chip ${g === activeGenre ? 'active' : ''}" onclick="setGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
   ).join('');
 
+  // Populate venue dropdown
+  const venueSelect = $('#venue-select');
+  const venues = [...new Set(DATA.map(s => s.venue).filter(Boolean))].sort();
+  const currentVal = venueSelect.value || 'all';
+  venueSelect.innerHTML = '<option value="all">All venues</option>' +
+    venues.map(v => `<option value="${esc(v)}" ${v === activeVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
+  venueSelect.value = activeVenue;
+
   let filtered = DATA.filter(s => {
     if (!showClosed && (s.status === 'closed' || s.status === 'suppressed')) return false;
     if (activeGenre !== 'all' && s.genre !== activeGenre) return false;
+    if (activeVenue !== 'all' && s.venue !== activeVenue) return false;
     return true;
   });
 
@@ -435,6 +469,11 @@ function showCard(s) {
 
 function setGenre(g) {
   activeGenre = g;
+  renderShows();
+}
+
+function setVenue(v) {
+  activeVenue = v;
   renderShows();
 }
 
@@ -536,11 +575,16 @@ function openDay(dateStr) {
     const clickedD = new Date(dateStr + 'T00:00:00');
     const elapsed = Math.max(0, (clickedD - startD) / 86400000);
     const pct = Math.min(100, (elapsed / totalDays) * 100);
+    const dateRange = formatDateRange(s.start_date, s.end_date);
+    const clickAttr = s.booking_url ? `onclick="window.open('${s.booking_url}','_blank')"` : '';
+    const clickClass = s.booking_url ? ' clickable' : '';
 
-    return `<div class="gantt-bar">
+    return `<div class="gantt-bar${clickClass}" ${clickAttr}>
       <div class="g-title">${esc(s.title)}</div>
       <div class="g-venue">${esc(s.venue)}</div>
+      <div class="g-dates">${dateRange}</div>
       <div class="g-range"><div class="g-fill" style="width:${pct}%"></div></div>
+      ${s.booking_url ? '<div class="g-book">Book tickets &rarr;</div>' : ''}
     </div>`;
   }).join('');
 

@@ -383,30 +383,34 @@ def parse_cos_event(hit):
     # --- Tag-based filtering (robust, doesn't need per-title hardcoding) ---
     tag_set = set(t.lower() for t in tags)
 
-    # Tags that indicate a real show
-    theatre_tags = {
-        "theatre", "performance", "musical", "opera",
-        "comedy", "cabaret", "acting", "dance",
-    }
-    # Tags that indicate NOT a show (class, talk, film, tour, etc.)
-    junk_tags = {
+    # Hard skip: these tags mean "not a show" regardless of other tags
+    # A workshop tagged "theatre" is still a workshop, not a production
+    hard_skip_tags = {
         "workshop", "course", "master-class", "lesson",
-        "talk", "networking", "business",
-        "tour", "walks", "history",
-        "cinema", "film",
+        "tour", "walks",
         "after-school", "education",
-        "exhibition", "market", "sport",
+        "market", "sport",
     }
-
-    has_theatre_tag = bool(tag_set & theatre_tags)
-    has_junk_tag = bool(tag_set & junk_tags)
-
-    # Skip if junk tags present AND no theatre tags to override
-    # (e.g. "workshop" + "theatre" = keep, "workshop" alone = skip)
-    if has_junk_tag and not has_theatre_tag:
+    if tag_set & hard_skip_tags:
         return None
 
-    # Title-based skip for items that slip through tag filtering
+    # Soft skip: skip these unless a theatre tag is also present
+    soft_skip_tags = {
+        "talk", "networking", "business",
+        "cinema", "film",
+        "exhibition",
+    }
+    theatre_tags = {
+        "theatre", "performance", "musical", "opera",
+        "comedy", "cabaret", "dance",
+    }
+    has_theatre_tag = bool(tag_set & theatre_tags)
+    has_soft_junk = bool(tag_set & soft_skip_tags)
+
+    if has_soft_junk and not has_theatre_tag:
+        return None
+
+    # Title-based skip for edge cases that slip through tags
     name_lower = name.lower()
     skip_keywords = [
         "stand-up comedy show | monthly",

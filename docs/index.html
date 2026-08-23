@@ -212,43 +212,56 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 }
 .toggle-row label{font-size:13px;color:var(--text-dim)}
 
-/* Venue filter */
-.venue-filter-row{padding:0 0 8px}
-.venue-filter-row select{
-  width:100%;padding:8px 12px;
+/* Filter drawer */
+.filter-drawer-body{padding:8px 0 0}
+.filter-label{
+  display:block;font-size:12px;font-weight:600;color:var(--text-dim);
+  text-transform:uppercase;letter-spacing:0.5px;margin:12px 0 6px;
+}
+.filter-label:first-child{margin-top:4px}
+.filter-select{
+  width:100%;padding:12px 14px;
   background:var(--card);color:var(--text);
-  border:1px solid rgba(255,255,255,0.08);border-radius:10px;
-  font-family:'Inter',sans-serif;font-size:13px;
+  border:1px solid rgba(255,255,255,0.08);border-radius:12px;
+  font-family:'Inter',sans-serif;font-size:15px;
   appearance:none;-webkit-appearance:none;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 5l3 3 3-3' fill='none' stroke='%239a9590' stroke-width='1.5'/%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:right 12px center;
+  background-repeat:no-repeat;background-position:right 14px center;
   cursor:pointer;
 }
-.venue-filter-row select:focus{outline:none;border-color:var(--teal)}
-
-/* Tonight filters */
-.tonight-filters{display:flex;gap:8px;padding:0 0 8px}
-.tonight-filters select{
-  flex:1;padding:8px 12px;
-  background:var(--card);color:var(--text);
-  border:1px solid rgba(255,255,255,0.08);border-radius:10px;
-  font-family:'Inter',sans-serif;font-size:13px;
-  appearance:none;-webkit-appearance:none;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 5l3 3 3-3' fill='none' stroke='%239a9590' stroke-width='1.5'/%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:right 12px center;
+.filter-select:focus{outline:none;border-color:var(--teal)}
+.filter-actions{
+  display:flex;gap:10px;margin-top:20px;padding-bottom:8px;
+}
+.filter-clear{
+  flex:1;padding:12px;border-radius:12px;
+  background:var(--card);color:var(--text-dim);
+  border:1px solid rgba(255,255,255,0.08);
+  font-family:'Inter',sans-serif;font-size:14px;font-weight:600;
   cursor:pointer;
 }
-.tonight-filters select:focus{outline:none;border-color:var(--teal)}
-.tonight-toggles{display:flex;gap:8px;padding:0 0 12px}
+.filter-apply{
+  flex:2;padding:12px;border-radius:12px;
+  background:var(--teal);color:#fff;border:none;
+  font-family:'Inter',sans-serif;font-size:14px;font-weight:600;
+  cursor:pointer;
+}
 
-/* Price and free badges on show cards */
+/* Active filter pills shown below genre bar */
+.active-filters{display:flex;gap:6px;flex-wrap:wrap;padding:0 0 8px}
+.active-filters:empty{display:none}
+.filter-pill{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:4px 10px;border-radius:16px;
+  font-size:12px;font-weight:500;
+  background:rgba(36,157,143,0.15);color:var(--teal);
+  cursor:pointer;
+}
+.filter-pill .x{font-size:14px;font-weight:700;opacity:0.7}
+
+/* Price badge on show cards */
 .show-card .price-badge{
   font-size:12px;font-weight:600;color:var(--teal);margin-top:6px;
-}
-.show-card .free-badge{
-  display:inline-block;font-size:11px;font-weight:600;
-  padding:2px 8px;border-radius:6px;margin-left:8px;
-  background:rgba(36,157,143,0.2);color:var(--teal);
 }
 .toggle{
   width:40px;height:22px;border-radius:11px;
@@ -306,28 +319,14 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
         <div class="label">shows tonight</div>
       </div>
       <div class="filter-bar" id="tonight-genre-filters"></div>
-      <div class="tonight-filters">
-        <select id="tonight-venue-select" onchange="setTonightVenue(this.value)">
-          <option value="all">All venues</option>
-        </select>
-        <select id="tonight-suburb-select" onchange="setTonightSuburb(this.value)">
-          <option value="all">All suburbs</option>
-        </select>
-      </div>
+      <div id="tonight-active-filters" class="active-filters"></div>
       <div id="tonight-list"></div>
     </div>
 
     <!-- Shows Tab -->
     <div id="tab-shows" class="tab-panel">
       <div class="filter-bar" id="genre-filters"></div>
-      <div class="tonight-filters">
-        <select id="venue-select" onchange="setVenue(this.value)">
-          <option value="all">All venues</option>
-        </select>
-        <select id="suburb-select" onchange="setSuburb(this.value)">
-          <option value="all">All suburbs</option>
-        </select>
-      </div>
+      <div id="shows-active-filters" class="active-filters"></div>
       <div class="toggle-row">
         <label>Show closed</label>
         <button class="toggle" id="toggle-closed" onclick="toggleClosed()"></button>
@@ -354,6 +353,24 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
       <h3 id="drawer-title"></h3>
       <div class="drawer-date" id="drawer-date"></div>
       <div id="drawer-content"></div>
+    </div>
+  </div>
+
+  <!-- Filter drawer -->
+  <div class="drawer-overlay" id="filter-overlay" onclick="closeFilterDrawer()">
+    <div class="drawer" onclick="event.stopPropagation()">
+      <div class="drawer-handle"></div>
+      <h3>Filters</h3>
+      <div class="filter-drawer-body">
+        <label class="filter-label">Venue</label>
+        <select id="filter-venue" class="filter-select"></select>
+        <label class="filter-label">Suburb</label>
+        <select id="filter-suburb" class="filter-select"></select>
+        <div class="filter-actions">
+          <button class="filter-clear" onclick="clearFilters()">Clear all</button>
+          <button class="filter-apply" onclick="applyFilters()">Show results</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -384,24 +401,22 @@ let activeSuburb = 'all';
 let tonightGenre = 'all';
 let tonightVenue = 'all';
 let tonightSuburb = 'all';
-let tonightFreeOnly = false;
+let filterContext = 'tonight';
 let calMonth = new Date().getMonth();
 let calYear = new Date().getFullYear();
 
 const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
-// Init
 async function init() {
   try {
     const [dataRes, theatreRes] = await Promise.all([
-      fetch('data-current.json?v=1').then(r => r.ok ? r.json() : []),
-      fetch('../theatres.json?v=1').then(r => r.ok ? r.json() : [])
+      fetch('data-current.json?v=2').then(r => r.ok ? r.json() : []),
+      fetch('../theatres.json?v=2').then(r => r.ok ? r.json() : [])
     ]);
     DATA = dataRes;
     theatreRes.forEach(t => THEATRES[t.id] = t);
   } catch(e) {
-    // Use sample data for dev
     DATA = sampleData();
   }
   renderAll();
@@ -412,22 +427,86 @@ function sampleData() {
   const fmt = d => d.toISOString().split('T')[0];
   const offset = (days) => { const d = new Date(today); d.setDate(d.getDate() + days); return fmt(d); };
   return [
-    { id:'1', title:'Hamilton', venue:'Capitol Theatre', genre:'musical', status:'active', start_date:offset(-30), end_date:offset(60), booking_url:'https://www.capitoltheatre.com.au', sessions:[] },
-    { id:'2', title:'The Seagull', venue:'Belvoir St Theatre', genre:'play', status:'active', start_date:offset(-5), end_date:offset(21), booking_url:'https://belvoir.com.au', sessions:[] },
-    { id:'3', title:'La Boheme', venue:'Sydney Opera House', genre:'opera', status:'active', start_date:offset(-10), end_date:offset(14), booking_url:'https://opera.org.au', sessions:[] },
-    { id:'4', title:'Cabaret', venue:'Hayes Theatre Co', genre:'cabaret', status:'active', start_date:offset(2), end_date:offset(45), booking_url:'https://hayestheatre.com.au', sessions:[] },
-    { id:'5', title:'Bluey\'s Big Play', venue:'Theatre Royal Sydney', genre:'family', status:'active', start_date:offset(-3), end_date:offset(30), booking_url:'https://www.theatreroyal.com.au', sessions:[] },
-    { id:'6', title:'Stand Up Showcase', venue:'Enmore Theatre', genre:'comedy', status:'active', start_date:fmt(today), end_date:fmt(today), booking_url:'https://www.enmoretheatre.com.au', sessions:[] },
-    { id:'7', title:'Swan Lake', venue:'Foundry Theatre (Sydney Lyric)', genre:'dance', status:'active', start_date:offset(-2), end_date:offset(10), booking_url:'#', sessions:[] },
-    { id:'8', title:'Old Season Show', venue:'Ensemble Theatre', genre:'play', status:'closed', start_date:offset(-90), end_date:offset(-30), booking_url:'#', sessions:[] },
-    { id:'9', title:'Unconfirmed Title', venue:'KXT (Kings Cross Theatre)', genre:'unknown', status:'needs_review', start_date:offset(10), end_date:'', booking_url:'', sessions:[] },
+    { id:'1', title:'Hamilton', venue:'Capitol Theatre', suburb:'Haymarket', genre:'musical', status:'active', start_date:offset(-30), end_date:offset(60), booking_url:'https://www.capitoltheatre.com.au' },
+    { id:'2', title:'The Seagull', venue:'Belvoir St Theatre', suburb:'Surry Hills', genre:'play', status:'active', start_date:offset(-5), end_date:offset(21), booking_url:'https://belvoir.com.au' },
+    { id:'3', title:'La Boheme', venue:'Sydney Opera House', suburb:'Sydney', genre:'opera', status:'active', start_date:offset(-10), end_date:offset(14), booking_url:'https://opera.org.au' },
+    { id:'4', title:'Cabaret', venue:'Hayes Theatre Co', suburb:'Potts Point', genre:'cabaret', status:'active', start_date:offset(2), end_date:offset(45), booking_url:'https://hayestheatre.com.au' },
+    { id:'5', title:'Bluey\'s Big Play', venue:'Theatre Royal Sydney', suburb:'Sydney', genre:'family', status:'active', start_date:offset(-3), end_date:offset(30), booking_url:'https://www.theatreroyal.com.au' },
   ];
 }
 
-function renderAll() {
-  renderTonight();
-  renderShows();
-  renderCalendar();
+function renderAll() { renderTonight(); renderShows(); renderCalendar(); }
+
+// --- Filter drawer ---
+function openFilterDrawer(ctx) {
+  filterContext = ctx;
+  const isTonight = ctx === 'tonight';
+  const curVenue = isTonight ? tonightVenue : activeVenue;
+  const curSuburb = isTonight ? tonightSuburb : activeSuburb;
+
+  // Get relevant data for populating options
+  const pool = isTonight ? getTonightShows() : DATA.filter(s => showClosed || (s.status !== 'closed' && s.status !== 'suppressed'));
+  const venues = [...new Set(pool.map(s => s.venue).filter(Boolean))].sort();
+  const suburbs = [...new Set(pool.map(s => s.suburb).filter(Boolean))].sort();
+
+  const vs = $('#filter-venue');
+  vs.innerHTML = '<option value="all">All venues</option>' +
+    venues.map(v => `<option value="${esc(v)}" ${v === curVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
+
+  const ss = $('#filter-suburb');
+  ss.innerHTML = '<option value="all">All suburbs</option>' +
+    suburbs.map(s => `<option value="${esc(s)}" ${s === curSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
+
+  $('#filter-overlay').classList.add('open');
+}
+
+function closeFilterDrawer() { $('#filter-overlay').classList.remove('open'); }
+
+function applyFilters() {
+  const v = $('#filter-venue').value;
+  const s = $('#filter-suburb').value;
+  if (filterContext === 'tonight') {
+    tonightVenue = v; tonightSuburb = s;
+    renderTonight();
+  } else {
+    activeVenue = v; activeSuburb = s;
+    renderShows();
+  }
+  closeFilterDrawer();
+}
+
+function clearFilters() {
+  $('#filter-venue').value = 'all';
+  $('#filter-suburb').value = 'all';
+  applyFilters();
+}
+
+function removeFilter(ctx, field) {
+  if (ctx === 'tonight') {
+    if (field === 'venue') tonightVenue = 'all';
+    if (field === 'suburb') tonightSuburb = 'all';
+    renderTonight();
+  } else {
+    if (field === 'venue') activeVenue = 'all';
+    if (field === 'suburb') activeSuburb = 'all';
+    renderShows();
+  }
+}
+
+function renderActiveFilterPills(ctx) {
+  const isTonight = ctx === 'tonight';
+  const venue = isTonight ? tonightVenue : activeVenue;
+  const suburb = isTonight ? tonightSuburb : activeSuburb;
+  const container = $(`#${ctx === 'tonight' ? 'tonight' : 'shows'}-active-filters`);
+  let html = '';
+  if (venue !== 'all') html += `<span class="filter-pill" onclick="removeFilter('${ctx}','venue')">${esc(venue)} <span class="x">&times;</span></span>`;
+  if (suburb !== 'all') html += `<span class="filter-pill" onclick="removeFilter('${ctx}','suburb')">${esc(suburb)} <span class="x">&times;</span></span>`;
+  container.innerHTML = html;
+}
+
+function getTonightShows() {
+  const today = new Date().toISOString().split('T')[0];
+  return DATA.filter(s => s.status === 'active' && s.start_date <= today && (s.end_date >= today || !s.end_date));
 }
 
 // --- Tonight ---
@@ -438,33 +517,18 @@ function renderTonight() {
   const d = new Date();
   $('#tonight-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
 
-  // All shows running tonight (unfiltered, for hero count)
-  const allTonight = DATA.filter(s =>
-    s.status === 'active' &&
-    s.start_date <= today &&
-    (s.end_date >= today || !s.end_date)
-  );
+  const allTonight = getTonightShows();
 
-  // Genre chips for tonight
+  // Genre chips + Filters chip
   const genres = ['all', ...new Set(allTonight.map(s => s.genre).filter(Boolean))];
+  const hasFilters = tonightVenue !== 'all' || tonightSuburb !== 'all';
   const genreBar = $('#tonight-genre-filters');
   genreBar.innerHTML = genres.map(g =>
     `<button class="filter-chip ${g === tonightGenre ? 'active' : ''}" onclick="setTonightGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
-  ).join('');
+  ).join('') + `<button class="filter-chip${hasFilters ? ' active' : ''}" onclick="openFilterDrawer('tonight')">&#9776; Filters</button>`;
 
-  // Venue dropdown for tonight
-  const venueSelect = $('#tonight-venue-select');
-  const venues = [...new Set(allTonight.map(s => s.venue).filter(Boolean))].sort();
-  venueSelect.innerHTML = '<option value="all">All venues</option>' +
-    venues.map(v => `<option value="${esc(v)}" ${v === tonightVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
+  renderActiveFilterPills('tonight');
 
-  // Suburb dropdown for tonight
-  const suburbSelect = $('#tonight-suburb-select');
-  const suburbs = [...new Set(allTonight.map(s => s.suburb).filter(Boolean))].sort();
-  suburbSelect.innerHTML = '<option value="all">All suburbs</option>' +
-    suburbs.map(s => `<option value="${esc(s)}" ${s === tonightSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
-
-  // Apply filters
   let tonight = allTonight.filter(s => {
     if (tonightGenre !== 'all' && s.genre !== tonightGenre) return false;
     if (tonightVenue !== 'all' && s.venue !== tonightVenue) return false;
@@ -474,7 +538,6 @@ function renderTonight() {
 
   $('#tonight-count').textContent = tonight.length;
   const container = $('#tonight-list');
-
   if (tonight.length === 0) {
     container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
     return;
@@ -483,31 +546,17 @@ function renderTonight() {
 }
 
 function setTonightGenre(g) { tonightGenre = g; renderTonight(); }
-function setTonightVenue(v) { tonightVenue = v; renderTonight(); }
-function setTonightSuburb(s) { tonightSuburb = s; renderTonight(); }
-function toggleTonightFree() { tonightFreeOnly = !tonightFreeOnly; renderTonight(); }
 
 // --- Shows ---
 function renderShows() {
   const genres = ['all', ...new Set(DATA.map(s => s.genre).filter(Boolean))];
+  const hasFilters = activeVenue !== 'all' || activeSuburb !== 'all';
   const filterBar = $('#genre-filters');
   filterBar.innerHTML = genres.map(g =>
     `<button class="filter-chip ${g === activeGenre ? 'active' : ''}" onclick="setGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
-  ).join('');
+  ).join('') + `<button class="filter-chip${hasFilters ? ' active' : ''}" onclick="openFilterDrawer('shows')">&#9776; Filters</button>`;
 
-  // Populate venue dropdown
-  const venueSelect = $('#venue-select');
-  const venues = [...new Set(DATA.map(s => s.venue).filter(Boolean))].sort();
-  const currentVal = venueSelect.value || 'all';
-  venueSelect.innerHTML = '<option value="all">All venues</option>' +
-    venues.map(v => `<option value="${esc(v)}" ${v === activeVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
-  venueSelect.value = activeVenue;
-
-  // Populate suburb dropdown
-  const suburbSelect = $('#suburb-select');
-  const suburbs = [...new Set(DATA.map(s => s.suburb).filter(Boolean))].sort();
-  suburbSelect.innerHTML = '<option value="all">All suburbs</option>' +
-    suburbs.map(s => `<option value="${esc(s)}" ${s === activeSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
+  renderActiveFilterPills('shows');
 
   let filtered = DATA.filter(s => {
     if (!showClosed && (s.status === 'closed' || s.status === 'suppressed')) return false;
@@ -517,7 +566,6 @@ function renderShows() {
     return true;
   });
 
-  // Sort: active first, then by start date desc
   filtered.sort((a, b) => {
     if (a.status === 'active' && b.status !== 'active') return -1;
     if (b.status === 'active' && a.status !== 'active') return 1;
@@ -551,20 +599,7 @@ function showCard(s) {
   </div>`;
 }
 
-function setGenre(g) {
-  activeGenre = g;
-  renderShows();
-}
-
-function setVenue(v) {
-  activeVenue = v;
-  renderShows();
-}
-
-function setSuburb(s) {
-  activeSuburb = s;
-  renderShows();
-}
+function setGenre(g) { activeGenre = g; renderShows(); }
 
 function toggleClosed() {
   showClosed = !showClosed;
@@ -583,23 +618,11 @@ function renderCalendar() {
 
   const firstDay = new Date(calYear, calMonth, 1);
   let startDow = firstDay.getDay();
-  startDow = startDow === 0 ? 6 : startDow - 1; // Mon=0
+  startDow = startDow === 0 ? 6 : startDow - 1;
 
   const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
-  const today = new Date();
-  const todayStr = today.toISOString().split('T')[0];
+  const todayStr = new Date().toISOString().split('T')[0];
 
-  // Build show-date map for the month
-  const showsByDate = {};
-  DATA.filter(s => s.status === 'active' || s.status === 'needs_review').forEach(s => {
-    const start = s.start_date;
-    if (start) {
-      if (!showsByDate[start]) showsByDate[start] = [];
-      showsByDate[start].push(s);
-    }
-  });
-
-  // Pad start
   const prevMonth = new Date(calYear, calMonth, 0);
   for (let i = startDow - 1; i >= 0; i--) {
     html += `<div class="cal-cell other-month">${prevMonth.getDate() - i}</div>`;
@@ -608,27 +631,21 @@ function renderCalendar() {
   for (let d = 1; d <= daysInMonth; d++) {
     const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
     const isToday = dateStr === todayStr;
-
-    // Check if any show is running on this date (between start and end)
     const running = DATA.filter(s =>
       (s.status === 'active' || s.status === 'needs_review') &&
       s.start_date && s.start_date <= dateStr &&
       (s.end_date >= dateStr || !s.end_date)
     );
-
     const hasClass = running.length > 0 ? (running.length > 2 ? ' has-shows multi' : ' has-shows') : '';
     const todayClass = isToday ? ' today' : '';
-
     html += `<div class="cal-cell${todayClass}${hasClass}" onclick="openDay('${dateStr}')">${d}</div>`;
   }
 
-  // Pad end
   const totalCells = startDow + daysInMonth;
   const remaining = (7 - (totalCells % 7)) % 7;
   for (let i = 1; i <= remaining; i++) {
     html += `<div class="cal-cell other-month">${i}</div>`;
   }
-
   grid.innerHTML = html;
 }
 
@@ -645,7 +662,6 @@ function openDay(dateStr) {
     s.start_date && s.start_date <= dateStr &&
     (s.end_date >= dateStr || !s.end_date)
   );
-
   if (running.length === 0) return;
 
   const d = new Date(dateStr + 'T00:00:00');
@@ -653,9 +669,6 @@ function openDay(dateStr) {
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   $('#drawer-title').textContent = `${running.length} show${running.length > 1 ? 's' : ''}`;
   $('#drawer-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
-
-  const today = new Date();
-  today.setHours(0,0,0,0);
 
   $('#drawer-content').innerHTML = running.map(s => {
     const startD = new Date(s.start_date + 'T00:00:00');
@@ -680,11 +693,8 @@ function openDay(dateStr) {
   $('#drawer-overlay').classList.add('open');
 }
 
-function closeDrawer() {
-  $('#drawer-overlay').classList.remove('open');
-}
+function closeDrawer() { $('#drawer-overlay').classList.remove('open'); }
 
-// --- Tab switching ---
 function switchTab(tab) {
   $$('.tab-panel').forEach(p => p.classList.remove('active'));
   $(`#tab-${tab}`).classList.add('active');
@@ -692,7 +702,6 @@ function switchTab(tab) {
   $$(`.nav-btn[data-tab="${tab}"]`).forEach(b => b.classList.add('active'));
 }
 
-// --- Utils ---
 function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : ''; }
 function esc(s) { const el = document.createElement('span'); el.textContent = s || ''; return el.innerHTML; }
 
@@ -717,7 +726,6 @@ function parseLocalDate(str) {
   return new Date(y, m - 1, d);
 }
 
-// Kick off
 init();
 </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "85b9d532d21f470d8d23f4d892727c34"}'></script><!-- End Cloudflare Web Analytics -->

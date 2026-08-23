@@ -12,8 +12,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47214-private-lives-theatre-royal-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333622",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620257",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "52136eeaaa0e",
@@ -28,8 +31,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47400-the-shawshank-redemption",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333212",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619833",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a40650473e42",
@@ -44,8 +50,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/2026-sydney-comedy-revue",
     "snippet": "Don't miss some of Australia’s most beloved comedians at the 2026 Sydney Comedy Revue at the iconic State Theatre",
-    "fetched_at": "2026-08-23T04:25:45.568835",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398692",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d83a26dcd212",
@@ -60,8 +69,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47593-the-nutcracker-on-ice",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333417",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620032",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "14a53625af91",
@@ -76,8 +88,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/paradise-hotel",
     "snippet": "Fall into the unsettling world of Richard Foreman’s cult masterpiece of slapstick anarchy and existential bite.",
-    "fetched_at": "2026-08-23T04:25:45.568824",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398682",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c7ddf1dc6615",
@@ -92,8 +107,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46408-harry-potter-and-the-philosophers-stone-in-concert",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333567",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620180",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a587fb053ee3",
@@ -108,8 +126,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/wake-in-fright",
     "snippet": "Beer. Horror. Maaaaate.",
-    "fetched_at": "2026-08-23T04:25:45.568818",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398676",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "eeab657b5f21",
@@ -124,8 +145,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45244-the-nutcracker-the-australian-ballet-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333625",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620261",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "6bfdcaf2a4d1",
@@ -140,8 +164,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45122-midnight-murder-on-the-christmas-cruise-of-death-at-ensemble-theatre",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333787",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620418",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7db34cd5e71e",
@@ -156,8 +183,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/cabaret-cocktails-and-karaoke-in-november",
     "snippet": "The final show of the year, Sing that one last song. The perfect way to celebrate the end of the year!",
-    "fetched_at": "2026-08-23T04:25:45.568804",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398663",
+    "sessions": [],
+    "suburb": "Chippendale",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "6c95ad6e02ec",
@@ -172,8 +202,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
     "snippet": "Seduction, ambition and divine consequence",
-    "fetched_at": "2026-08-23T04:25:45.568797",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398656",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "46cec5a7878c",
@@ -188,8 +221,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45262-the-coconut-children-belvoir-st-theatre-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333767",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620410",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "47257a3ec1a4",
@@ -204,8 +240,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/cocktail-of-murder-murder-mystery-dinner",
     "snippet": "An Agatha Christie inspired theatre experience",
-    "fetched_at": "2026-08-23T04:25:45.568790",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398649",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "5f7ac62c74df",
@@ -220,8 +259,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45253-macbeth-bell-shakespeare-2026-syd",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333556",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620166",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "192329e7e62e",
@@ -236,8 +278,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/macbeth",
     "snippet": "Shakespeare’s most haunting thriller follows the story of Macbeth, a Scottish general, famed for his exploits.",
-    "fetched_at": "2026-08-23T04:25:45.568776",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398636",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c9e086ad352d",
@@ -252,8 +297,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-memory-of-water",
     "snippet": "Three sisters. One funeral. Grief, laughter, and the strange tides of memory. ",
-    "fetched_at": "2026-08-23T04:25:45.568783",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398642",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "b16656a78475",
@@ -268,8 +316,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45309-whispering-jack-the-john-farnham-musical",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333533",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620146",
+    "sessions": [],
+    "suburb": "Walsh Bay",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "00c6a5ab65f5",
@@ -284,8 +335,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47406-jay-shetty-live-this-changes-everything-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333382",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619998",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "6f720f161fd4",
@@ -300,8 +354,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47040-a-beautiful-noise-at-the-sydney-lyric-theatre",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333432",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620046",
+    "sessions": [],
+    "suburb": "Pyrmont",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ac49d59485b1",
@@ -316,8 +373,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/world-renowned-magician-joshua-jay-look-closer",
     "snippet": "World renowned magician Joshua Jay brings his acclaimed live show LOOK CLOSER to Sydney for one night only.",
-    "fetched_at": "2026-08-23T04:25:45.568765",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398626",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "44788cb1dc2d",
@@ -332,8 +392,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45744-simone-young-conducts-mozart-and-bach-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333773",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620392",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "009002f1a7b5",
@@ -348,8 +411,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333778",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620415",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "eb4f459770c8",
@@ -364,8 +430,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/anticipated-collapse",
     "snippet": "Come for the therapy. Stay for the breakdown.",
-    "fetched_at": "2026-08-23T04:25:45.568750",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398611",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2301ac51368e",
@@ -380,8 +449,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-ballet-copland-dance-episodes",
     "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. ",
-    "fetched_at": "2026-08-23T04:25:45.568758",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398618",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8eb9a3223770",
@@ -396,8 +468,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-husband-stitch",
     "snippet": "A gothic horror – an intimate unravelling of womanhood, control, and the violence disguised as love.",
-    "fetched_at": "2026-08-23T04:25:45.568737",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398599",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c84890afb873",
@@ -412,8 +487,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/twisted-violet",
     "snippet": "A man wakes in the woods with no memory. A genre-smashing horror meets Arthurian fairytale.",
-    "fetched_at": "2026-08-23T04:25:45.568744",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398605",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "186eb341cc58",
@@ -428,8 +506,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/victor-valdes-viva-mexico-or-day-of-the-dead-spectacular",
     "snippet": "Day of the Dead Spectacular",
-    "fetched_at": "2026-08-23T04:25:45.568730",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398593",
+    "sessions": [],
+    "suburb": "Chippendale",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "f8bfa6fc4ed9",
@@ -444,8 +525,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45743-mendelssohns-elijah-with-bryn-terfel-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333754",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620386",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "b87ab506aa20",
@@ -460,8 +544,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/snowflake-by-mike-bartlett",
     "snippet": "A laugh-out-loud, lump-in-your-throat festive showdown about generational differences.",
-    "fetched_at": "2026-08-23T04:25:45.568715",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398578",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "bd2bc7734c01",
@@ -476,8 +563,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/cabaret-cocktails-and-karaoke-in-october",
     "snippet": "Through music, comedy, and karaoke, this is Halloween reimagined—equal parts theatrical, joyful and unforgettable.",
-    "fetched_at": "2026-08-23T04:25:45.568722",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398585",
+    "sessions": [],
+    "suburb": "Chippendale",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "83be82aebdb7",
@@ -492,8 +582,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-good-soldier-svejk",
     "snippet": "Scene Theatre Sydney presents a witty and thought-provoking stage adaptation of Jaroslav Hašek’s celebrated comic novel",
-    "fetched_at": "2026-08-23T04:25:45.568701",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398565",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1c69fcec3690",
@@ -508,8 +601,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/david-hockney-bigger-and-closer-not-smaller-and-further-away",
     "snippet": "Step into the vibrant world of David Hockney, one of the most celebrated artists of our time.",
-    "fetched_at": "2026-08-23T04:25:45.568687",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398550",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "0ec45eb1805b",
@@ -524,8 +620,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/next-fall-by-geoffrey-nauffts",
     "snippet": "A deeply moving & funny story of love, faith and family that asks what it costs to believe and what it might cost not to",
-    "fetched_at": "2026-08-23T04:25:45.568693",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398557",
+    "sessions": [],
+    "suburb": "Darlinghurst",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "95321cdacafb",
@@ -540,8 +639,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45738-star-wars-the-empire-strikes-back-in-concert-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333698",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620380",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "655a3175fc85",
@@ -556,8 +658,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45782-cirque-du-soleil-kooza-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333512",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620127",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "cd1f555ac079",
@@ -572,8 +677,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/cirque-du-soleil-kooza",
     "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now.  ",
-    "fetched_at": "2026-08-23T04:25:45.568674",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398538",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "94767a016af8",
@@ -588,8 +696,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/break-the-5th-wall",
     "snippet": " The relentless cycle of training, cyphers and battles in a breaker’s search for identity.",
-    "fetched_at": "2026-08-23T04:25:45.568665",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398529",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d82bf9701984",
@@ -604,8 +715,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333529",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620142",
+    "sessions": [],
+    "suburb": "Pyrmont",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2a969255c1eb",
@@ -620,8 +734,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/monty-pythons-spamalot",
     "snippet": "Drew Anthony Creative brings one of Broadway's classic musicals to Sydney in a hilarious all-new reimagined production",
-    "fetched_at": "2026-08-23T04:25:45.568651",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398516",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "9b7e950f6ed1",
@@ -636,8 +753,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/oh-my-god-a-comedy-of-biblical-proportions",
     "snippet": "Popular Playhouse returns to Flight Path Theatre with another hilarious Bible spoof!",
-    "fetched_at": "2026-08-23T04:25:45.568659",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398523",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "9364208ea363",
@@ -652,8 +772,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45737-beethoven-and-tchaikovsky-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333547",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620160",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2743be9eb199",
@@ -668,8 +791,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47336-the-man-from-snowy-river-in-concert",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333461",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620074",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "779c986d5846",
@@ -684,8 +810,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/play-school-live-concert-2026-humptys-big-celebration",
     "snippet": "2026 marks a remarkable milestone: Play School, Australia’s most beloved children’s television program, turns 60.",
-    "fetched_at": "2026-08-23T04:25:45.568630",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398495",
+    "sessions": [],
+    "suburb": "Chippendale",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d1aaff0576a9",
@@ -700,8 +829,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-60-four-hits-of-the-60s-and-70s",
     "snippet": "THE 60 FOUR are turning back the clock with a brand new show that feels straight out of Las Vegas.",
-    "fetched_at": "2026-08-23T04:25:45.568637",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398502",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "50aaafe79ef8",
@@ -716,8 +848,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-burlesque-festival-the-big-tease-gala",
     "snippet": "Burlesque Festival ",
-    "fetched_at": "2026-08-23T04:25:45.568644",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398509",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7bc30750605e",
@@ -732,8 +867,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/40215-six-the-musical-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333507",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620120",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "3b3fc8aca3b9",
@@ -748,8 +886,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45329-we-are-the-tigers-hayes-theatre-co-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333656",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620330",
+    "sessions": [],
+    "suburb": "Potts Point",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "cac59afe60c1",
@@ -764,8 +905,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/deep-funny-piano-gay",
     "snippet": "From great heights, an australian cabaret-popstar comes crashing down to earth.",
-    "fetched_at": "2026-08-23T04:25:45.568596",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398462",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1bf7d9f06610",
@@ -780,8 +924,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/trial-by-jury-and-the-savoyards-double-bill",
     "snippet": "Double Bill: Gilbert & Sullivan’s hilarious courtroom operetta alongside The Savoyards, where thespian life imitates art!",
-    "fetched_at": "2026-08-23T04:25:45.568609",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398475",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1d64672552aa",
@@ -796,8 +943,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/we-are-the-tigers",
     "snippet": "Aren’t you just dying to be a Tiger?",
-    "fetched_at": "2026-08-23T04:25:45.568616",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398482",
+    "sessions": [],
+    "suburb": "Potts Point",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "dd55ecb01bf7",
@@ -812,8 +962,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/echoform",
     "snippet": "An underground immersive dance theatre experience",
-    "fetched_at": "2026-08-23T04:25:45.568622",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398487",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "91d28f21e158",
@@ -828,8 +981,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47655-bernie-dieters-club-kabarett-carriageworks",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333180",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619808",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "276f9f53039a",
@@ -844,8 +1000,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47396-dangerous-when-wet-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333653",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620290",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1e424eec617e",
@@ -860,8 +1019,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/season-squad-the-musical",
     "snippet": "A high-energy pop musical for the whole family",
-    "fetched_at": "2026-08-23T04:25:45.568589",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398455",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1496bd4f9ea5",
@@ -876,8 +1038,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/mooncake-one-moon-many-stories-a-new-play-for-children-5",
     "snippet": "A magical puppetry play for children 5+ & families. Joyful, funny & quietly moving.",
-    "fetched_at": "2026-08-23T04:25:45.568576",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398442",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ff7db582a3c2",
@@ -892,8 +1057,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-lord-of-the-rings-the-fellowship-of-the-ring",
     "snippet": "Celebrate 25 years of The Fellowship of the Ring with Howard Shore’s score performed live to the film.",
-    "fetched_at": "2026-08-23T04:25:45.568583",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398449",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "fa074a7cc321",
@@ -908,8 +1076,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45261-a-room-with-a-view-belvoir-st-theatre-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333584",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620227",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1bedf9f395cc",
@@ -924,8 +1095,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/naruto-the-symphonic-experience",
     "snippet": "NARUTO: The Symphonic Experience makes its Australian premiere at the Darling Harbour Theatre in Sydney!",
-    "fetched_at": "2026-08-23T04:25:45.568552",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398419",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "714ba0400cc5",
@@ -940,8 +1114,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/carly-electric-back-in-my-box",
     "snippet": "Whilst her comedy debut was selling out, Carly’s notifications kept pinging! So she’s back with new, unhinged stories.",
-    "fetched_at": "2026-08-23T04:25:45.568545",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398412",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "21902cce605f",
@@ -956,8 +1133,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45307-the-unfriend-sydney-theatre-company-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333536",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620149",
+    "sessions": [],
+    "suburb": "Walsh Bay",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "efdff9d7588b",
@@ -972,8 +1152,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-year-in-tatters",
     "snippet": "The revue tradition returns to Sydney!",
-    "fetched_at": "2026-08-23T04:25:45.568538",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398406",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a6cd9c6b20e0",
@@ -988,8 +1171,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-dragon-child-and-the-twelve-animals-of-the-zodiac",
     "snippet": "A fairytale for all ages",
-    "fetched_at": "2026-08-23T04:25:45.568475",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398343",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "36671807a01f",
@@ -1004,8 +1190,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/comedian-vs-chatgpt",
     "snippet": "Can artificial intelligence learn to be funny, or is comedy one thing humans still do best?",
-    "fetched_at": "2026-08-23T04:25:45.568488",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398355",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "69e58cb6d57f",
@@ -1020,8 +1209,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/erths-shark-dive-live-on-stage",
     "snippet": "An unforgettable journey below the surface for the whole family, that will change the way you see sharks.",
-    "fetched_at": "2026-08-23T04:25:45.568496",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398362",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7bec430564d6",
@@ -1036,8 +1228,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/murder-on-the-nile-sydney",
     "snippet": "A murder mystery dinner experience",
-    "fetched_at": "2026-08-23T04:25:45.568503",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398368",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7b80ee877038",
@@ -1052,8 +1247,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-monkey-king-opera",
     "snippet": "The Monkey King Opera | The Concourse Chatswood | 26th & 27th September 2026",
-    "fetched_at": "2026-08-23T04:25:45.568509",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398377",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a9cf34c2f45c",
@@ -1068,8 +1266,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/wild-things-international-kids-festival",
     "snippet": "Sydney Opera House presents a new kids festival that invites young ones and grown-ups to explore, create and play.",
-    "fetched_at": "2026-08-23T04:25:45.568517",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398384",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e686cd4bc098",
@@ -1084,8 +1285,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/heartlands-balmain-sinfonia",
     "snippet": "A richly curated program that journeys through musical landscapes both familiar and new",
-    "fetched_at": "2026-08-23T04:25:45.568523",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398391",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "36ed3ff7eb80",
@@ -1100,8 +1304,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/cirque-alice",
     "snippet": "Fall down the rabbit hole and into a spectacular new world…",
-    "fetched_at": "2026-08-23T04:25:45.568453",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398322",
+    "sessions": [],
+    "suburb": "Haymarket",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "b25c76f86ce7",
@@ -1116,8 +1323,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-scott-sisters-pioneers-of-science-and-art",
     "snippet": "An immersive new multimedia work created by Skye McIntosh, Artistic Director of the Australian Haydn Ensemble",
-    "fetched_at": "2026-08-23T04:25:45.568461",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398329",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "f10a9d47db2e",
@@ -1132,8 +1342,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/we-need-to-talk-couples-comedy-show",
     "snippet": "Two comedians test audience couples onstage in an interactive show with great prizes. A cruise ship hit",
-    "fetched_at": "2026-08-23T04:25:45.568468",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398336",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "fed4a95b2ed7",
@@ -1148,8 +1361,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47542-nun-slut",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333616",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620214",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "411017db19cd",
@@ -1164,8 +1380,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47441-girls-gone-wild",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333693",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620327",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "0b9cac0cea0b",
@@ -1180,8 +1399,30 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/claire-robin-nun-slut",
     "snippet": "An absurd and very silly journey through religion and the body",
-    "fetched_at": "2026-08-23T04:25:45.568441",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398311",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
+  },
+  {
+    "id": "e70809338c88",
+    "title": "QFWFQ",
+    "venue": "Qtopia | The Substation",
+    "venue_id": "",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-09-22",
+    "end_date": "2026-09-26",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47432-qfwfq",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/47432-qfwfq",
+    "snippet": "",
+    "fetched_at": "2026-08-23T08:23:11.620448",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "520d0e7ef0f1",
@@ -1196,8 +1437,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/black-widow-sex-bugs-and-a-high-death-toll",
     "snippet": "Part woman, part spider, all cannibalistic blood lust. Arachnophobes encouraged.",
-    "fetched_at": "2026-08-23T04:25:45.568412",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398283",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "804271132c3e",
@@ -1212,8 +1456,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/distillation-performance-by-luke-casserly",
     "snippet": "This multisensory performance will transport you to the Irish bog landscape through scent.",
-    "fetched_at": "2026-08-23T04:25:45.568419",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398291",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "478f49e5278a",
@@ -1228,8 +1475,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/gods-mistake",
     "snippet": "A hilarious burlesque show about a nun on the edge!",
-    "fetched_at": "2026-08-23T04:25:45.568427",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398298",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2987583cfd5a",
@@ -1244,8 +1494,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/table-top-shakespeare",
     "snippet": "Shakespeare re-told with relish (marmalade, dish soap and other bits and bobs)",
-    "fetched_at": "2026-08-23T04:25:45.568434",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398305",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ec0e90722921",
@@ -1260,8 +1513,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-night-at-the-library",
     "snippet": "Bell Shakespeare’s ‘A Night at the Library’, written by Joanna Erskine, takes audiences on an epic quest.",
-    "fetched_at": "2026-08-23T04:25:45.568405",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398276",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "839fb0e019e6",
@@ -1276,8 +1532,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-streets-are-paved-with-murder-improvised-murder-mystery",
     "snippet": "An improvised murder-mystery where you can help catch the killers",
-    "fetched_at": "2026-08-23T04:25:45.568399",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398269",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1db9e59c5f53",
@@ -1292,8 +1551,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45120-the-elevator-at-ensemble-theatre",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333553",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620169",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "75414a5e2c40",
@@ -1308,8 +1570,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45730-umberto-clerici-conducts-dvorak-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333748",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620383",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "81c3572ddc8d",
@@ -1324,8 +1589,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-elevator-by-eloise-snape",
     "snippet": "Playwright Eloise Snape delivers a whirlwind of laughs and truth bombs in this no-fluff office satire.",
-    "fetched_at": "2026-08-23T04:25:45.568365",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398224",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "b0698377bb7c",
@@ -1340,8 +1608,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/w-hole-again",
     "snippet": "Sometimes the best place to find yourself…is up your a**. It’s time to finally feel w(hole) again.",
-    "fetched_at": "2026-08-23T04:25:45.568372",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398242",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "9dfc6e75868a",
@@ -1356,8 +1627,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/dixon-and-daughters-by-deborah-bruce",
     "snippet": "Fierce and unflinchingly honest, this play is a tribute to the strength of women and the painful path of healing",
-    "fetched_at": "2026-08-23T04:25:45.568379",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398250",
+    "sessions": [],
+    "suburb": "Woolloomooloo",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2b02a1e319b9",
@@ -1372,8 +1646,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-red-room",
     "snippet": "Inspired by the opulence of a bygone era, experience an evening of glamour & tease in this cabaret burlesque revue ",
-    "fetched_at": "2026-08-23T04:25:45.568391",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398262",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e1a02212f72e",
@@ -1388,8 +1665,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45306-girls-and-boys-sydney-theatre-company-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333560",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620173",
+    "sessions": [],
+    "suburb": "Walsh Bay",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "0ed775e72710",
@@ -1404,8 +1684,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/algorithm-of-us",
     "snippet": "The Algorithm of Us is a satirical romantic comedy set under the fluorescent lights of corporate Australia.",
-    "fetched_at": "2026-08-23T04:25:45.568334",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398195",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c69ea7ebde60",
@@ -1420,8 +1703,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/strike-a-chord",
     "snippet": "A bold contemporary flamenco work where guitar and dance ignite in an electrifying performance. ",
-    "fetched_at": "2026-08-23T04:25:45.568343",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398201",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "f04e9358458b",
@@ -1436,8 +1722,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/wonder-mamas-pop-art-interactive-cabaret",
     "snippet": "Wonder Mama returns to Sydney Fringe Festival with a new cabaret where music, stories, and live audience art collide.",
-    "fetched_at": "2026-08-23T04:25:45.568351",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398209",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "49859b746d94",
@@ -1452,8 +1741,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45749-listen-to-this-discover-beethoven-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333716",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620395",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8a5a6ec4bc7b",
@@ -1468,8 +1760,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/chameleon-cabaret",
     "snippet": "Come on a wild ride deep into the twisted rabbit-hole of the human psyche",
-    "fetched_at": "2026-08-23T04:25:45.568295",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398156",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1b80eeade612",
@@ -1484,8 +1779,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/marshall-lorenzo-decadunce",
     "snippet": "The winner of the Sydney Touring Award is back with a brand new hilarious sketch comedy show!",
-    "fetched_at": "2026-08-23T04:25:45.568308",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398169",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1c1f913e43a9",
@@ -1500,8 +1798,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/psycho-or-psychic",
     "snippet": "Discover connection like never before - Fun, heartfelt and captivating. ",
-    "fetched_at": "2026-08-23T04:25:45.568314",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398175",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "6a7e5895965b",
@@ -1516,8 +1817,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/spectrum-sydney-fringe-festival",
     "snippet": "Award-winning solo theatre exploring the neurodivergent mind through colour, movement and spoken word.",
-    "fetched_at": "2026-08-23T04:25:45.568321",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398183",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "409ca1910516",
@@ -1532,8 +1836,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/oliver-pol-featherbrained-sydney-fringe-festival-2026",
     "snippet": "New Zealand comedian and silly goose Oliver Pol is embarking on a deep dive into the avian brain. Not sure why.",
-    "fetched_at": "2026-08-23T04:25:45.568328",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398189",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1442f83fd0a5",
@@ -1548,8 +1855,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/rituals-at-machine-hall",
     "snippet": "The sacred, the now, the in-between",
-    "fetched_at": "2026-08-23T04:25:45.568258",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398118",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7549bbde3b1e",
@@ -1564,8 +1874,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45727-carnival-of-the-animals-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333776",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620413",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "adbfa1fef35f",
@@ -1580,8 +1893,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-coffee-and-a-dead-canary",
     "snippet": "Distilled and delightful, tiny opera at its best.",
-    "fetched_at": "2026-08-23T04:25:45.568246",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398106",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "f55c8f59fd79",
@@ -1596,8 +1912,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/piss-be-with-you",
     "snippet": "A comedic, queer parody of a service of worship, full of spiritual spoof, and pole dance debauchery.",
-    "fetched_at": "2026-08-23T04:25:45.568230",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398091",
+    "sessions": [],
+    "suburb": "Darlinghurst",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "6fd9248c58e2",
@@ -1612,8 +1931,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/reclaim-a-contemporary-ceremony",
     "snippet": "Stephen Page AO's ‘Reclaim’ celebrates the resistance and resilience of NSW’s First Nations peoples.",
-    "fetched_at": "2026-08-23T04:25:45.568238",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398098",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "18d1a48bd0c9",
@@ -1628,8 +1950,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/my-fair-lady",
     "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut",
-    "fetched_at": "2026-08-23T04:25:45.568224",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398085",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1d64e866ed57",
@@ -1644,8 +1969,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45726-mozarts-requiem-with-stephen-layton-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333542",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620155",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8c37428073c2",
@@ -1660,8 +1988,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/saltwater-girls",
     "snippet": "Queer girlhood, Catholic school, Sappho and survival.",
-    "fetched_at": "2026-08-23T04:25:45.568201",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398061",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "5b47ed5bce5e",
@@ -1676,8 +2007,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-bugalugs-bum-thief",
     "snippet": "Laugh, sing and be thoroughly entertained as students embark on an investigative journey to catch the thief!",
-    "fetched_at": "2026-08-23T04:25:45.568209",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398069",
+    "sessions": [],
+    "suburb": "Chippendale",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "50d9119785d6",
@@ -1692,8 +2026,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47451-all-star-circus",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333516",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620131",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "48fd75f07925",
@@ -1708,8 +2045,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/all-star-circus",
     "snippet": "If you only see one show this fringe, make sure this is the one!",
-    "fetched_at": "2026-08-23T04:25:45.568113",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397976",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "47c55e88b56f",
@@ -1724,8 +2064,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/ross-purdy-weapons-grade-comedy-2026-sydney-fringe",
     "snippet": "Ross Purdy puts the \"destruction\" in \"deconstructionist alt comedy stand-up comedian\".",
-    "fetched_at": "2026-08-23T04:25:45.568127",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397990",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8525ae01127b",
@@ -1740,8 +2083,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-brutal-farewell",
     "snippet": "Raw. Divisive. Naive and neglected. Spend one final evening with architecture’s most misunderstood.",
-    "fetched_at": "2026-08-23T04:25:45.568023",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397893",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7f1fbb656050",
@@ -1756,8 +2102,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/captain-corellis-mandolin",
     "snippet": "The unlikely romance between a local woman and an Italian officer during World War II",
-    "fetched_at": "2026-08-23T04:25:45.568033",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397901",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "042c5ded97ec",
@@ -1772,8 +2121,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/shel-we",
     "snippet": "A delightfully offbeat and internationally acclaimed dance work by groundbreaking New Zealand Company.",
-    "fetched_at": "2026-08-23T04:25:45.568098",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397962",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e2bcc3620236",
@@ -1788,8 +2140,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47017-current",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333203",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619825",
+    "sessions": [],
+    "suburb": "Walsh Bay",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c75a4fee079c",
@@ -1804,8 +2159,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/africa-film-fest-australia",
     "snippet": "Where stories become a movement",
-    "fetched_at": "2026-08-23T04:25:45.567885",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397772",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ff3628776cee",
@@ -1820,8 +2178,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-court-of-soap-and-opera",
     "snippet": "An improvised romantasy show",
-    "fetched_at": "2026-08-23T04:25:45.567892",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397778",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "f43bd9cf7f01",
@@ -1836,8 +2197,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/book-club-anne-of-green-gables-by-lucy-maud-montgomery",
     "snippet": "Talk and discussion of Anne of Green Gables by Lucy Maud Montgomery by the Western Classics Book Club",
-    "fetched_at": "2026-08-23T04:25:45.567905",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397792",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1cebaa8d157b",
@@ -1852,8 +2216,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/breaking-point-an-improvised-revolution",
     "snippet": "What happens when ordinary people are pushed past there breaking point?",
-    "fetched_at": "2026-08-23T04:25:45.567912",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397799",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "4436d81e7b0f",
@@ -1868,8 +2235,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/current",
     "snippet": "A living, evocative portrait of Australian contemporary dance",
-    "fetched_at": "2026-08-23T04:25:45.567918",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397804",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "88a1f3802ca3",
@@ -1884,8 +2254,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/downtown-the-mod-musical-or-a-production-by-aim",
     "snippet": "Featuring iconic hits from the 1960s and inspired by the energy of the Swinging Sixties",
-    "fetched_at": "2026-08-23T04:25:45.567955",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397840",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "61c5680761e4",
@@ -1900,8 +2273,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47543-in-these-shoes",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333744",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620361",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8bb95d05a4a1",
@@ -1916,8 +2292,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/frumpus-landed",
     "snippet": "Three shifty women and their fanged sock puppets",
-    "fetched_at": "2026-08-23T04:25:45.567834",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397718",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "288221fe2244",
@@ -1932,8 +2311,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/ichor",
     "snippet": "Pulse-racing physical theatre",
-    "fetched_at": "2026-08-23T04:25:45.567860",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397747",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "03645fd1a6dd",
@@ -1948,8 +2330,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/in-these-shoes",
     "snippet": "A fashion-fuelled cabaret",
-    "fetched_at": "2026-08-23T04:25:45.567868",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397755",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1ad98d20ec43",
@@ -1964,8 +2349,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/snow-moon-and-flowers",
     "snippet": "Japanese classical dance and English reading, under the themes of snow, moon and flowers (雪月花）",
-    "fetched_at": "2026-08-23T04:25:45.567877",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397764",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "3935aba9505b",
@@ -1980,8 +2368,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46528-heathers-the-musical-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333510",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620122",
+    "sessions": [],
+    "suburb": "Walsh Bay",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "da484a5dbdde",
@@ -1996,24 +2387,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/forget-me-please",
     "snippet": "A world premiere of Sophie Davis' play about love, memory and how trauma reshapes human connection. ",
-    "fetched_at": "2026-08-23T04:25:45.567804",
-    "sessions": []
-  },
-  {
-    "id": "10639c025904",
-    "title": "Lucas & Arthur Jussen in Recital",
-    "venue": "Concert Hall | Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-08-31",
-    "end_date": "2026-08-31",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45723-lucas-and-arthur-jussen-in-recital-sso-2026",
-    "source": "todaytix",
-    "source_url": "https://www.todaytix.com/sydney/shows/45723-lucas-and-arthur-jussen-in-recital-sso-2026",
-    "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333782",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397687",
+    "sessions": [],
+    "suburb": "Woolloomooloo",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "3154fb22efa5",
@@ -2028,8 +2406,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-17th-rex-cramphorn-memorial-lecture",
     "snippet": "Evoking Country: towards a land-based performing arts praxis",
-    "fetched_at": "2026-08-23T04:25:45.567798",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397681",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "5e50bf108f42",
@@ -2044,8 +2425,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-music-and-life-of-barbra-streisand-with-melinda-schneider",
     "snippet": "The Way We Were - a concert experience.",
-    "fetched_at": "2026-08-23T04:25:45.567763",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397647",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "294d034f2c71",
@@ -2060,8 +2444,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/all-in",
     "snippet": "Step into the rhythm of All In, a high-energy celebration of dance",
-    "fetched_at": "2026-08-23T04:25:45.567581",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397462",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "7dd79e14c946",
@@ -2076,8 +2463,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-velvet-rendezvous",
     "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease ",
-    "fetched_at": "2026-08-23T04:25:45.567656",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397537",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e9ee7e24e8dd",
@@ -2092,8 +2482,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46902-the-shark-is-broken-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333208",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619829",
+    "sessions": [],
+    "suburb": "Pyrmont",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e6a07515b129",
@@ -2108,8 +2501,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45332-how-to-succeed-in-business-without-really-trying-hayes-theatre-co-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333520",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620134",
+    "sessions": [],
+    "suburb": "Potts Point",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "3aef13be7949",
@@ -2124,8 +2520,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47422-upu",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333696",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620333",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "21d2cccee843",
@@ -2140,8 +2539,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/alright-hey-bring-back-glamour-encore",
     "snippet": "In a world that’s gotten undeniably ugly, Alright Hey is on a mission to Bring Back Glamour. ",
-    "fetched_at": "2026-08-23T04:25:45.567304",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397185",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "82d86126423e",
@@ -2156,8 +2558,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/cabaret-l-rouge",
     "snippet": "Step out of the cold and into the red-hot divine decadence that is: CABARET L' ROUGE!",
-    "fetched_at": "2026-08-23T04:25:45.567311",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397192",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "efdf9fb713da",
@@ -2172,8 +2577,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/children-of-the-holy-dove",
     "snippet": "Double bill - two works seeking a language for the earth,",
-    "fetched_at": "2026-08-23T04:25:45.567344",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397226",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "992d4d79252e",
@@ -2188,8 +2596,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/fish-or-boy",
     "snippet": "Boy meets fish. Fish eats boy.",
-    "fetched_at": "2026-08-23T04:25:45.567357",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397251",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8267a23fef01",
@@ -2204,8 +2615,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/how-to-succeed-in-business-without-really-trying",
     "snippet": "You can achieve anything if you just set everyone's mind to it.",
-    "fetched_at": "2026-08-23T04:25:45.567371",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397259",
+    "sessions": [],
+    "suburb": "Potts Point",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "40c42e7a0760",
@@ -2220,8 +2634,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pocket-operas-cosi-fan-tutte-and-katya-kabanova",
     "snippet": "Opera masterpieces in a reduced length format",
-    "fetched_at": "2026-08-23T04:25:45.567409",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397292",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1ee04cfc9eb6",
@@ -2236,8 +2653,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/take-the-stage-presents-three-ways-to-die",
     "snippet": "Interactive murder mystery where every clue matters, everyone has something to hide, and you help solve the crime",
-    "fetched_at": "2026-08-23T04:25:45.567425",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397308",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "22ac7639a3ba",
@@ -2252,8 +2672,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46409-the-cat-empire",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333751",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620397",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8918785001a4",
@@ -2268,8 +2691,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/red-light-confidential",
     "snippet": "Red Light Confidential - Winners of 'Best Burlesque Event' in 2025!",
-    "fetched_at": "2026-08-23T04:25:45.567267",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397151",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "09b26a99e5b1",
@@ -2284,8 +2710,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47452-return-of-the-godz-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333473",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620086",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2ef8409d5202",
@@ -2300,8 +2729,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-recitals",
     "snippet": "Be enchanted by the magic of Sydney Town Hall's grand organ, at a free ticketed concert in the heart of the city.",
-    "fetched_at": "2026-08-23T04:25:45.567112",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396994",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e9070600735c",
@@ -2316,8 +2748,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/doms-broadway-basement-or-musical-theatre-piano-bar",
     "snippet": "Sing-a-long to the musical hits of your choice accompanied by an award-winning pianist",
-    "fetched_at": "2026-08-23T04:25:45.567144",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397026",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d6b451e5d631",
@@ -2332,8 +2767,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/return-of-the-godz",
     "snippet": "The biggest party to hit Mount Olympus since 500 BC is back, and the gods are ready to raise hell!",
-    "fetched_at": "2026-08-23T04:25:45.567151",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397033",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e0fb7aecfa14",
@@ -2348,8 +2786,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/magic-and-sphen-the-unofficial-story-of-sydneys-gay-penguins",
     "snippet": "Romeo and Juliet meets Happy Feet — the true story of Sydney’s iconic gay penguin couple.",
-    "fetched_at": "2026-08-23T04:25:45.566837",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396738",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "458d57347362",
@@ -2364,8 +2805,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/strategic-love",
     "snippet": "A witty, intimate dive into modern dating, with a twist.",
-    "fetched_at": "2026-08-23T04:25:45.566853",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396753",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "031ac633ee08",
@@ -2380,8 +2824,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/zoes-killer-instinct",
     "snippet": "A maniacal cabaret fantasia of blood-soaked vengeance and glittering stardom.",
-    "fetched_at": "2026-08-23T04:25:45.566869",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396769",
+    "sessions": [],
+    "suburb": "Woolloomooloo",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "fa9e20d30a9e",
@@ -2396,8 +2843,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/games-night-old-school-edition-singles-40",
     "snippet": "Remember when a good night out just meant a table, some snacks, and a game you actually cared about winning?",
-    "fetched_at": "2026-08-23T04:25:45.566999",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396900",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "546c0f472f55",
@@ -2412,8 +2862,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/tina-arena-live-on-stage-unravel-me-q-and-a-preview-event",
     "snippet": "Special preview of the new documentary Tina Arena: Unravel Me + live on stage Q&A with Tina Arena and Mary Coustas",
-    "fetched_at": "2026-08-23T04:25:45.566332",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396211",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "5606f404eb24",
@@ -2428,8 +2881,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/special-event-tampa-25th-year-anniversary",
     "snippet": "TAMPA The Turning Point – exclusive screening and panel discussion",
-    "fetched_at": "2026-08-23T04:25:45.566488",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396383",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "fd4ad29713ce",
@@ -2444,8 +2900,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46307-the-book-of-everything-belvoir-st-theatre-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333375",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619991",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a5422f4b2255",
@@ -2460,8 +2919,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45275-mum-club-griffin-theatre-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333711",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620374",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d1146b5025e2",
@@ -2476,8 +2938,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/mum-club",
     "snippet": "Playdate. Antivax. Almond Milk.",
-    "fetched_at": "2026-08-23T04:25:45.566441",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396336",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c4e253a54b3f",
@@ -2492,8 +2957,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-book-of-everything",
     "snippet": "One of Belvoir's most cherished productions is back!",
-    "fetched_at": "2026-08-23T04:25:45.566574",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396469",
+    "sessions": [],
+    "suburb": "Surry Hills",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ed2593cac50b",
@@ -2508,8 +2976,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45722-tchaikovskys-first-piano-concerto-sso-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333550",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620164",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "137a24f073ea",
@@ -2524,8 +2995,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/harlots-by-emma-wright",
     "snippet": "Shakespeare reimagined through the eyes of his women forced into a terrible bargain: “die to live”",
-    "fetched_at": "2026-08-23T04:25:45.566596",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396491",
+    "sessions": [],
+    "suburb": "Woolloomooloo",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "c5b4d4d0c9e0",
@@ -2540,8 +3014,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/festival-of-dangerous-ideas-afterlives-interrupted",
     "snippet": "A gallery tour led by members of the ground-breaking Human Remains Research Project team",
-    "fetched_at": "2026-08-23T04:25:45.567754",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397635",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e9cf1a4ce922",
@@ -2556,8 +3033,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/korean-film-festival",
     "snippet": "The 17th Korean Film Festival in Australia (KOFFIA) returns to Sydney",
-    "fetched_at": "2026-08-23T04:25:45.566566",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396461",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "48940112eea0",
@@ -2572,8 +3052,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/come-and-try-morris-dancing",
     "snippet": "Pride Morris is Sydney's LGBT folk dancing club! Come learn some easy dances and bring some whimsy to your life!",
-    "fetched_at": "2026-08-23T04:25:45.566749",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396650",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2e693b51e56b",
@@ -2588,8 +3071,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/time-after-time-a-time-leaping-unscripted-play",
     "snippet": "One relationship. Mutliple generations. An unscripted play about the patterns we inherit.",
-    "fetched_at": "2026-08-23T04:25:45.567624",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397505",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a5b549a802d9",
@@ -2604,8 +3090,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/burn-the-floor",
     "snippet": "International dance sensation Burn The Floor returns home with its brand-new production ‘Luminous’",
-    "fetched_at": "2026-08-23T04:25:45.566354",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396247",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "4fa0a6ab000b",
@@ -2620,8 +3109,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47568-the-boys-are-kissing",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333523",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620136",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "2bd2b3ca83af",
@@ -2636,8 +3128,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-boys-are-kissing-by-zak-zarafshan",
     "snippet": "Is it really ever ‘just about the children’?",
-    "fetched_at": "2026-08-23T04:25:45.566861",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396760",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "8fed1ca6b873",
@@ -2652,8 +3147,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sketch-writing-course-for-beginners",
     "snippet": "Get creative with developing and critiquing sketches, pulling them apart and writing your own!",
-    "fetched_at": "2026-08-23T04:25:45.566846",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396746",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "273b67c4fd69",
@@ -2668,8 +3166,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/hayes-festival-of-new-work",
     "snippet": "The Festival of New Work is your front row seat to the future of music theatre",
-    "fetched_at": "2026-08-23T04:25:45.566391",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396284",
+    "sessions": [],
+    "suburb": "Potts Point",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "690c4ae0fa43",
@@ -2684,8 +3185,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/adult-improv-and-drama-sunday-sessions",
     "snippet": "Sunday sessions for adults building confidence through improvisation and scene work. No experience needed.",
-    "fetched_at": "2026-08-23T04:25:45.566346",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396224",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "16897f3ba644",
@@ -2700,8 +3204,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/festival-of-the-spoken-word",
     "snippet": "A celebration of Jewish culture and the stories that shape us",
-    "fetched_at": "2026-08-23T04:25:45.566589",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396484",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "5dc814aa3a50",
@@ -2716,8 +3223,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46138-fiddler-on-the-roof-theatre-royal-sydney",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333215",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.619836",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "51ddcaa5a4cb",
@@ -2732,8 +3242,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/david-williamsons-top-silk",
     "snippet": "A funny, fast-paced cross-examination of moral dilemmas, family dynamics, and the true cost of success.",
-    "fetched_at": "2026-08-23T04:25:45.566365",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396258",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "25953a8f32a5",
@@ -2748,8 +3261,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/top-silk",
     "snippet": "A Funny, Fast-paced cross-examination of moral dilemmas, family dynamics, and the true cost of success",
-    "fetched_at": "2026-08-23T04:25:45.566580",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396476",
+    "sessions": [],
+    "suburb": "Kirribilli",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "05a96319fa5f",
@@ -2764,8 +3280,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/line-dancing-at-woollahra-life",
     "snippet": "Join Woollahra Life!’s Line Dancing classes and enjoy a fun, social, and active way to stay fit!",
-    "fetched_at": "2026-08-23T04:25:45.567258",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397142",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "051258ed4045",
@@ -2780,8 +3299,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/dulcies-picture-house-movies-in-a-vintage-cocktail-parlour",
     "snippet": "Free movies, cocktails and complimentary popcorn every Tuesday at Dulcie's underground Kings Cross cocktail bar.",
-    "fetched_at": "2026-08-23T04:25:45.566826",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396727",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ac7b58aa0063",
@@ -2796,8 +3318,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/matavai",
     "snippet": "Cultural Dance for Young People",
-    "fetched_at": "2026-08-23T04:25:45.566671",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396570",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "40a9f6c01546",
@@ -2812,8 +3337,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/47315-velvet-inferno",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333467",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620080",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "ac68c5a04667",
@@ -2828,8 +3356,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/taiwan-film-festival",
     "snippet": "Back with refreshing representations on Taiwanese and Global Asia cinemas",
-    "fetched_at": "2026-08-23T04:25:45.567997",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397880",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "b625a605eb40",
@@ -2844,8 +3375,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pride-and-prejudice-sort-of",
     "snippet": "The five star West End sensation",
-    "fetched_at": "2026-08-23T04:25:45.566449",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396344",
+    "sessions": [],
+    "suburb": "Sydney",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "3a6a0556fb47",
@@ -2860,8 +3394,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/hayden-orpheum-comedy-club",
     "snippet": "Household names, comedy cult favourites, and the best new talent",
-    "fetched_at": "2026-08-23T04:25:45.568217",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398076",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "cdce38875807",
@@ -2876,8 +3413,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/wednesdays-film-club",
     "snippet": "Chill out midweek with some cool flicks and good vibes at our film hangout.",
-    "fetched_at": "2026-08-23T04:25:45.567189",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397072",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "3da704d24895",
@@ -2892,8 +3432,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-comedy-festival-encore-saturday-showcase",
     "snippet": "Saturday nights at the Comedy Store are where it all comes together",
-    "fetched_at": "2026-08-23T04:25:45.567616",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397497",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "0cef532b3043",
@@ -2908,8 +3451,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-comedy-festival-encore-friday-showcase",
     "snippet": "Fridays at the Comedy Store are the ultimate way to wrap up the working week!",
-    "fetched_at": "2026-08-23T04:25:45.567459",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397341",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "abc2e11f7c97",
@@ -2924,8 +3470,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-big-thursday-showcase-encore",
     "snippet": "Sydney’s best-value night of stand-up",
-    "fetched_at": "2026-08-23T04:25:45.567242",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397127",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "b0510f591c30",
@@ -2940,8 +3489,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-laugh-inn-comedy-club",
     "snippet": "Sydney's Hottest Comedy Club",
-    "fetched_at": "2026-08-23T04:25:45.567199",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397081",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "1b822d43564b",
@@ -2956,8 +3508,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/rat-klub-comedy-show-or-monday-night-or-moshpit-bar-or-king-st",
     "snippet": "It's your Monday night stand-up, sketch comedy delight! Live, curated, professional, fresh, independent & weird. ",
-    "fetched_at": "2026-08-23T04:25:45.566680",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396579",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "75c8506ecc1b",
@@ -2972,8 +3527,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-harbour-retro-boat-party",
     "snippet": "Get dressed in your best 80's or 90's outfit and join Sydney's hottest retro party cruise!",
-    "fetched_at": "2026-08-23T04:25:45.567417",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397300",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a654e2c8c475",
@@ -2988,8 +3546,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/asphalt-words-and-ocean-dreams",
     "snippet": "A cosy open mic for poets and writers in a brewery",
-    "fetched_at": "2026-08-23T04:25:45.567209",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397089",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "e244b325c5a3",
@@ -3004,8 +3565,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/improvised-comedy-night",
     "snippet": "House teams improvise an hour-long comedy show 'Big House' based off your suggestions.",
-    "fetched_at": "2026-08-23T04:25:45.567486",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397366",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d16947e75ddd",
@@ -3020,8 +3584,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46980-the-gentleman-magicians-magical-soiree",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333563",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620176",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "a42ccc867ef4",
@@ -3036,8 +3603,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/la-ronde-at-the-grand-electric-sydney",
     "snippet": "An international cirque-cabaret from the creators of Blanc de Blanc",
-    "fetched_at": "2026-08-23T04:25:45.566433",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396329",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "9a01f5fc08c4",
@@ -3052,8 +3622,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/46373-the-lion-king-syd-2026",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333424",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620038",
+    "sessions": [],
+    "suburb": "Haymarket",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "d553a34ad1c3",
@@ -3068,8 +3641,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/disneys-the-lion-king",
     "snippet": "The world’s #1 musical is now playing at the Capitol Theatre, Sydney. ",
-    "fetched_at": "2026-08-23T04:25:45.566311",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396192",
+    "sessions": [],
+    "suburb": "Haymarket",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "228f2ba162b6",
@@ -3084,8 +3660,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/sunday-sounds",
     "snippet": "Experience a harmonious blend of nature and melody in the Chinese Garden of Friendship",
-    "fetched_at": "2026-08-23T04:25:45.568162",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.398025",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "9f0923ace05a",
@@ -3100,8 +3679,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/tinyprov-the-two-person-improv-comedy-showcase",
     "snippet": "Three improvised comedy sets. Two performers at a time. One big twist.",
-    "fetched_at": "2026-08-23T04:25:45.567478",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397359",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "6a70a8d38ba2",
@@ -3116,8 +3698,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-de-tango-la-milonga-2",
     "snippet": "Learn to dance authentic Argentine tango",
-    "fetched_at": "2026-08-23T04:25:45.568067",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397933",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "fbcf233d3147",
@@ -3132,8 +3717,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers",
     "snippet": "Stay active, connect and celebrate culture through dance! ",
-    "fetched_at": "2026-08-23T04:25:45.566819",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.396719",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "023b26509b42",
@@ -3148,8 +3736,11 @@
     "source": "todaytix",
     "source_url": "https://www.todaytix.com/sydney/shows/45526-la-ronde-at-the-grand-electric",
     "snippet": "",
-    "fetched_at": "2026-08-23T04:25:44.333504",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:11.620117",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "15fe87cdff7f",
@@ -3164,8 +3755,11 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/haunted-sydney-pub-tour",
     "snippet": "Explore all things ghostly as we visit Sydney's most haunted pubs. ",
-    "fetched_at": "2026-08-23T04:25:45.567250",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397135",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   },
   {
     "id": "056bf2766a0c",
@@ -3180,7 +3774,10 @@
     "source": "cityofsydney",
     "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-gentleman-magicians-magical-soiree-2",
     "snippet": "See a world class magic show intertwined with intriguing stories about early Sydney town.",
-    "fetched_at": "2026-08-23T04:25:45.567471",
-    "sessions": []
+    "fetched_at": "2026-08-23T08:23:12.397351",
+    "sessions": [],
+    "suburb": "",
+    "price_from": null,
+    "free_event": false
   }
 ]

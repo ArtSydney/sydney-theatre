@@ -557,7 +557,7 @@ function renderTonight() {
 
   // Group by genre when showing all
   if (tonightGenre === 'all') {
-    const genreOrder = ['musical','play','comedy','cabaret','opera','dance','family','unknown'];
+    const genreOrder = ['play','musical','comedy','cabaret','opera','dance','family','unknown'];
     const groups = {};
     tonight.forEach(s => {
       const g = s.genre || 'unknown';
@@ -617,7 +617,7 @@ function renderShows() {
 
   // Group by genre when showing all genres
   if (activeGenre === 'all') {
-    const genreOrder = ['musical','play','comedy','cabaret','opera','dance','family','unknown'];
+    const genreOrder = ['play','musical','comedy','cabaret','opera','dance','family','unknown'];
     const groups = {};
     filtered.forEach(s => {
       const g = s.genre || 'unknown';

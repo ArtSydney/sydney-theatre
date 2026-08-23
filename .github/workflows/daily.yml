@@ -1,0 +1,36 @@
+name: Daily Theatre Pipeline
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # 6am AEST (UTC+10)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python main.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen.json docs/data.json docs/data-current.json
+          git diff --staged --quiet || git commit -m "chore: update theatre data $(date -u +%Y-%m-%d)"
+          git push

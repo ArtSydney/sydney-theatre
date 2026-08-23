@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1a1a1a">
+<title>Sydney Theatre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --teal:#249D8F;
+  --gold:#E9C46A;
+  --coral:#E76F51;
+  --cream:#FDF0D5;
+  --bg:#111;
+  --surface:#1a1a1a;
+  --card:#222;
+  --text:#f0ece4;
+  --text-dim:#9a9590;
+  --radius:14px;
+  --nav-h:64px;
+  --safe-b:env(safe-area-inset-bottom, 0px);
+}
+html,body{
+  height:100%;
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Inter',sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  overflow:hidden;
+}
+h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
+
+/* App shell */
+.app{display:flex;flex-direction:column;height:100%;position:relative}
+.header{
+  padding:16px 20px 12px;
+  background:var(--bg);
+  position:sticky;top:0;z-index:20;
+}
+.header h1{
+  font-size:22px;letter-spacing:-0.5px;
+  background:linear-gradient(135deg,var(--teal),var(--gold));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.header .subtitle{font-size:12px;color:var(--text-dim);margin-top:2px;letter-spacing:0.5px;text-transform:uppercase}
+
+/* Filter bar */
+.filter-bar{
+  display:flex;gap:8px;padding:0 20px 12px;overflow-x:auto;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none;
+}
+.filter-bar::-webkit-scrollbar{display:none}
+.filter-chip{
+  flex-shrink:0;
+  padding:6px 14px;border-radius:20px;
+  font-size:13px;font-weight:500;
+  background:var(--card);color:var(--text-dim);
+  border:1px solid transparent;
+  cursor:pointer;transition:all .2s;
+  font-family:'Inter',sans-serif;
+}
+.filter-chip.active{
+  background:var(--teal);color:#fff;border-color:var(--teal);
+}
+
+/* Content area */
+.content{
+  flex:1;overflow-y:auto;overflow-x:hidden;
+  padding:0 16px 20px;
+  padding-bottom:calc(var(--nav-h) + var(--safe-b) + 20px);
+  -webkit-overflow-scrolling:touch;
+}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+
+/* Tonight hero */
+.tonight-hero{
+  background:linear-gradient(135deg,var(--teal) 0%,#1a6b62 100%);
+  border-radius:var(--radius);
+  padding:24px 20px;margin-bottom:16px;
+  position:relative;overflow:hidden;
+}
+.tonight-hero::after{
+  content:'';position:absolute;top:-30%;right:-10%;
+  width:140px;height:140px;border-radius:50%;
+  background:rgba(233,196,106,0.15);
+}
+.tonight-hero .date{font-size:13px;color:rgba(255,255,255,0.7);text-transform:uppercase;letter-spacing:1px}
+.tonight-hero .count{font-family:'Space Grotesk',sans-serif;font-size:42px;font-weight:700;color:#fff;margin:4px 0}
+.tonight-hero .label{font-size:15px;color:rgba(255,255,255,0.85)}
+
+/* Show cards */
+.show-card{
+  background:var(--card);border-radius:var(--radius);
+  padding:16px;margin-bottom:12px;
+  border-left:3px solid var(--teal);
+  transition:transform .15s;
+  cursor:pointer;
+}
+.show-card:active{transform:scale(0.98)}
+.show-card.needs-review{border-left-color:var(--gold)}
+.show-card .genre-tag{
+  display:inline-block;
+  font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;
+  padding:3px 8px;border-radius:6px;
+  margin-bottom:8px;
+}
+.genre-musical{background:rgba(233,196,106,0.2);color:var(--gold)}
+.genre-play{background:rgba(36,157,143,0.2);color:var(--teal)}
+.genre-opera{background:rgba(231,111,81,0.2);color:var(--coral)}
+.genre-dance{background:rgba(168,130,200,0.2);color:#a882c8}
+.genre-comedy{background:rgba(255,200,87,0.2);color:#ffc857}
+.genre-cabaret{background:rgba(231,111,81,0.15);color:#e8937d}
+.genre-family{background:rgba(36,157,143,0.15);color:#5dc4b8}
+.genre-unknown{background:rgba(154,149,144,0.2);color:var(--text-dim)}
+
+.show-card .title{font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:4px}
+.show-card .venue{font-size:13px;color:var(--text-dim);margin-bottom:6px}
+.show-card .dates{font-size:13px;color:var(--text-dim)}
+.show-card .dates span{color:var(--gold)}
+.show-card .book-link{
+  display:inline-block;margin-top:10px;
+  font-size:13px;font-weight:600;color:var(--coral);
+  text-decoration:none;
+}
+
+/* Empty state */
+.empty-state{
+  text-align:center;padding:60px 20px;color:var(--text-dim);
+}
+.empty-state .icon{font-size:48px;margin-bottom:12px}
+.empty-state p{font-size:15px}
+
+/* Calendar */
+.cal-header{display:flex;align-items:center;justify-content:space-between;padding:8px 4px 16px}
+.cal-header h3{font-size:18px}
+.cal-header button{
+  background:var(--card);border:none;color:var(--text);
+  width:36px;height:36px;border-radius:50%;
+  font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:16px}
+.cal-day-label{
+  text-align:center;font-size:11px;color:var(--text-dim);
+  padding:4px 0;font-weight:600;text-transform:uppercase;
+}
+.cal-cell{
+  aspect-ratio:1;display:flex;align-items:center;justify-content:center;
+  font-size:13px;border-radius:10px;position:relative;
+  color:var(--text-dim);cursor:pointer;transition:background .15s;
+}
+.cal-cell.today{color:var(--teal);font-weight:700}
+.cal-cell.has-shows::after{
+  content:'';position:absolute;bottom:4px;
+  width:6px;height:6px;border-radius:50%;background:var(--coral);
+}
+.cal-cell.has-shows.multi::after{width:10px;border-radius:3px}
+.cal-cell:active{background:var(--card)}
+.cal-cell.other-month{opacity:0.3}
+
+/* Gantt drawer */
+.drawer-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,0.6);
+  z-index:100;opacity:0;pointer-events:none;transition:opacity .25s;
+}
+.drawer-overlay.open{opacity:1;pointer-events:auto}
+.drawer{
+  position:fixed;bottom:0;left:0;right:0;
+  background:var(--surface);border-radius:20px 20px 0 0;
+  padding:16px 20px;padding-bottom:calc(var(--safe-b) + 20px);
+  max-height:70vh;overflow-y:auto;
+  transform:translateY(100%);transition:transform .3s cubic-bezier(.32,.72,0,1);
+  z-index:101;
+}
+.drawer-overlay.open .drawer{transform:translateY(0)}
+.drawer-handle{width:36px;height:4px;background:var(--text-dim);border-radius:2px;margin:0 auto 16px}
+.drawer h3{font-size:16px;margin-bottom:4px}
+.drawer .drawer-date{font-size:13px;color:var(--text-dim);margin-bottom:16px}
+
+.gantt-bar{
+  background:var(--card);border-radius:8px;padding:10px 12px;margin-bottom:8px;
+  border-left:3px solid var(--teal);
+}
+.gantt-bar .g-title{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600}
+.gantt-bar .g-venue{font-size:12px;color:var(--text-dim);margin-top:2px}
+.gantt-bar .g-range{
+  margin-top:6px;height:6px;background:rgba(36,157,143,0.2);border-radius:3px;
+  position:relative;overflow:hidden;
+}
+.gantt-bar .g-fill{
+  position:absolute;left:0;top:0;height:100%;
+  background:var(--teal);border-radius:3px;
+}
+
+/* Toggle */
+.toggle-row{
+  display:flex;align-items:center;gap:8px;
+  padding:8px 0 12px;
+}
+.toggle-row label{font-size:13px;color:var(--text-dim)}
+.toggle{
+  width:40px;height:22px;border-radius:11px;
+  background:var(--card);position:relative;cursor:pointer;
+  transition:background .2s;border:none;
+}
+.toggle.on{background:var(--teal)}
+.toggle::after{
+  content:'';position:absolute;top:3px;left:3px;
+  width:16px;height:16px;border-radius:50%;
+  background:#fff;transition:transform .2s;
+}
+.toggle.on::after{transform:translateX(18px)}
+
+/* Bottom nav */
+.bottom-nav{
+  position:fixed;bottom:0;left:0;right:0;
+  height:calc(var(--nav-h) + var(--safe-b));
+  padding-bottom:var(--safe-b);
+  background:var(--surface);
+  border-top:1px solid rgba(255,255,255,0.06);
+  display:flex;z-index:50;
+}
+.nav-btn{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;background:none;border:none;color:var(--text-dim);
+  font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;
+  cursor:pointer;transition:color .2s;
+  font-family:'Inter',sans-serif;
+  -webkit-tap-highlight-color:transparent;
+}
+.nav-btn.active{color:var(--teal)}
+.nav-btn svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8}
+
+/* Desktop breakpoint */
+@media(min-width:640px){
+  .app{max-width:480px;margin:0 auto}
+  .bottom-nav{max-width:480px;left:50%;transform:translateX(-50%)}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="header">
+    <h1>Sydney Theatre</h1>
+    <div class="subtitle">What's on stage</div>
+  </div>
+
+  <!-- Tonight Tab -->
+  <div class="content">
+    <div id="tab-tonight" class="tab-panel active">
+      <div class="tonight-hero">
+        <div class="date" id="tonight-date"></div>
+        <div class="count" id="tonight-count">0</div>
+        <div class="label">shows tonight</div>
+      </div>
+      <div id="tonight-list"></div>
+    </div>
+
+    <!-- Shows Tab -->
+    <div id="tab-shows" class="tab-panel">
+      <div class="filter-bar" id="genre-filters"></div>
+      <div class="toggle-row">
+        <label>Show closed</label>
+        <button class="toggle" id="toggle-closed" onclick="toggleClosed()"></button>
+      </div>
+      <div id="shows-list"></div>
+    </div>
+
+    <!-- Calendar Tab -->
+    <div id="tab-calendar" class="tab-panel">
+      <div class="cal-header">
+        <button onclick="calNav(-1)">&#8249;</button>
+        <h3 id="cal-month-label"></h3>
+        <button onclick="calNav(1)">&#8250;</button>
+      </div>
+      <div class="cal-grid" id="cal-grid"></div>
+      <div id="cal-shows-below"></div>
+    </div>
+  </div>
+
+  <!-- Drawer for calendar day tap -->
+  <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()">
+    <div class="drawer" onclick="event.stopPropagation()">
+      <div class="drawer-handle"></div>
+      <h3 id="drawer-title"></h3>
+      <div class="drawer-date" id="drawer-date"></div>
+      <div id="drawer-content"></div>
+    </div>
+  </div>
+
+  <!-- Bottom nav -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-tab="tonight" onclick="switchTab('tonight')">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"/></svg>
+      Tonight
+    </button>
+    <button class="nav-btn" data-tab="shows" onclick="switchTab('shows')">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+      Shows
+    </button>
+    <button class="nav-btn" data-tab="calendar" onclick="switchTab('calendar')">
+      <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      Calendar
+    </button>
+  </nav>
+</div>
+
+<script>
+let DATA = [];
+let THEATRES = {};
+let showClosed = false;
+let activeGenre = 'all';
+let calMonth = new Date().getMonth();
+let calYear = new Date().getFullYear();
+
+const $ = s => document.querySelector(s);
+const $$ = s => document.querySelectorAll(s);
+
+// Init
+async function init() {
+  try {
+    const [dataRes, theatreRes] = await Promise.all([
+      fetch('data-current.json?v=1').then(r => r.ok ? r.json() : []),
+      fetch('../theatres.json?v=1').then(r => r.ok ? r.json() : [])
+    ]);
+    DATA = dataRes;
+    theatreRes.forEach(t => THEATRES[t.id] = t);
+  } catch(e) {
+    // Use sample data for dev
+    DATA = sampleData();
+  }
+  renderAll();
+}
+
+function sampleData() {
+  const today = new Date();
+  const fmt = d => d.toISOString().split('T')[0];
+  const offset = (days) => { const d = new Date(today); d.setDate(d.getDate() + days); return fmt(d); };
+  return [
+    { id:'1', title:'Hamilton', venue:'Capitol Theatre', genre:'musical', status:'active', start_date:offset(-30), end_date:offset(60), booking_url:'https://www.capitoltheatre.com.au', sessions:[] },
+    { id:'2', title:'The Seagull', venue:'Belvoir St Theatre', genre:'play', status:'active', start_date:offset(-5), end_date:offset(21), booking_url:'https://belvoir.com.au', sessions:[] },
+    { id:'3', title:'La Boheme', venue:'Sydney Opera House', genre:'opera', status:'active', start_date:offset(-10), end_date:offset(14), booking_url:'https://opera.org.au', sessions:[] },
+    { id:'4', title:'Cabaret', venue:'Hayes Theatre Co', genre:'cabaret', status:'active', start_date:offset(2), end_date:offset(45), booking_url:'https://hayestheatre.com.au', sessions:[] },
+    { id:'5', title:'Bluey\'s Big Play', venue:'Theatre Royal Sydney', genre:'family', status:'active', start_date:offset(-3), end_date:offset(30), booking_url:'https://www.theatreroyal.com.au', sessions:[] },
+    { id:'6', title:'Stand Up Showcase', venue:'Enmore Theatre', genre:'comedy', status:'active', start_date:fmt(today), end_date:fmt(today), booking_url:'https://www.enmoretheatre.com.au', sessions:[] },
+    { id:'7', title:'Swan Lake', venue:'Foundry Theatre (Sydney Lyric)', genre:'dance', status:'active', start_date:offset(-2), end_date:offset(10), booking_url:'#', sessions:[] },
+    { id:'8', title:'Old Season Show', venue:'Ensemble Theatre', genre:'play', status:'closed', start_date:offset(-90), end_date:offset(-30), booking_url:'#', sessions:[] },
+    { id:'9', title:'Unconfirmed Title', venue:'KXT (Kings Cross Theatre)', genre:'unknown', status:'needs_review', start_date:offset(10), end_date:'', booking_url:'', sessions:[] },
+  ];
+}
+
+function renderAll() {
+  renderTonight();
+  renderShows();
+  renderCalendar();
+}
+
+// --- Tonight ---
+function renderTonight() {
+  const today = new Date().toISOString().split('T')[0];
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const d = new Date();
+  $('#tonight-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
+
+  const tonight = DATA.filter(s =>
+    s.status === 'active' &&
+    s.start_date <= today &&
+    (s.end_date >= today || !s.end_date)
+  );
+
+  $('#tonight-count').textContent = tonight.length;
+  const container = $('#tonight-list');
+
+  if (tonight.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows listed for tonight</p></div>';
+    return;
+  }
+  container.innerHTML = tonight.map(showCard).join('');
+}
+
+// --- Shows ---
+function renderShows() {
+  const genres = ['all', ...new Set(DATA.map(s => s.genre).filter(Boolean))];
+  const filterBar = $('#genre-filters');
+  filterBar.innerHTML = genres.map(g =>
+    `<button class="filter-chip ${g === activeGenre ? 'active' : ''}" onclick="setGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
+  ).join('');
+
+  let filtered = DATA.filter(s => {
+    if (!showClosed && (s.status === 'closed' || s.status === 'suppressed')) return false;
+    if (activeGenre !== 'all' && s.genre !== activeGenre) return false;
+    return true;
+  });
+
+  // Sort: active first, then by start date desc
+  filtered.sort((a, b) => {
+    if (a.status === 'active' && b.status !== 'active') return -1;
+    if (b.status === 'active' && a.status !== 'active') return 1;
+    return (b.start_date || '').localeCompare(a.start_date || '');
+  });
+
+  const container = $('#shows-list');
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
+    return;
+  }
+  container.innerHTML = filtered.map(showCard).join('');
+}
+
+function showCard(s) {
+  const genreClass = 'genre-' + (s.genre || 'unknown');
+  const reviewClass = s.status === 'needs_review' ? ' needs-review' : '';
+  const dateStr = formatDateRange(s.start_date, s.end_date);
+  const bookLink = s.booking_url ? `<a class="book-link" href="${s.booking_url}" target="_blank" rel="noopener">Book tickets &rarr;</a>` : '';
+  const statusBadge = s.status === 'needs_review' ? ' <span style="color:var(--gold);font-size:11px">&#9679; Unconfirmed</span>' : '';
+  const closedBadge = s.status === 'closed' ? ' <span style="color:var(--text-dim);font-size:11px">&#9679; Closed</span>' : '';
+
+  return `<div class="show-card${reviewClass}">
+    <span class="genre-tag ${genreClass}">${capitalize(s.genre || 'tbc')}</span>
+    <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
+    <div class="venue">${esc(s.venue)}</div>
+    <div class="dates">${dateStr}</div>
+    ${bookLink}
+  </div>`;
+}
+
+function setGenre(g) {
+  activeGenre = g;
+  renderShows();
+}
+
+function toggleClosed() {
+  showClosed = !showClosed;
+  $('#toggle-closed').classList.toggle('on', showClosed);
+  renderShows();
+}
+
+// --- Calendar ---
+function renderCalendar() {
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  $('#cal-month-label').textContent = `${months[calMonth]} ${calYear}`;
+
+  const grid = $('#cal-grid');
+  const dayLabels = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  let html = dayLabels.map(d => `<div class="cal-day-label">${d}</div>`).join('');
+
+  const firstDay = new Date(calYear, calMonth, 1);
+  let startDow = firstDay.getDay();
+  startDow = startDow === 0 ? 6 : startDow - 1; // Mon=0
+
+  const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+  const today = new Date();
+  const todayStr = today.toISOString().split('T')[0];
+
+  // Build show-date map for the month
+  const showsByDate = {};
+  DATA.filter(s => s.status === 'active' || s.status === 'needs_review').forEach(s => {
+    const start = s.start_date;
+    if (start) {
+      if (!showsByDate[start]) showsByDate[start] = [];
+      showsByDate[start].push(s);
+    }
+  });
+
+  // Pad start
+  const prevMonth = new Date(calYear, calMonth, 0);
+  for (let i = startDow - 1; i >= 0; i--) {
+    html += `<div class="cal-cell other-month">${prevMonth.getDate() - i}</div>`;
+  }
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const isToday = dateStr === todayStr;
+
+    // Check if any show is running on this date (between start and end)
+    const running = DATA.filter(s =>
+      (s.status === 'active' || s.status === 'needs_review') &&
+      s.start_date && s.start_date <= dateStr &&
+      (s.end_date >= dateStr || !s.end_date)
+    );
+
+    const hasClass = running.length > 0 ? (running.length > 2 ? ' has-shows multi' : ' has-shows') : '';
+    const todayClass = isToday ? ' today' : '';
+
+    html += `<div class="cal-cell${todayClass}${hasClass}" onclick="openDay('${dateStr}')">${d}</div>`;
+  }
+
+  // Pad end
+  const totalCells = startDow + daysInMonth;
+  const remaining = (7 - (totalCells % 7)) % 7;
+  for (let i = 1; i <= remaining; i++) {
+    html += `<div class="cal-cell other-month">${i}</div>`;
+  }
+
+  grid.innerHTML = html;
+}
+
+function calNav(dir) {
+  calMonth += dir;
+  if (calMonth > 11) { calMonth = 0; calYear++; }
+  if (calMonth < 0) { calMonth = 11; calYear--; }
+  renderCalendar();
+}
+
+function openDay(dateStr) {
+  const running = DATA.filter(s =>
+    (s.status === 'active' || s.status === 'needs_review') &&
+    s.start_date && s.start_date <= dateStr &&
+    (s.end_date >= dateStr || !s.end_date)
+  );
+
+  if (running.length === 0) return;
+
+  const d = new Date(dateStr + 'T00:00:00');
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  $('#drawer-title').textContent = `${running.length} show${running.length > 1 ? 's' : ''}`;
+  $('#drawer-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+
+  const today = new Date();
+  today.setHours(0,0,0,0);
+
+  $('#drawer-content').innerHTML = running.map(s => {
+    const startD = new Date(s.start_date + 'T00:00:00');
+    const endD = s.end_date ? new Date(s.end_date + 'T00:00:00') : startD;
+    const totalDays = Math.max(1, (endD - startD) / 86400000);
+    const clickedD = new Date(dateStr + 'T00:00:00');
+    const elapsed = Math.max(0, (clickedD - startD) / 86400000);
+    const pct = Math.min(100, (elapsed / totalDays) * 100);
+
+    return `<div class="gantt-bar">
+      <div class="g-title">${esc(s.title)}</div>
+      <div class="g-venue">${esc(s.venue)}</div>
+      <div class="g-range"><div class="g-fill" style="width:${pct}%"></div></div>
+    </div>`;
+  }).join('');
+
+  $('#drawer-overlay').classList.add('open');
+}
+
+function closeDrawer() {
+  $('#drawer-overlay').classList.remove('open');
+}
+
+// --- Tab switching ---
+function switchTab(tab) {
+  $$('.tab-panel').forEach(p => p.classList.remove('active'));
+  $(`#tab-${tab}`).classList.add('active');
+  $$('.nav-btn').forEach(b => b.classList.remove('active'));
+  $$(`.nav-btn[data-tab="${tab}"]`).forEach(b => b.classList.add('active'));
+}
+
+// --- Utils ---
+function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : ''; }
+function esc(s) { const el = document.createElement('span'); el.textContent = s || ''; return el.innerHTML; }
+
+function formatDateRange(start, end) {
+  if (!start) return 'Dates TBC';
+  const s = parseLocalDate(start);
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const startStr = `${s.getDate()} ${months[s.getMonth()]}`;
+  if (!end || end === start) return `<span>${startStr}</span>`;
+  const e = parseLocalDate(end);
+  const endStr = `${e.getDate()} ${months[e.getMonth()]}`;
+  return `<span>${startStr}</span> &ndash; <span>${endStr}</span>`;
+}
+
+function parseLocalDate(str) {
+  const [y, m, d] = str.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
+// Kick off
+init();
+</script>
+</body>
+</html>

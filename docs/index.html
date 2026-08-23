@@ -225,6 +225,31 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
   cursor:pointer;
 }
 .venue-filter-row select:focus{outline:none;border-color:var(--teal)}
+
+/* Tonight filters */
+.tonight-filters{display:flex;gap:8px;padding:0 0 8px}
+.tonight-filters select{
+  flex:1;padding:8px 12px;
+  background:var(--card);color:var(--text);
+  border:1px solid rgba(255,255,255,0.08);border-radius:10px;
+  font-family:'Inter',sans-serif;font-size:13px;
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 5l3 3 3-3' fill='none' stroke='%239a9590' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center;
+  cursor:pointer;
+}
+.tonight-filters select:focus{outline:none;border-color:var(--teal)}
+.tonight-toggles{display:flex;gap:8px;padding:0 0 12px}
+
+/* Price and free badges on show cards */
+.show-card .price-badge{
+  font-size:12px;font-weight:600;color:var(--teal);margin-top:6px;
+}
+.show-card .free-badge{
+  display:inline-block;font-size:11px;font-weight:600;
+  padding:2px 8px;border-radius:6px;margin-left:8px;
+  background:rgba(36,157,143,0.2);color:var(--teal);
+}
 .toggle{
   width:40px;height:22px;border-radius:11px;
   background:var(--card);position:relative;cursor:pointer;
@@ -280,15 +305,31 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
         <div class="count" id="tonight-count">0</div>
         <div class="label">shows tonight</div>
       </div>
+      <div class="filter-bar" id="tonight-genre-filters"></div>
+      <div class="tonight-filters">
+        <select id="tonight-venue-select" onchange="setTonightVenue(this.value)">
+          <option value="all">All venues</option>
+        </select>
+        <select id="tonight-suburb-select" onchange="setTonightSuburb(this.value)">
+          <option value="all">All suburbs</option>
+        </select>
+      </div>
+      <div class="tonight-toggles">
+        <button class="filter-chip" id="tonight-free-chip" onclick="toggleTonightFree()">Free</button>
+        <button class="filter-chip" id="tonight-tix-chip" onclick="toggleTonightTix()">Tickets on sale</button>
+      </div>
       <div id="tonight-list"></div>
     </div>
 
     <!-- Shows Tab -->
     <div id="tab-shows" class="tab-panel">
       <div class="filter-bar" id="genre-filters"></div>
-      <div class="venue-filter-row">
+      <div class="tonight-filters">
         <select id="venue-select" onchange="setVenue(this.value)">
           <option value="all">All venues</option>
+        </select>
+        <select id="suburb-select" onchange="setSuburb(this.value)">
+          <option value="all">All suburbs</option>
         </select>
       </div>
       <div class="toggle-row">
@@ -343,6 +384,12 @@ let THEATRES = {};
 let showClosed = false;
 let activeGenre = 'all';
 let activeVenue = 'all';
+let activeSuburb = 'all';
+let tonightGenre = 'all';
+let tonightVenue = 'all';
+let tonightSuburb = 'all';
+let tonightFreeOnly = false;
+let tonightTixOnly = false;
 let calMonth = new Date().getMonth();
 let calYear = new Date().getFullYear();
 
@@ -396,21 +443,61 @@ function renderTonight() {
   const d = new Date();
   $('#tonight-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
 
-  const tonight = DATA.filter(s =>
+  // All shows running tonight (unfiltered, for hero count)
+  const allTonight = DATA.filter(s =>
     s.status === 'active' &&
     s.start_date <= today &&
     (s.end_date >= today || !s.end_date)
   );
 
+  // Genre chips for tonight
+  const genres = ['all', ...new Set(allTonight.map(s => s.genre).filter(Boolean))];
+  const genreBar = $('#tonight-genre-filters');
+  genreBar.innerHTML = genres.map(g =>
+    `<button class="filter-chip ${g === tonightGenre ? 'active' : ''}" onclick="setTonightGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
+  ).join('');
+
+  // Venue dropdown for tonight
+  const venueSelect = $('#tonight-venue-select');
+  const venues = [...new Set(allTonight.map(s => s.venue).filter(Boolean))].sort();
+  venueSelect.innerHTML = '<option value="all">All venues</option>' +
+    venues.map(v => `<option value="${esc(v)}" ${v === tonightVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
+
+  // Suburb dropdown for tonight
+  const suburbSelect = $('#tonight-suburb-select');
+  const suburbs = [...new Set(allTonight.map(s => s.suburb).filter(Boolean))].sort();
+  suburbSelect.innerHTML = '<option value="all">All suburbs</option>' +
+    suburbs.map(s => `<option value="${esc(s)}" ${s === tonightSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
+
+  // Toggle chip states
+  $('#tonight-free-chip').classList.toggle('active', tonightFreeOnly);
+  $('#tonight-tix-chip').classList.toggle('active', tonightTixOnly);
+
+  // Apply filters
+  let tonight = allTonight.filter(s => {
+    if (tonightGenre !== 'all' && s.genre !== tonightGenre) return false;
+    if (tonightVenue !== 'all' && s.venue !== tonightVenue) return false;
+    if (tonightSuburb !== 'all' && s.suburb !== tonightSuburb) return false;
+    if (tonightFreeOnly && !s.free_event) return false;
+    if (tonightTixOnly && s.source !== 'todaytix') return false;
+    return true;
+  });
+
   $('#tonight-count').textContent = tonight.length;
   const container = $('#tonight-list');
 
   if (tonight.length === 0) {
-    container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows listed for tonight</p></div>';
+    container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
     return;
   }
   container.innerHTML = tonight.map(showCard).join('');
 }
+
+function setTonightGenre(g) { tonightGenre = g; renderTonight(); }
+function setTonightVenue(v) { tonightVenue = v; renderTonight(); }
+function setTonightSuburb(s) { tonightSuburb = s; renderTonight(); }
+function toggleTonightFree() { tonightFreeOnly = !tonightFreeOnly; renderTonight(); }
+function toggleTonightTix() { tonightTixOnly = !tonightTixOnly; renderTonight(); }
 
 // --- Shows ---
 function renderShows() {
@@ -428,10 +515,17 @@ function renderShows() {
     venues.map(v => `<option value="${esc(v)}" ${v === activeVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
   venueSelect.value = activeVenue;
 
+  // Populate suburb dropdown
+  const suburbSelect = $('#suburb-select');
+  const suburbs = [...new Set(DATA.map(s => s.suburb).filter(Boolean))].sort();
+  suburbSelect.innerHTML = '<option value="all">All suburbs</option>' +
+    suburbs.map(s => `<option value="${esc(s)}" ${s === activeSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
+
   let filtered = DATA.filter(s => {
     if (!showClosed && (s.status === 'closed' || s.status === 'suppressed')) return false;
     if (activeGenre !== 'all' && s.genre !== activeGenre) return false;
     if (activeVenue !== 'all' && s.venue !== activeVenue) return false;
+    if (activeSuburb !== 'all' && s.suburb !== activeSuburb) return false;
     return true;
   });
 
@@ -457,12 +551,15 @@ function showCard(s) {
   const bookLink = s.booking_url ? `<a class="book-link" href="${s.booking_url}" target="_blank" rel="noopener">Book tickets &rarr;</a>` : '';
   const statusBadge = s.status === 'needs_review' ? ' <span style="color:var(--gold);font-size:11px">&#9679; Unconfirmed</span>' : '';
   const closedBadge = s.status === 'closed' ? ' <span style="color:var(--text-dim);font-size:11px">&#9679; Closed</span>' : '';
+  const freeBadge = s.free_event ? '<span class="free-badge">Free</span>' : '';
+  const priceLine = s.price_from ? `<div class="price-badge">From $${s.price_from}</div>` : '';
 
   return `<div class="show-card${reviewClass}">
-    <span class="genre-tag ${genreClass}">${capitalize(s.genre || 'tbc')}</span>
+    <span class="genre-tag ${genreClass}">${capitalize(s.genre || 'tbc')}</span>${freeBadge}
     <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
-    <div class="venue">${esc(s.venue)}</div>
+    <div class="venue">${esc(s.venue)}${s.suburb ? ' <span style="color:var(--text-dim);font-size:12px">(' + esc(s.suburb) + ')</span>' : ''}</div>
     <div class="dates">${dateStr}</div>
+    ${priceLine}
     ${bookLink}
   </div>`;
 }
@@ -474,6 +571,11 @@ function setGenre(g) {
 
 function setVenue(v) {
   activeVenue = v;
+  renderShows();
+}
+
+function setSuburb(s) {
+  activeSuburb = s;
   renderShows();
 }
 
@@ -626,5 +728,6 @@ function parseLocalDate(str) {
 // Kick off
 init();
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "85b9d532d21f470d8d23f4d892727c34"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

@@ -223,21 +223,84 @@ def fetch_cityofsydney():
 
 
 def extract_algolia_hits(page_html):
-    """Extract the Algolia hits array from the page HTML."""
-    # The JSON blob is embedded after "hits": in the page source
-    pattern = r'"hits"\s*:\s*(\[.*?\])\s*,\s*"nbHits"\s*:\s*(\d+)'
-    m = re.search(pattern, page_html, re.DOTALL)
-    if not m:
-        return _extract_hits_fallback(page_html)
+    """Extract the Algolia hits array from the page HTML.
+    The page may contain multiple "hits":[] blocks (carousels, etc).
+    We find all of them and return the largest one (the main results).
+    """
+    marker = '"hits":'
+    best_hits = []
+    best_expected = 0
+    search_from = 0
 
-    try:
-        hits = json.loads(m.group(1))
-        expected = int(m.group(2))
-        print(f"  [cityofsydney] Parsed {len(hits)} hits (expected {expected})")
-        return hits
-    except json.JSONDecodeError as e:
-        print(f"  [cityofsydney] JSON parse error: {e}")
-        return _extract_hits_fallback(page_html)
+    while True:
+        pos = page_html.find(marker, search_from)
+        if pos == -1:
+            break
+
+        bracket_start = page_html.find("[", pos + len(marker))
+        if bracket_start == -1:
+            break
+
+        # Bracket-count to find the matching close (handles nested arrays)
+        end = _find_matching_bracket(page_html, bracket_start)
+        if end == -1:
+            search_from = bracket_start + 1
+            continue
+
+        array_json = page_html[bracket_start:end + 1]
+        search_from = end + 1
+
+        try:
+            hits = json.loads(array_json)
+        except json.JSONDecodeError:
+            continue
+
+        if not isinstance(hits, list):
+            continue
+
+        # Grab nbHits if present nearby
+        nb_match = re.search(r'"nbHits"\s*:\s*(\d+)', page_html[end:end + 50])
+        expected = int(nb_match.group(1)) if nb_match else len(hits)
+
+        print(f"  [cityofsydney] Found hits block: {len(hits)} items (nbHits={expected})")
+
+        if len(hits) > len(best_hits):
+            best_hits = hits
+            best_expected = expected
+
+    if best_hits:
+        print(f"  [cityofsydney] Using largest block: {len(best_hits)} hits (expected {best_expected})")
+        return best_hits
+
+    return _extract_hits_fallback(page_html)
+
+
+def _find_matching_bracket(text, start):
+    """Find the index of the ] that matches the [ at position start."""
+    depth = 0
+    in_string = False
+    escape_next = False
+    limit = min(start + 5_000_000, len(text))
+    for i in range(start, limit):
+        ch = text[i]
+        if escape_next:
+            escape_next = False
+            continue
+        if ch == "\\":
+            escape_next = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                return i
+    return -1
 
 
 def _extract_hits_fallback(page_html):
@@ -298,14 +361,33 @@ def parse_cos_event(hit):
     # Derive genre from tags
     genre = _genre_from_tags(tags, name)
 
-    # Skip items that are clearly not shows (classes, workshops, courses)
+    # Skip items that are clearly not shows
     name_lower = name.lower()
     skip_keywords = [
+        # Classes and workshops
         "acting class", "vocal training", "crash course",
-        "screenwriting fundamentals", "ballet classes",
-        "dance class", "workshop:",
+        "screenwriting fundamentals", "ballet class",
+        "dance class", "workshop", "classes for beginners",
+        "improv class", "comedy class", "salsa class",
+        "bachata class", "heels class", "tango class",
+        "jazz class", "drawing with a drag queen",
+        "stand-up comedy experience",
+        # Film screenings
+        "marathon", "screening", "sing-a-long monthly film",
+        # Dance competitions (not productions)
+        "dancesport", "swing showcase", "swing beginner",
+        # Non-theatre events
+        "ignite talks", "bingay",
     ]
     if any(kw in name_lower for kw in skip_keywords):
+        return None
+
+    # Skip recurring standup bar nights (not theatre productions)
+    standup_bar_patterns = [
+        "stand-up comedy show | monthly",
+        "comedy show | monthly",
+    ]
+    if any(kw in name_lower for kw in standup_bar_patterns):
         return None
 
     status = "active" if start_date else "needs_review"
@@ -395,6 +477,16 @@ VENUE_ALIASES = {
     "the star": "the-star",
     "icc sydney": "icc-sydney",
     "city recital hall": "city-recital-hall",
+    # City of Sydney compound venue names
+    "wharf 1 theatre - walsh bay arts precinct": "roslyn-packer-theatre",
+    "neilson studio | wharf 4/5, walsh bay arts precinct": "roslyn-packer-theatre",
+    "bay 20 | carriageworks": "carriageworks",
+    "riverside live at phive": "riverside-parramatta",
+    "qtopia | the loading dock theatre": "qtopia-sydney",
+    "tiktok entertainment centre | icc sydney": "icc-sydney",
+    "under the big top | the entertainment quarter": "entertainment-quarter",
+    "the virago | fool's paradise: entertainment quarter": "entertainment-quarter",
+    "castlereagh boutique hotel": "castlereagh-hotel",
 }
 
 

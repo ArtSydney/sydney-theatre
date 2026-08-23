@@ -314,10 +314,6 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
           <option value="all">All suburbs</option>
         </select>
       </div>
-      <div class="tonight-toggles">
-        <button class="filter-chip" id="tonight-free-chip" onclick="toggleTonightFree()">Free</button>
-        <button class="filter-chip" id="tonight-tix-chip" onclick="toggleTonightTix()">Tickets on sale</button>
-      </div>
       <div id="tonight-list"></div>
     </div>
 
@@ -389,7 +385,6 @@ let tonightGenre = 'all';
 let tonightVenue = 'all';
 let tonightSuburb = 'all';
 let tonightFreeOnly = false;
-let tonightTixOnly = false;
 let calMonth = new Date().getMonth();
 let calYear = new Date().getFullYear();
 
@@ -469,17 +464,11 @@ function renderTonight() {
   suburbSelect.innerHTML = '<option value="all">All suburbs</option>' +
     suburbs.map(s => `<option value="${esc(s)}" ${s === tonightSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
 
-  // Toggle chip states
-  $('#tonight-free-chip').classList.toggle('active', tonightFreeOnly);
-  $('#tonight-tix-chip').classList.toggle('active', tonightTixOnly);
-
   // Apply filters
   let tonight = allTonight.filter(s => {
     if (tonightGenre !== 'all' && s.genre !== tonightGenre) return false;
     if (tonightVenue !== 'all' && s.venue !== tonightVenue) return false;
     if (tonightSuburb !== 'all' && s.suburb !== tonightSuburb) return false;
-    if (tonightFreeOnly && !s.free_event) return false;
-    if (tonightTixOnly && s.source !== 'todaytix') return false;
     return true;
   });
 
@@ -497,7 +486,6 @@ function setTonightGenre(g) { tonightGenre = g; renderTonight(); }
 function setTonightVenue(v) { tonightVenue = v; renderTonight(); }
 function setTonightSuburb(s) { tonightSuburb = s; renderTonight(); }
 function toggleTonightFree() { tonightFreeOnly = !tonightFreeOnly; renderTonight(); }
-function toggleTonightTix() { tonightTixOnly = !tonightTixOnly; renderTonight(); }
 
 // --- Shows ---
 function renderShows() {
@@ -551,11 +539,10 @@ function showCard(s) {
   const bookLink = s.booking_url ? `<a class="book-link" href="${s.booking_url}" target="_blank" rel="noopener">Book tickets &rarr;</a>` : '';
   const statusBadge = s.status === 'needs_review' ? ' <span style="color:var(--gold);font-size:11px">&#9679; Unconfirmed</span>' : '';
   const closedBadge = s.status === 'closed' ? ' <span style="color:var(--text-dim);font-size:11px">&#9679; Closed</span>' : '';
-  const freeBadge = s.free_event ? '<span class="free-badge">Free</span>' : '';
   const priceLine = s.price_from ? `<div class="price-badge">From $${s.price_from}</div>` : '';
 
   return `<div class="show-card${reviewClass}">
-    <span class="genre-tag ${genreClass}">${capitalize(s.genre || 'tbc')}</span>${freeBadge}
+    <span class="genre-tag ${genreClass}">${capitalize(s.genre || 'tbc')}</span>
     <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
     <div class="venue">${esc(s.venue)}${s.suburb ? ' <span style="color:var(--text-dim);font-size:12px">(' + esc(s.suburb) + ')</span>' : ''}</div>
     <div class="dates">${dateStr}</div>
@@ -711,12 +698,17 @@ function esc(s) { const el = document.createElement('span'); el.textContent = s 
 
 function formatDateRange(start, end) {
   if (!start) return 'Dates TBC';
+  const thisYear = new Date().getFullYear();
   const s = parseLocalDate(start);
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const startStr = `${s.getDate()} ${months[s.getMonth()]}`;
+  const startStr = s.getFullYear() !== thisYear
+    ? `${s.getDate()} ${months[s.getMonth()]} ${s.getFullYear()}`
+    : `${s.getDate()} ${months[s.getMonth()]}`;
   if (!end || end === start) return `<span>${startStr}</span>`;
   const e = parseLocalDate(end);
-  const endStr = `${e.getDate()} ${months[e.getMonth()]}`;
+  const endStr = e.getFullYear() !== thisYear
+    ? `${e.getDate()} ${months[e.getMonth()]} ${e.getFullYear()}`
+    : `${e.getDate()} ${months[e.getMonth()]}`;
   return `<span>${startStr}</span> &ndash; <span>${endStr}</span>`;
 }
 

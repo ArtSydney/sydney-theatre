@@ -15,7 +15,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 84,
-    "fetched_at": "2026-08-23T10:12:15.848886",
+    "fetched_at": "2026-08-23T10:22:41.622806",
     "sessions": []
   },
   {
@@ -34,7 +34,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 94.9,
-    "fetched_at": "2026-08-23T10:12:15.848569",
+    "fetched_at": "2026-08-23T10:22:41.622391",
     "sessions": []
   },
   {
@@ -53,7 +53,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105109",
+    "fetched_at": "2026-08-23T10:22:41.891534",
     "sessions": []
   },
   {
@@ -72,7 +72,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 65,
-    "fetched_at": "2026-08-23T10:12:15.848748",
+    "fetched_at": "2026-08-23T10:22:41.622604",
     "sessions": []
   },
   {
@@ -91,7 +91,7 @@
     "suburb": "Ultimo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105102",
+    "fetched_at": "2026-08-23T10:22:41.891524",
     "sessions": []
   },
   {
@@ -110,7 +110,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105098",
+    "fetched_at": "2026-08-23T10:22:41.891518",
     "sessions": []
   },
   {
@@ -129,7 +129,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:15.848888",
+    "fetched_at": "2026-08-23T10:22:41.622810",
     "sessions": []
   },
   {
@@ -148,7 +148,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": 100,
-    "fetched_at": "2026-08-23T10:12:15.848983",
+    "fetched_at": "2026-08-23T10:22:41.622959",
     "sessions": []
   },
   {
@@ -167,7 +167,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105089",
+    "fetched_at": "2026-08-23T10:22:41.891503",
     "sessions": []
   },
   {
@@ -186,7 +186,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105084",
+    "fetched_at": "2026-08-23T10:22:41.891495",
     "sessions": []
   },
   {
@@ -205,7 +205,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 83,
-    "fetched_at": "2026-08-23T10:12:15.848977",
+    "fetched_at": "2026-08-23T10:22:41.622950",
     "sessions": []
   },
   {
@@ -224,7 +224,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105079",
+    "fetched_at": "2026-08-23T10:22:41.891487",
     "sessions": []
   },
   {
@@ -243,7 +243,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 64,
-    "fetched_at": "2026-08-23T10:12:15.848843",
+    "fetched_at": "2026-08-23T10:22:41.622742",
     "sessions": []
   },
   {
@@ -262,7 +262,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105073",
+    "fetched_at": "2026-08-23T10:22:41.891480",
     "sessions": []
   },
   {
@@ -281,7 +281,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 122,
-    "fetched_at": "2026-08-23T10:12:15.848828",
+    "fetched_at": "2026-08-23T10:22:41.622721",
     "sessions": []
   },
   {
@@ -300,7 +300,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:15.848760",
+    "fetched_at": "2026-08-23T10:22:41.622621",
     "sessions": []
   },
   {
@@ -319,7 +319,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105063",
+    "fetched_at": "2026-08-23T10:22:41.891463",
     "sessions": []
   },
   {
@@ -338,7 +338,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 70,
-    "fetched_at": "2026-08-23T10:12:15.848981",
+    "fetched_at": "2026-08-23T10:22:41.622956",
     "sessions": []
   },
   {
@@ -357,7 +357,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105051",
+    "fetched_at": "2026-08-23T10:22:41.891446",
     "sessions": []
   },
   {
@@ -376,7 +376,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105057",
+    "fetched_at": "2026-08-23T10:22:41.891455",
     "sessions": []
   },
   {
@@ -395,7 +395,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105043",
+    "fetched_at": "2026-08-23T10:22:41.891433",
     "sessions": []
   },
   {
@@ -414,7 +414,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105047",
+    "fetched_at": "2026-08-23T10:22:41.891440",
     "sessions": []
   },
   {
@@ -433,7 +433,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105038",
+    "fetched_at": "2026-08-23T10:22:41.891426",
     "sessions": []
   },
   {
@@ -452,7 +452,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105027",
+    "fetched_at": "2026-08-23T10:22:41.891410",
     "sessions": []
   },
   {
@@ -471,7 +471,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105032",
+    "fetched_at": "2026-08-23T10:22:41.891417",
     "sessions": []
   },
   {
@@ -490,7 +490,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105018",
+    "fetched_at": "2026-08-23T10:22:41.891396",
     "sessions": []
   },
   {
@@ -509,7 +509,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.105013",
+    "fetched_at": "2026-08-23T10:22:41.891387",
     "sessions": []
   },
   {
@@ -528,7 +528,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": 77,
-    "fetched_at": "2026-08-23T10:12:15.848811",
+    "fetched_at": "2026-08-23T10:22:41.622699",
     "sessions": []
   },
   {
@@ -547,7 +547,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104993",
+    "fetched_at": "2026-08-23T10:22:41.891359",
     "sessions": []
   },
   {
@@ -566,7 +566,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": 75,
-    "fetched_at": "2026-08-23T10:12:15.848826",
+    "fetched_at": "2026-08-23T10:22:41.622718",
     "sessions": []
   },
   {
@@ -585,7 +585,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104984",
+    "fetched_at": "2026-08-23T10:22:41.891344",
     "sessions": []
   },
   {
@@ -604,7 +604,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104989",
+    "fetched_at": "2026-08-23T10:22:41.891352",
     "sessions": []
   },
   {
@@ -623,7 +623,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:15.848777",
+    "fetched_at": "2026-08-23T10:22:41.622648",
     "sessions": []
   },
   {
@@ -642,7 +642,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104969",
+    "fetched_at": "2026-08-23T10:22:41.891321",
     "sessions": []
   },
   {
@@ -661,7 +661,7 @@
     "suburb": "Cremorne",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104973",
+    "fetched_at": "2026-08-23T10:22:41.891329",
     "sessions": []
   },
   {
@@ -680,7 +680,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104979",
+    "fetched_at": "2026-08-23T10:22:41.891338",
     "sessions": []
   },
   {
@@ -699,7 +699,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 74.5,
-    "fetched_at": "2026-08-23T10:12:15.848807",
+    "fetched_at": "2026-08-23T10:22:41.622693",
     "sessions": []
   },
   {
@@ -718,7 +718,7 @@
     "suburb": "Potts Point",
     "free_event": false,
     "price_from": 76,
-    "fetched_at": "2026-08-23T10:12:15.848930",
+    "fetched_at": "2026-08-23T10:22:41.622878",
     "sessions": []
   },
   {
@@ -737,7 +737,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104945",
+    "fetched_at": "2026-08-23T10:22:41.891285",
     "sessions": []
   },
   {
@@ -756,7 +756,7 @@
     "suburb": "North Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104955",
+    "fetched_at": "2026-08-23T10:22:41.891300",
     "sessions": []
   },
   {
@@ -775,7 +775,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104963",
+    "fetched_at": "2026-08-23T10:22:41.891312",
     "sessions": []
   },
   {
@@ -794,7 +794,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 35,
-    "fetched_at": "2026-08-23T10:12:15.848543",
+    "fetched_at": "2026-08-23T10:22:41.622360",
     "sessions": []
   },
   {
@@ -813,7 +813,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 30,
-    "fetched_at": "2026-08-23T10:12:15.848904",
+    "fetched_at": "2026-08-23T10:22:41.622835",
     "sessions": []
   },
   {
@@ -832,7 +832,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104941",
+    "fetched_at": "2026-08-23T10:22:41.891278",
     "sessions": []
   },
   {
@@ -851,7 +851,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104931",
+    "fetched_at": "2026-08-23T10:22:41.891264",
     "sessions": []
   },
   {
@@ -870,7 +870,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104936",
+    "fetched_at": "2026-08-23T10:22:41.891272",
     "sessions": []
   },
   {
@@ -889,7 +889,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 63,
-    "fetched_at": "2026-08-23T10:12:15.848881",
+    "fetched_at": "2026-08-23T10:22:41.622800",
     "sessions": []
   },
   {
@@ -908,7 +908,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104916",
+    "fetched_at": "2026-08-23T10:22:41.891240",
     "sessions": []
   },
   {
@@ -927,7 +927,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104911",
+    "fetched_at": "2026-08-23T10:22:41.891233",
     "sessions": []
   },
   {
@@ -946,7 +946,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T10:12:15.848830",
+    "fetched_at": "2026-08-23T10:22:41.622723",
     "sessions": []
   },
   {
@@ -965,7 +965,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104906",
+    "fetched_at": "2026-08-23T10:22:41.891226",
     "sessions": []
   },
   {
@@ -984,7 +984,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104863",
+    "fetched_at": "2026-08-23T10:22:41.891150",
     "sessions": []
   },
   {
@@ -1003,7 +1003,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104871",
+    "fetched_at": "2026-08-23T10:22:41.891163",
     "sessions": []
   },
   {
@@ -1022,7 +1022,7 @@
     "suburb": "Eveleigh",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104876",
+    "fetched_at": "2026-08-23T10:22:41.891180",
     "sessions": []
   },
   {
@@ -1041,7 +1041,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104881",
+    "fetched_at": "2026-08-23T10:22:41.891188",
     "sessions": []
   },
   {
@@ -1060,7 +1060,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104886",
+    "fetched_at": "2026-08-23T10:22:41.891195",
     "sessions": []
   },
   {
@@ -1079,7 +1079,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104891",
+    "fetched_at": "2026-08-23T10:22:41.891203",
     "sessions": []
   },
   {
@@ -1098,7 +1098,7 @@
     "suburb": "Leichhardt",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104896",
+    "fetched_at": "2026-08-23T10:22:41.891210",
     "sessions": []
   },
   {
@@ -1117,7 +1117,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104846",
+    "fetched_at": "2026-08-23T10:22:41.891126",
     "sessions": []
   },
   {
@@ -1136,7 +1136,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104852",
+    "fetched_at": "2026-08-23T10:22:41.891134",
     "sessions": []
   },
   {
@@ -1155,7 +1155,7 @@
     "suburb": "Redfern",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104857",
+    "fetched_at": "2026-08-23T10:22:41.891142",
     "sessions": []
   },
   {
@@ -1174,7 +1174,7 @@
     "suburb": "The Rocks",
     "free_event": false,
     "price_from": 45,
-    "fetched_at": "2026-08-23T10:12:15.848873",
+    "fetched_at": "2026-08-23T10:22:41.622787",
     "sessions": []
   },
   {
@@ -1193,7 +1193,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 39,
-    "fetched_at": "2026-08-23T10:12:15.848926",
+    "fetched_at": "2026-08-23T10:22:41.622870",
     "sessions": []
   },
   {
@@ -1212,7 +1212,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 30,
-    "fetched_at": "2026-08-23T10:12:15.849000",
+    "fetched_at": "2026-08-23T10:22:41.622984",
     "sessions": []
   },
   {
@@ -1231,7 +1231,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104819",
+    "fetched_at": "2026-08-23T10:22:41.891085",
     "sessions": []
   },
   {
@@ -1250,7 +1250,7 @@
     "suburb": "Vaucluse",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104824",
+    "fetched_at": "2026-08-23T10:22:41.891093",
     "sessions": []
   },
   {
@@ -1269,7 +1269,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104830",
+    "fetched_at": "2026-08-23T10:22:41.891101",
     "sessions": []
   },
   {
@@ -1288,7 +1288,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104834",
+    "fetched_at": "2026-08-23T10:22:41.891109",
     "sessions": []
   },
   {
@@ -1307,7 +1307,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104813",
+    "fetched_at": "2026-08-23T10:22:41.891077",
     "sessions": []
   },
   {
@@ -1326,7 +1326,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104808",
+    "fetched_at": "2026-08-23T10:22:41.891070",
     "sessions": []
   },
   {
@@ -1345,7 +1345,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": 60,
-    "fetched_at": "2026-08-23T10:12:15.848845",
+    "fetched_at": "2026-08-23T10:22:41.622745",
     "sessions": []
   },
   {
@@ -1364,7 +1364,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104789",
+    "fetched_at": "2026-08-23T10:22:41.891040",
     "sessions": []
   },
   {
@@ -1383,7 +1383,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104794",
+    "fetched_at": "2026-08-23T10:22:41.891048",
     "sessions": []
   },
   {
@@ -1402,7 +1402,7 @@
     "suburb": "Chatswood",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104802",
+    "fetched_at": "2026-08-23T10:22:41.891061",
     "sessions": []
   },
   {
@@ -1421,7 +1421,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 105,
-    "fetched_at": "2026-08-23T10:12:15.848848",
+    "fetched_at": "2026-08-23T10:22:41.622750",
     "sessions": []
   },
   {
@@ -1440,7 +1440,7 @@
     "suburb": "Lane Cove",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104764",
+    "fetched_at": "2026-08-23T10:22:41.891002",
     "sessions": []
   },
   {
@@ -1459,7 +1459,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104768",
+    "fetched_at": "2026-08-23T10:22:41.891009",
     "sessions": []
   },
   {
@@ -1478,7 +1478,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104773",
+    "fetched_at": "2026-08-23T10:22:41.891017",
     "sessions": []
   },
   {
@@ -1497,7 +1497,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104735",
+    "fetched_at": "2026-08-23T10:22:41.890960",
     "sessions": []
   },
   {
@@ -1516,7 +1516,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104744",
+    "fetched_at": "2026-08-23T10:22:41.890974",
     "sessions": []
   },
   {
@@ -1535,7 +1535,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104748",
+    "fetched_at": "2026-08-23T10:22:41.890981",
     "sessions": []
   },
   {
@@ -1554,7 +1554,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104754",
+    "fetched_at": "2026-08-23T10:22:41.890989",
     "sessions": []
   },
   {
@@ -1573,7 +1573,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104760",
+    "fetched_at": "2026-08-23T10:22:41.890996",
     "sessions": []
   },
   {
@@ -1592,7 +1592,7 @@
     "suburb": "Sydney",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104713",
+    "fetched_at": "2026-08-23T10:22:41.890926",
     "sessions": []
   },
   {
@@ -1611,7 +1611,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104705",
+    "fetched_at": "2026-08-23T10:22:41.890913",
     "sessions": []
   },
   {
@@ -1630,7 +1630,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104692",
+    "fetched_at": "2026-08-23T10:22:41.890895",
     "sessions": []
   },
   {
@@ -1649,7 +1649,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104697",
+    "fetched_at": "2026-08-23T10:22:41.890903",
     "sessions": []
   },
   {
@@ -1668,7 +1668,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104688",
+    "fetched_at": "2026-08-23T10:22:41.890888",
     "sessions": []
   },
   {
@@ -1687,7 +1687,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104673",
+    "fetched_at": "2026-08-23T10:22:41.890867",
     "sessions": []
   },
   {
@@ -1706,7 +1706,7 @@
     "suburb": "Chippendale",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104678",
+    "fetched_at": "2026-08-23T10:22:41.890874",
     "sessions": []
   },
   {
@@ -1725,7 +1725,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 22,
-    "fetched_at": "2026-08-23T10:12:15.848814",
+    "fetched_at": "2026-08-23T10:22:41.622704",
     "sessions": []
   },
   {
@@ -1744,7 +1744,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104622",
+    "fetched_at": "2026-08-23T10:22:41.890788",
     "sessions": []
   },
   {
@@ -1763,7 +1763,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104632",
+    "fetched_at": "2026-08-23T10:22:41.890803",
     "sessions": []
   },
   {
@@ -1782,7 +1782,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104568",
+    "fetched_at": "2026-08-23T10:22:41.890705",
     "sessions": []
   },
   {
@@ -1801,7 +1801,7 @@
     "suburb": "Rozelle",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104574",
+    "fetched_at": "2026-08-23T10:22:41.890713",
     "sessions": []
   },
   {
@@ -1820,7 +1820,7 @@
     "suburb": "Bondi Beach",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104612",
+    "fetched_at": "2026-08-23T10:22:41.890773",
     "sessions": []
   },
   {
@@ -1839,7 +1839,7 @@
     "suburb": "Dawes Point",
     "free_event": false,
     "price_from": 77,
-    "fetched_at": "2026-08-23T10:12:15.848560",
+    "fetched_at": "2026-08-23T10:22:41.622379",
     "sessions": []
   },
   {
@@ -1858,7 +1858,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104490",
+    "fetched_at": "2026-08-23T10:22:41.890586",
     "sessions": []
   },
   {
@@ -1877,7 +1877,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104496",
+    "fetched_at": "2026-08-23T10:22:41.890593",
     "sessions": []
   },
   {
@@ -1896,7 +1896,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104508",
+    "fetched_at": "2026-08-23T10:22:41.890613",
     "sessions": []
   },
   {
@@ -1915,7 +1915,7 @@
     "suburb": "Dawes Point",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104534",
+    "fetched_at": "2026-08-23T10:22:41.890653",
     "sessions": []
   },
   {
@@ -1934,7 +1934,7 @@
     "suburb": "The Rocks",
     "free_event": false,
     "price_from": 46,
-    "fetched_at": "2026-08-23T10:12:15.848949",
+    "fetched_at": "2026-08-23T10:22:41.622907",
     "sessions": []
   },
   {
@@ -1953,7 +1953,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104458",
+    "fetched_at": "2026-08-23T10:22:41.890535",
     "sessions": []
   },
   {
@@ -1972,7 +1972,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104474",
+    "fetched_at": "2026-08-23T10:22:41.890560",
     "sessions": []
   },
   {
@@ -1991,7 +1991,7 @@
     "suburb": "Lane Cove",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104485",
+    "fetched_at": "2026-08-23T10:22:41.890578",
     "sessions": []
   },
   {
@@ -2010,7 +2010,7 @@
     "suburb": "Walsh Bay",
     "free_event": false,
     "price_from": 94.9,
-    "fetched_at": "2026-08-23T10:12:15.848809",
+    "fetched_at": "2026-08-23T10:22:41.622696",
     "sessions": []
   },
   {
@@ -2029,7 +2029,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104440",
+    "fetched_at": "2026-08-23T10:22:41.890505",
     "sessions": []
   },
   {
@@ -2048,7 +2048,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104417",
+    "fetched_at": "2026-08-23T10:22:41.890467",
     "sessions": []
   },
   {
@@ -2067,7 +2067,7 @@
     "suburb": "Bondi Beach",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104309",
+    "fetched_at": "2026-08-23T10:22:41.890296",
     "sessions": []
   },
   {
@@ -2086,7 +2086,7 @@
     "suburb": "Coogee",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104355",
+    "fetched_at": "2026-08-23T10:22:41.890367",
     "sessions": []
   },
   {
@@ -2105,7 +2105,7 @@
     "suburb": "Pyrmont",
     "free_event": false,
     "price_from": 80,
-    "fetched_at": "2026-08-23T10:12:15.848566",
+    "fetched_at": "2026-08-23T10:22:41.622386",
     "sessions": []
   },
   {
@@ -2124,7 +2124,7 @@
     "suburb": "Potts Point",
     "free_event": false,
     "price_from": 94,
-    "fetched_at": "2026-08-23T10:12:15.848817",
+    "fetched_at": "2026-08-23T10:22:41.622707",
     "sessions": []
   },
   {
@@ -2143,7 +2143,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 54,
-    "fetched_at": "2026-08-23T10:12:15.848932",
+    "fetched_at": "2026-08-23T10:22:41.622881",
     "sessions": []
   },
   {
@@ -2162,7 +2162,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104140",
+    "fetched_at": "2026-08-23T10:22:41.890028",
     "sessions": []
   },
   {
@@ -2181,7 +2181,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104145",
+    "fetched_at": "2026-08-23T10:22:41.890037",
     "sessions": []
   },
   {
@@ -2200,7 +2200,7 @@
     "suburb": "Redfern",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104164",
+    "fetched_at": "2026-08-23T10:22:41.890067",
     "sessions": []
   },
   {
@@ -2219,7 +2219,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104173",
+    "fetched_at": "2026-08-23T10:22:41.890081",
     "sessions": []
   },
   {
@@ -2238,7 +2238,7 @@
     "suburb": "Bondi Beach",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104207",
+    "fetched_at": "2026-08-23T10:22:41.890122",
     "sessions": []
   },
   {
@@ -2257,7 +2257,7 @@
     "suburb": "Five Dock",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104219",
+    "fetched_at": "2026-08-23T10:22:41.890141",
     "sessions": []
   },
   {
@@ -2276,7 +2276,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104119",
+    "fetched_at": "2026-08-23T10:22:41.889993",
     "sessions": []
   },
   {
@@ -2295,7 +2295,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": 22,
-    "fetched_at": "2026-08-23T10:12:15.848784",
+    "fetched_at": "2026-08-23T10:22:41.622659",
     "sessions": []
   },
   {
@@ -2314,7 +2314,7 @@
     "suburb": "Sydney",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104020",
+    "fetched_at": "2026-08-23T10:22:41.889838",
     "sessions": []
   },
   {
@@ -2333,7 +2333,7 @@
     "suburb": "Surry Hills",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104040",
+    "fetched_at": "2026-08-23T10:22:41.889870",
     "sessions": []
   },
   {
@@ -2352,7 +2352,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103871",
+    "fetched_at": "2026-08-23T10:22:41.889594",
     "sessions": []
   },
   {
@@ -2371,7 +2371,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103881",
+    "fetched_at": "2026-08-23T10:22:41.889610",
     "sessions": []
   },
   {
@@ -2390,7 +2390,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103892",
+    "fetched_at": "2026-08-23T10:22:41.889629",
     "sessions": []
   },
   {
@@ -2409,7 +2409,7 @@
     "suburb": "Cremorne",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103535",
+    "fetched_at": "2026-08-23T10:22:41.889069",
     "sessions": []
   },
   {
@@ -2428,7 +2428,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 63,
-    "fetched_at": "2026-08-23T10:12:15.848721",
+    "fetched_at": "2026-08-23T10:22:41.622564",
     "sessions": []
   },
   {
@@ -2447,7 +2447,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T10:12:15.848957",
+    "fetched_at": "2026-08-23T10:22:41.622920",
     "sessions": []
   },
   {
@@ -2466,7 +2466,7 @@
     "suburb": "Woolloomooloo",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103720",
+    "fetched_at": "2026-08-23T10:22:41.889360",
     "sessions": []
   },
   {
@@ -2485,7 +2485,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103698",
+    "fetched_at": "2026-08-23T10:22:41.889328",
     "sessions": []
   },
   {
@@ -2504,7 +2504,7 @@
     "suburb": "Newtown",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103815",
+    "fetched_at": "2026-08-23T10:22:41.889509",
     "sessions": []
   },
   {
@@ -2523,7 +2523,7 @@
     "suburb": "Alexandria",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104335",
+    "fetched_at": "2026-08-23T10:22:41.890337",
     "sessions": []
   },
   {
@@ -2542,7 +2542,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103552",
+    "fetched_at": "2026-08-23T10:22:41.889094",
     "sessions": []
   },
   {
@@ -2561,7 +2561,7 @@
     "suburb": "Darlinghurst",
     "free_event": false,
     "price_from": 30,
-    "fetched_at": "2026-08-23T10:12:15.848820",
+    "fetched_at": "2026-08-23T10:22:41.622710",
     "sessions": []
   },
   {
@@ -2580,7 +2580,7 @@
     "suburb": "Alexandria",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103876",
+    "fetched_at": "2026-08-23T10:22:41.889603",
     "sessions": []
   },
   {
@@ -2599,7 +2599,7 @@
     "suburb": "Potts Point",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103580",
+    "fetched_at": "2026-08-23T10:22:41.889137",
     "sessions": []
   },
   {
@@ -2618,26 +2618,7 @@
     "suburb": "Lewisham",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103547",
-    "sessions": []
-  },
-  {
-    "id": "08467b1388c1",
-    "title": "Festival of the Spoken Word",
-    "venue": "Sydney",
-    "venue_id": "sydney-opera-house",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-08-02",
-    "end_date": "2026-08-30",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/festival-of-the-spoken-word",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/festival-of-the-spoken-word",
-    "snippet": "A celebration of Jewish culture and the stories that shape us",
-    "suburb": "Sydney",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103714",
+    "fetched_at": "2026-08-23T10:22:41.889084",
     "sessions": []
   },
   {
@@ -2656,7 +2637,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T10:12:15.848571",
+    "fetched_at": "2026-08-23T10:22:41.622395",
     "sessions": []
   },
   {
@@ -2675,7 +2656,7 @@
     "suburb": "Kirribilli",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103560",
+    "fetched_at": "2026-08-23T10:22:41.889107",
     "sessions": []
   },
   {
@@ -2694,7 +2675,7 @@
     "suburb": "Bellevue Hill",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104112",
+    "fetched_at": "2026-08-23T10:22:41.889983",
     "sessions": []
   },
   {
@@ -2713,7 +2694,7 @@
     "suburb": "Potts Point",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103862",
+    "fetched_at": "2026-08-23T10:22:41.889580",
     "sessions": []
   },
   {
@@ -2732,7 +2713,7 @@
     "suburb": "Redfern",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103767",
+    "fetched_at": "2026-08-23T10:22:41.889434",
     "sessions": []
   },
   {
@@ -2751,7 +2732,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 74,
-    "fetched_at": "2026-08-23T10:12:15.848780",
+    "fetched_at": "2026-08-23T10:22:41.622652",
     "sessions": []
   },
   {
@@ -2770,7 +2751,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104559",
+    "fetched_at": "2026-08-23T10:22:41.890692",
     "sessions": []
   },
   {
@@ -2789,7 +2770,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103626",
+    "fetched_at": "2026-08-23T10:22:41.889215",
     "sessions": []
   },
   {
@@ -2808,7 +2789,7 @@
     "suburb": "Cremorne",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104683",
+    "fetched_at": "2026-08-23T10:22:41.890881",
     "sessions": []
   },
   {
@@ -2827,7 +2808,7 @@
     "suburb": "Marrickville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104068",
+    "fetched_at": "2026-08-23T10:22:41.889913",
     "sessions": []
   },
   {
@@ -2846,7 +2827,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104329",
+    "fetched_at": "2026-08-23T10:22:41.890328",
     "sessions": []
   },
   {
@@ -2865,7 +2846,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104238",
+    "fetched_at": "2026-08-23T10:22:41.890180",
     "sessions": []
   },
   {
@@ -2884,7 +2865,7 @@
     "suburb": "Moore Park",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104100",
+    "fetched_at": "2026-08-23T10:22:41.889965",
     "sessions": []
   },
   {
@@ -2903,7 +2884,7 @@
     "suburb": "Newtown",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104075",
+    "fetched_at": "2026-08-23T10:22:41.889925",
     "sessions": []
   },
   {
@@ -2922,7 +2903,7 @@
     "suburb": "Erskineville",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103774",
+    "fetched_at": "2026-08-23T10:22:41.889444",
     "sessions": []
   },
   {
@@ -2941,7 +2922,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104213",
+    "fetched_at": "2026-08-23T10:22:41.890132",
     "sessions": []
   },
   {
@@ -2960,7 +2941,7 @@
     "suburb": "Enmore",
     "free_event": true,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104081",
+    "fetched_at": "2026-08-23T10:22:41.889933",
     "sessions": []
   },
   {
@@ -2979,7 +2960,7 @@
     "suburb": "Alexandria",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104257",
+    "fetched_at": "2026-08-23T10:22:41.890210",
     "sessions": []
   },
   {
@@ -2998,7 +2979,7 @@
     "suburb": "Sydney",
     "free_event": false,
     "price_from": 59.95,
-    "fetched_at": "2026-08-23T10:12:15.848852",
+    "fetched_at": "2026-08-23T10:22:41.622754",
     "sessions": []
   },
   {
@@ -3017,7 +2998,7 @@
     "suburb": "Surry Hills",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.103614",
+    "fetched_at": "2026-08-23T10:22:41.889197",
     "sessions": []
   },
   {
@@ -3036,7 +3017,7 @@
     "suburb": "Haymarket",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:15.848753",
+    "fetched_at": "2026-08-23T10:22:41.622612",
     "sessions": []
   },
   {
@@ -3055,7 +3036,7 @@
     "suburb": "Redfern",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104252",
+    "fetched_at": "2026-08-23T10:22:41.890203",
     "sessions": []
   },
   {
@@ -3074,7 +3055,7 @@
     "suburb": "Glebe",
     "free_event": false,
     "price_from": null,
-    "fetched_at": "2026-08-23T10:12:16.104594",
+    "fetched_at": "2026-08-23T10:22:41.890745",
     "sessions": []
   },
   {
@@ -3093,7 +3074,7 @@
     "suburb": "",
     "free_event": false,
     "price_from": 70,
-    "fetched_at": "2026-08-23T10:12:15.848804",
+    "fetched_at": "2026-08-23T10:22:41.622689",
     "sessions": []
   }
 ]

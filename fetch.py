@@ -419,6 +419,9 @@ def parse_cos_event(hit):
         "bingay", "dancesport",
         "sing-a-long monthly film",
         "special event:", "open day",
+        "spoken word", "asphalt words",
+        "adult improv", "sunday sessions",
+        "festival of dangerous ideas",
     ]
     if any(kw in name_lower for kw in skip_keywords):
         return None

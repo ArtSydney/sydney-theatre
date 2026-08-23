@@ -380,43 +380,43 @@ def parse_cos_event(hit):
     # Derive genre from tags
     genre = _genre_from_tags(tags, name)
 
-    # Skip items that are clearly not shows
-    name_lower = name.lower()
-    skip_keywords = [
-        # Classes and workshops
-        "acting class", "vocal training", "crash course",
-        "screenwriting fundamentals", "ballet class",
-        "dance class", "workshop", "classes for beginners",
-        "improv class", "comedy class", "salsa class",
-        "bachata class", "heels class", "tango class",
-        "jazz class", "drawing with a drag queen",
-        "stand-up comedy experience",
-        # Film screenings
-        "marathon", "screening", "sing-a-long monthly film",
-        # Dance competitions (not productions)
-        "dancesport", "swing showcase", "swing beginner",
-        # Non-theatre events
-        "ignite talks", "bingay",
-        "book club:", "games night", "trivia",
-        "memorial lecture", "dangerous ideas",
-        "haunted pubs", "cellar tour", "walking tour",
-        "dancing group", "sunday sounds",
-        "singles 40+", "anniversary @",
-        "special event:", "open day",
-        "exhibition", "hockney",
-        "spoken word",
-        "adult improv", "sunday sessions",
-        "asphalt words",
-    ]
-    if any(kw in name_lower for kw in skip_keywords):
+    # --- Tag-based filtering (robust, doesn't need per-title hardcoding) ---
+    tag_set = set(t.lower() for t in tags)
+
+    # Tags that indicate a real show
+    theatre_tags = {
+        "theatre", "performance", "musical", "opera",
+        "comedy", "cabaret", "acting", "dance",
+    }
+    # Tags that indicate NOT a show (class, talk, film, tour, etc.)
+    junk_tags = {
+        "workshop", "course", "master-class", "lesson",
+        "talk", "networking", "business",
+        "tour", "walks", "history",
+        "cinema", "film",
+        "after-school", "education",
+        "exhibition", "market", "sport",
+    }
+
+    has_theatre_tag = bool(tag_set & theatre_tags)
+    has_junk_tag = bool(tag_set & junk_tags)
+
+    # Skip if junk tags present AND no theatre tags to override
+    # (e.g. "workshop" + "theatre" = keep, "workshop" alone = skip)
+    if has_junk_tag and not has_theatre_tag:
         return None
 
-    # Skip recurring standup bar nights (not theatre productions)
-    standup_bar_patterns = [
+    # Title-based skip for items that slip through tag filtering
+    name_lower = name.lower()
+    skip_keywords = [
         "stand-up comedy show | monthly",
         "comedy show | monthly",
+        "stand-up comedy experience",
+        "bingay", "dancesport",
+        "sing-a-long monthly film",
+        "special event:", "open day",
     ]
-    if any(kw in name_lower for kw in standup_bar_patterns):
+    if any(kw in name_lower for kw in skip_keywords):
         return None
 
     status = "active" if start_date else "needs_review"

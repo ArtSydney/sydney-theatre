@@ -25,9 +25,11 @@ GENRE_RULES = [
         "dance episode", "copland dance",
     ]),
     ("cabaret", [
-        "cabaret", "burlesque", "variety show", "spiegeltent",
+        "cabaret", "kabarett", "burlesque", "variety show", "spiegeltent",
         "late night", "one-woman show", "one-man show",
         "solo show", "comedy cabaret",
+        "circus", "all star circus", "club kabarett",
+        "velvet inferno", "bernie dieter",
     ]),
     ("comedy", [
         "comedy", "stand-up", "standup", "stand up",
@@ -45,6 +47,9 @@ GENRE_RULES = [
         "adaptation", "monologue",
         "sydney theatre company", "belvoir", "griffin",
         "bell shakespeare", "ensemble theatre",
+        "la ronde", "dangerous when wet",
+        "pact centre", "old fitz", "kxt",
+        "hayes theatre", "darlinghurst theatre",
     ]),
 ]
 

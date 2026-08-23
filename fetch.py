@@ -100,6 +100,25 @@ def parse_todaytix_event(event):
     if isinstance(location, dict):
         venue_name = html.unescape(location.get("name", "")).strip()
 
+    # Skip orchestral concerts at Concert Hall (not theatre)
+    name_lower = name.lower()
+    venue_lower = venue_name.lower()
+    if "concert hall" in venue_lower:
+        concert_keywords = [
+            "conducts", "in concert", "concerto", "symphony",
+            "requiem", "beethoven", "mozart", "tchaikovsky",
+            "dvořák", "dvorak", "mendelssohn", "bach",
+            "carnival of the animals", "discover beethoven",
+            "listen to this", "cat empire",
+        ]
+        if any(kw in name_lower for kw in concert_keywords):
+            return None
+
+    # Skip motivational speakers, live podcasts etc
+    todaytix_skip = ["live:", "shetty", "podcast"]
+    if any(kw in name_lower for kw in todaytix_skip):
+        return None
+
     start_date = event.get("startDate", "")
     end_date = event.get("endDate", "")
 
@@ -378,6 +397,13 @@ def parse_cos_event(hit):
         "dancesport", "swing showcase", "swing beginner",
         # Non-theatre events
         "ignite talks", "bingay",
+        "book club:", "games night", "trivia",
+        "memorial lecture", "dangerous ideas",
+        "haunted pubs", "cellar tour", "walking tour",
+        "dancing group", "sunday sounds",
+        "singles 40+", "anniversary @",
+        "special event:", "open day",
+        "exhibition", "hockney",
     ]
     if any(kw in name_lower for kw in skip_keywords):
         return None

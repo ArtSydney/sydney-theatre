@@ -3068,13 +3068,13 @@
       "status": "active",
       "start_date": "2026-11-27",
       "end_date": "2027-01-10",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/midnight-murder-on-the-christmas-cruise-of-death",
+      "booking_url": "https://www.todaytix.com/sydney/shows/45122-midnight-murder-on-the-christmas-cruise-of-death-at-ensemble-theatre",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/midnight-murder-on-the-christmas-cruise-of-death",
       "snippet": "A hilarious new comedy",
       "suburb": "Kirribilli",
       "free_event": false,
-      "price_from": null,
+      "price_from": 100,
       "fetched_at": "2026-08-23T10:46:55.296003",
       "sessions": []
     },
@@ -3133,6 +3133,25 @@
       "free_event": false,
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.296028",
+      "sessions": []
+    },
+    "3684ae1dffab": {
+      "id": "3684ae1dffab",
+      "title": "Barnaby: A Country Musical",
+      "venue": "Pottery Lane Performance Space - Sydney Fringe Festival",
+      "venue_id": "",
+      "genre": "musical",
+      "status": "active",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "booking_url": "https://www.todaytix.com/sydney/shows/47544-barnaby-a-country-musical",
+      "source": "todaytix",
+      "source_url": "https://www.todaytix.com/sydney/shows/47544-barnaby-a-country-musical",
+      "snippet": "",
+      "suburb": "",
+      "free_event": false,
+      "price_from": 44,
+      "fetched_at": "2026-08-23T20:25:24.230701",
       "sessions": []
     }
   },
@@ -3301,6 +3320,7 @@
     "e532e27a9e3c": "e532e27a9e3c",
     "724c6bb50d10": "724c6bb50d10",
     "da05c7b9ff14": "da05c7b9ff14",
-    "f5771766a154": "f5771766a154"
+    "f5771766a154": "f5771766a154",
+    "3684ae1dffab": "3684ae1dffab"
   }
 }

@@ -1862,6 +1862,25 @@
     "sessions": []
   },
   {
+    "id": "9f8da84a9c39",
+    "title": "The Fool (or, Francesca Giselle)",
+    "venue": "Made in Hub at PACT Centre for Emerging Artists",
+    "venue_id": "",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-09-16",
+    "end_date": "2026-09-19",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47443-the-fool-or-francesca-giselle",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/47443-the-fool-or-francesca-giselle",
+    "snippet": "",
+    "suburb": "",
+    "free_event": false,
+    "price_from": 32.75,
+    "fetched_at": "2026-08-28T22:00:14.238287",
+    "sessions": []
+  },
+  {
     "id": "1d6897ba143b",
     "title": "Chameleon Cabaret",
     "venue": "Marrickville Town Hall",

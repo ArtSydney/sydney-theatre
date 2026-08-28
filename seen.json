@@ -3818,6 +3818,25 @@
       "price_from": null,
       "fetched_at": "2026-08-28T08:51:22.180866",
       "sessions": []
+    },
+    "9f8da84a9c39": {
+      "id": "9f8da84a9c39",
+      "title": "The Fool (or, Francesca Giselle)",
+      "venue": "Made in Hub at PACT Centre for Emerging Artists",
+      "venue_id": "",
+      "genre": "dance",
+      "status": "active",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-19",
+      "booking_url": "https://www.todaytix.com/sydney/shows/47443-the-fool-or-francesca-giselle",
+      "source": "todaytix",
+      "source_url": "https://www.todaytix.com/sydney/shows/47443-the-fool-or-francesca-giselle",
+      "snippet": "",
+      "suburb": "",
+      "free_event": false,
+      "price_from": 32.75,
+      "fetched_at": "2026-08-28T22:00:14.238287",
+      "sessions": []
     }
   },
   "__dedup_index__": {
@@ -4021,6 +4040,7 @@
     "83fb08143b73": "83fb08143b73",
     "c65179d76813": "c65179d76813",
     "f887b6d3a03d": "f887b6d3a03d",
-    "1de9b56dd7ad": "1de9b56dd7ad"
+    "1de9b56dd7ad": "1de9b56dd7ad",
+    "9f8da84a9c39": "9f8da84a9c39"
   }
 }

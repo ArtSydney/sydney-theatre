@@ -224,7 +224,7 @@
     "instagram": "riversidetheatres",
     "booking_platform": "venue-direct",
     "capacity_tier": "mid",
-    "lat": -33.8130,
+    "lat": -33.813,
     "lng": 151.0035
   },
   {
@@ -285,7 +285,7 @@
     "booking_platform": "venue-direct",
     "capacity_tier": "mid",
     "lat": -33.7969,
-    "lng": 151.1830
+    "lng": 151.183
   },
   {
     "id": "glen-street-theatre",
@@ -298,5 +298,45 @@
     "capacity_tier": "mid",
     "lat": -33.7365,
     "lng": 151.2104
+  },
+  {
+    "booking_platform": "",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "name": "New Theatre",
+    "address": "542 King Street, Newtown",
+    "suburb": "Newtown",
+    "website": "https://tickets.sydneyfringe.com/Venues/New-Theatre-Touring-Hub",
+    "id": "new-theatre"
+  },
+  {
+    "booking_platform": "",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "name": "Sydney Lyric Theatre",
+    "website": "https://www.sydneylyric.com.au/",
+    "id": "sydney-lyric-theatre"
+  },
+  {
+    "booking_platform": "",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "name": "The Pavilion Performing Arts Centre",
+    "suburb": "Sutherland",
+    "website": "https://thepavilionarts.au/",
+    "id": "the-pavilion-performing-arts-centre"
+  },
+  {
+    "booking_platform": "",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "name": "Coliseum Theatre",
+    "suburb": "Sydney",
+    "website": "https://coliseumtheatre.com.au/",
+    "id": "coliseum-theatre"
   }
 ]

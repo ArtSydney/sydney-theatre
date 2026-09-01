@@ -317,7 +317,8 @@
     "lng": null,
     "name": "Sydney Lyric Theatre",
     "website": "https://www.sydneylyric.com.au/",
-    "id": "sydney-lyric-theatre"
+    "id": "sydney-lyric-theatre",
+    "capacity_tier": "large"
   },
   {
     "booking_platform": "",
@@ -327,7 +328,8 @@
     "name": "The Pavilion Performing Arts Centre",
     "suburb": "Sutherland",
     "website": "https://thepavilionarts.au/",
-    "id": "the-pavilion-performing-arts-centre"
+    "id": "the-pavilion-performing-arts-centre",
+    "capacity_tier": "mid"
   },
   {
     "booking_platform": "",

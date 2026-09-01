@@ -1,36 +1,28 @@
-# theatre review -- 2026-08-28 06:37 UTC
+# theatre review -- 2026-09-01 21:37 UTC
 
-`theatres.json` -- **16 proposed changes**
+`theatres.json` -- **17 proposed changes**
 
 ## Summary
 
 | Change | Confidence | Count |
 |---|---|---|
-| add_record | medium | 4 |
-| flag_record | high | 6 |
+| flag_record | high | 9 |
 | flag_record | medium | 3 |
 | merge | high | 3 |
+| set_field | high | 2 |
 
-## New records (4)
+## Field updates (2)
 
-### medium confidence (4)
+### high confidence (2)
 
-- **add new-theatre (New Theatre)**
-  - Specific named theatre venue in Greater Sydney (Newtown) that stages live theatre as part of the Sydney Fringe Festival.
-  - source: https://tickets.sydneyfringe.com/Venues/New-Theatre-Touring-Hub
-  - evidence: _New Theatre - Touring Hub | Sydney Fringe Festival... Located at 542 King Street, Newtown_
-- **add sydney-lyric-theatre (Sydney Lyric Theatre)**
-  - Specific named theatre venue in Sydney that stages musicals, theatre, and opera for a paying public.
+- **sydney-lyric-theatre.capacity_tier: (empty) -> 'large'**
+  - extracted from theatre venue website
   - source: https://www.sydneylyric.com.au/
-  - evidence: _Sydney Lyric is the place to experience musicals, theatre, concerts, opera and ballet._
-- **add the-pavilion-performing-arts-centre (The Pavilion Performing Arts Centre)**
-  - Specific named performing arts centre in Greater Sydney (Sutherland Shire) that stages live performances.
+  - evidence: _four seating configurations: 1350, 1500, 1750 and 2000 seats_
+- **the-pavilion-performing-arts-centre.capacity_tier: (empty) -> 'mid'**
+  - extracted from theatre venue website
   - source: https://thepavilionarts.au/
-  - evidence: _The Pavilion Performing Arts Centre Sutherland is a state-of-the-art, multi-purpose venue based in the heart of the Sutherland Shire._
-- **add coliseum-theatre (Coliseum Theatre)**
-  - Specific named theatre venue in Sydney that stages live shows and events for a paying public.
-  - source: https://coliseumtheatre.com.au/
-  - evidence: _Experience world-class entertainment at Coliseum Theatre in Sydney. Explore upcoming shows, secure your seats_
+  - evidence: _seating for up to 686 patrons_
 
 ## Possible duplicates (3)
 
@@ -43,10 +35,13 @@
 - **merge sydney-opera-house into playhouse**
   - Sub-venue listed under parent venue
 
-## Flagged for review (9)
+## Flagged for review (12)
 
-### high confidence (6)
+### high confidence (9)
 
+- **flag sydney-lyric-theatre: missing required field(s): address, suburb**
+- **flag the-pavilion-performing-arts-centre: missing required field(s): address**
+- **flag coliseum-theatre: missing required field(s): address**
 - **flag foundry-theatre: website is dead (unreachable): https://www.foundrytheatresydney.com.au**
   - source: https://www.foundrytheatresydney.com.au
 - **flag kxt: website is dead (unreachable): https://www.kfringe.com**
@@ -55,27 +50,27 @@
   - source: https://www.oldfitztheatre.com
 - **flag darlinghurst-theatre: website is dead (HTTP 404): https://www.darlinghursttheatre.com**
   - source: https://www.darlinghursttheatre.com
+- **flag new-theatre: website is dead (HTTP 404): https://tickets.sydneyfringe.com/Venues/New-Theatre-Touring-Hub**
+  - source: https://tickets.sydneyfringe.com/Venues/New-Theatre-Touring-Hub
 - **flag eternity-playhouse: website is dead (HTTP 404): https://www.darlinghursttheatre.com**
   - source: https://www.darlinghursttheatre.com
-- **flag theatre-royal: website is dead (unreachable): https://www.theatreroyal.com.au**
-  - source: https://www.theatreroyal.com.au
 
 ### medium confidence (3)
 
 - **flag atyp: website redirects to https://www.atyp.com.au/**
   - source: https://atyp.com.au
-- **flag riverside-theatres: website redirects to https://riversideparramatta.com.au/**
-  - source: https://www.riversideparramatta.com.au
 - **flag genesian-theatre: website redirects to https://genesiantheatre.com.au/**
   - source: https://www.genesiantheatre.com.au
+- **flag riverside-theatres: website redirects to https://riversideparramatta.com.au/**
+  - source: https://www.riversideparramatta.com.au
 
 ## Notes
 
-- link check: 25 checked, 6 dead (0 blocked by robots.txt)
-- review scanned 25 records
-- geocode: nothing to resolve
-- enrich: every record already has these fields
+- link check: 29 checked, 6 dead (0 blocked by robots.txt)
+- review scanned 29 records
+- geocode: 0/1 resolved (0 rejected as outside Sydney, 0 errors)
+- enrich: 4 records visited, 2 field values proposed, 1 sites unreachable
 - dedup: 5 pairs adjudicated, 3 duplicates proposed
-- research: 38 search results, 6 already in the dataset
-- research: 4 new theatre venue records proposed
-- fetcher: fetched=0, cached=0, blocked=0, failed=0
+- research: 38 search results, 10 already in the dataset
+- research: 0 new theatre venue records proposed
+- fetcher: fetched=10, cached=0, blocked=0, failed=0

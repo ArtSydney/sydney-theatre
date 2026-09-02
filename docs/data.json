@@ -1539,6 +1539,25 @@
     "sessions": []
   },
   {
+    "id": "9b2f4ed63eac",
+    "title": "Gia Ophelia",
+    "venue": "Pottery Lane Performance Space - Sydney Fringe Festival",
+    "venue_id": "",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-09-25",
+    "end_date": "2026-09-27",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47567-gia-ophelia",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/47567-gia-ophelia",
+    "snippet": "",
+    "suburb": "",
+    "free_event": false,
+    "price_from": 44,
+    "fetched_at": "2026-09-02T20:12:41.379879",
+    "sessions": []
+  },
+  {
     "id": "3684ae1dffab",
     "title": "Barnaby: A Country Musical",
     "venue": "Pottery Lane Performance Space - Sydney Fringe Festival",
@@ -1745,6 +1764,25 @@
     "free_event": false,
     "price_from": null,
     "fetched_at": "2026-08-23T10:46:55.295563",
+    "sessions": []
+  },
+  {
+    "id": "b925afc19ff4",
+    "title": "Bryce Dessner’s Trembling Earth",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-20",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45731-bryce-dessners-trembling-earth-sso-2026",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/45731-bryce-dessners-trembling-earth-sso-2026",
+    "snippet": "",
+    "suburb": "Sydney",
+    "free_event": false,
+    "price_from": 55,
+    "fetched_at": "2026-09-02T20:12:41.379899",
     "sessions": []
   },
   {

@@ -684,6 +684,25 @@
     "sessions": []
   },
   {
+    "id": "0574d34f265f",
+    "title": "Strong Is The New Pretty",
+    "venue": "Drama Theatre | Sydney Opera House",
+    "venue_id": "drama-theatre",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-22",
+    "end_date": "2026-12-05",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47420-strong-is-the-new-pretty-sydney",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/47420-strong-is-the-new-pretty-sydney",
+    "snippet": "",
+    "suburb": "Sydney",
+    "free_event": false,
+    "price_from": 73,
+    "fetched_at": "2026-09-03T20:11:54.735277",
+    "sessions": []
+  },
+  {
     "id": "31a051f8a3b0",
     "title": "Cirque Du Soleil KOOZA",
     "venue": "Under the Big Top | The Entertainment Quarter",
@@ -3151,6 +3170,25 @@
     "free_event": false,
     "price_from": null,
     "fetched_at": "2026-08-23T10:46:55.293946",
+    "sessions": []
+  },
+  {
+    "id": "2a6f14eaa693",
+    "title": "Smashed - The Brunch Party",
+    "venue": "The Grand Electric",
+    "venue_id": "",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-08-01",
+    "end_date": "",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47512-smashed-the-brunch-party",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/47512-smashed-the-brunch-party",
+    "snippet": "",
+    "suburb": "",
+    "free_event": false,
+    "price_from": 40,
+    "fetched_at": "2026-09-03T20:11:54.734824",
     "sessions": []
   },
   {

@@ -4654,6 +4654,25 @@
       "price_from": null,
       "fetched_at": "2026-09-08T20:13:01.817373",
       "sessions": []
+    },
+    "fedd2aa974fa": {
+      "id": "fedd2aa974fa",
+      "title": "I'm a lesbian but I really love men",
+      "venue": "Erskineville Town Hall",
+      "venue_id": "erskineville-town-hall",
+      "genre": "comedy",
+      "status": "active",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-12",
+      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/im-a-lesbian-but-i-really-love-men",
+      "source": "cityofsydney",
+      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/im-a-lesbian-but-i-really-love-men",
+      "snippet": "A stand-up comedy show about my obsession with men",
+      "suburb": "Erskineville",
+      "free_event": false,
+      "price_from": null,
+      "fetched_at": "2026-09-09T20:13:38.143389",
+      "sessions": []
     }
   },
   "__dedup_index__": {
@@ -4901,6 +4920,7 @@
     "bab2b985af5a": "bab2b985af5a",
     "d565bb2b61dd": "d565bb2b61dd",
     "16a0e9e038d4": "16a0e9e038d4",
-    "4868fe0ebdab": "4868fe0ebdab"
+    "4868fe0ebdab": "4868fe0ebdab",
+    "fedd2aa974fa": "fedd2aa974fa"
   }
 }

@@ -133,6 +133,25 @@
     "sessions": []
   },
   {
+    "id": "aa62f8527389",
+    "title": "Diva",
+    "venue": "Eternity Playhouse",
+    "venue_id": "eternity-playhouse",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-20",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/diva",
+    "source": "cityofsydney",
+    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/diva",
+    "snippet": "Vivienne Powell is bringing her solo play to Sydney following acclaimed Los Angeles and Edinburgh seasons",
+    "suburb": "Darlinghurst",
+    "free_event": false,
+    "price_from": null,
+    "fetched_at": "2026-09-10T20:11:58.963493",
+    "sessions": []
+  },
+  {
     "id": "da05c7b9ff14",
     "title": "Paradise Hotel",
     "venue": "KXT on Broadway",
@@ -1216,6 +1235,25 @@
     "sessions": []
   },
   {
+    "id": "bf4397d8b4dc",
+    "title": "Wolf",
+    "venue": "Q Theatre | The Joan, Penrith",
+    "venue_id": "",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-07",
+    "end_date": "2026-10-08",
+    "booking_url": "https://www.todaytix.com/sydney/shows/46018-wolf-at-the-joan-penrith",
+    "source": "todaytix",
+    "source_url": "https://www.todaytix.com/sydney/shows/46018-wolf-at-the-joan-penrith",
+    "snippet": "",
+    "suburb": "",
+    "free_event": false,
+    "price_from": 50,
+    "fetched_at": "2026-09-10T20:11:58.100188",
+    "sessions": []
+  },
+  {
     "id": "e8aaecd1828b",
     "title": "Typo (Clockwork Circus) at Fringe Kids",
     "venue": "The Entertainment Quarter",
@@ -1840,6 +1878,25 @@
     "free_event": false,
     "price_from": null,
     "fetched_at": "2026-09-07T20:12:56.303822",
+    "sessions": []
+  },
+  {
+    "id": "5b8edffed513",
+    "title": "The River Ghost",
+    "venue": "",
+    "venue_id": "",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-09-23",
+    "end_date": "2026-09-27",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-river-ghost",
+    "source": "cityofsydney",
+    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-river-ghost",
+    "snippet": "An ethereal theatrical experience",
+    "suburb": "Camperdown",
+    "free_event": false,
+    "price_from": null,
+    "fetched_at": "2026-09-10T20:11:58.962434",
     "sessions": []
   },
   {

@@ -2679,25 +2679,6 @@
     "sessions": []
   },
   {
-    "id": "ff20081e3dd7",
-    "title": "Piss Be With You",
-    "venue": "Eternity Playhouse",
-    "venue_id": "eternity-playhouse",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-09-11",
-    "end_date": "2026-09-11",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/piss-be-with-you",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/piss-be-with-you",
-    "snippet": "A comedic, queer parody of a service of worship, full of spiritual spoof, and pole dance debauchery.",
-    "suburb": "Darlinghurst",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T10:46:55.295380",
-    "sessions": []
-  },
-  {
     "id": "12c64a7a748f",
     "title": "Reclaim: A Contemporary Ceremony",
     "venue": "State Library of NSW",
@@ -3189,25 +3170,6 @@
     "free_event": false,
     "price_from": 94.9,
     "fetched_at": "2026-08-23T10:46:54.869488",
-    "sessions": []
-  },
-  {
-    "id": "eb9a01b20ac9",
-    "title": "Forget Me, Please",
-    "venue": "The Old Fitzroy Theatre",
-    "venue_id": "old-fitz-theatre",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-09-01",
-    "end_date": "2026-09-11",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/forget-me-please",
-    "source": "cityofsydney",
-    "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/forget-me-please",
-    "snippet": "A world premiere of Sophie Davis' play about love, memory and how trauma reshapes human connection. ",
-    "suburb": "Woolloomooloo",
-    "free_event": false,
-    "price_from": null,
-    "fetched_at": "2026-08-23T10:46:55.294940",
     "sessions": []
   },
   {

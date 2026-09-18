@@ -5003,7 +5003,7 @@
       "venue": "Universal Sydney",
       "venue_id": "",
       "genre": "dance",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-09-17",
       "end_date": "2026-09-17",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dance-therapy-kylie-night-or-beginner-dance-class-sydney",
@@ -5490,6 +5490,63 @@
       "price_from": null,
       "fetched_at": "2026-09-17T20:13:17.114413",
       "sessions": []
+    },
+    "7d8e739a1018": {
+      "id": "7d8e739a1018",
+      "title": "Bryce Dessner & the Sydney Symphony",
+      "venue": "City Recital Hall",
+      "venue_id": "city-recital-hall",
+      "genre": "unknown",
+      "status": "active",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "booking_url": "https://www.todaytix.com/sydney/shows/45734-bryce-dessner-and-the-sydney-symphony-sso-2026",
+      "source": "todaytix",
+      "source_url": "https://www.todaytix.com/sydney/shows/45734-bryce-dessner-and-the-sydney-symphony-sso-2026",
+      "snippet": "",
+      "suburb": "",
+      "free_event": false,
+      "price_from": 61,
+      "fetched_at": "2026-09-18T20:12:02.647714",
+      "sessions": []
+    },
+    "7d35465e1b38": {
+      "id": "7d35465e1b38",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+      "venue": "",
+      "venue_id": "",
+      "genre": "comedy",
+      "status": "active",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-06",
+      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale",
+      "source": "cityofsydney",
+      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale",
+      "snippet": "Fast, fun, singalong Shakespeare in your local pub.",
+      "suburb": "Annandale",
+      "free_event": false,
+      "price_from": null,
+      "fetched_at": "2026-09-18T20:12:03.692552",
+      "sessions": []
+    },
+    "9c12d0167cd5": {
+      "id": "9c12d0167cd5",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+      "venue": "",
+      "venue_id": "",
+      "genre": "comedy",
+      "status": "active",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont",
+      "source": "cityofsydney",
+      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont",
+      "snippet": "Fast, fun Shakespeare in your local pub",
+      "suburb": "Pyrmont",
+      "free_event": false,
+      "price_from": null,
+      "fetched_at": "2026-09-18T20:12:03.692835",
+      "sessions": []
     }
   },
   "__dedup_index__": {
@@ -5781,6 +5838,9 @@
     "aefd923561d6": "aefd923561d6",
     "77da1ece70a3": "77da1ece70a3",
     "def70b6069d4": "def70b6069d4",
-    "b3c55a4c8628": "b3c55a4c8628"
+    "b3c55a4c8628": "b3c55a4c8628",
+    "7d8e739a1018": "7d8e739a1018",
+    "7d35465e1b38": "7d35465e1b38",
+    "9c12d0167cd5": "9c12d0167cd5"
   }
 }

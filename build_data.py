@@ -31,10 +31,29 @@ def enrich(prod, theatres):
     return prod
 
 
+def publish_theatres():
+    """Copy theatres.json into docs/ so the deployed frontend can fetch it.
+
+    docs/ is what GitHub Pages actually serves as the site root; the daily
+    workflow never copied the repo-root theatres.json in, so the frontend's
+    fetch for venue data (suburb, address, lat/lng) was 404ing in production.
+    """
+    if not os.path.exists(THEATRES_FILE):
+        print(f"  Warning: {THEATRES_FILE} not found, skipping publish")
+        return
+    with open(THEATRES_FILE, "r") as f:
+        theatres_data = f.read()
+    dest = os.path.join(DOCS_DIR, "theatres.json")
+    with open(dest, "w") as f:
+        f.write(theatres_data)
+    print(f"  Published {THEATRES_FILE} to {dest}")
+
+
 def build_output(state):
     """Write full archive and active-only data files."""
     productions = state.get("productions", {})
     theatres = load_theatres()
+    publish_theatres()
 
     # Full archive
     all_prods = [enrich(p, theatres) for p in productions.values()]

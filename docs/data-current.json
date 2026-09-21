@@ -272,6 +272,22 @@
     "snippet": "Vivienne Powell is bringing her solo play to Sydney following acclaimed Los Angeles and Edinburgh seasons"
   },
   {
+    "id": "b2d54a6fe65e",
+    "title": "Infinite Scroll - A Late Night Sketch Comedy Show",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-12-08",
+    "end_date": "2026-12-13",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2801",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Late Night at Old Fitz Theatre. The Old Fitz’s first ever Chicago-style sketch comedy show. A six person cast dives headfirst into the double-edged sword of social media."
+  },
+  {
     "id": "da05c7b9ff14",
     "title": "Paradise Hotel",
     "venue": "KXT on Broadway",
@@ -286,6 +302,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Fall into the unsettling world of Richard Foreman’s cult masterpiece of slapstick anarchy and existential bite."
+  },
+  {
+    "id": "1de05251c34b",
+    "title": "All The More Reason",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-04",
+    "end_date": "2026-12-20",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2601",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "A sharp, big-hearted Christmas rom-com about friendship, ambition, unfortunate timing and the strange hope that people might yet become their best selves."
   },
   {
     "id": "df656ca8dede",
@@ -361,7 +393,7 @@
     "status": "active",
     "start_date": "2026-11-26",
     "end_date": "2026-12-02",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
     "price_from": 74,
     "free_event": false,
     "source": "cityofsydney",
@@ -448,6 +480,22 @@
     "snippet": "They’re creepy, kooky and back! Teatro’s smash-hit The Addams Family returns for a strictly limited season."
   },
   {
+    "id": "0b0fd4387fee",
+    "title": "Comet Boombox",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-11-17",
+    "end_date": "2026-11-22",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2401",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Late Night at Old Fitz Theatre. A multi-generational story about love, companionship and the stories we tell ourselves about ownership, asking whether we should treat our machines the way we hope they might one day treat us."
+  },
+  {
     "id": "b4f2bc1a4472",
     "title": "Whispering Jack: The John Farnham Musical",
     "venue": "Roslyn Packer Theatre",
@@ -512,6 +560,22 @@
     "snippet": "Set sail for a wild voyage."
   },
   {
+    "id": "ceacf0f246ee",
+    "title": "pornography of someone you know by Charlie Murphy",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-13",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4201",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
     "id": "df5ec7bc8f16",
     "title": "Dr Sketchy’s Sydney - November Edition",
     "venue": "",
@@ -526,6 +590,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Where art meets cabaret! A life-drawing class with a twist"
+  },
+  {
+    "id": "b1bc248a7ff2",
+    "title": "A Number",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-15",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2002",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Late Night at Old Fitz Theatre. A deeply personal family conflict quickly spirals into a confronting exploration of identity, grief, and the consequences of trying to recreate the past."
   },
   {
     "id": "73e1fb70022c",
@@ -622,6 +702,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "An electrifying concert fusing classical music and circus"
+  },
+  {
+    "id": "53d03bf466c2",
+    "title": "Scenes From A Friendship",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-22",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2201",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "A funny, tender and deeply moving play about the people who witness our lives, shape who we become and remind us of who we’ve always been."
   },
   {
     "id": "c84a762b5a24",
@@ -768,6 +864,22 @@
     "snippet": "Fast, fun Shakespeare in your local pub"
   },
   {
+    "id": "d5d7450938d6",
+    "title": "Arranged by Shekhar Raychaudhury",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-28",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5001",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
     "id": "9026e7ebbd8d",
     "title": "Fuccbois: Live In Concert",
     "venue": "Darling Quarter Theatre",
@@ -894,6 +1006,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "An evening of live opera with acclaimed tenor Diego Torre, performing highlights from Verdi’s Don Carlo & Il Trovatore."
+  },
+  {
+    "id": "25ce3f78f5ad",
+    "title": "Green Scenes",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-18",
+    "end_date": "2026-10-18",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4801",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "One-Off at Old Fitz Theatre. An afternoon of scenes, songs, and poems that celebrate the planet and centre on the climate fight"
   },
   {
     "id": "31a051f8a3b0",
@@ -1038,6 +1166,38 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Pub Shakespeare Company's (formerly Bar'd Work) new riotous, 90-minute adaptation of A Midsummer Night's Dream!"
+  },
+  {
+    "id": "467d4d96b2df",
+    "title": "Way Back Now by Taylor Venter",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-15",
+    "end_date": "2026-10-15",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4601",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
+    "id": "3c48defee404",
+    "title": "Dick Swingin'",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-10-13",
+    "end_date": "2026-10-18",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1801",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Late Night at Old Fitz Theatre. Setting his act in the smoky 1920s Prohibition era, Dick Swingin’ sees a darling cabaret showman performing as his company of vaudevillians to stage the greatest show on earth."
   },
   {
     "id": "d1d504d68466",
@@ -1214,6 +1374,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Get ready to transport back to the roaring 20s at our “It’s Gatsby Darling” Cabaret Show"
+  },
+  {
+    "id": "ef39f4dbd3b5",
+    "title": "Catch As Catch Can",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-09",
+    "end_date": "2026-10-31",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1601",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Swerving across gender and generation, the certainties of family, friendship and identity are prised apart - with devastating consequences."
   },
   {
     "id": "a89fe8beb961",
@@ -1470,6 +1646,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Let the velvet drapes draw you into a world of smoky allure and sultry surprise"
+  },
+  {
+    "id": "00dfd219ddd9",
+    "title": "Prey by David Cole",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-09-30",
+    "end_date": "2026-09-30",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4001",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
   },
   {
     "id": "91af27023a68",
@@ -1888,6 +2080,22 @@
     "snippet": ""
   },
   {
+    "id": "cb19cc31e3bc",
+    "title": "Hamlet's Lillebror by Diane Keogh",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-09-24",
+    "end_date": "2026-09-24",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=3801",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
     "id": "40bacafc9107",
     "title": "Claire Robin – Nun Slut",
     "venue": "Fringe on The Rocks",
@@ -1897,7 +2105,7 @@
     "status": "active",
     "start_date": "2026-09-23",
     "end_date": "2026-10-04",
-    "booking_url": "https://www.todaytix.com/sydney/shows/47542-nun-slut",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/claire-robin-nun-slut",
     "price_from": 45,
     "free_event": false,
     "source": "todaytix",
@@ -2096,6 +2304,22 @@
     "snippet": "Be enchanted by the magic of Sydney Town Hall's grand organ, at a free ticketed concert in the heart of the city."
   },
   {
+    "id": "39c63ddb96a3",
+    "title": "The Man",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-09-21",
+    "end_date": "2026-10-02",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4401",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Late Night at Old Fitz Theatre. Tax makes Ben anxious. As a sole-trader, he’s been hoarding receipts all year. Now, he has to go through them all - and the audience is going to help."
+  },
+  {
     "id": "bdf26822ada7",
     "title": "A Night at the Library",
     "venue": "State Library of NSW",
@@ -2130,14 +2354,14 @@
   {
     "id": "ff84337534f9",
     "title": "Dixon and Daughters by Deborah Bruce",
-    "venue": "The Old Fitzroy Theatre",
+    "venue": "Old Fitz Theatre",
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "play",
     "status": "active",
     "start_date": "2026-09-18",
     "end_date": "2026-10-03",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dixon-and-daughters-by-deborah-bruce",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1201",
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
@@ -2617,7 +2841,7 @@
     "status": "active",
     "start_date": "2024-06-21",
     "end_date": "2026-12-25",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46980-the-gentleman-magicians-magical-soiree",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-gentleman-magicians-magical-soiree-2",
     "price_from": 59.95,
     "free_event": false,
     "source": "todaytix",

@@ -180,6 +180,46 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 .genre-family{background:rgba(36,157,143,0.15);color:#5dc4b8}
 .genre-unknown{background:rgba(154,149,144,0.2);color:var(--text-dim)}
 
+/* Share ---------------------------------------------------------------
+   A card is a thing you send to a friend, so give it an explicit control
+   rather than hoping people copy the address bar (which on a filtered view
+   would not have pointed at the show anyway). */
+.card-actions{display:flex;align-items:center;gap:10px;margin-top:2px}
+.card-actions .book-link{flex:0 0 auto}
+.share-btn{
+  margin-left:auto;flex-shrink:0;
+  width:44px;height:44px;border-radius:12px;
+  display:inline-flex;align-items:center;justify-content:center;
+  background:none;border:1px solid rgba(255,255,255,0.10);
+  color:var(--text-dim);cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  transition:color .15s,border-color .15s;
+}
+.share-btn svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.share-btn:active{color:var(--teal);border-color:var(--teal)}
+.share-btn.done{color:var(--teal);border-color:var(--teal)}
+
+/* Confirmation for the clipboard fallback, where nothing else tells you
+   it worked. */
+.toast{
+  position:fixed;left:50%;transform:translateX(-50%) translateY(20px);
+  bottom:calc(var(--nav-h) + var(--safe-b) + 16px);
+  background:var(--card);color:var(--text);
+  border:1px solid rgba(255,255,255,0.12);
+  padding:10px 16px;border-radius:12px;
+  font-size:13px;font-weight:500;
+  opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;
+  z-index:200;max-width:calc(100% - 32px);text-align:center;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* A shared link lands on the show, highlighted so it is obvious which
+   one the link meant. */
+.show-card.focused{
+  border-color:var(--teal);
+  box-shadow:0 0 0 1px var(--teal), 0 8px 28px rgba(36,157,143,0.18);
+}
+
 /* Status badges and suburb, previously written as inline styles */
 .show-card .badge{font-size:11px;font-weight:600}
 .show-card .badge-review{color:var(--gold)}
@@ -512,6 +552,8 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
     </div>
   </div>
 
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
   <!-- Bottom nav -->
   <nav class="bottom-nav">
     <button class="nav-btn active" data-tab="tonight" onclick="switchTab('tonight')">
@@ -628,6 +670,7 @@ async function init() {
   DATA = Array.isArray(data) && data.length ? data : sampleData();
   if (Array.isArray(theatres)) theatres.forEach(t => THEATRES[t.id] = t);
   renderAll();
+  openSharedShow();
 }
 
 async function loadJSON(url, fallback) {
@@ -904,13 +947,16 @@ function showCard(s, today) {
     ? `<div class="price-badge">From ${esc(formatPrice(s.price_from))}</div>` : '';
   const freeLine = s.free_event ? '<div class="price-badge">Free</div>' : '';
 
-  return `<div class="show-card${reviewClass}">
+  const shareBtn = `<button class="share-btn" type="button" data-action="share" data-id="${attr(s.id || '')}"
+    aria-label="Share ${attr(s.title)}"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>`;
+
+  return `<div class="show-card${reviewClass}" data-show="${attr(s.id || '')}">
     <span class="genre-tag ${genreClass}">${esc(genreLabel(genre))}</span>
     <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
     <div class="venue">${venueLine(s)}</div>
     <div class="dates">${formatDateRange(s.start_date, s.end_date)}</div>
     ${freeLine}${priceLine}
-    ${bookLink}
+    <div class="card-actions">${bookLink}${shareBtn}</div>
   </div>`;
 }
 
@@ -1058,6 +1104,137 @@ function formatDateRange(start, end) {
   return `<span>${fmt(s)}</span> &ndash; <span>${fmt(e)}</span>`;
 }
 
+
+/* --- Sharing -------------------------------------------------------------
+   Share sheet where the platform has one (every current phone), clipboard
+   everywhere else. The link carries ?show=<id>, so the friend who opens it
+   lands on that show rather than on whatever is on tonight. */
+
+function showUrl(show) {
+  const url = new URL(location.href);
+  url.hash = '';
+  url.search = show && show.id ? `?show=${encodeURIComponent(show.id)}` : '';
+  return url.toString();
+}
+
+function shareText(s) {
+  const when = stripTags(formatDateRange(s.start_date, s.end_date));
+  const where = (s.venue || s.suburb || '').trim();
+  return [s.title, where && `at ${where}`, when && `(${when})`].filter(Boolean).join(' ');
+}
+
+function stripTags(html) {
+  const el = document.createElement('div');
+  el.innerHTML = html;
+  return (el.textContent || '').trim();
+}
+
+async function shareShow(id, btn) {
+  const show = DATA.find(s => String(s.id) === String(id));
+  if (!show) return;
+
+  const url = showUrl(show);
+  const text = shareText(show);
+
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: show.title, text, url });
+      return;
+    } catch (err) {
+      // AbortError just means they closed the sheet; anything else falls
+      // through to the clipboard.
+      if (err && err.name === 'AbortError') return;
+    }
+  }
+
+  const copied = await copyText(`${text}\n${url}`);
+  if (copied) {
+    btn.classList.add('done');
+    setTimeout(() => btn.classList.remove('done'), 1600);
+    toast('Link copied');
+  } else {
+    toast('Could not copy the link');
+  }
+}
+
+async function copyText(value) {
+  try {
+    if (navigator.clipboard && isSecureContext) {
+      await navigator.clipboard.writeText(value);
+      return true;
+    }
+  } catch (e) { /* fall through */ }
+  // execCommand is deprecated but is the only route on http:// and in
+  // older in-app browsers.
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = value;
+    ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:fixed;top:0;left:-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    ta.remove();
+    return ok;
+  } catch (e) {
+    return false;
+  }
+}
+
+let toastTimer;
+function toast(message) {
+  const el = $('#toast');
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
+}
+
+/* A visitor arriving on ?show=<id> should see that show, whatever the
+   filters would otherwise have hidden -- including a run that has already
+   closed, which is not in the default payload at all. */
+async function openSharedShow() {
+  const id = new URLSearchParams(location.search).get('show');
+  if (!id) return;
+
+  if (!DATA.some(s => String(s.id) === String(id)) && !archiveLoaded) {
+    const archive = await loadJSON('data.json?v=3', null);
+    if (Array.isArray(archive) && archive.length) {
+      DATA = archive;
+      archiveLoaded = true;
+    }
+  }
+
+  const show = DATA.find(s => String(s.id) === String(id));
+  if (!show) {
+    toast('That show is no longer listed');
+    return;
+  }
+
+  // Clear anything that would filter it out, then land on the right tab.
+  activeGenre = 'all'; activeVenue = 'all'; activeSuburb = 'all'; showsQuery = '';
+  const input = $('#shows-search');
+  if (input) input.value = '';
+  if (show.status === 'closed' || hasFinished(show, sydneyToday())) {
+    showClosed = true;
+    const t = $('#toggle-closed');
+    t.classList.add('on');
+    t.setAttribute('aria-pressed', 'true');
+  }
+  renderAll();
+  switchTab('shows');
+
+  requestAnimationFrame(() => {
+    const card = document.querySelector(`.show-card[data-show="${CSS.escape(String(id))}"]`);
+    if (!card) return;
+    // Jump rather than animate: the target can be thousands of pixels down
+    // a long list, and a smooth scroll that far is slow and interruptible.
+    card.scrollIntoView({ block: 'center', behavior: 'auto' });
+    card.classList.add('focused');
+    setTimeout(() => card.classList.remove('focused'), 3200);
+  });
+}
+
 /* --- Events -------------------------------------------------------------
    Delegated, so no scraped string is ever interpolated into an inline
    handler. A title or venue containing an apostrophe used to produce
@@ -1088,6 +1265,8 @@ document.addEventListener('click', e => {
     input.focus();
   } else if (action === 'toggle-closed') {
     toggleClosed();
+  } else if (action === 'share') {
+    shareShow(el.dataset.id, el);
   }
 });
 

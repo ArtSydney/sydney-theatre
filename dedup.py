@@ -18,6 +18,9 @@ from localdate import sydney_today
 # stored ids were produced by an older rule.
 KEY_VERSION = 2
 
+# Which source's booking link to trust when several offer one.
+SOURCE_RANK = {"": 0, "cityofsydney": 1, "todaytix": 2, "venue-feed": 3}
+
 # Common words to ignore in title matching
 STOP_WORDS = {
     "the", "a", "an", "of", "in", "at", "on", "and", "or", "to",
@@ -188,11 +191,12 @@ def merge_production(existing, new, today=None):
         if new.get(field) and new[field] != existing.get(field):
             existing[field] = new[field]
 
-    # Prefer TodayTix booking URL over City of Sydney event page
-    if new.get("source") == "todaytix" and new.get("booking_url"):
-        existing["booking_url"] = new["booking_url"]
-    elif not existing.get("booking_url") and new.get("booking_url"):
-        existing["booking_url"] = new["booking_url"]
+    # Best available booking link. The venue's own box office beats a
+    # reseller, which beats an aggregator's event page.
+    if new.get("booking_url"):
+        if SOURCE_RANK.get(new.get("source"), 0) >= SOURCE_RANK.get(existing.get("booking_source"), 0):
+            existing["booking_url"] = new["booking_url"]
+            existing["booking_source"] = new.get("source", "")
 
     # Prefer the lowest advertised price we have seen
     new_price = new.get("price_from")

@@ -124,12 +124,17 @@
     "name": "Old Fitz Theatre",
     "address": "129 Dowling St, Woolloomooloo NSW 2011",
     "suburb": "Woolloomooloo",
-    "website": "https://www.oldfitztheatre.com",
+    "website": "https://www.oldfitztheatre.com.au",
     "instagram": "oldfitztheatre",
-    "booking_platform": "venue-direct",
+    "booking_platform": "spektrix",
     "capacity_tier": "small",
     "lat": -33.8727,
-    "lng": 151.2205
+    "lng": 151.2205,
+    "feed": {
+      "type": "spektrix",
+      "client": "oldfitztheatre",
+      "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId={web_id}"
+    }
   },
   {
     "id": "kxt",

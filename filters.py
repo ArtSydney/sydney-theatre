@@ -31,6 +31,11 @@ NOT_A_PRODUCTION = [
     r"\bclass\s+\d",
     r"\bclass\s*\(",
     r"\bclass$",
+    # "Improv class for beginners". A bare \bclass\b would be wrong -- A
+    # Class Act is a musical -- so require a teaching context.
+    r"\bclass(es)?\s+for\b",
+    r"\bclass(es)?\b.*\bbeginners?\b",
+    r"\bbeginners?\b.*\bclass(es)?\b",
     r"\bcourse\b",
     r"\blessons?\b",
     r"\bcomedy school\b",

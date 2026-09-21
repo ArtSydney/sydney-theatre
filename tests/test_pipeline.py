@@ -4,6 +4,7 @@
 import os
 import sys
 import unittest
+from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -11,7 +12,7 @@ from classify import classify_production
 from dedup import canonical_key, deduplicate, merge_production, normalize, reindex, strip_attribution
 from fetch import parse_spektrix_event
 from filters import not_a_production
-from main import cleanup_state, send_notifications, sweep_deadlines
+from main import STALE_AFTER_DAYS, cleanup_state, send_notifications, sweep_deadlines
 
 TODAY = "2026-09-21"
 
@@ -244,6 +245,61 @@ class TestSweep(unittest.TestCase):
         self.assertEqual(state["productions"]["c"]["status"], "active")
         self.assertEqual(state["productions"]["d"]["status"], "active")
         self.assertEqual([p["id"] for p in closing], ["b"])
+
+
+class TestOpenEndedRuns(unittest.TestCase):
+    """A run with no end date used to stay active forever."""
+
+    def state_with(self, **prod):
+        base = {"id": "a", "title": "Open ended", "status": "active", "end_date": ""}
+        base.update(prod)
+        return {"productions": {"a": base}, "__dedup_index__": {}, "__notified__": {}}
+
+    def test_unstamped_run_gets_a_clock_rather_than_closing(self):
+        state = self.state_with()
+        sweep_deadlines(state, TODAY)
+        self.assertEqual(state["productions"]["a"]["status"], "active")
+        self.assertEqual(state["productions"]["a"]["last_seen"], TODAY)
+
+    def test_still_listed_run_stays_open(self):
+        state = self.state_with(last_seen=TODAY)
+        sweep_deadlines(state, TODAY)
+        self.assertEqual(state["productions"]["a"]["status"], "active")
+
+    def test_run_unlisted_past_the_cutoff_closes(self):
+        stale = (date.fromisoformat(TODAY) - timedelta(days=STALE_AFTER_DAYS + 1)).isoformat()
+        state = self.state_with(last_seen=stale)
+        sweep_deadlines(state, TODAY)
+        self.assertEqual(state["productions"]["a"]["status"], "closed")
+
+    def test_just_inside_the_cutoff_stays_open(self):
+        fresh = (date.fromisoformat(TODAY) - timedelta(days=STALE_AFTER_DAYS - 1)).isoformat()
+        state = self.state_with(last_seen=fresh)
+        sweep_deadlines(state, TODAY)
+        self.assertEqual(state["productions"]["a"]["status"], "active")
+
+    def test_a_broken_fetch_does_not_age_anything_out(self):
+        stale = (date.fromisoformat(TODAY) - timedelta(days=STALE_AFTER_DAYS + 30)).isoformat()
+        state = self.state_with(last_seen=stale)
+        sweep_deadlines(state, TODAY, close_stale=False)
+        self.assertEqual(state["productions"]["a"]["status"], "active")
+
+    def test_a_dated_run_is_unaffected_by_staleness(self):
+        stale = (date.fromisoformat(TODAY) - timedelta(days=STALE_AFTER_DAYS + 5)).isoformat()
+        state = self.state_with(end_date="2026-12-01", last_seen=stale)
+        sweep_deadlines(state, TODAY)
+        self.assertEqual(state["productions"]["a"]["status"], "active")
+
+
+class TestLastSeen(unittest.TestCase):
+    def test_dedup_stamps_last_seen_on_new_and_existing(self):
+        state = fresh_state()
+        _, pid = deduplicate(item("Vanya", start_date="2026-10-01", end_date="2026-11-01"),
+                             state, today="2026-09-01")
+        self.assertEqual(state["productions"][pid]["last_seen"], "2026-09-01")
+        deduplicate(item("Vanya", start_date="2026-10-01", end_date="2026-11-01"),
+                    state, today=TODAY)
+        self.assertEqual(state["productions"][pid]["last_seen"], TODAY)
 
 
 class TestCleanup(unittest.TestCase):

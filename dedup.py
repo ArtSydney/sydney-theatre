@@ -136,6 +136,7 @@ def deduplicate(item, state, today=None):
         if existing:
             # Existing: merge data if we have better info
             productions[pid] = merge_production(existing, item, today=today)
+            productions[pid]["last_seen"] = today or sydney_today()
             return "existing", pid
         # Index pointed at a production that is no longer in state. Fall
         # through and rebuild the record rather than merging into {}, which
@@ -166,6 +167,7 @@ def deduplicate(item, state, today=None):
         "categories": item.get("categories", []),
         "sessions": [],
     }
+    productions[pid]["last_seen"] = today or sydney_today()
     _refresh_status(productions[pid], today or sydney_today())
     return "new", pid
 

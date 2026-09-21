@@ -16,9 +16,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 35,
-      "fetched_at": "2026-09-21T23:11:28.846340+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132814+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "43b5c9175984": {
       "id": "43b5c9175984",
@@ -55,9 +56,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-09-21T23:11:28.846107+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132584+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "20dab5edee3f": {
       "id": "20dab5edee3f",
@@ -75,12 +77,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 94.9,
-      "fetched_at": "2026-09-21T23:11:30.484215+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308625+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "8b761e091465": {
       "id": "8b761e091465",
@@ -98,12 +101,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T23:11:30.480056+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305719+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "a136d1cabee3": {
       "id": "a136d1cabee3",
@@ -140,9 +144,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-09-21T23:11:28.846626+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133078+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "d904ff3908b9": {
       "id": "d904ff3908b9",
@@ -160,13 +165,14 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479598+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305383+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "tours-and-experiences"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "2bef861a48de": {
       "id": "2bef861a48de",
@@ -184,12 +190,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483688+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308254+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "d1d504d68466": {
       "id": "d1d504d68466",
@@ -207,9 +214,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.846302+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132772+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "97527baa8f72": {
       "id": "97527baa8f72",
@@ -246,12 +254,13 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T23:11:30.479288+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305187+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "c306f596a49c": {
       "id": "c306f596a49c",
@@ -288,12 +297,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74.5,
-      "fetched_at": "2026-09-21T23:11:30.482008+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307127+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "911ad3ab6709": {
       "id": "911ad3ab6709",
@@ -330,13 +340,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 77,
-      "fetched_at": "2026-09-21T23:11:30.482673+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307573+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "45ae8f38f50f": {
       "id": "45ae8f38f50f",
@@ -354,13 +365,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T23:11:30.480443+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306005+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "325ff16141ce": {
       "id": "325ff16141ce",
@@ -378,12 +390,13 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 94,
-      "fetched_at": "2026-09-21T23:11:30.479261+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305166+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "4a690813267d": {
       "id": "4a690813267d",
@@ -420,9 +433,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 122,
-      "fetched_at": "2026-09-21T23:11:28.846362+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132841+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "91af27023a68": {
       "id": "91af27023a68",
@@ -440,9 +454,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T23:11:28.846373+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132853+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "90ee40cb24de": {
       "id": "90ee40cb24de",
@@ -460,9 +475,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-09-21T23:11:28.846437+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132918+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "b8d794c48196": {
       "id": "b8d794c48196",
@@ -480,12 +496,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T23:11:30.483888+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308377+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "ff770075b0ea": {
       "id": "ff770075b0ea",
@@ -503,9 +520,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 105,
-      "fetched_at": "2026-09-21T23:11:28.846385+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132865+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "59249c4410f9": {
       "id": "59249c4410f9",
@@ -523,12 +541,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 60,
-      "fetched_at": "2026-09-21T23:11:30.480203+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305819+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "15bacad1856c": {
       "id": "15bacad1856c",
@@ -546,12 +565,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 59.95,
-      "fetched_at": "2026-09-21T23:11:30.480236+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305852+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "a67fbb086f82": {
       "id": "a67fbb086f82",
@@ -569,9 +589,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 63,
-      "fetched_at": "2026-09-21T23:11:28.846579+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133035+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "40bacafc9107": {
       "id": "40bacafc9107",
@@ -589,12 +610,13 @@
       "suburb": "The Rocks",
       "free_event": false,
       "price_from": 45,
-      "fetched_at": "2026-09-21T23:11:30.479623+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305400+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "fe2532e9614b": {
       "id": "fe2532e9614b",
@@ -612,9 +634,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-09-21T23:11:28.846547+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133006+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "188512a29e74": {
       "id": "188512a29e74",
@@ -632,9 +655,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.846795+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133260+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "71982a778ff2": {
       "id": "71982a778ff2",
@@ -652,9 +676,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 39,
-      "fetched_at": "2026-09-21T23:11:28.846496+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132973+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "3a34df1bc353": {
       "id": "3a34df1bc353",
@@ -672,12 +697,13 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 76,
-      "fetched_at": "2026-09-21T23:11:30.482061+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307167+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "6b4f60efd4ce": {
       "id": "6b4f60efd4ce",
@@ -714,9 +740,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 30,
-      "fetched_at": "2026-09-21T23:11:28.846671+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133122+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "b42b16ba05d6": {
       "id": "b42b16ba05d6",
@@ -772,9 +799,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 70,
-      "fetched_at": "2026-09-21T23:11:28.846719+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133170+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "6bd30cd2aac3": {
       "id": "6bd30cd2aac3",
@@ -792,9 +820,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 22.5,
-      "fetched_at": "2026-09-21T23:11:28.846847+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133310+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "4fff4ab0dffa": {
       "id": "4fff4ab0dffa",
@@ -812,9 +841,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 68,
-      "fetched_at": "2026-09-21T23:11:28.847212+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133715+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "df2d202ebea7": {
       "id": "df2d202ebea7",
@@ -1013,13 +1043,14 @@
       "suburb": "Erskineville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481170+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306526+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "7f744127dca4": {
       "id": "7f744127dca4",
@@ -1056,12 +1087,13 @@
       "suburb": "Redfern",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479097+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305042+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "4c2a9d0578a9": {
       "id": "4c2a9d0578a9",
@@ -1252,13 +1284,14 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483773+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308305+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "5756a52659de": {
       "id": "5756a52659de",
@@ -1276,13 +1309,14 @@
       "suburb": "Surry Hills",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481278+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306609+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "ba08f9a834ab": {
       "id": "ba08f9a834ab",
@@ -1300,13 +1334,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479746+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305486+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c9bff3e5520a": {
       "id": "c9bff3e5520a",
@@ -1343,12 +1378,13 @@
       "suburb": "Bellevue Hill",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479844+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305562+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "48190d995bbf": {
       "id": "48190d995bbf",
@@ -1741,9 +1777,10 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837796+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787757+00:00",
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "625b7217adfd": {
       "id": "625b7217adfd",
@@ -1894,12 +1931,13 @@
       "suburb": "Rozelle",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480019+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305692+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c8e442171032": {
       "id": "c8e442171032",
@@ -1917,12 +1955,13 @@
       "suburb": "Glebe",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481392+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306696+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "a4a08f8b3370": {
       "id": "a4a08f8b3370",
@@ -1978,12 +2017,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481621+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306842+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "2408e993d578": {
       "id": "2408e993d578",
@@ -2020,13 +2060,14 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481698+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306899+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "34d23628c603": {
       "id": "34d23628c603",
@@ -2044,13 +2085,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479908+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305611+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "ff20081e3dd7": {
       "id": "ff20081e3dd7",
@@ -2339,12 +2381,13 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837709+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787630+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "ba1b8a1433f1": {
       "id": "ba1b8a1433f1",
@@ -2400,13 +2443,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481219+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306562+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "41a5fb3aab60": {
       "id": "41a5fb3aab60",
@@ -2424,13 +2468,14 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479034+00:00",
+      "fetched_at": "2026-09-21T23:24:40.304989+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "0622985fab8d": {
       "id": "0622985fab8d",
@@ -2448,13 +2493,14 @@
       "suburb": "Vaucluse",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479135+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305067+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "tours-and-experiences"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "75496dbfbebb": {
       "id": "75496dbfbebb",
@@ -2472,12 +2518,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479206+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305119+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e3166ce8acd4": {
       "id": "e3166ce8acd4",
@@ -2495,13 +2542,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480037+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305705+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "f3004f0106b3": {
       "id": "f3004f0106b3",
@@ -2519,13 +2567,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480269+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305879+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e4d1cd8102d1": {
       "id": "e4d1cd8102d1",
@@ -2543,13 +2592,14 @@
       "suburb": "Redfern",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480389+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305962+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "eb8aed0776ae": {
       "id": "eb8aed0776ae",
@@ -2567,12 +2617,13 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480424+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305991+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "233f78acc35d": {
       "id": "233f78acc35d",
@@ -2590,12 +2641,13 @@
       "suburb": "Ashfield",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480474+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306030+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "fd69b8240785": {
       "id": "fd69b8240785",
@@ -2613,12 +2665,13 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480493+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306045+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "4825a854bea4": {
       "id": "4825a854bea4",
@@ -2636,13 +2689,14 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480535+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306066+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "78566bc53668": {
       "id": "78566bc53668",
@@ -2660,13 +2714,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480643+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306144+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "179ac387cedf": {
       "id": "179ac387cedf",
@@ -2684,12 +2739,13 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480713+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306198+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "741fb8bc06c6": {
       "id": "741fb8bc06c6",
@@ -2707,13 +2763,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480822+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306282+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "172045033b72": {
       "id": "172045033b72",
@@ -2731,13 +2788,14 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480972+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306382+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "36d55af0dc42": {
       "id": "36d55af0dc42",
@@ -2778,12 +2836,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481190+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306541+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "762fa9d21333": {
       "id": "762fa9d21333",
@@ -2801,13 +2860,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481339+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306657+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c25bd1903370": {
       "id": "c25bd1903370",
@@ -2825,13 +2885,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481539+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306790+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "fafdf737a85e": {
       "id": "fafdf737a85e",
@@ -2849,13 +2910,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481764+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306952+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "6d4b872220a1": {
       "id": "6d4b872220a1",
@@ -2873,13 +2935,14 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481832+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306998+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "f3a6bfe9bfd5": {
       "id": "f3a6bfe9bfd5",
@@ -2897,13 +2960,14 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481958+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307087+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "134862766bf3": {
       "id": "134862766bf3",
@@ -2921,13 +2985,14 @@
       "suburb": "North Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482040+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307152+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "36384a42acd6": {
       "id": "36384a42acd6",
@@ -2945,12 +3010,13 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482075+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307177+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "2d7221a319aa": {
       "id": "2d7221a319aa",
@@ -2968,13 +3034,14 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482197+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307258+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "4b90a476a5a0": {
       "id": "4b90a476a5a0",
@@ -2992,13 +3059,14 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482230+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307280+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "5c34dc7dd3c0": {
       "id": "5c34dc7dd3c0",
@@ -3016,12 +3084,13 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482272+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307308+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "03375e2e2f2b": {
       "id": "03375e2e2f2b",
@@ -3039,12 +3108,13 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482388+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307383+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "b68a455f879b": {
       "id": "b68a455f879b",
@@ -3062,13 +3132,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482424+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307409+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "a6d503b55c99": {
       "id": "a6d503b55c99",
@@ -3086,12 +3157,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482484+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307454+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c88c07882187": {
       "id": "c88c07882187",
@@ -3109,12 +3181,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482798+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307651+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c72601e78fc7": {
       "id": "c72601e78fc7",
@@ -3132,13 +3205,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482946+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307749+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "08c8c3a0b5d9": {
       "id": "08c8c3a0b5d9",
@@ -3156,12 +3230,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483155+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307899+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "9346f1fc1ca7": {
       "id": "9346f1fc1ca7",
@@ -3203,13 +3278,14 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483316+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308012+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "community-and-causes"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c84a762b5a24": {
       "id": "c84a762b5a24",
@@ -3227,13 +3303,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483410+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308075+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "3502962272e4": {
       "id": "3502962272e4",
@@ -3251,13 +3328,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483428+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308087+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "778f36b2741c": {
       "id": "778f36b2741c",
@@ -3275,12 +3353,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483447+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308101+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "6064483196fc": {
       "id": "6064483196fc",
@@ -3298,12 +3377,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483541+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308156+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "73e1fb70022c": {
       "id": "73e1fb70022c",
@@ -3321,13 +3401,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483600+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308193+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e0660c1dbdce": {
       "id": "e0660c1dbdce",
@@ -3345,13 +3426,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483909+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308392+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "403dbe50d2dc": {
       "id": "403dbe50d2dc",
@@ -3369,12 +3451,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483942+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308415+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c482b5aca21e": {
       "id": "c482b5aca21e",
@@ -3392,13 +3475,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T23:11:30.483972+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308446+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "d6e5f16f94f8": {
       "id": "d6e5f16f94f8",
@@ -3440,12 +3524,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 100,
-      "fetched_at": "2026-09-21T23:11:30.484027+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308485+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "724c6bb50d10": {
       "id": "724c6bb50d10",
@@ -3463,12 +3548,13 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484044+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308496+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "da05c7b9ff14": {
       "id": "da05c7b9ff14",
@@ -3486,12 +3572,13 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484095+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308534+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "f5771766a154": {
       "id": "f5771766a154",
@@ -3509,13 +3596,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484193+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308609+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "3684ae1dffab": {
       "id": "3684ae1dffab",
@@ -3552,9 +3640,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T23:11:28.846751+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133209+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "eb77cc7bdab6": {
       "id": "eb77cc7bdab6",
@@ -3610,13 +3699,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479797+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305527+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "d18b9b2c6306": {
       "id": "d18b9b2c6306",
@@ -3653,13 +3743,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480947+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306363+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "b9dddf957ba6": {
       "id": "b9dddf957ba6",
@@ -3715,13 +3806,14 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480585+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306096+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "1b7d5726533a": {
       "id": "1b7d5726533a",
@@ -3739,13 +3831,14 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481572+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306810+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "0ef60ae34591": {
       "id": "0ef60ae34591",
@@ -3763,13 +3856,14 @@
       "suburb": "Online",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481880+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307030+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "f5d27d7ba64a": {
       "id": "f5d27d7ba64a",
@@ -3873,12 +3967,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483075+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307840+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "d6d714d0add0": {
       "id": "d6d714d0add0",
@@ -3896,12 +3991,13 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484256+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308653+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "60d41591e657": {
       "id": "60d41591e657",
@@ -3938,9 +4034,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T23:11:28.847137+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133622+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "421baa2861b9": {
       "id": "421baa2861b9",
@@ -3977,12 +4074,13 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 81,
-      "fetched_at": "2026-09-21T23:11:30.483649+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308231+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "07ae5c2e87c8": {
       "id": "07ae5c2e87c8",
@@ -4023,12 +4121,13 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479229+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305140+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "68c589207147": {
       "id": "68c589207147",
@@ -4065,13 +4164,14 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480692+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306181+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e8aaecd1828b": {
       "id": "e8aaecd1828b",
@@ -4089,13 +4189,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481675+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306882+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "94415f5a6464": {
       "id": "94415f5a6464",
@@ -4113,13 +4214,14 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482580+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307508+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "664a58862591": {
       "id": "664a58862591",
@@ -4137,12 +4239,13 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482978+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307773+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "23e780b33d75": {
       "id": "23e780b33d75",
@@ -4160,13 +4263,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483494+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308132+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e87cdcaeed6a": {
       "id": "e87cdcaeed6a",
@@ -4317,13 +4421,14 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.478852+00:00",
+      "fetched_at": "2026-09-21T23:24:40.304851+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "463a2bd04388": {
       "id": "463a2bd04388",
@@ -4360,12 +4465,13 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480673+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306165+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "721ece42a7da": {
       "id": "721ece42a7da",
@@ -4383,13 +4489,14 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480794+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306259+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "2ee54299b892": {
       "id": "2ee54299b892",
@@ -4407,9 +4514,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 55,
-      "fetched_at": "2026-09-21T23:11:28.846775+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133238+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "b7f505cb976b": {
       "id": "b7f505cb976b",
@@ -4465,12 +4573,13 @@
       "suburb": "Redfern",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481020+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306419+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "84d23fff59a1": {
       "id": "84d23fff59a1",
@@ -4507,9 +4616,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 38,
-      "fetched_at": "2026-09-21T23:11:28.847002+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133478+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "3cf4cebfb89c": {
       "id": "3cf4cebfb89c",
@@ -4623,9 +4733,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 73,
-      "fetched_at": "2026-09-21T23:11:28.846688+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133141+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "fbb6e731af28": {
       "id": "fbb6e731af28",
@@ -4686,13 +4797,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481724+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306920+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "b66c12b96465": {
       "id": "b66c12b96465",
@@ -4710,12 +4822,13 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480162+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305793+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "1112e9687ec0": {
       "id": "1112e9687ec0",
@@ -4733,13 +4846,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481314+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306638+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "558444394872": {
       "id": "558444394872",
@@ -4757,13 +4871,14 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484285+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308672+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "9064978ddda5": {
       "id": "9064978ddda5",
@@ -4800,13 +4915,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.478999+00:00",
+      "fetched_at": "2026-09-21T23:24:40.304962+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e5ab8d7c0fdf": {
       "id": "e5ab8d7c0fdf",
@@ -4843,13 +4959,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479184+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305104+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "01789b9a2a0a": {
       "id": "01789b9a2a0a",
@@ -4943,13 +5060,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479977+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305659+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "38ebd4f6f603": {
       "id": "38ebd4f6f603",
@@ -4967,13 +5085,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481048+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306440+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "7ddabfcce168": {
       "id": "7ddabfcce168",
@@ -4991,13 +5110,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479329+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305216+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "e249c0ff72bd": {
       "id": "e249c0ff72bd",
@@ -5034,13 +5154,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.478931+00:00",
+      "fetched_at": "2026-09-21T23:24:40.304913+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "fe01ce2a7fba": {
       "id": "fe01ce2a7fba",
@@ -5058,12 +5179,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479636+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305410+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "256a5e7bb318": {
       "id": "256a5e7bb318",
@@ -5124,13 +5246,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482752+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307620+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "16a0e9e038d4": {
       "id": "16a0e9e038d4",
@@ -5148,13 +5271,14 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483874+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308368+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "4868fe0ebdab": {
       "id": "4868fe0ebdab",
@@ -5172,13 +5296,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484141+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308572+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "a1a6950d4a0d": {
       "id": "a1a6950d4a0d",
@@ -5215,9 +5340,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 50,
-      "fetched_at": "2026-09-21T23:11:28.847086+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133575+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "5b8edffed513": {
       "id": "5b8edffed513",
@@ -5235,13 +5361,14 @@
       "suburb": "Camperdown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479697+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305453+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "aa62f8527389": {
       "id": "aa62f8527389",
@@ -5259,12 +5386,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484113+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308545+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "2695d9a57e29": {
       "id": "2695d9a57e29",
@@ -5320,12 +5448,13 @@
       "suburb": "Bondi Junction",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483233+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307949+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "df5ec7bc8f16": {
       "id": "df5ec7bc8f16",
@@ -5343,13 +5472,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483632+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308219+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "df656ca8dede": {
       "id": "df656ca8dede",
@@ -5367,13 +5497,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484074+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308520+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "5d559a55ee67": {
       "id": "5d559a55ee67",
@@ -5391,9 +5522,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-09-21T23:11:28.847020+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133498+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "76d154a3f542": {
       "id": "76d154a3f542",
@@ -5430,12 +5562,13 @@
       "suburb": "Balmain",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482464+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307440+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "eac21493ac05": {
       "id": "eac21493ac05",
@@ -5477,9 +5610,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.846807+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133275+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "50fa2422c663": {
       "id": "50fa2422c663",
@@ -5497,9 +5631,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.846784+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133247+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "d14d1e457bab": {
       "id": "d14d1e457bab",
@@ -5517,9 +5652,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.847177+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133674+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "9b7601918721": {
       "id": "9b7601918721",
@@ -5537,9 +5673,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.847228+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133735+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "feb1468e048b": {
       "id": "feb1468e048b",
@@ -5557,9 +5694,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:28.847165+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133660+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "bcc5ba80c8b3": {
       "id": "bcc5ba80c8b3",
@@ -5615,12 +5753,13 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480731+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306212+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "ee7c9b7377be": {
       "id": "ee7c9b7377be",
@@ -5676,13 +5815,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482605+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307525+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "feb7729b24c3": {
       "id": "feb7729b24c3",
@@ -5700,12 +5840,13 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.480623+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306126+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c43e779da56e": {
       "id": "c43e779da56e",
@@ -5723,13 +5864,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481463+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306745+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "c7926ddf4f0c": {
       "id": "c7926ddf4f0c",
@@ -5747,13 +5889,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481936+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307071+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "d4d520db6a00": {
       "id": "d4d520db6a00",
@@ -5771,12 +5914,13 @@
       "suburb": "Petersham",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482511+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307473+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "53ac4c89d62d": {
       "id": "53ac4c89d62d",
@@ -5794,13 +5938,14 @@
       "suburb": "Neutral Bay",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483019+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307803+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "a6c60bb946fb": {
       "id": "a6c60bb946fb",
@@ -5842,13 +5987,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484234+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308638+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "9e4e08794e72": {
       "id": "9e4e08794e72",
@@ -5938,12 +6084,13 @@
       "suburb": "",
       "free_event": false,
       "price_from": 34,
-      "fetched_at": "2026-09-21T23:11:28.846140+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132619+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "7eeff909b7ab": {
       "id": "7eeff909b7ab",
@@ -5961,13 +6108,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.479996+00:00",
+      "fetched_at": "2026-09-21T23:24:40.305674+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "1d41b579d7b5": {
       "id": "1d41b579d7b5",
@@ -6009,13 +6157,14 @@
       "suburb": "Barangaroo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481991+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307115+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "5aafb1107b18": {
       "id": "5aafb1107b18",
@@ -6105,13 +6254,14 @@
       "suburb": "St Peters",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483272+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307983+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "169499238d9a": {
       "id": "169499238d9a",
@@ -6129,13 +6279,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483349+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308038+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "b3c55a4c8628": {
       "id": "b3c55a4c8628",
@@ -6153,13 +6304,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.484170+00:00",
+      "fetched_at": "2026-09-21T23:24:40.308593+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "7d8e739a1018": {
       "id": "7d8e739a1018",
@@ -6177,9 +6329,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 48,
-      "fetched_at": "2026-09-21T23:11:28.846172+00:00",
+      "fetched_at": "2026-09-21T23:24:40.132649+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "f265bc88969c": {
       "id": "f265bc88969c",
@@ -6197,13 +6350,14 @@
       "suburb": "Annandale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.482645+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307554+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "1dc25869521a": {
       "id": "1dc25869521a",
@@ -6221,13 +6375,14 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.483129+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307879+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "d047279eeae2": {
       "id": "d047279eeae2",
@@ -6245,9 +6400,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T23:11:28.846927+00:00",
+      "fetched_at": "2026-09-21T23:24:40.133391+00:00",
       "sessions": [],
-      "booking_source": "todaytix"
+      "booking_source": "todaytix",
+      "last_seen": "2026-09-22"
     },
     "d677be36cafb": {
       "id": "d677be36cafb",
@@ -6265,12 +6421,13 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481648+00:00",
+      "fetched_at": "2026-09-21T23:24:40.306861+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "63140b2e0f64": {
       "id": "63140b2e0f64",
@@ -6288,12 +6445,13 @@
       "suburb": "Paddington",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.481909+00:00",
+      "fetched_at": "2026-09-21T23:24:40.307052+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "last_seen": "2026-09-22"
     },
     "1de05251c34b": {
       "id": "1de05251c34b",
@@ -6311,10 +6469,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837657+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787524+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "ef39f4dbd3b5": {
       "id": "ef39f4dbd3b5",
@@ -6332,10 +6491,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837692+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787600+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "682740cf9543": {
       "id": "682740cf9543",
@@ -6353,10 +6513,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837722+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787651+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "b1bc248a7ff2": {
       "id": "b1bc248a7ff2",
@@ -6374,10 +6535,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837741+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787680+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "0b0fd4387fee": {
       "id": "0b0fd4387fee",
@@ -6395,10 +6557,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837755+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787706+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "3c48defee404": {
       "id": "3c48defee404",
@@ -6416,10 +6579,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837770+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787730+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "b2d54a6fe65e": {
       "id": "b2d54a6fe65e",
@@ -6437,10 +6601,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837829+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787809+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "39c63ddb96a3": {
       "id": "39c63ddb96a3",
@@ -6458,10 +6623,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837841+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787825+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "25ce3f78f5ad": {
       "id": "25ce3f78f5ad",
@@ -6479,10 +6645,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837854+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787845+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "d5d7450938d6": {
       "id": "d5d7450938d6",
@@ -6500,10 +6667,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837876+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787882+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "cb19cc31e3bc": {
       "id": "cb19cc31e3bc",
@@ -6521,10 +6689,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837899+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787919+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "ceacf0f246ee": {
       "id": "ceacf0f246ee",
@@ -6542,10 +6711,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837929+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787966+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "00dfd219ddd9": {
       "id": "00dfd219ddd9",
@@ -6563,10 +6733,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837944+00:00",
+      "fetched_at": "2026-09-21T23:24:40.787992+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "467d4d96b2df": {
       "id": "467d4d96b2df",
@@ -6584,10 +6755,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837965+00:00",
+      "fetched_at": "2026-09-21T23:24:40.788027+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "53d03bf466c2": {
       "id": "53d03bf466c2",
@@ -6605,10 +6777,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837982+00:00",
+      "fetched_at": "2026-09-21T23:24:40.788055+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     },
     "46aaf4d021a0": {
       "id": "46aaf4d021a0",
@@ -6626,10 +6799,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:11:30.837994+00:00",
+      "fetched_at": "2026-09-21T23:24:40.788076+00:00",
       "categories": [],
       "sessions": [],
-      "booking_source": "venue-feed"
+      "booking_source": "venue-feed",
+      "last_seen": "2026-09-22"
     }
   },
   "__dedup_index__": {

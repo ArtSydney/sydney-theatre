@@ -880,14 +880,42 @@ function renderShows() {
   const today = sydneyToday();
   const filtered = pool.filter(s => activeGenre === 'all' || s.genre === activeGenre);
 
-  filtered.sort((a, b) => {
-    const aRunning = a.status === 'active' && !hasFinished(a, today);
-    const bRunning = b.status === 'active' && !hasFinished(b, today);
-    if (aRunning !== bRunning) return aRunning ? -1 : 1;
-    return dayKey(b.start_date).localeCompare(dayKey(a.start_date));
-  });
+  filtered.sort((a, b) => sortByWhen(a, b, today));
 
   renderList($('#shows-list'), filtered, activeGenre === 'all', today, showsQuery);
+}
+
+/* Order by when you can actually see it. The old sort put the newest
+   start_date first, so a show opening in 2027 ranked above one playing
+   tonight. Three tiers:
+     1. on now      -- closing soonest first, so the ones about to go are top
+     2. opening later -- soonest first
+     3. finished    -- most recently closed first
+*/
+function whenTier(s, today) {
+  const start = dayKey(s.start_date);
+  const end = dayKey(s.end_date);
+  if (s.status === 'closed' || (end && end < today)) return 2;
+  if (start && start > today) return 1;
+  return 0;
+}
+
+function sortByWhen(a, b, today) {
+  const ta = whenTier(a, today), tb = whenTier(b, today);
+  if (ta !== tb) return ta - tb;
+  if (ta === 0) {
+    // On now: the one finishing first is the more urgent.
+    const ea = dayKey(a.end_date) || '9999', eb = dayKey(b.end_date) || '9999';
+    if (ea !== eb) return ea < eb ? -1 : 1;
+    return dayKey(a.start_date).localeCompare(dayKey(b.start_date));
+  }
+  if (ta === 1) {
+    const sa = dayKey(a.start_date), sb = dayKey(b.start_date);
+    if (sa !== sb) return sa < sb ? -1 : 1;
+    return (a.title || '').localeCompare(b.title || '');
+  }
+  // Finished: most recent first.
+  return dayKey(b.end_date).localeCompare(dayKey(a.end_date));
 }
 
 function sortGenres(set) {

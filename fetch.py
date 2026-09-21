@@ -527,6 +527,10 @@ def fetch_venue_feeds():
         kind = feed.get("type")
         if not kind:
             continue
+        # A discovered feed can be recorded but left off, for venues whose
+        # programme is mostly not theatre.
+        if feed.get("enabled") is False:
+            continue
         if kind == "spektrix":
             results.extend(fetch_spektrix(venue, feed))
         else:

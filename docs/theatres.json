@@ -28,7 +28,7 @@
     "name": "Theatre Royal Sydney",
     "address": "108 King St, Sydney NSW 2000",
     "suburb": "Sydney",
-    "website": "https://www.theatreroyal.com.au",
+    "website": "https://www.theatreroyalsydney.com.au",
     "instagram": "theatreroyalsyd",
     "booking_platform": "ticketmaster",
     "capacity_tier": "large",
@@ -326,7 +326,7 @@
     "capacity_tier": "large"
   },
   {
-    "booking_platform": "",
+    "booking_platform": "spektrix",
     "instagram": "",
     "lat": null,
     "lng": null,
@@ -334,7 +334,13 @@
     "suburb": "Sutherland",
     "website": "https://thepavilionarts.au/",
     "id": "the-pavilion-performing-arts-centre",
-    "capacity_tier": "mid"
+    "capacity_tier": "mid",
+    "feed": {
+      "type": "spektrix",
+      "client": "pavilionperformingartscentre",
+      "enabled": false,
+      "note": "Multi-purpose arts centre: 103 events, but roughly two thirds are tribute acts, school concerts and dance-studio recitals rather than theatre. Discovery verified; left off pending a decision on whether to carry the venue."
+    }
   },
   {
     "booking_platform": "",

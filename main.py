@@ -4,6 +4,7 @@
 import json
 import os
 import tempfile
+from datetime import date, timedelta
 
 from fetch import fetch_all
 from filters import not_a_production
@@ -14,6 +15,10 @@ from localdate import sydney_today
 from notify import notify_new, notify_opening_tonight, notify_closing_soon
 
 STATE_FILE = "seen.json"
+
+# A normal run fetches ~190 listings. Far below that means a source is
+# down, not that Sydney stopped putting on plays.
+MIN_HEALTHY_RESULTS = 50
 
 
 def load_state():
@@ -67,16 +72,42 @@ def cleanup_state(state):
         print(f"  Reclassified {regenred} productions")
 
 
-def sweep_deadlines(state, today=None):
-    """Auto-close productions past their end date, in Sydney time."""
+# A run with no end date is closed once no source has listed it for this
+# long. Long enough that a venue reshuffling its site does not bury a real
+# show, short enough that a finished season does not linger for months.
+STALE_AFTER_DAYS = 21
+
+
+def sweep_deadlines(state, today=None, close_stale=True):
+    """Auto-close finished runs, in Sydney time.
+
+    Two ways a run ends. Most carry an end date and close the day after it
+    passes. Some never carry one -- open-ended and recurring listings -- and
+    those used to be skipped outright and stayed "active" forever, showing
+    up under Tonight and on every future calendar day. They now close once
+    no source has listed them for STALE_AFTER_DAYS.
+    """
     today = today or sydney_today()
     closing_soon = []
+    cutoff = (date.fromisoformat(today) - timedelta(days=STALE_AFTER_DAYS)).isoformat()
+
     for pid, prod in state["productions"].items():
         if prod.get("status") != "active":
             continue
-        end = prod.get("end_date", "")
+
+        end = (prod.get("end_date") or "").strip()
         if not end:
+            last_seen = prod.get("last_seen")
+            if not last_seen:
+                # First run since last_seen existed: start its clock now
+                # rather than closing a show we have simply never stamped.
+                prod["last_seen"] = today
+            elif close_stale and last_seen < cutoff:
+                prod["status"] = "closed"
+                print(f"  [sweep] Closed (no end date, unlisted since {last_seen}): "
+                      f"{prod.get('title', pid)}")
             continue
+
         if end < today:
             prod["status"] = "closed"
             print(f"  [sweep] Closed: {prod.get('title', pid)}")
@@ -141,7 +172,12 @@ def run():
     cleanup_state(state)
 
     print("\n[5/6] Sweeping deadlines...")
-    closing_soon = sweep_deadlines(state, today)
+    # A source outage looks exactly like "nothing is listed any more", so
+    # only age shows out when the fetch clearly worked.
+    feed_healthy = len(raw) >= MIN_HEALTHY_RESULTS
+    if not feed_healthy:
+        print(f"  Only {len(raw)} results fetched; skipping the staleness sweep")
+    closing_soon = sweep_deadlines(state, today, close_stale=feed_healthy)
 
     if os.environ.get("DISCORD_WEBHOOK_URL"):
         print("\n[notify] Sending Discord notifications...")

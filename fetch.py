@@ -11,7 +11,9 @@ import os
 import re
 import html
 import requests
-from datetime import datetime
+
+from filters import not_a_production
+from localdate import utc_now_iso
 
 THEATRES_FILE = "theatres.json"
 TODAYTIX_URL = "https://www.todaytix.com/sydney/category/all-shows"
@@ -119,6 +121,11 @@ def parse_todaytix_event(event):
     if any(kw in name_lower for kw in todaytix_skip):
         return None
 
+    junk = not_a_production(name)
+    if junk:
+        print(f"  [todaytix] Skipping non-production: {name!r} ({junk})")
+        return None
+
     start_date = event.get("startDate", "")
     end_date = event.get("endDate", "")
 
@@ -147,7 +154,7 @@ def parse_todaytix_event(event):
         "source": "todaytix",
         "source_url": booking_url,
         "snippet": "",
-        "fetched_at": datetime.utcnow().isoformat(),
+        "fetched_at": utc_now_iso(),
     }
 
 
@@ -201,8 +208,6 @@ COS_TAG_GENRE_MAP = {
     "theatre": "play",
     "acting": "play",
     "performance": "play",
-    "film": "film",
-    "cinema": "film",
     "children": "family",
     "family": "family",
 }
@@ -426,6 +431,11 @@ def parse_cos_event(hit):
     if any(kw in name_lower for kw in skip_keywords):
         return None
 
+    junk = not_a_production(name)
+    if junk:
+        print(f"  [cityofsydney] Skipping non-production: {name!r} ({junk})")
+        return None
+
     status = "active" if start_date else "needs_review"
 
     return {
@@ -442,19 +452,19 @@ def parse_cos_event(hit):
         "snippet": strapline[:300] if strapline else "",
         "suburb": suburb,
         "free_event": free_event == "true",
-        "fetched_at": datetime.utcnow().isoformat(),
+        "fetched_at": utc_now_iso(),
     }
+
+
+# Most specific first: with tags ["theatre", "musical"] we want "musical",
+# whichever order the source happens to list them in.
+GENRE_PRIORITY = ["opera", "musical", "dance", "cabaret", "comedy", "family", "play"]
 
 
 def _genre_from_tags(tags, name):
     """Derive genre from City of Sydney tags + name patterns."""
-    genre = ""
-    for tag in tags:
-        mapped = COS_TAG_GENRE_MAP.get(tag.lower(), "")
-        if mapped:
-            # Prefer specific genres over generic "play"
-            if mapped != "play" or not genre:
-                genre = mapped
+    mapped = {COS_TAG_GENRE_MAP[t.lower()] for t in tags if t.lower() in COS_TAG_GENRE_MAP}
+    genre = next((g for g in GENRE_PRIORITY if g in mapped), "")
 
     # Override based on name patterns (musicals often tagged as just "theatre")
     name_lower = name.lower()
@@ -541,7 +551,9 @@ def match_venue_id(venue_name):
     theatres = load_theatres()
     for t in theatres:
         tname = t["name"].lower()
-        if tname in venue_lower or venue_lower in tname:
+        # Require a reasonably distinctive overlap: substring matching on short
+        # names ("The Star", "Studio") otherwise claims unrelated venues.
+        if len(tname) >= 8 and (tname in venue_lower or venue_lower in tname):
             return t["id"]
         # Partial word match
         t_words = [w for w in tname.split() if len(w) > 2]

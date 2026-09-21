@@ -2,14 +2,33 @@ name: Daily Theatre Pipeline
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # 6am AEST (UTC+10)
+    # 20:00 UTC = 6am AEST / 7am AEDT. The pipeline itself works in
+    # Australia/Sydney time, so the exact runner hour does not matter.
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Never let a manual dispatch race the scheduled run into the same branch.
+concurrency:
+  group: theatre-pipeline
+  cancel-in-progress: false
+
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
   pipeline:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,6 +36,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -32,5 +52,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add seen.json docs/data.json docs/data-current.json docs/theatres.json
-          git diff --staged --quiet || git commit -m "chore: update theatre data $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update theatre data $(TZ=Australia/Sydney date +%Y-%m-%d)"
+          # Retry against a moved main rather than failing the whole run.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          done
+          echo "Could not push after 3 attempts" >&2
+          exit 1

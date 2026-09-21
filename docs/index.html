@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#1a1a1a">
@@ -40,36 +40,93 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 /* App shell */
 .app{display:flex;flex-direction:column;height:100%;position:relative}
 .header{
-  padding:16px 20px 12px;
+  padding:12px 16px 8px;
   background:var(--bg);
   position:sticky;top:0;z-index:20;
 }
 .header h1{
-  font-size:22px;letter-spacing:-0.5px;
+  font-size:20px;letter-spacing:-0.5px;
   background:linear-gradient(135deg,var(--teal),var(--gold));
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;
   background-clip:text;
 }
-.header .subtitle{font-size:12px;color:var(--text-dim);margin-top:2px;letter-spacing:0.5px;text-transform:uppercase}
+.header .subtitle{font-size:11px;color:var(--text-dim);margin-top:1px;letter-spacing:0.5px;text-transform:uppercase}
 
-/* Filter bar */
-.filter-bar{
-  display:flex;gap:8px;padding:0 20px 12px;overflow-x:auto;
-  -webkit-overflow-scrolling:touch;scrollbar-width:none;
+/* Filter block -----------------------------------------------------------
+   Was a single horizontally-scrolling strip: 758px of chips in a 343px
+   window, so 5 of 9 controls were off-screen and the Filters button -- the
+   only way to reach venue and suburb -- sat 411px past the right edge with
+   nothing to suggest it existed. Nothing scrolls sideways now; the chips
+   wrap and the sheet is always one tap away. */
+.filters{
+  position:sticky;top:0;z-index:15;
+  background:var(--bg);
+  padding:4px 0 8px;
+  margin:0 -16px;padding-left:16px;padding-right:16px;
 }
-.filter-bar::-webkit-scrollbar{display:none}
+.filters::after{
+  content:'';position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:rgba(255,255,255,0.06);
+}
+
+/* Search + sheet trigger: one row, always fully visible */
+.search-row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.search-wrap{position:relative;flex:1;min-width:0}
+.search-wrap svg{
+  position:absolute;left:12px;top:50%;transform:translateY(-50%);
+  width:16px;height:16px;stroke:var(--text-dim);fill:none;stroke-width:2;
+  pointer-events:none;
+}
+.search-input{
+  width:100%;height:44px;
+  padding:0 36px 0 36px;
+  background:var(--card);color:var(--text);
+  border:1px solid rgba(255,255,255,0.08);border-radius:12px;
+  font-family:'Inter',sans-serif;font-size:16px; /* 16px stops iOS zoom-on-focus */
+  -webkit-appearance:none;appearance:none;
+}
+.search-input::placeholder{color:var(--text-dim)}
+.search-input:focus{outline:none;border-color:var(--teal)}
+.search-clear{
+  position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  width:36px;height:36px;border:none;background:none;
+  color:var(--text-dim);font-size:18px;line-height:1;cursor:pointer;
+  display:none;align-items:center;justify-content:center;
+  -webkit-tap-highlight-color:transparent;
+}
+.search-wrap.has-value .search-clear{display:flex}
+
+.filter-btn{
+  flex-shrink:0;display:inline-flex;align-items:center;gap:6px;
+  height:44px;padding:0 14px;border-radius:12px;
+  background:var(--card);color:var(--text);
+  border:1px solid rgba(255,255,255,0.08);
+  font-family:'Inter',sans-serif;font-size:14px;font-weight:600;
+  cursor:pointer;-webkit-tap-highlight-color:transparent;
+}
+.filter-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}
+.filter-btn.active{border-color:var(--teal);color:var(--teal)}
+.filter-btn .count{
+  min-width:20px;height:20px;padding:0 6px;border-radius:10px;
+  background:var(--teal);color:#fff;font-size:11px;font-weight:700;
+  display:inline-flex;align-items:center;justify-content:center;
+}
+
+/* Genre chips wrap instead of scrolling: every one reachable, one tap */
+.filter-bar{display:flex;flex-wrap:wrap;gap:6px}
 .filter-chip{
-  flex-shrink:0;
-  padding:6px 14px;border-radius:20px;
+  display:inline-flex;align-items:center;gap:5px;
+  min-height:38px;padding:0 13px;border-radius:19px;
   font-size:13px;font-weight:500;
   background:var(--card);color:var(--text-dim);
   border:1px solid transparent;
-  cursor:pointer;transition:all .2s;
+  cursor:pointer;transition:background .15s,color .15s,border-color .15s;
   font-family:'Inter',sans-serif;
+  -webkit-tap-highlight-color:transparent;
 }
-.filter-chip.active{
-  background:var(--teal);color:#fff;border-color:var(--teal);
-}
+.filter-chip .n{font-size:11px;font-weight:600;opacity:0.65;font-variant-numeric:tabular-nums}
+.filter-chip.active{background:var(--teal);color:#fff;border-color:var(--teal)}
+.filter-chip.active .n{opacity:0.85}
 
 /* Content area */
 .content{
@@ -85,7 +142,7 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 .tonight-hero{
   background:linear-gradient(135deg,var(--teal) 0%,#1a6b62 100%);
   border-radius:var(--radius);
-  padding:24px 20px;margin-bottom:16px;
+  padding:16px 18px;margin-bottom:12px;
   position:relative;overflow:hidden;
 }
 .tonight-hero::after{
@@ -93,9 +150,10 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
   width:140px;height:140px;border-radius:50%;
   background:rgba(233,196,106,0.15);
 }
-.tonight-hero .date{font-size:13px;color:rgba(255,255,255,0.7);text-transform:uppercase;letter-spacing:1px}
-.tonight-hero .count{font-family:'Space Grotesk',sans-serif;font-size:42px;font-weight:700;color:#fff;margin:4px 0}
-.tonight-hero .label{font-size:15px;color:rgba(255,255,255,0.85)}
+.tonight-hero .date{font-size:12px;color:rgba(255,255,255,0.75);text-transform:uppercase;letter-spacing:1px}
+.tonight-hero .count-row{display:flex;align-items:baseline;gap:8px;margin-top:2px}
+.tonight-hero .count{font-family:'Space Grotesk',sans-serif;font-size:38px;font-weight:700;color:#fff;line-height:1.05}
+.tonight-hero .label{font-size:14px;color:rgba(255,255,255,0.85)}
 
 /* Show cards */
 .show-card{
@@ -133,7 +191,7 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 .show-card .dates{font-size:13px;color:var(--text-dim)}
 .show-card .dates span{color:var(--gold)}
 .show-card .book-link{
-  display:inline-block;margin-top:10px;
+  display:inline-flex;align-items:center;min-height:44px;margin-top:2px;
   font-size:13px;font-weight:600;color:var(--coral);
   text-decoration:none;
 }
@@ -213,10 +271,14 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 
 /* Toggle */
 .toggle-row{
-  display:flex;align-items:center;gap:8px;
-  padding:8px 0 12px;
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  min-height:44px;padding:4px 0;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
 }
-.toggle-row label{font-size:13px;color:var(--text-dim)}
+.toggle-row label{font-size:14px;color:var(--text);cursor:pointer}
+.toggle-row .hint{display:block;font-size:12px;color:var(--text-dim);margin-top:1px}
+.toggle-row.loading .toggle{opacity:0.5}
+.toggle-row.loading .hint::after{content:' - loading archive...'}
 
 /* Filter drawer */
 .filter-drawer-body{padding:8px 0 0}
@@ -282,17 +344,19 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
   font-size:13px;font-weight:400;color:var(--text-dim);margin-left:4px;
 }
 .toggle{
-  width:40px;height:22px;border-radius:11px;
+  flex-shrink:0;
+  width:46px;height:28px;border-radius:14px;
   background:var(--card);position:relative;cursor:pointer;
   transition:background .2s;border:none;
 }
 .toggle.on{background:var(--teal)}
 .toggle::after{
   content:'';position:absolute;top:3px;left:3px;
-  width:16px;height:16px;border-radius:50%;
+  width:22px;height:22px;border-radius:50%;
   background:#fff;transition:transform .2s;
 }
 .toggle.on::after{transform:translateX(18px)}
+.filter-pill{min-height:32px}
 
 /* Bottom nav */
 .bottom-nav{
@@ -314,6 +378,25 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 .nav-btn.active{color:var(--teal)}
 .nav-btn svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8}
 
+/* Small phones: the chips need a third row here, so buy the space back
+   from the chrome rather than from the listings. */
+@media (max-width:360px){
+  .header{padding:10px 14px 6px}
+  .header h1{font-size:18px}
+  .tonight-hero{padding:13px 15px;margin-bottom:10px}
+  .tonight-hero .count{font-size:32px}
+  .tonight-hero .label{font-size:13px}
+  .filter-chip{min-height:34px;padding:0 11px;font-size:12px;gap:4px}
+  .search-input,.filter-btn{height:42px}
+  .filter-btn{padding:0 11px}
+  .content{padding-left:14px;padding-right:14px}
+  .filters{margin:0 -14px;padding-left:14px;padding-right:14px}
+}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{transition-duration:.01ms !important;animation-duration:.01ms !important}
+}
+
 /* Desktop breakpoint */
 @media(min-width:640px){
   .app{max-width:480px;margin:0 auto}
@@ -333,21 +416,51 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
     <div id="tab-tonight" class="tab-panel active">
       <div class="tonight-hero">
         <div class="date" id="tonight-date"></div>
-        <div class="count" id="tonight-count">0</div>
-        <div class="label">shows tonight</div>
+        <div class="count-row">
+          <span class="count" id="tonight-count">0</span>
+          <span class="label">shows tonight</span>
+        </div>
       </div>
-      <div class="filter-bar" id="tonight-genre-filters"></div>
-      <div id="tonight-active-filters" class="active-filters"></div>
+<div class="filters">
+        <div class="search-row">
+          <div class="search-wrap" id="tonight-search-wrap">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <input class="search-input" id="tonight-search" type="search" inputmode="search"
+                   autocomplete="off" autocapitalize="off" spellcheck="false"
+                   placeholder="Search shows, venues" aria-label="Search shows or venues">
+            <button class="search-clear" type="button" data-action="clear-search" data-ctx="tonight"
+                    aria-label="Clear search">&times;</button>
+          </div>
+          <button class="filter-btn" type="button" id="tonight-filter-btn"
+                  data-action="open-filters" data-ctx="tonight" aria-label="Filters">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="8" cy="18" r="2"/></svg><span class="filter-btn-label">Filters</span>
+          </button>
+        </div>
+        <div class="filter-bar" id="tonight-genre-filters" role="group" aria-label="Filter by genre"></div>
+        <div id="tonight-active-filters" class="active-filters"></div>
+      </div>
       <div id="tonight-list"></div>
     </div>
 
     <!-- Shows Tab -->
     <div id="tab-shows" class="tab-panel">
-      <div class="filter-bar" id="genre-filters"></div>
-      <div id="shows-active-filters" class="active-filters"></div>
-      <div class="toggle-row">
-        <label>Show closed</label>
-        <button class="toggle" id="toggle-closed" type="button" aria-pressed="false" onclick="toggleClosed()"></button>
+<div class="filters">
+        <div class="search-row">
+          <div class="search-wrap" id="shows-search-wrap">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <input class="search-input" id="shows-search" type="search" inputmode="search"
+                   autocomplete="off" autocapitalize="off" spellcheck="false"
+                   placeholder="Search shows, venues" aria-label="Search shows or venues">
+            <button class="search-clear" type="button" data-action="clear-search" data-ctx="shows"
+                    aria-label="Clear search">&times;</button>
+          </div>
+          <button class="filter-btn" type="button" id="shows-filter-btn"
+                  data-action="open-filters" data-ctx="shows" aria-label="Filters">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="8" cy="18" r="2"/></svg><span class="filter-btn-label">Filters</span>
+          </button>
+        </div>
+        <div class="filter-bar" id="genre-filters" role="group" aria-label="Filter by genre"></div>
+        <div id="shows-active-filters" class="active-filters"></div>
       </div>
       <div id="shows-list"></div>
     </div>
@@ -365,8 +478,8 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
   </div>
 
   <!-- Drawer for calendar day tap -->
-  <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()">
-    <div class="drawer" onclick="event.stopPropagation()">
+  <div class="drawer-overlay" id="drawer-overlay" data-close="drawer">
+    <div class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
       <div class="drawer-handle"></div>
       <h3 id="drawer-title"></h3>
       <div class="drawer-date" id="drawer-date"></div>
@@ -375,15 +488,22 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
   </div>
 
   <!-- Filter drawer -->
-  <div class="drawer-overlay" id="filter-overlay" onclick="closeFilterDrawer()">
-    <div class="drawer" onclick="event.stopPropagation()">
+  <div class="drawer-overlay" id="filter-overlay" data-close="filter">
+    <div class="drawer" role="dialog" aria-modal="true" aria-label="Filters">
       <div class="drawer-handle"></div>
       <h3>Filters</h3>
       <div class="filter-drawer-body">
-        <label class="filter-label">Venue</label>
+        <label class="filter-label" for="filter-venue">Venue</label>
         <select id="filter-venue" class="filter-select"></select>
-        <label class="filter-label">Suburb</label>
+        <label class="filter-label" for="filter-suburb">Suburb</label>
         <select id="filter-suburb" class="filter-select"></select>
+        <div class="toggle-row" id="filter-closed-row" data-action="toggle-closed">
+          <span>
+            <label for="toggle-closed">Include closed shows</label>
+            <span class="hint">Runs that have already finished</span>
+          </span>
+          <button class="toggle" id="toggle-closed" type="button" aria-pressed="false"></button>
+        </div>
         <div class="filter-actions">
           <button class="filter-clear" onclick="clearFilters()">Clear all</button>
           <button class="filter-apply" onclick="applyFilters()">Show results</button>
@@ -413,17 +533,28 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 let DATA = [];
 let THEATRES = {};
 let showClosed = false;
+let archiveLoaded = false;
 let activeGenre = 'all';
 let activeVenue = 'all';
 let activeSuburb = 'all';
 let tonightGenre = 'all';
 let tonightVenue = 'all';
 let tonightSuburb = 'all';
+let tonightQuery = '';
+let showsQuery = '';
 let filterContext = 'tonight';
 let calMonth, calYear;
 
 const GENRE_ORDER = ['play','musical','comedy','cabaret','opera','dance','family','unknown'];
 const KNOWN_GENRES = new Set(GENRE_ORDER);
+// "Unknown" is our bookkeeping word, not something to show a visitor.
+const GENRE_LABELS = { unknown: 'Other', all: 'All' };
+function genreLabel(g) { return GENRE_LABELS[g] || capitalize(g); }
+
+function matchesQuery(s, q) {
+  if (!q) return true;
+  return `${s.title || ''} ${s.venue || ''} ${s.suburb || ''}`.toLowerCase().includes(q);
+}
 
 const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
@@ -541,6 +672,7 @@ function openFilterDrawer(ctx) {
   $('#filter-suburb').innerHTML = '<option value="all">All suburbs</option>' +
     suburbs.map(s => `<option value="${attr(s)}" ${s === curSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
 
+  $('#filter-closed-row').style.display = isTonight ? 'none' : '';
   $('#filter-overlay').classList.add('open');
 }
 
@@ -591,11 +723,53 @@ function pill(ctx, field, label) {
   return `<span class="filter-pill" data-action="remove-filter" data-ctx="${attr(ctx)}" data-field="${attr(field)}">${esc(label)} <span class="x">&times;</span></span>`;
 }
 
-function genreChips(genres, current, ctx, hasFilters) {
-  return genres.map(g =>
-    `<button class="filter-chip ${g === current ? 'active' : ''}" data-action="set-genre" data-ctx="${attr(ctx)}" data-genre="${attr(g)}">${g === 'all' ? 'All' : esc(capitalize(g))}</button>`
-  ).join('') +
-  `<button class="filter-chip${hasFilters ? ' active' : ''}" data-action="open-filters" data-ctx="${attr(ctx)}">&#9776; Filters</button>`;
+/* Chips carry their result count, so you can see a genre is empty before
+   spending a tap on it. The Filters trigger lives in its own always-visible
+   row rather than at the end of this list. */
+function genreChips(pool, current, ctx) {
+  const counts = new Map();
+  pool.forEach(s => {
+    const g = s.genre || 'unknown';
+    counts.set(g, (counts.get(g) || 0) + 1);
+  });
+  const genres = ['all', ...sortGenres(new Set(counts.keys()))];
+  const html = genres.map(g => {
+    const n = g === 'all' ? pool.length : counts.get(g) || 0;
+    return `<button class="filter-chip ${g === current ? 'active' : ''}" type="button"
+      aria-pressed="${g === current}" data-action="set-genre"
+      data-ctx="${attr(ctx)}" data-genre="${attr(g)}">${esc(genreLabel(g))} <span class="n">${n}</span></button>`;
+  }).join('');
+  return { html, genres };
+}
+
+/* The sheet trigger shows how many filters are on, so an active venue or
+   suburb filter is visible without opening anything. */
+function updateFilterButton(ctx) {
+  const isTonight = ctx === 'tonight';
+  const venue = isTonight ? tonightVenue : activeVenue;
+  const suburb = isTonight ? tonightSuburb : activeSuburb;
+  let n = (venue !== 'all' ? 1 : 0) + (suburb !== 'all' ? 1 : 0);
+  if (!isTonight && showClosed) n += 1;
+  const btn = $(`#${ctx}-filter-btn`);
+  btn.classList.toggle('active', n > 0);
+  btn.setAttribute('aria-label', n ? `Filters, ${n} active` : 'Filters');
+  const label = btn.querySelector('.filter-btn-label');
+  label.textContent = 'Filters';
+  let badge = btn.querySelector('.count');
+  if (n > 0) {
+    if (!badge) {
+      badge = document.createElement('span');
+      badge.className = 'count';
+      btn.appendChild(badge);
+    }
+    badge.textContent = n;
+  } else if (badge) {
+    badge.remove();
+  }
+}
+
+function syncSearchInput(ctx, value) {
+  $(`#${ctx}-search-wrap`).classList.toggle('has-value', !!value);
 }
 
 function getTonightShows() {
@@ -622,42 +796,46 @@ function renderTonight() {
   const d = parseLocalDate(sydneyToday());
   $('#tonight-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
 
-  const allTonight = getTonightShows();
-  const genres = ['all', ...sortGenres(new Set(allTonight.map(s => s.genre).filter(Boolean)))];
+  // Chip counts reflect the venue/suburb/search filters already applied, so
+  // the numbers always match what a tap will actually produce.
+  const allTonight = getTonightShows().filter(s => {
+    if (tonightVenue !== 'all' && s.venue !== tonightVenue) return false;
+    if (tonightSuburb !== 'all' && s.suburb !== tonightSuburb) return false;
+    return matchesQuery(s, tonightQuery);
+  });
+
+  const { html, genres } = genreChips(allTonight, tonightGenre, 'tonight');
   if (!genres.includes(tonightGenre)) tonightGenre = 'all';
-  $('#tonight-genre-filters').innerHTML =
-    genreChips(genres, tonightGenre, 'tonight', tonightVenue !== 'all' || tonightSuburb !== 'all');
+  $('#tonight-genre-filters').innerHTML = html;
+  updateFilterButton('tonight');
+  syncSearchInput('tonight', tonightQuery);
 
   renderActiveFilterPills('tonight');
 
-  const tonight = allTonight.filter(s => {
-    if (tonightGenre !== 'all' && s.genre !== tonightGenre) return false;
-    if (tonightVenue !== 'all' && s.venue !== tonightVenue) return false;
-    if (tonightSuburb !== 'all' && s.suburb !== tonightSuburb) return false;
-    return true;
-  });
+  const tonight = allTonight.filter(s => tonightGenre === 'all' || s.genre === tonightGenre);
 
   $('#tonight-count').textContent = tonight.length;
-  renderList($('#tonight-list'), tonight, tonightGenre === 'all');
+  renderList($('#tonight-list'), tonight, tonightGenre === 'all', null, tonightQuery);
 }
 
 /* --- Shows --- */
 function renderShows() {
-  const pool = getShowsPool();
-  const genres = ['all', ...sortGenres(new Set(pool.map(s => s.genre).filter(Boolean)))];
+  const pool = getShowsPool().filter(s => {
+    if (activeVenue !== 'all' && s.venue !== activeVenue) return false;
+    if (activeSuburb !== 'all' && s.suburb !== activeSuburb) return false;
+    return matchesQuery(s, showsQuery);
+  });
+
+  const { html, genres } = genreChips(pool, activeGenre, 'shows');
   if (!genres.includes(activeGenre)) activeGenre = 'all';
-  $('#genre-filters').innerHTML =
-    genreChips(genres, activeGenre, 'shows', activeVenue !== 'all' || activeSuburb !== 'all');
+  $('#genre-filters').innerHTML = html;
+  updateFilterButton('shows');
+  syncSearchInput('shows', showsQuery);
 
   renderActiveFilterPills('shows');
 
   const today = sydneyToday();
-  const filtered = pool.filter(s => {
-    if (activeGenre !== 'all' && s.genre !== activeGenre) return false;
-    if (activeVenue !== 'all' && s.venue !== activeVenue) return false;
-    if (activeSuburb !== 'all' && s.suburb !== activeSuburb) return false;
-    return true;
-  });
+  const filtered = pool.filter(s => activeGenre === 'all' || s.genre === activeGenre);
 
   filtered.sort((a, b) => {
     const aRunning = a.status === 'active' && !hasFinished(a, today);
@@ -666,7 +844,7 @@ function renderShows() {
     return dayKey(b.start_date).localeCompare(dayKey(a.start_date));
   });
 
-  renderList($('#shows-list'), filtered, activeGenre === 'all', today);
+  renderList($('#shows-list'), filtered, activeGenre === 'all', today, showsQuery);
 }
 
 function sortGenres(set) {
@@ -675,9 +853,10 @@ function sortGenres(set) {
   return [...known, ...extra];
 }
 
-function renderList(container, shows, grouped, today) {
+function renderList(container, shows, grouped, today, query) {
   if (shows.length === 0) {
-    container.innerHTML = '<div class="empty-state"><div class="icon">&#127917;</div><p>No shows match this filter</p></div>';
+    const what = query ? `Nothing matches &ldquo;${esc(query)}&rdquo;` : 'No shows match these filters';
+    container.innerHTML = `<div class="empty-state"><div class="icon">&#127917;</div><p>${what}</p></div>`;
     return;
   }
   if (!grouped) {
@@ -692,7 +871,7 @@ function renderList(container, shows, grouped, today) {
   });
   container.innerHTML = sortGenres(new Set(groups.keys())).map(g => {
     const rows = groups.get(g);
-    return `<div class="genre-section-header">${esc(capitalize(g))} <span class="genre-section-count">${rows.length}</span></div>`
+    return `<div class="genre-section-header">${esc(genreLabel(g))} <span class="genre-section-count">${rows.length}</span></div>`
       + rows.map(s => showCard(s, today)).join('');
   }).join('');
 }
@@ -726,7 +905,7 @@ function showCard(s, today) {
   const freeLine = s.free_event ? '<div class="price-badge">Free</div>' : '';
 
   return `<div class="show-card${reviewClass}">
-    <span class="genre-tag ${genreClass}">${esc(capitalize(genre))}</span>
+    <span class="genre-tag ${genreClass}">${esc(genreLabel(genre))}</span>
     <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
     <div class="venue">${venueLine(s)}</div>
     <div class="dates">${formatDateRange(s.start_date, s.end_date)}</div>
@@ -735,12 +914,35 @@ function showCard(s, today) {
   </div>`;
 }
 
-function toggleClosed() {
+/* The page loads data-current.json, which holds only active shows -- so this
+   toggle had nothing to reveal and silently did nothing. Pull the full
+   archive the first time it is switched on, and keep the initial load light
+   for the majority who never touch it. */
+async function toggleClosed() {
   showClosed = !showClosed;
   const btn = $('#toggle-closed');
   btn.classList.toggle('on', showClosed);
   btn.setAttribute('aria-pressed', String(showClosed));
+
+  if (showClosed && !archiveLoaded) {
+    const row = $('#filter-closed-row');
+    row.classList.add('loading');
+    const archive = await loadJSON('data.json?v=3', null);
+    row.classList.remove('loading');
+    if (Array.isArray(archive) && archive.length) {
+      DATA = archive;
+      archiveLoaded = true;
+      renderAll();
+      return;
+    }
+  }
   renderShows();
+}
+
+function setQuery(ctx, value) {
+  const q = value.trim().toLowerCase();
+  if (ctx === 'tonight') { tonightQuery = q; renderTonight(); }
+  else { showsQuery = q; renderShows(); }
 }
 
 /* --- Calendar --- */
@@ -861,6 +1063,12 @@ function formatDateRange(start, end) {
    handler. A title or venue containing an apostrophe used to produce
    broken (and injectable) onclick="...('...')" markup. */
 document.addEventListener('click', e => {
+  // A click that landed on the backdrop itself, not on the sheet.
+  if (e.target.dataset && e.target.dataset.close) {
+    if (e.target.dataset.close === 'drawer') closeDrawer();
+    else closeFilterDrawer();
+    return;
+  }
   const el = e.target.closest('[data-action]');
   if (!el) return;
   const { action, ctx, genre, field, date } = el.dataset;
@@ -873,6 +1081,27 @@ document.addEventListener('click', e => {
     removeFilter(ctx, field);
   } else if (action === 'open-day') {
     openDay(date);
+  } else if (action === 'clear-search') {
+    const input = $(`#${ctx}-search`);
+    input.value = '';
+    setQuery(ctx, '');
+    input.focus();
+  } else if (action === 'toggle-closed') {
+    toggleClosed();
+  }
+});
+
+document.addEventListener('input', e => {
+  if (e.target.classList.contains('search-input')) {
+    setQuery(e.target.id.replace('-search', ''), e.target.value);
+  }
+});
+
+// Enter should dismiss the keyboard rather than submit anything.
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && e.target.classList.contains('search-input')) {
+    e.preventDefault();
+    e.target.blur();
   }
 });
 

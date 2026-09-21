@@ -10,6 +10,18 @@ list is easy to tune.
 
 import re
 
+# City of Sydney files every event under one or more categories, and these
+# ones are never a stage production. This is stronger signal than the tags:
+# a book club and a dance class are both tagged "arts".
+#
+# Deliberately NOT in this set: "tours-and-experiences". It is where the
+# source files immersive work, and also Disney's The Lion King.
+JUNK_CATEGORIES = {
+    "talks-courses-and-workshops",
+    "exhibitions",
+    "sport-and-fitness",
+}
+
 # Each pattern means "not a production" on its own.
 NOT_A_PRODUCTION = [
     r"\bworkshops?\b",
@@ -44,11 +56,21 @@ NOT_A_PRODUCTION = [
 _COMPILED = [re.compile(p, re.I) for p in NOT_A_PRODUCTION]
 
 
-def not_a_production(title):
-    """Return the matching pattern if the title is not a stage production."""
+def not_a_production(title, categories=None):
+    """Return a reason string if this is not a stage production, else None.
+
+    Checks the source's own categories first (most reliable), then the title.
+    The two catch different things: categories find the book club and the
+    artist talks, titles find the dance classes that the source files under
+    "theatre-dance-and-film" like everything else.
+    """
+    junk_cats = JUNK_CATEGORIES & {str(c).lower() for c in (categories or [])}
+    if junk_cats:
+        return f"category: {sorted(junk_cats)[0]}"
+
     if not title:
         return None
     for pattern in _COMPILED:
         if pattern.search(title):
-            return pattern.pattern
+            return f"title: {pattern.pattern}"
     return None

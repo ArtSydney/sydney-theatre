@@ -355,6 +355,7 @@ def parse_cos_event(hit):
     venue_slug_list = hit.get("venues", [])
     venue_name_raw = hit.get("venueName", "")
     tags = hit.get("tags", [])
+    categories = hit.get("categories", []) or []
     suburb = hit.get("suburbName", "")
     free_event = hit.get("freeEvent", "false")
 
@@ -431,7 +432,7 @@ def parse_cos_event(hit):
     if any(kw in name_lower for kw in skip_keywords):
         return None
 
-    junk = not_a_production(name)
+    junk = not_a_production(name, categories)
     if junk:
         print(f"  [cityofsydney] Skipping non-production: {name!r} ({junk})")
         return None
@@ -452,6 +453,7 @@ def parse_cos_event(hit):
         "snippet": strapline[:300] if strapline else "",
         "suburb": suburb,
         "free_event": free_event == "true",
+        "categories": categories,
         "fetched_at": utc_now_iso(),
     }
 

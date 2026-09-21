@@ -14,6 +14,10 @@ import hashlib
 
 from localdate import sydney_today
 
+# Bump whenever canonical_key's behaviour changes, so reindex() knows the
+# stored ids were produced by an older rule.
+KEY_VERSION = 2
+
 # Common words to ignore in title matching
 STOP_WORDS = {
     "the", "a", "an", "of", "in", "at", "on", "and", "or", "to",
@@ -67,6 +71,48 @@ def normalize(text):
     return " ".join(sorted(words))
 
 
+def reindex(state, today=None):
+    """Rebuild __dedup_index__ from the productions, collapsing collisions.
+
+    A production's id *is* its canonical key, so improving canonical_key
+    changes it. The stored ids then no longer match what the next fetch
+    computes, the same show is filed again under a new id, and the site
+    lists it twice. (Spacing punctuation instead of deleting it did exactly
+    this to 13 shows.) Rebuilding from the productions themselves makes a
+    rule change self-healing instead of a data migration.
+    """
+    today = today or sydney_today()
+    productions = state.setdefault("productions", {})
+
+    groups = {}
+    for prod in productions.values():
+        groups.setdefault(canonical_key(prod.get("title", "")), []).append(prod)
+
+    rebuilt = {}
+    merged = 0
+    for key, group in groups.items():
+        # Oldest first: merge_production treats its second argument as the
+        # newer, more authoritative record.
+        group.sort(key=lambda p: p.get("fetched_at") or "")
+        base = group[0]
+        was_suppressed = any(p.get("status") == "suppressed" for p in group)
+        for other in group[1:]:
+            merge_production(base, other, today=today)
+            merged += 1
+        if was_suppressed:
+            base["status"] = "suppressed"
+        base["id"] = key
+        rebuilt[key] = base
+
+    if merged:
+        print(f"  [reindex] Merged {merged} duplicate record(s) after a key change")
+
+    state["productions"] = rebuilt
+    state["__dedup_index__"] = {key: key for key in rebuilt}
+    state["__key_version__"] = KEY_VERSION
+    return merged
+
+
 def deduplicate(item, state, today=None):
     """Merge an incoming item into state.
 
@@ -113,6 +159,8 @@ def deduplicate(item, state, today=None):
         "free_event": item.get("free_event", False),
         "price_from": item.get("price_from", None),
         "fetched_at": item.get("fetched_at", ""),
+        # Kept so cleanup_state can re-apply filters to stored records.
+        "categories": item.get("categories", []),
         "sessions": [],
     }
     _refresh_status(productions[pid], today or sydney_today())
@@ -136,7 +184,7 @@ def merge_production(existing, new, today=None):
     # Refresh-if-present: a source that re-lists a show is the authority on
     # when it now runs. The old fill-if-empty behaviour meant an extended or
     # rescheduled run was silently ignored forever.
-    for field in ["start_date", "end_date", "venue", "fetched_at"]:
+    for field in ["start_date", "end_date", "venue", "fetched_at", "categories"]:
         if new.get(field) and new[field] != existing.get(field):
             existing[field] = new[field]
 

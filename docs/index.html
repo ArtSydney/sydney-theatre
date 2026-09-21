@@ -697,6 +697,18 @@ function renderList(container, shows, grouped, today) {
   }).join('');
 }
 
+/* A third of City of Sydney listings carry no venue name at all, which
+   rendered as an empty line followed by an orphaned "(Suburb)". Fall back
+   to the suburb on its own. */
+function venueLine(s) {
+  const venue = (s.venue || '').trim();
+  const suburb = (s.suburb || '').trim();
+  if (venue && suburb) return `${esc(venue)} <span class="suburb">(${esc(suburb)})</span>`;
+  if (venue) return esc(venue);
+  if (suburb) return `<span class="suburb">${esc(suburb)}</span>`;
+  return '<span class="suburb">Venue TBC</span>';
+}
+
 function showCard(s, today) {
   const genre = s.genre || 'unknown';
   const genreClass = 'genre-' + (KNOWN_GENRES.has(genre) ? genre : 'unknown');
@@ -716,7 +728,7 @@ function showCard(s, today) {
   return `<div class="show-card${reviewClass}">
     <span class="genre-tag ${genreClass}">${esc(capitalize(genre))}</span>
     <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
-    <div class="venue">${esc(s.venue)}${s.suburb ? ' <span class="suburb">(' + esc(s.suburb) + ')</span>' : ''}</div>
+    <div class="venue">${venueLine(s)}</div>
     <div class="dates">${formatDateRange(s.start_date, s.end_date)}</div>
     ${freeLine}${priceLine}
     ${bookLink}
@@ -804,7 +816,7 @@ function openDay(dateStr) {
 
     return `<div class="gantt-bar${url ? ' clickable' : ''}">
       <div class="g-title">${esc(s.title)}</div>
-      <div class="g-venue">${esc(s.venue)}</div>
+      <div class="g-venue">${venueLine(s)}</div>
       <div class="g-dates">${formatDateRange(s.start_date, s.end_date)}</div>
       <div class="g-range"><div class="g-fill" style="width:${pct}%"></div></div>
       ${link}

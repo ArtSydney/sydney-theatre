@@ -16,7 +16,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 35,
-      "fetched_at": "2026-09-21T13:23:31.077667+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993489+00:00",
       "sessions": []
     },
     "43b5c9175984": {
@@ -54,7 +54,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-09-21T13:23:31.077448+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993282+00:00",
       "sessions": []
     },
     "20dab5edee3f": {
@@ -73,8 +73,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 94.9,
-      "fetched_at": "2026-09-21T13:23:32.791769+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391141+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "8b761e091465": {
       "id": "8b761e091465",
@@ -92,8 +95,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T13:23:32.789286+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388348+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "a136d1cabee3": {
       "id": "a136d1cabee3",
@@ -130,7 +136,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-09-21T13:23:31.078001+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993718+00:00",
       "sessions": []
     },
     "d904ff3908b9": {
@@ -149,8 +155,12 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789045+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388008+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "tours-and-experiences"
+      ]
     },
     "2bef861a48de": {
       "id": "2bef861a48de",
@@ -168,8 +178,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791482+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390795+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "d1d504d68466": {
       "id": "d1d504d68466",
@@ -187,7 +200,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.077619+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993457+00:00",
       "sessions": []
     },
     "97527baa8f72": {
@@ -225,8 +238,11 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T13:23:32.788628+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387799+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "c306f596a49c": {
       "id": "c306f596a49c",
@@ -263,8 +279,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74.5,
-      "fetched_at": "2026-09-21T13:23:32.790478+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389704+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "911ad3ab6709": {
       "id": "911ad3ab6709",
@@ -301,27 +320,35 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 77,
-      "fetched_at": "2026-09-21T13:23:32.790886+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390138+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "45ae8f38f50f": {
       "id": "45ae8f38f50f",
-      "title": "All Star Circus",
+      "title": "All-Star Circus",
       "venue": "The Entertainment Quarter",
       "venue_id": "entertainment-quarter",
-      "genre": "cabaret",
+      "genre": "family",
       "status": "active",
       "start_date": "2026-09-05",
       "end_date": "2026-10-11",
       "booking_url": "https://www.todaytix.com/sydney/shows/47451-all-star-circus",
-      "source": "todaytix",
-      "source_url": "https://www.todaytix.com/sydney/shows/47451-all-star-circus",
+      "source": "cityofsydney",
+      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/all-star-circus",
       "snippet": "If you only see one show this fringe, make sure this is the one!",
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T13:23:32.789541+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388622+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "325ff16141ce": {
       "id": "325ff16141ce",
@@ -339,8 +366,11 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 94,
-      "fetched_at": "2026-09-21T13:23:32.788859+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387779+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "4a690813267d": {
       "id": "4a690813267d",
@@ -377,7 +407,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 122,
-      "fetched_at": "2026-09-21T13:23:31.077694+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993510+00:00",
       "sessions": []
     },
     "91af27023a68": {
@@ -396,18 +426,18 @@
       "suburb": "",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T13:23:31.077706+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993520+00:00",
       "sessions": []
     },
-    "ace2025a7d0b": {
-      "id": "ace2025a7d0b",
+    "90ee40cb24de": {
+      "id": "90ee40cb24de",
       "title": "Rodgers and Hammerstein’s CAROUSEL",
       "venue": "Foundry Theatre",
       "venue_id": "foundry-theatre",
       "genre": "play",
       "status": "active",
       "start_date": "2026-10-15",
-      "end_date": "2026-10-17",
+      "end_date": "2026-10-18",
       "booking_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
       "source": "todaytix",
       "source_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
@@ -415,7 +445,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-08-23T10:46:54.869526",
+      "fetched_at": "2026-09-21T22:25:37.993576+00:00",
       "sessions": []
     },
     "b8d794c48196": {
@@ -434,8 +464,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T13:23:32.791567+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390927+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "ff770075b0ea": {
       "id": "ff770075b0ea",
@@ -453,7 +486,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 105,
-      "fetched_at": "2026-09-21T13:23:31.077731+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993531+00:00",
       "sessions": []
     },
     "59249c4410f9": {
@@ -472,8 +505,11 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 60,
-      "fetched_at": "2026-09-21T13:23:32.789379+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388452+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "15bacad1856c": {
       "id": "15bacad1856c",
@@ -491,8 +527,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 59.95,
-      "fetched_at": "2026-09-21T13:23:32.789401+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388478+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "a67fbb086f82": {
       "id": "a67fbb086f82",
@@ -510,7 +549,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 63,
-      "fetched_at": "2026-09-21T13:23:31.077923+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993681+00:00",
       "sessions": []
     },
     "40bacafc9107": {
@@ -529,8 +568,11 @@
       "suburb": "The Rocks",
       "free_event": false,
       "price_from": 45,
-      "fetched_at": "2026-09-21T13:23:32.789059+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388024+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "fe2532e9614b": {
       "id": "fe2532e9614b",
@@ -548,7 +590,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-09-21T13:23:31.077854+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993657+00:00",
       "sessions": []
     },
     "188512a29e74": {
@@ -567,7 +609,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.078158+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993865+00:00",
       "sessions": []
     },
     "71982a778ff2": {
@@ -586,7 +628,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 39,
-      "fetched_at": "2026-09-21T13:23:31.077821+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993628+00:00",
       "sessions": []
     },
     "3a34df1bc353": {
@@ -605,8 +647,11 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 76,
-      "fetched_at": "2026-09-21T13:23:32.790508+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389740+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "6b4f60efd4ce": {
       "id": "6b4f60efd4ce",
@@ -643,7 +688,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 30,
-      "fetched_at": "2026-09-21T13:23:31.077897+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993756+00:00",
       "sessions": []
     },
     "b42b16ba05d6": {
@@ -700,7 +745,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 70,
-      "fetched_at": "2026-09-21T13:23:31.078042+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993794+00:00",
       "sessions": []
     },
     "6bd30cd2aac3": {
@@ -719,7 +764,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 22.5,
-      "fetched_at": "2026-09-21T13:23:31.078081+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993912+00:00",
       "sessions": []
     },
     "4fff4ab0dffa": {
@@ -738,7 +783,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 68,
-      "fetched_at": "2026-09-21T13:23:31.078584+00:00",
+      "fetched_at": "2026-09-21T22:25:37.994260+00:00",
       "sessions": []
     },
     "df2d202ebea7": {
@@ -893,7 +938,10 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.293693",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclasses\\b)"
+      "suppressed_reason": "not a production (\\bclasses\\b)",
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "dbc83eb4ba4c": {
       "id": "dbc83eb4ba4c",
@@ -901,7 +949,7 @@
       "venue": "Redfern Community Centre",
       "venue_id": "",
       "genre": "dance",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-07-27",
       "end_date": "2026-09-28",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/matavai",
@@ -912,7 +960,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.788589+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "c95747eca5bf": {
       "id": "c95747eca5bf",
@@ -930,8 +983,12 @@
       "suburb": "Erskineville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788615+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389116+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "7f744127dca4": {
       "id": "7f744127dca4",
@@ -968,11 +1025,14 @@
       "suburb": "Redfern",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788771+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387670+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "b04ad9b6b138": {
-      "id": "b04ad9b6b138",
+    "4c2a9d0578a9": {
+      "id": "4c2a9d0578a9",
       "title": "Magic & Sphen: The Unofficial Story of Sydney’s Gay Penguins",
       "venue": "Flight Path Theatre",
       "venue_id": "flight-path-theatre",
@@ -1008,7 +1068,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.293946",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bcourse\\b)"
+      "suppressed_reason": "not a production (\\bcourse\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ]
     },
     "dbfc88f28d80": {
       "id": "dbfc88f28d80",
@@ -1048,8 +1112,8 @@
       "fetched_at": "2026-08-23T10:46:55.293973",
       "sessions": []
     },
-    "bfb981681a2a": {
-      "id": "bfb981681a2a",
+    "fcaab89dda95": {
+      "id": "fcaab89dda95",
       "title": "Ballet class: Dance with Me 1.5-3 yrs (Pyrmont)",
       "venue": "Pyrmont Community Centre",
       "venue_id": "",
@@ -1066,10 +1130,14 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.294012",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])"
+      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
-    "3f85c6aa1c37": {
-      "id": "3f85c6aa1c37",
+    "1613f135670b": {
+      "id": "1613f135670b",
       "title": "Ballet class: Little Ballet 3-5 years (Pyrmont)",
       "venue": "Pyrmont Community Centre",
       "venue_id": "",
@@ -1086,7 +1154,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.294050",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])"
+      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "7e397ca0e4de": {
       "id": "7e397ca0e4de",
@@ -1108,8 +1180,8 @@
       "sessions": [],
       "suppressed_reason": "not a production (\\bgames night\\b)"
     },
-    "7bffe449232d": {
-      "id": "7bffe449232d",
+    "3e5aaa6d4b73": {
+      "id": "3e5aaa6d4b73",
       "title": "Jazz class 3-8 years (Pyrmont)",
       "venue": "Pyrmont Community Centre",
       "venue_id": "",
@@ -1126,7 +1198,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.294175",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass\\s+\\d)"
+      "suppressed_reason": "not a production (\\bclass\\s+\\d)",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "d98b9ea3a07c": {
       "id": "d98b9ea3a07c",
@@ -1144,8 +1220,12 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788439+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390849+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "5756a52659de": {
       "id": "5756a52659de",
@@ -1163,8 +1243,12 @@
       "suburb": "Surry Hills",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789955+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389192+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "ba08f9a834ab": {
       "id": "ba08f9a834ab",
@@ -1182,8 +1266,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789106+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388127+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "c9bff3e5520a": {
       "id": "c9bff3e5520a",
@@ -1220,8 +1308,11 @@
       "suburb": "Bellevue Hill",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789157+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388198+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "48190d995bbf": {
       "id": "48190d995bbf",
@@ -1299,8 +1390,8 @@
       "fetched_at": "2026-08-23T10:46:55.294475",
       "sessions": []
     },
-    "4b94557a1f41": {
-      "id": "4b94557a1f41",
+    "3bb7dc5cc0ad": {
+      "id": "3bb7dc5cc0ad",
       "title": "Fish|Boy",
       "venue": "",
       "venue_id": "",
@@ -1355,7 +1446,10 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.294541",
       "sessions": [],
-      "suppressed_reason": "not a production (\\b(boat|block|brunch|pool|rooftop) party\\b)"
+      "suppressed_reason": "not a production (\\b(boat|block|brunch|pool|rooftop) party\\b)",
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "5d33fbb69293": {
       "id": "5d33fbb69293",
@@ -1395,8 +1489,8 @@
       "fetched_at": "2026-08-23T10:46:55.294584",
       "sessions": []
     },
-    "4b9b7e2bd050": {
-      "id": "4b9b7e2bd050",
+    "0efb3bb23733": {
+      "id": "0efb3bb23733",
       "title": "Tinyprov: A two-person improv comedy showcase",
       "venue": "",
       "venue_id": "",
@@ -1433,8 +1527,8 @@
       "fetched_at": "2026-08-23T10:46:55.294611",
       "sessions": []
     },
-    "339b127fae36": {
-      "id": "339b127fae36",
+    "3dc220a24dd6": {
+      "id": "3dc220a24dd6",
       "title": "Ballet Class: Dance With Me 1.5-3 yrs (Glebe)",
       "venue": "Glebe Town Hall",
       "venue_id": "",
@@ -1451,10 +1545,14 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.294648",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])"
+      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
-    "e6590ef43b24": {
-      "id": "e6590ef43b24",
+    "8fa00ef38b95": {
+      "id": "8fa00ef38b95",
       "title": "Ballet Class: Little Ballet 3-5 years (Glebe)",
       "venue": "Glebe Town Hall",
       "venue_id": "",
@@ -1471,7 +1569,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.294683",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])"
+      "suppressed_reason": "not a production (\\bclass\\s*[:\\-])",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "a181a603769c": {
       "id": "a181a603769c",
@@ -1511,8 +1613,8 @@
       "fetched_at": "2026-08-23T10:46:55.294749",
       "sessions": []
     },
-    "4733abc06db0": {
-      "id": "4733abc06db0",
+    "a9c8b9f3a10e": {
+      "id": "a9c8b9f3a10e",
       "title": "Time After Time: A Time-Leaping Unscripted Play",
       "venue": "",
       "venue_id": "",
@@ -1755,8 +1857,11 @@
       "suburb": "Rozelle",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789265+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388322+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "c8e442171032": {
       "id": "c8e442171032",
@@ -1774,8 +1879,11 @@
       "suburb": "Glebe",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790032+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389271+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "a4a08f8b3370": {
       "id": "a4a08f8b3370",
@@ -1794,25 +1902,6 @@
       "free_event": false,
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.295243",
-      "sessions": []
-    },
-    "feaf0c6e621c": {
-      "id": "feaf0c6e621c",
-      "title": "All-Star Circus",
-      "venue": "The Entertainment Quarter",
-      "venue_id": "entertainment-quarter",
-      "genre": "family",
-      "status": "active",
-      "start_date": "2026-09-05",
-      "end_date": "2026-10-11",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/all-star-circus",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/all-star-circus",
-      "snippet": "If you only see one show this fringe, make sure this is the one!",
-      "suburb": "Moore Park",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-08-23T10:46:55.295258",
       "sessions": []
     },
     "5cbcb318200a": {
@@ -1850,8 +1939,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790203+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389426+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "2408e993d578": {
       "id": "2408e993d578",
@@ -1888,8 +1980,12 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790255+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389481+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "34d23628c603": {
       "id": "34d23628c603",
@@ -1907,8 +2003,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789197+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388244+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "ff20081e3dd7": {
       "id": "ff20081e3dd7",
@@ -1948,8 +2048,8 @@
       "fetched_at": "2026-08-23T10:46:55.295388",
       "sessions": []
     },
-    "6ee7c489ae0d": {
-      "id": "6ee7c489ae0d",
+    "3ada33acd58d": {
+      "id": "3ada33acd58d",
       "title": "Pinchgut Opera presents Coffee and a Dead Canary",
       "venue": "City Recital Hall",
       "venue_id": "city-recital-hall",
@@ -1957,14 +2057,14 @@
       "status": "closed",
       "start_date": "2026-09-12",
       "end_date": "2026-09-13",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-coffee-and-a-dead-canary",
+      "booking_url": "https://www.todaytix.com/sydney/shows/46240-bach-and-telemann-ii-coffee-and-a-dead-canary",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-coffee-and-a-dead-canary",
       "snippet": "Distilled and delightful, tiny opera at its best.",
       "suburb": "Sydney",
       "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-08-23T10:46:55.295396",
+      "price_from": 64,
+      "fetched_at": "2026-09-06T20:12:15.233511",
       "sessions": []
     },
     "6a38135a97bd": {
@@ -2023,7 +2123,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.295456",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass$)"
+      "suppressed_reason": "not a production (\\bclass$)",
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ]
     },
     "5cd28abc044d": {
       "id": "5cd28abc044d",
@@ -2139,8 +2243,8 @@
       "fetched_at": "2026-08-23T10:46:55.295502",
       "sessions": []
     },
-    "9f10f06a956c": {
-      "id": "9f10f06a956c",
+    "98bd06bdc870": {
+      "id": "98bd06bdc870",
       "title": "Wonder Mama's Pop/Art Interactive Cabaret",
       "venue": "Qtopia Sydney",
       "venue_id": "qtopia-sydney",
@@ -2158,8 +2262,8 @@
       "fetched_at": "2026-08-23T10:46:55.295510",
       "sessions": []
     },
-    "381967b77686": {
-      "id": "381967b77686",
+    "4c6d094f6b3f": {
+      "id": "4c6d094f6b3f",
       "title": "(W)hole Again",
       "venue": "",
       "venue_id": "",
@@ -2193,8 +2297,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788808+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387712+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "ba1b8a1433f1": {
       "id": "ba1b8a1433f1",
@@ -2250,8 +2357,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789916+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389149+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "41a5fb3aab60": {
       "id": "41a5fb3aab60",
@@ -2269,8 +2380,12 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788730+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387625+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "0622985fab8d": {
       "id": "0622985fab8d",
@@ -2288,8 +2403,12 @@
       "suburb": "Vaucluse",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788790+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387692+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "tours-and-experiences"
+      ]
     },
     "75496dbfbebb": {
       "id": "75496dbfbebb",
@@ -2307,8 +2426,11 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788831+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387740+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "e3166ce8acd4": {
       "id": "e3166ce8acd4",
@@ -2326,8 +2448,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789275+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388335+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "f3004f0106b3": {
       "id": "f3004f0106b3",
@@ -2345,8 +2471,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789420+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388501+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "e4d1cd8102d1": {
       "id": "e4d1cd8102d1",
@@ -2364,8 +2494,12 @@
       "suburb": "Redfern",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789509+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388584+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "eb8aed0776ae": {
       "id": "eb8aed0776ae",
@@ -2383,8 +2517,11 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789530+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388609+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "233f78acc35d": {
       "id": "233f78acc35d",
@@ -2402,8 +2539,11 @@
       "suburb": "Ashfield",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789558+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388643+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "fd69b8240785": {
       "id": "fd69b8240785",
@@ -2421,8 +2561,11 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789570+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388657+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "4825a854bea4": {
       "id": "4825a854bea4",
@@ -2440,8 +2583,12 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789585+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388675+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "78566bc53668": {
       "id": "78566bc53668",
@@ -2459,8 +2606,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789645+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388746+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "food-and-drink"
+      ]
     },
     "179ac387cedf": {
       "id": "179ac387cedf",
@@ -2478,8 +2629,11 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789684+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388793+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "741fb8bc06c6": {
       "id": "741fb8bc06c6",
@@ -2497,8 +2651,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789752+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388872+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "172045033b72": {
       "id": "172045033b72",
@@ -2516,8 +2674,12 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789843+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388978+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "36d55af0dc42": {
       "id": "36d55af0dc42",
@@ -2537,7 +2699,10 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.295709",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclasses\\b)"
+      "suppressed_reason": "not a production (\\bclasses\\b)",
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "0bf3a46fcaa1": {
       "id": "0bf3a46fcaa1",
@@ -2555,8 +2720,11 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789899+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389129+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "762fa9d21333": {
       "id": "762fa9d21333",
@@ -2574,8 +2742,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789994+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389233+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "c25bd1903370": {
       "id": "c25bd1903370",
@@ -2593,8 +2765,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790137+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389371+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "fafdf737a85e": {
       "id": "fafdf737a85e",
@@ -2612,8 +2788,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790296+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389528+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "6d4b872220a1": {
       "id": "6d4b872220a1",
@@ -2631,8 +2811,12 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790344+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389580+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "f3a6bfe9bfd5": {
       "id": "f3a6bfe9bfd5",
@@ -2650,8 +2834,12 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790447+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389668+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "134862766bf3": {
       "id": "134862766bf3",
@@ -2669,8 +2857,12 @@
       "suburb": "North Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790496+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389726+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "36384a42acd6": {
       "id": "36384a42acd6",
@@ -2688,11 +2880,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790517+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389751+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "5168e225c780": {
-      "id": "5168e225c780",
+    "2d7221a319aa": {
+      "id": "2d7221a319aa",
       "title": "Play School Live Concert 2026: Humpty's Big Celebration!",
       "venue": "Seymour Centre",
       "venue_id": "seymour-centre",
@@ -2707,8 +2902,12 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-08-23T10:46:55.295815",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389834+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "4b90a476a5a0": {
       "id": "4b90a476a5a0",
@@ -2726,8 +2925,12 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790619+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389855+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "5c34dc7dd3c0": {
       "id": "5c34dc7dd3c0",
@@ -2745,8 +2948,11 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790640+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389879+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "03375e2e2f2b": {
       "id": "03375e2e2f2b",
@@ -2764,8 +2970,11 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790722+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389963+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "b68a455f879b": {
       "id": "b68a455f879b",
@@ -2783,8 +2992,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790746+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389985+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "a6d503b55c99": {
       "id": "a6d503b55c99",
@@ -2802,8 +3015,11 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790789+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390025+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "c88c07882187": {
       "id": "c88c07882187",
@@ -2821,8 +3037,11 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790963+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390219+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "c72601e78fc7": {
       "id": "c72601e78fc7",
@@ -2840,8 +3059,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791066+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390322+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "08c8c3a0b5d9": {
       "id": "08c8c3a0b5d9",
@@ -2859,8 +3082,11 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791189+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390462+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "9346f1fc1ca7": {
       "id": "9346f1fc1ca7",
@@ -2880,7 +3106,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.295908",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bkaraoke\\b)"
+      "suppressed_reason": "not a production (\\bkaraoke\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "53c9b20e18e9": {
       "id": "53c9b20e18e9",
@@ -2898,8 +3128,12 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791276+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390567+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "community-and-causes"
+      ]
     },
     "c84a762b5a24": {
       "id": "c84a762b5a24",
@@ -2917,8 +3151,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791329+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390628+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "3502962272e4": {
       "id": "3502962272e4",
@@ -2936,8 +3174,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791340+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390641+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "778f36b2741c": {
       "id": "778f36b2741c",
@@ -2955,8 +3197,11 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791351+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390654+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "6064483196fc": {
       "id": "6064483196fc",
@@ -2974,8 +3219,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791392+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390702+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "73e1fb70022c": {
       "id": "73e1fb70022c",
@@ -2993,8 +3241,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791435+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390739+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "e0660c1dbdce": {
       "id": "e0660c1dbdce",
@@ -3012,8 +3264,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791578+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390941+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "403dbe50d2dc": {
       "id": "403dbe50d2dc",
@@ -3031,11 +3287,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791596+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390962+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "03406436f473": {
-      "id": "03406436f473",
+    "c482b5aca21e": {
+      "id": "c482b5aca21e",
       "title": "Pinchgut Opera presents Semele by Handel",
       "venue": "City Recital Hall",
       "venue_id": "city-recital-hall",
@@ -3043,15 +3302,19 @@
       "status": "active",
       "start_date": "2026-11-26",
       "end_date": "2026-12-02",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
+      "booking_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
       "snippet": "Seduction, ambition and divine consequence",
       "suburb": "Sydney",
       "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-08-23T10:46:55.295988",
-      "sessions": []
+      "price_from": 74,
+      "fetched_at": "2026-09-21T22:25:38.390982+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "d6e5f16f94f8": {
       "id": "d6e5f16f94f8",
@@ -3071,7 +3334,11 @@
       "price_from": null,
       "fetched_at": "2026-08-23T10:46:55.295996",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bkaraoke\\b)"
+      "suppressed_reason": "not a production (\\bkaraoke\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "e532e27a9e3c": {
       "id": "e532e27a9e3c",
@@ -3089,8 +3356,11 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 100,
-      "fetched_at": "2026-09-21T13:23:32.791643+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391017+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "724c6bb50d10": {
       "id": "724c6bb50d10",
@@ -3108,8 +3378,11 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791653+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391028+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "da05c7b9ff14": {
       "id": "da05c7b9ff14",
@@ -3127,8 +3400,11 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791682+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391062+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "f5771766a154": {
       "id": "f5771766a154",
@@ -3146,8 +3422,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791756+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391126+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "3684ae1dffab": {
       "id": "3684ae1dffab",
@@ -3184,7 +3464,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T13:23:31.078028+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993824+00:00",
       "sessions": []
     },
     "eb77cc7bdab6": {
@@ -3241,8 +3521,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789138+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388164+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "d18b9b2c6306": {
       "id": "d18b9b2c6306",
@@ -3279,8 +3563,12 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789828+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388960+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "b9dddf957ba6": {
       "id": "b9dddf957ba6",
@@ -3336,8 +3624,12 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789613+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388707+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "1b7d5726533a": {
       "id": "1b7d5726533a",
@@ -3355,8 +3647,12 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790166+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389391+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "0ef60ae34591": {
       "id": "0ef60ae34591",
@@ -3374,11 +3670,15 @@
       "suburb": "Online",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790373+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389613+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
-    "e1713314123a": {
-      "id": "e1713314123a",
+    "f5d27d7ba64a": {
+      "id": "f5d27d7ba64a",
       "title": "The ultimate Sydney stand-up comedy school experience",
       "venue": "Civic Underground",
       "venue_id": "civic-underground",
@@ -3395,7 +3695,11 @@
       "price_from": null,
       "fetched_at": "2026-08-24T21:05:10.219424",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bcomedy school\\b)"
+      "suppressed_reason": "not a production (\\bcomedy school\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ]
     },
     "5c158bd2748d": {
       "id": "5c158bd2748d",
@@ -3434,7 +3738,11 @@
       "price_from": null,
       "fetched_at": "2026-08-25T21:00:48.113239",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bclass$)"
+      "suppressed_reason": "not a production (\\bclass$)",
+      "categories": [
+        "theatre-dance-and-film",
+        "community-and-causes"
+      ]
     },
     "635b958fbe5e": {
       "id": "635b958fbe5e",
@@ -3471,8 +3779,11 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791143+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390408+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "d6d714d0add0": {
       "id": "d6d714d0add0",
@@ -3490,8 +3801,11 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791803+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391170+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "60d41591e657": {
       "id": "60d41591e657",
@@ -3528,7 +3842,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T13:23:31.078545+00:00",
+      "fetched_at": "2026-09-21T22:25:37.994175+00:00",
       "sessions": []
     },
     "421baa2861b9": {
@@ -3550,25 +3864,6 @@
       "fetched_at": "2026-08-28T02:19:44.419383",
       "sessions": []
     },
-    "c482b5aca21e": {
-      "id": "c482b5aca21e",
-      "title": "Pinchgut Opera's Semele",
-      "venue": "City Recital Hall",
-      "venue_id": "city-recital-hall",
-      "genre": "opera",
-      "status": "active",
-      "start_date": "2026-11-26",
-      "end_date": "2026-12-02",
-      "booking_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
-      "source": "todaytix",
-      "source_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
-      "snippet": "Seduction, ambition and divine consequence",
-      "suburb": "Sydney",
-      "free_event": false,
-      "price_from": 74,
-      "fetched_at": "2026-09-21T13:23:32.791612+00:00",
-      "sessions": []
-    },
     "6a95ce9b4579": {
       "id": "6a95ce9b4579",
       "title": "Silver Tongue",
@@ -3585,8 +3880,11 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 81,
-      "fetched_at": "2026-09-21T13:23:32.791465+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390775+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "07ae5c2e87c8": {
       "id": "07ae5c2e87c8",
@@ -3606,7 +3904,10 @@
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.790061+00:00",
       "sessions": [],
-      "suppressed_reason": "not a production (\\b(movie|film) club\\b)"
+      "suppressed_reason": "not a production (\\b(movie|film) club\\b)",
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "1ef74a939963": {
       "id": "1ef74a939963",
@@ -3624,8 +3925,11 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788352+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387756+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "68c589207147": {
       "id": "68c589207147",
@@ -3662,8 +3966,12 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789672+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388778+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "e8aaecd1828b": {
       "id": "e8aaecd1828b",
@@ -3681,8 +3989,12 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790236+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389465+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "94415f5a6464": {
       "id": "94415f5a6464",
@@ -3700,8 +4012,12 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790837+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390078+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "664a58862591": {
       "id": "664a58862591",
@@ -3719,8 +4035,11 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791088+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390343+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "23e780b33d75": {
       "id": "23e780b33d75",
@@ -3738,8 +4057,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791374+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390681+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "e87cdcaeed6a": {
       "id": "e87cdcaeed6a",
@@ -3890,8 +4213,12 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788483+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387494+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "463a2bd04388": {
       "id": "463a2bd04388",
@@ -3928,8 +4255,11 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789661+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388765+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "721ece42a7da": {
       "id": "721ece42a7da",
@@ -3947,8 +4277,12 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789735+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388852+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "2ee54299b892": {
       "id": "2ee54299b892",
@@ -3966,7 +4300,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 55,
-      "fetched_at": "2026-09-21T13:23:31.078126+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993846+00:00",
       "sessions": []
     },
     "b7f505cb976b": {
@@ -4023,11 +4357,14 @@
       "suburb": "Redfern",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789872+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389012+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "66d82bdd4558": {
-      "id": "66d82bdd4558",
+    "84d23fff59a1": {
+      "id": "84d23fff59a1",
       "title": "Cold War 2.0",
       "venue": "Fringe on The Rocks",
       "venue_id": "",
@@ -4045,8 +4382,8 @@
       "fetched_at": "2026-09-01T20:12:33.576174",
       "sessions": []
     },
-    "2d08454fe601": {
-      "id": "2d08454fe601",
+    "f32666837af1": {
+      "id": "f32666837af1",
       "title": "My Grandpa Doesn't Follow Me on Instagram: A Guide to trans-Generational Road Tripping",
       "venue": "Touring Hub at New Theatre",
       "venue_id": "new-theatre",
@@ -4061,7 +4398,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 38,
-      "fetched_at": "2026-09-01T20:12:33.576212",
+      "fetched_at": "2026-09-21T22:25:37.994066+00:00",
       "sessions": []
     },
     "3cf4cebfb89c": {
@@ -4176,7 +4513,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 73,
-      "fetched_at": "2026-09-21T13:23:31.077955+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993771+00:00",
       "sessions": []
     },
     "fbb6e731af28": {
@@ -4216,7 +4553,11 @@
       "price_from": null,
       "fetched_at": "2026-09-04T20:12:01.101734",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bsalsa\\b)"
+      "suppressed_reason": "not a production (\\bsalsa\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "d98a31c031a2": {
       "id": "d98a31c031a2",
@@ -4234,8 +4575,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790272+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389500+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "b66c12b96465": {
       "id": "b66c12b96465",
@@ -4253,11 +4598,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789352+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388423+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "515b6db35b81": {
-      "id": "515b6db35b81",
+    "1112e9687ec0": {
+      "id": "1112e9687ec0",
       "title": "OPENING NIGHT | Kookaburra's Comedy Club | Sydney CBD",
       "venue": "Castlereagh Boutique Hotel",
       "venue_id": "castlereagh-hotel",
@@ -4272,8 +4620,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-04T20:12:01.102681",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389216+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "558444394872": {
       "id": "558444394872",
@@ -4291,27 +4643,12 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791830+00:00",
-      "sessions": []
-    },
-    "3ada33acd58d": {
-      "id": "3ada33acd58d",
-      "title": "Pinchgut Opera's Coffee and a Dead Canary",
-      "venue": "City Recital Hall",
-      "venue_id": "city-recital-hall",
-      "genre": "opera",
-      "status": "closed",
-      "start_date": "2026-09-12",
-      "end_date": "2026-09-13",
-      "booking_url": "https://www.todaytix.com/sydney/shows/46240-bach-and-telemann-ii-coffee-and-a-dead-canary",
-      "source": "todaytix",
-      "source_url": "https://www.todaytix.com/sydney/shows/46240-bach-and-telemann-ii-coffee-and-a-dead-canary",
-      "snippet": "",
-      "suburb": "",
-      "free_event": false,
-      "price_from": 64,
-      "fetched_at": "2026-09-06T20:12:15.233511",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391190+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "9064978ddda5": {
       "id": "9064978ddda5",
@@ -4348,8 +4685,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788711+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387601+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "e5ab8d7c0fdf": {
       "id": "e5ab8d7c0fdf",
@@ -4386,8 +4727,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788819+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387725+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "01789b9a2a0a": {
       "id": "01789b9a2a0a",
@@ -4481,8 +4826,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789239+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388292+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "38ebd4f6f603": {
       "id": "38ebd4f6f603",
@@ -4500,8 +4849,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789887+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389030+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "7ddabfcce168": {
       "id": "7ddabfcce168",
@@ -4519,8 +4872,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788887+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387828+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "e249c0ff72bd": {
       "id": "e249c0ff72bd",
@@ -4557,8 +4914,12 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.788671+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.387551+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "fe01ce2a7fba": {
       "id": "fe01ce2a7fba",
@@ -4576,8 +4937,11 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789067+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388033+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "256a5e7bb318": {
       "id": "256a5e7bb318",
@@ -4585,7 +4949,7 @@
       "venue": "Seymour Centre",
       "venue_id": "seymour-centre",
       "genre": "play",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-11-07",
       "end_date": "2026-11-07",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/past-and-future-seymour",
@@ -4596,7 +4960,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.791404+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "bab2b985af5a": {
       "id": "bab2b985af5a",
@@ -4633,8 +5002,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790936+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390188+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "16a0e9e038d4": {
       "id": "16a0e9e038d4",
@@ -4652,8 +5025,12 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791558+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390918+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "4868fe0ebdab": {
       "id": "4868fe0ebdab",
@@ -4671,11 +5048,15 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791709+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391093+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "food-and-drink"
+      ]
     },
-    "fedd2aa974fa": {
-      "id": "fedd2aa974fa",
+    "a1a6950d4a0d": {
+      "id": "a1a6950d4a0d",
       "title": "I'm a lesbian but I really love men",
       "venue": "Erskineville Town Hall",
       "venue_id": "erskineville-town-hall",
@@ -4709,7 +5090,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 50,
-      "fetched_at": "2026-09-21T13:23:31.078223+00:00",
+      "fetched_at": "2026-09-21T22:25:37.994129+00:00",
       "sessions": []
     },
     "5b8edffed513": {
@@ -4728,8 +5109,12 @@
       "suburb": "Camperdown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789079+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388089+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "music"
+      ]
     },
     "aa62f8527389": {
       "id": "aa62f8527389",
@@ -4747,8 +5132,11 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791694+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391074+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "2695d9a57e29": {
       "id": "2695d9a57e29",
@@ -4804,8 +5192,11 @@
       "suburb": "Bondi Junction",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791233+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390513+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "df5ec7bc8f16": {
       "id": "df5ec7bc8f16",
@@ -4823,8 +5214,12 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791454+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390762+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "df656ca8dede": {
       "id": "df656ca8dede",
@@ -4842,8 +5237,12 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791672+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391050+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "5d559a55ee67": {
       "id": "5d559a55ee67",
@@ -4861,7 +5260,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-09-21T13:23:31.078247+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993999+00:00",
       "sessions": []
     },
     "76d154a3f542": {
@@ -4883,8 +5282,8 @@
       "fetched_at": "2026-09-21T13:23:32.788384+00:00",
       "sessions": []
     },
-    "0aa0431ea9a0": {
-      "id": "0aa0431ea9a0",
+    "6477902cda94": {
+      "id": "6477902cda94",
       "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
       "venue": "",
       "venue_id": "",
@@ -4899,8 +5298,11 @@
       "suburb": "Balmain",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-14T20:13:37.533017",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390012+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "eac21493ac05": {
       "id": "eac21493ac05",
@@ -4920,7 +5322,11 @@
       "price_from": null,
       "fetched_at": "2026-09-14T20:13:37.533372",
       "sessions": [],
-      "suppressed_reason": "not a production (\\b(boat|block|brunch|pool|rooftop) party\\b)"
+      "suppressed_reason": "not a production (\\b(boat|block|brunch|pool|rooftop) party\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "625e3b59ae10": {
       "id": "625e3b59ae10",
@@ -4938,7 +5344,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.078103+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993876+00:00",
       "sessions": []
     },
     "50fa2422c663": {
@@ -4957,7 +5363,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.078090+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993854+00:00",
       "sessions": []
     },
     "d14d1e457bab": {
@@ -4976,7 +5382,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.078361+00:00",
+      "fetched_at": "2026-09-21T22:25:37.994212+00:00",
       "sessions": []
     },
     "9b7601918721": {
@@ -4995,7 +5401,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.078349+00:00",
+      "fetched_at": "2026-09-21T22:25:37.994227+00:00",
       "sessions": []
     },
     "feb1468e048b": {
@@ -5014,7 +5420,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:31.078416+00:00",
+      "fetched_at": "2026-09-21T22:25:37.994200+00:00",
       "sessions": []
     },
     "bcc5ba80c8b3": {
@@ -5071,8 +5477,11 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789696+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388806+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "ee7c9b7377be": {
       "id": "ee7c9b7377be",
@@ -5128,8 +5537,12 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790850+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390094+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "feb7729b24c3": {
       "id": "feb7729b24c3",
@@ -5147,8 +5560,11 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789634+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388732+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "c43e779da56e": {
       "id": "c43e779da56e",
@@ -5166,8 +5582,12 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790089+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389321+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "food-and-drink"
+      ]
     },
     "c7926ddf4f0c": {
       "id": "c7926ddf4f0c",
@@ -5185,8 +5605,12 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790434+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389653+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "food-and-drink"
+      ]
     },
     "d4d520db6a00": {
       "id": "d4d520db6a00",
@@ -5204,11 +5628,14 @@
       "suburb": "Petersham",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790804+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390042+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "cf18187678c4": {
-      "id": "cf18187678c4",
+    "53ac4c89d62d": {
+      "id": "53ac4c89d62d",
       "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
       "venue": "",
       "venue_id": "",
@@ -5223,8 +5650,12 @@
       "suburb": "Neutral Bay",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-16T20:13:38.089008",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390369+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "a6c60bb946fb": {
       "id": "a6c60bb946fb",
@@ -5232,7 +5663,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-12-10",
       "end_date": "2026-12-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-line-of-beauty-by-alan-hollinghurst",
@@ -5243,7 +5674,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.791732+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "78f6ae03e181": {
       "id": "78f6ae03e181",
@@ -5261,8 +5697,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791780+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391154+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "9e4e08794e72": {
       "id": "9e4e08794e72",
@@ -5270,7 +5710,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2027-01-14",
       "end_date": "2027-01-14",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/villa-coco-by-andrew-sean-greer",
@@ -5281,7 +5721,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.791794+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "9a9383e8afe0": {
       "id": "9a9383e8afe0",
@@ -5289,7 +5734,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2027-02-11",
       "end_date": "2027-02-11",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/call-me-by-your-name-by-andre-aciman",
@@ -5300,7 +5745,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.791819+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "3a893027afe3": {
       "id": "3a893027afe3",
@@ -5308,7 +5758,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2027-03-11",
       "end_date": "2027-03-11",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/tales-of-the-city-by-armistead-maupin",
@@ -5319,7 +5769,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.791847+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "79ffc5157696": {
       "id": "79ffc5157696",
@@ -5337,8 +5792,11 @@
       "suburb": "",
       "free_event": false,
       "price_from": 34,
-      "fetched_at": "2026-09-21T13:23:31.077477+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:37.993315+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "7eeff909b7ab": {
       "id": "7eeff909b7ab",
@@ -5356,8 +5814,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789251+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.388306+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "1d41b579d7b5": {
       "id": "1d41b579d7b5",
@@ -5365,7 +5827,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-man-who-fell-in-love-with-the-moon-by-tom-spanbaurer",
@@ -5376,7 +5838,12 @@
       "free_event": true,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.790423+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
     "be8f0fb18b23": {
       "id": "be8f0fb18b23",
@@ -5394,11 +5861,15 @@
       "suburb": "Barangaroo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790467+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389692+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "food-and-drink"
+      ]
     },
-    "b4767bee3424": {
-      "id": "b4767bee3424",
+    "5aafb1107b18": {
+      "id": "5aafb1107b18",
       "title": "Little Dancers KPop Demon Hunters workshop (4-8 years)",
       "venue": "Glebe Town Hall",
       "venue_id": "",
@@ -5415,10 +5886,14 @@
       "price_from": null,
       "fetched_at": "2026-09-17T20:13:17.113526",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bworkshops?\\b)"
+      "suppressed_reason": "not a production (\\bworkshops?\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
-    "9f840c390d2b": {
-      "id": "9f840c390d2b",
+    "3761b6d0b499": {
+      "id": "3761b6d0b499",
       "title": "Unicorns Dance With Me Workshop (1.5-4 years)",
       "venue": "Glebe Town Hall",
       "venue_id": "",
@@ -5435,7 +5910,11 @@
       "price_from": null,
       "fetched_at": "2026-09-17T20:13:17.113573",
       "sessions": [],
-      "suppressed_reason": "not a production (\\bworkshops?\\b)"
+      "suppressed_reason": "not a production (\\bworkshops?\\b)",
+      "categories": [
+        "theatre-dance-and-film",
+        "children-and-family"
+      ]
     },
     "aefd923561d6": {
       "id": "aefd923561d6",
@@ -5443,7 +5922,7 @@
       "venue": "Maybanke Community Centre",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-new-writers-sprint",
@@ -5454,10 +5933,15 @@
       "free_event": false,
       "price_from": null,
       "fetched_at": "2026-09-21T13:23:32.790924+00:00",
-      "sessions": []
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "talks-courses-and-workshops"
+      ],
+      "suppressed_reason": "not a production (category: talks-courses-and-workshops)"
     },
-    "77da1ece70a3": {
-      "id": "77da1ece70a3",
+    "9430e91f61b8": {
+      "id": "9430e91f61b8",
       "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
       "venue": "",
       "venue_id": "",
@@ -5472,11 +5956,15 @@
       "suburb": "St Peters",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-17T20:13:17.114086",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390539+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
-    "def70b6069d4": {
-      "id": "def70b6069d4",
+    "169499238d9a": {
+      "id": "169499238d9a",
       "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
       "venue": "",
       "venue_id": "",
@@ -5491,8 +5979,12 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-17T20:13:17.114103",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390589+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "b3c55a4c8628": {
       "id": "b3c55a4c8628",
@@ -5510,8 +6002,12 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791743+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.391112+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "7d8e739a1018": {
       "id": "7d8e739a1018",
@@ -5529,197 +6025,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 48,
-      "fetched_at": "2026-09-21T13:23:31.077504+00:00",
-      "sessions": []
-    },
-    "7d35465e1b38": {
-      "id": "7d35465e1b38",
-      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
-      "venue": "",
-      "venue_id": "",
-      "genre": "comedy",
-      "status": "active",
-      "start_date": "2026-10-16",
-      "end_date": "2026-11-06",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale",
-      "snippet": "Fast, fun, singalong Shakespeare in your local pub.",
-      "suburb": "Annandale",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-18T20:12:03.692552",
-      "sessions": []
-    },
-    "9c12d0167cd5": {
-      "id": "9c12d0167cd5",
-      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
-      "venue": "",
-      "venue_id": "",
-      "genre": "comedy",
-      "status": "active",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont",
-      "snippet": "Fast, fun Shakespeare in your local pub",
-      "suburb": "Pyrmont",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-18T20:12:03.692835",
-      "sessions": []
-    },
-    "90ee40cb24de": {
-      "id": "90ee40cb24de",
-      "title": "Rodgers and Hammerstein’s CAROUSEL",
-      "venue": "Foundry Theatre",
-      "venue_id": "foundry-theatre",
-      "genre": "play",
-      "status": "active",
-      "start_date": "2026-10-15",
-      "end_date": "2026-10-18",
-      "booking_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
-      "source": "todaytix",
-      "source_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
-      "snippet": "",
-      "suburb": "",
-      "free_event": false,
-      "price_from": 75,
-      "fetched_at": "2026-09-21T13:23:31.077762+00:00",
-      "sessions": []
-    },
-    "d047279eeae2": {
-      "id": "d047279eeae2",
-      "title": "The Giant Balloon Show",
-      "venue": "The Bunker | Fool's Paradise: Entertainment Quarter",
-      "venue_id": "",
-      "genre": "unknown",
-      "status": "active",
-      "start_date": "2026-09-17",
-      "end_date": "2026-10-11",
-      "booking_url": "https://www.todaytix.com/sydney/shows/48128-the-giant-balloon-show-26",
-      "source": "todaytix",
-      "source_url": "https://www.todaytix.com/sydney/shows/48128-the-giant-balloon-show-26",
-      "snippet": "",
-      "suburb": "",
-      "free_event": false,
-      "price_from": 22,
-      "fetched_at": "2026-09-21T13:23:31.078334+00:00",
-      "sessions": []
-    },
-    "f32666837af1": {
-      "id": "f32666837af1",
-      "title": "My Grandpa Doesn't Follow Me on Instagram: A Guide to trans-Generational Road Tripping",
-      "venue": "Touring Hub at New Theatre",
-      "venue_id": "new-theatre",
-      "genre": "play",
-      "status": "active",
-      "start_date": "2026-09-23",
-      "end_date": "2026-09-26",
-      "booking_url": "https://www.todaytix.com/sydney/shows/47445-my-grandpa-doesnt-follow-me-on-instagram",
-      "source": "todaytix",
-      "source_url": "https://www.todaytix.com/sydney/shows/47445-my-grandpa-doesnt-follow-me-on-instagram",
-      "snippet": "",
-      "suburb": "",
-      "free_event": false,
-      "price_from": 38,
-      "fetched_at": "2026-09-21T13:23:31.078497+00:00",
-      "sessions": []
-    },
-    "1112e9687ec0": {
-      "id": "1112e9687ec0",
-      "title": "OPENING NIGHT | Kookaburra's Comedy Club | Sydney CBD",
-      "venue": "Castlereagh Boutique Hotel",
-      "venue_id": "castlereagh-hotel",
-      "genre": "comedy",
-      "status": "active",
-      "start_date": "2026-10-02",
-      "end_date": "2026-10-02",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/happy-hour-comedy",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/happy-hour-comedy",
-      "snippet": "It’s OPENING NIGHT for our brand-new stand up comedy show - at the CBD's most stylish hideaway!",
-      "suburb": "Sydney",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.789976+00:00",
-      "sessions": []
-    },
-    "d677be36cafb": {
-      "id": "d677be36cafb",
-      "title": "Stocktake at Belvoir 25A",
-      "venue": "Belvoir Street Theatre",
-      "venue_id": "belvoir-st-theatre",
-      "genre": "play",
-      "status": "active",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-25",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/stocktake-at-belvoir-25a",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/stocktake-at-belvoir-25a",
-      "snippet": "Every day is your first day. Every night is Stocktake.",
-      "suburb": "Surry Hills",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790220+00:00",
-      "sessions": []
-    },
-    "63140b2e0f64": {
-      "id": "63140b2e0f64",
-      "title": "Thieving Bastards - Card Cheats Exposed",
-      "venue": "",
-      "venue_id": "",
-      "genre": "play",
-      "status": "active",
-      "start_date": "2026-10-08",
-      "end_date": "2026-10-10",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/thieving-bastards-card-cheats-exposed",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/thieving-bastards-card-cheats-exposed",
-      "snippet": "Experience the world’s greatest gaming scams at the new Magic Festival in Sydney",
-      "suburb": "Paddington",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790401+00:00",
-      "sessions": []
-    },
-    "2d7221a319aa": {
-      "id": "2d7221a319aa",
-      "title": "Play School Live Concert 2026: Humpty's Big Celebration!",
-      "venue": "Seymour Centre",
-      "venue_id": "seymour-centre",
-      "genre": "family",
-      "status": "active",
-      "start_date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/play-school-live-concert-2026-humptys-big-celebration",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/play-school-live-concert-2026-humptys-big-celebration",
-      "snippet": "2026 marks a remarkable milestone: Play School, Australia’s most beloved children’s television program, turns 60.",
-      "suburb": "Chippendale",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790602+00:00",
-      "sessions": []
-    },
-    "6477902cda94": {
-      "id": "6477902cda94",
-      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
-      "venue": "",
-      "venue_id": "",
-      "genre": "play",
-      "status": "active",
-      "start_date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-balmain",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-balmain",
-      "snippet": "Pub Shakespeare Company's (formerly Bar'd Work) new riotous, 90-minute adaptation of A Midsummer Night's Dream!",
-      "suburb": "Balmain",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790778+00:00",
+      "fetched_at": "2026-09-21T22:25:37.993343+00:00",
       "sessions": []
     },
     "f265bc88969c": {
@@ -5738,27 +6044,12 @@
       "suburb": "Annandale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.790871+00:00",
-      "sessions": []
-    },
-    "53ac4c89d62d": {
-      "id": "53ac4c89d62d",
-      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
-      "venue": "",
-      "venue_id": "",
-      "genre": "comedy",
-      "status": "active",
-      "start_date": "2026-10-25",
-      "end_date": "2026-11-08",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-the-oaks",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-the-oaks",
-      "snippet": "Fast, fun, singalong Shakespeare in your local pub.",
-      "suburb": "Neutral Bay",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791110+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.390120+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
     },
     "1dc25869521a": {
       "id": "1dc25869521a",
@@ -5776,46 +6067,75 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791174+00:00",
+      "fetched_at": "2026-09-21T22:25:38.390444+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film",
+        "nightlife"
+      ]
+    },
+    "d047279eeae2": {
+      "id": "d047279eeae2",
+      "title": "The Giant Balloon Show",
+      "venue": "The Bunker | Fool's Paradise: Entertainment Quarter",
+      "venue_id": "",
+      "genre": "unknown",
+      "status": "active",
+      "start_date": "2026-09-17",
+      "end_date": "2026-10-11",
+      "booking_url": "https://www.todaytix.com/sydney/shows/48128-the-giant-balloon-show-26",
+      "source": "todaytix",
+      "source_url": "https://www.todaytix.com/sydney/shows/48128-the-giant-balloon-show-26",
+      "snippet": "",
+      "suburb": "",
+      "free_event": false,
+      "price_from": 22,
+      "fetched_at": "2026-09-21T22:25:37.993973+00:00",
       "sessions": []
     },
-    "9430e91f61b8": {
-      "id": "9430e91f61b8",
-      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
-      "venue": "",
-      "venue_id": "",
-      "genre": "comedy",
+    "d677be36cafb": {
+      "id": "d677be36cafb",
+      "title": "Stocktake at Belvoir 25A",
+      "venue": "Belvoir Street Theatre",
+      "venue_id": "belvoir-st-theatre",
+      "genre": "play",
       "status": "active",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-st-peters",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-25",
+      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/stocktake-at-belvoir-25a",
       "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-st-peters",
-      "snippet": "Fast, fun, singalong Shakespeare in your local pub.",
-      "suburb": "St Peters",
+      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/stocktake-at-belvoir-25a",
+      "snippet": "Every day is your first day. Every night is Stocktake.",
+      "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791255+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389446+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
-    "169499238d9a": {
-      "id": "169499238d9a",
-      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+    "63140b2e0f64": {
+      "id": "63140b2e0f64",
+      "title": "Thieving Bastards - Card Cheats Exposed",
       "venue": "",
       "venue_id": "",
-      "genre": "comedy",
+      "genre": "play",
       "status": "active",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-10",
+      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/thieving-bastards-card-cheats-exposed",
       "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream",
-      "snippet": "Fast, fun, singalong Shakespeare in your local pub.",
-      "suburb": "Marrickville",
+      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/thieving-bastards-card-cheats-exposed",
+      "snippet": "Experience the world’s greatest gaming scams at the new Magic Festival in Sydney",
+      "suburb": "Paddington",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T13:23:32.791295+00:00",
-      "sessions": []
+      "fetched_at": "2026-09-21T22:25:38.389633+00:00",
+      "sessions": [],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     }
   },
   "__dedup_index__": {
@@ -5840,7 +6160,7 @@
     "4a690813267d": "4a690813267d",
     "b4f2bc1a4472": "b4f2bc1a4472",
     "91af27023a68": "91af27023a68",
-    "ace2025a7d0b": "ace2025a7d0b",
+    "90ee40cb24de": "90ee40cb24de",
     "b8d794c48196": "b8d794c48196",
     "ff770075b0ea": "ff770075b0ea",
     "59249c4410f9": "59249c4410f9",
@@ -5870,14 +6190,14 @@
     "c95747eca5bf": "c95747eca5bf",
     "7f744127dca4": "7f744127dca4",
     "1d1d658b0b4a": "1d1d658b0b4a",
-    "b04ad9b6b138": "b04ad9b6b138",
+    "4c2a9d0578a9": "4c2a9d0578a9",
     "006dd175fd9a": "006dd175fd9a",
     "dbfc88f28d80": "dbfc88f28d80",
     "ab5591daf596": "ab5591daf596",
-    "bfb981681a2a": "bfb981681a2a",
-    "3f85c6aa1c37": "3f85c6aa1c37",
+    "fcaab89dda95": "fcaab89dda95",
+    "1613f135670b": "1613f135670b",
     "7e397ca0e4de": "7e397ca0e4de",
-    "7bffe449232d": "7bffe449232d",
+    "3e5aaa6d4b73": "3e5aaa6d4b73",
     "d98b9ea3a07c": "d98b9ea3a07c",
     "5756a52659de": "5756a52659de",
     "ba08f9a834ab": "ba08f9a834ab",
@@ -5887,18 +6207,18 @@
     "ff97f8f3367a": "ff97f8f3367a",
     "16bd9fecf496": "16bd9fecf496",
     "0d09030a4dea": "0d09030a4dea",
-    "4b94557a1f41": "4b94557a1f41",
+    "3bb7dc5cc0ad": "3bb7dc5cc0ad",
     "66cc35b53088": "66cc35b53088",
     "65457c5c1b4d": "65457c5c1b4d",
     "5d33fbb69293": "5d33fbb69293",
     "7e778a27dd0b": "7e778a27dd0b",
-    "4b9b7e2bd050": "4b9b7e2bd050",
+    "0efb3bb23733": "0efb3bb23733",
     "0f88aee44321": "0f88aee44321",
-    "339b127fae36": "339b127fae36",
-    "e6590ef43b24": "e6590ef43b24",
+    "3dc220a24dd6": "3dc220a24dd6",
+    "8fa00ef38b95": "8fa00ef38b95",
     "a181a603769c": "a181a603769c",
     "3427042801c6": "3427042801c6",
-    "4733abc06db0": "4733abc06db0",
+    "a9c8b9f3a10e": "a9c8b9f3a10e",
     "84d256a44a8c": "84d256a44a8c",
     "a47bb457dd91": "a47bb457dd91",
     "9833a11d3006": "9833a11d3006",
@@ -5913,7 +6233,6 @@
     "8d8d79f7c72d": "8d8d79f7c72d",
     "c8e442171032": "c8e442171032",
     "a4a08f8b3370": "a4a08f8b3370",
-    "feaf0c6e621c": "feaf0c6e621c",
     "5cbcb318200a": "5cbcb318200a",
     "7b38283609bb": "7b38283609bb",
     "2408e993d578": "2408e993d578",
@@ -5921,7 +6240,7 @@
     "34d23628c603": "34d23628c603",
     "ff20081e3dd7": "ff20081e3dd7",
     "12c64a7a748f": "12c64a7a748f",
-    "6ee7c489ae0d": "6ee7c489ae0d",
+    "3ada33acd58d": "3ada33acd58d",
     "6a38135a97bd": "6a38135a97bd",
     "1d6897ba143b": "1d6897ba143b",
     "522ece042a65": "522ece042a65",
@@ -5931,8 +6250,8 @@
     "95998666433f": "95998666433f",
     "961963800a5c": "961963800a5c",
     "baf6d5cd524b": "baf6d5cd524b",
-    "9f10f06a956c": "9f10f06a956c",
-    "381967b77686": "381967b77686",
+    "98bd06bdc870": "98bd06bdc870",
+    "4c6d094f6b3f": "4c6d094f6b3f",
     "ff84337534f9": "ff84337534f9",
     "ba1b8a1433f1": "ba1b8a1433f1",
     "e3f252371cdc": "e3f252371cdc",
@@ -5960,7 +6279,7 @@
     "f3a6bfe9bfd5": "f3a6bfe9bfd5",
     "134862766bf3": "134862766bf3",
     "36384a42acd6": "36384a42acd6",
-    "5168e225c780": "5168e225c780",
+    "2d7221a319aa": "2d7221a319aa",
     "4b90a476a5a0": "4b90a476a5a0",
     "5c34dc7dd3c0": "5c34dc7dd3c0",
     "03375e2e2f2b": "03375e2e2f2b",
@@ -5978,7 +6297,7 @@
     "73e1fb70022c": "73e1fb70022c",
     "e0660c1dbdce": "e0660c1dbdce",
     "403dbe50d2dc": "403dbe50d2dc",
-    "03406436f473": "03406436f473",
+    "c482b5aca21e": "c482b5aca21e",
     "d6e5f16f94f8": "d6e5f16f94f8",
     "e532e27a9e3c": "e532e27a9e3c",
     "724c6bb50d10": "724c6bb50d10",
@@ -5996,7 +6315,7 @@
     "e4baf139849d": "e4baf139849d",
     "1b7d5726533a": "1b7d5726533a",
     "0ef60ae34591": "0ef60ae34591",
-    "e1713314123a": "e1713314123a",
+    "f5d27d7ba64a": "f5d27d7ba64a",
     "5c158bd2748d": "5c158bd2748d",
     "da1a0a62ae00": "da1a0a62ae00",
     "635b958fbe5e": "635b958fbe5e",
@@ -6005,7 +6324,6 @@
     "60d41591e657": "60d41591e657",
     "568db2702369": "568db2702369",
     "421baa2861b9": "421baa2861b9",
-    "c482b5aca21e": "c482b5aca21e",
     "6a95ce9b4579": "6a95ce9b4579",
     "07ae5c2e87c8": "07ae5c2e87c8",
     "1ef74a939963": "1ef74a939963",
@@ -6030,8 +6348,8 @@
     "b7f505cb976b": "b7f505cb976b",
     "c36392fff63d": "c36392fff63d",
     "c8da3280e6ee": "c8da3280e6ee",
-    "66d82bdd4558": "66d82bdd4558",
-    "2d08454fe601": "2d08454fe601",
+    "84d23fff59a1": "84d23fff59a1",
+    "f32666837af1": "f32666837af1",
     "3cf4cebfb89c": "3cf4cebfb89c",
     "fe0fcdf68678": "fe0fcdf68678",
     "9b2f4ed63eac": "9b2f4ed63eac",
@@ -6042,9 +6360,8 @@
     "fb946b61033e": "fb946b61033e",
     "d98a31c031a2": "d98a31c031a2",
     "b66c12b96465": "b66c12b96465",
-    "515b6db35b81": "515b6db35b81",
+    "1112e9687ec0": "1112e9687ec0",
     "558444394872": "558444394872",
-    "3ada33acd58d": "3ada33acd58d",
     "9064978ddda5": "9064978ddda5",
     "40ab77434f3a": "40ab77434f3a",
     "e5ab8d7c0fdf": "e5ab8d7c0fdf",
@@ -6064,7 +6381,7 @@
     "d565bb2b61dd": "d565bb2b61dd",
     "16a0e9e038d4": "16a0e9e038d4",
     "4868fe0ebdab": "4868fe0ebdab",
-    "fedd2aa974fa": "fedd2aa974fa",
+    "a1a6950d4a0d": "a1a6950d4a0d",
     "bf4397d8b4dc": "bf4397d8b4dc",
     "5b8edffed513": "5b8edffed513",
     "aa62f8527389": "aa62f8527389",
@@ -6075,7 +6392,7 @@
     "df656ca8dede": "df656ca8dede",
     "5d559a55ee67": "5d559a55ee67",
     "76d154a3f542": "76d154a3f542",
-    "0aa0431ea9a0": "0aa0431ea9a0",
+    "6477902cda94": "6477902cda94",
     "eac21493ac05": "eac21493ac05",
     "625e3b59ae10": "625e3b59ae10",
     "50fa2422c663": "50fa2422c663",
@@ -6092,7 +6409,7 @@
     "c43e779da56e": "c43e779da56e",
     "c7926ddf4f0c": "c7926ddf4f0c",
     "d4d520db6a00": "d4d520db6a00",
-    "cf18187678c4": "cf18187678c4",
+    "53ac4c89d62d": "53ac4c89d62d",
     "a6c60bb946fb": "a6c60bb946fb",
     "78f6ae03e181": "78f6ae03e181",
     "9e4e08794e72": "9e4e08794e72",
@@ -6102,28 +6419,19 @@
     "7eeff909b7ab": "7eeff909b7ab",
     "1d41b579d7b5": "1d41b579d7b5",
     "be8f0fb18b23": "be8f0fb18b23",
-    "b4767bee3424": "b4767bee3424",
-    "9f840c390d2b": "9f840c390d2b",
+    "5aafb1107b18": "5aafb1107b18",
+    "3761b6d0b499": "3761b6d0b499",
     "aefd923561d6": "aefd923561d6",
-    "77da1ece70a3": "77da1ece70a3",
-    "def70b6069d4": "def70b6069d4",
+    "9430e91f61b8": "9430e91f61b8",
+    "169499238d9a": "169499238d9a",
     "b3c55a4c8628": "b3c55a4c8628",
     "7d8e739a1018": "7d8e739a1018",
-    "7d35465e1b38": "7d35465e1b38",
-    "9c12d0167cd5": "9c12d0167cd5",
-    "90ee40cb24de": "90ee40cb24de",
-    "d047279eeae2": "d047279eeae2",
-    "f32666837af1": "f32666837af1",
-    "1112e9687ec0": "1112e9687ec0",
-    "d677be36cafb": "d677be36cafb",
-    "63140b2e0f64": "63140b2e0f64",
-    "2d7221a319aa": "2d7221a319aa",
-    "6477902cda94": "6477902cda94",
     "f265bc88969c": "f265bc88969c",
-    "53ac4c89d62d": "53ac4c89d62d",
     "1dc25869521a": "1dc25869521a",
-    "9430e91f61b8": "9430e91f61b8",
-    "169499238d9a": "169499238d9a"
+    "d047279eeae2": "d047279eeae2",
+    "d677be36cafb": "d677be36cafb",
+    "63140b2e0f64": "63140b2e0f64"
   },
-  "__notified__": {}
+  "__notified__": {},
+  "__key_version__": 2
 }

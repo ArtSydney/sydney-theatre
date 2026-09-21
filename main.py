@@ -8,7 +8,7 @@ import tempfile
 from fetch import fetch_all
 from filters import not_a_production
 from classify import classify_production
-from dedup import deduplicate
+from dedup import deduplicate, reindex
 from build_data import build_output
 from localdate import sydney_today
 from notify import notify_new, notify_opening_tonight, notify_closing_soon
@@ -51,7 +51,7 @@ def cleanup_state(state):
     suppressed = 0
     regenred = 0
     for pid, prod in state["productions"].items():
-        junk = not_a_production(prod.get("title", ""))
+        junk = not_a_production(prod.get("title", ""), prod.get("categories"))
         if junk and prod.get("status") != "suppressed":
             prod["status"] = "suppressed"
             prod["suppressed_reason"] = f"not a production ({junk})"
@@ -129,6 +129,7 @@ def run():
             item["genre"] = classify_production(item)
 
     print("\n[3/6] Deduplicating...")
+    reindex(state, today)
     new_pids = []
     for item in raw:
         status, pid = deduplicate(item, state, today=today)

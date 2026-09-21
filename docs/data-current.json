@@ -96,22 +96,6 @@
     "snippet": ""
   },
   {
-    "id": "3a893027afe3",
-    "title": "Tales of the City by Armistead Maupin",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2027-03-11",
-    "end_date": "2027-03-11",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/tales-of-the-city-by-armistead-maupin",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Gay book club"
-  },
-  {
     "id": "558444394872",
     "title": "Shen Yun 2027",
     "venue": "Capitol Theatre",
@@ -126,22 +110,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for. "
-  },
-  {
-    "id": "9a9383e8afe0",
-    "title": "Call Me by Your Name by André Aciman",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2027-02-11",
-    "end_date": "2027-02-11",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/call-me-by-your-name-by-andre-aciman",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Gay book club"
   },
   {
     "id": "fe2532e9614b",
@@ -190,22 +158,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "9e4e08794e72",
-    "title": "Villa Coco by Andrew Sean Greer",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2027-01-14",
-    "end_date": "2027-01-14",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/villa-coco-by-andrew-sean-greer",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Gay book club"
   },
   {
     "id": "78f6ae03e181",
@@ -304,22 +256,6 @@
     "snippet": "Basil, Sybil and Manuel serve up a 3-course meal and two hours of hilarious, highly interactive comedy in Sydney CBD"
   },
   {
-    "id": "a6c60bb946fb",
-    "title": "The Line of Beauty by Alan Hollinghurst",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-12-10",
-    "end_date": "2026-12-10",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-line-of-beauty-by-alan-hollinghurst",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Gay book club"
-  },
-  {
     "id": "aa62f8527389",
     "title": "Diva",
     "venue": "Eternity Playhouse",
@@ -416,24 +352,8 @@
     "snippet": "A hilarious new comedy"
   },
   {
-    "id": "03406436f473",
-    "title": "Pinchgut Opera presents Semele by Handel",
-    "venue": "City Recital Hall",
-    "venue_id": "city-recital-hall",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-11-26",
-    "end_date": "2026-12-02",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Seduction, ambition and divine consequence"
-  },
-  {
     "id": "c482b5aca21e",
-    "title": "Pinchgut Opera's Semele",
+    "title": "Pinchgut Opera presents Semele by Handel",
     "venue": "City Recital Hall",
     "venue_id": "city-recital-hall",
     "suburb": "Sydney",
@@ -444,7 +364,7 @@
     "booking_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
     "price_from": 74,
     "free_event": false,
-    "source": "todaytix",
+    "source": "cityofsydney",
     "snippet": "Seduction, ambition and divine consequence"
   },
   {
@@ -624,22 +544,6 @@
     "snippet": "World renowned magician Joshua Jay brings his acclaimed live show LOOK CLOSER to Sydney for one night only."
   },
   {
-    "id": "256a5e7bb318",
-    "title": "Past and Future Seymour",
-    "venue": "Seymour Centre",
-    "venue_id": "seymour-centre",
-    "suburb": "Chippendale",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/past-and-future-seymour",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "A conversation about Seymour's history, evolution, and what's next"
-  },
-  {
     "id": "9468146c2057",
     "title": "Copland Dance Episodes",
     "venue": "Joan Sutherland Theatre | Sydney Opera House",
@@ -768,22 +672,6 @@
     "snippet": ""
   },
   {
-    "id": "def70b6069d4",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Marrickville",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun, singalong Shakespeare in your local pub."
-  },
-  {
     "id": "169499238d9a",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
     "venue": "",
@@ -832,22 +720,6 @@
     "snippet": "'Samhain' Irish Celtic Festival (original ‘Halloween’) celebrated in a magical evening :poetry, music & spooky stories."
   },
   {
-    "id": "77da1ece70a3",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "St Peters",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-31",
-    "end_date": "2026-10-31",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-st-peters",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun, singalong Shakespeare in your local pub."
-  },
-  {
     "id": "9430e91f61b8",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
     "venue": "",
@@ -878,22 +750,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A laugh-out-loud, lump-in-your-throat festive showdown about generational differences."
-  },
-  {
-    "id": "9c12d0167cd5",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Pyrmont",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-29",
-    "end_date": "2026-10-29",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun Shakespeare in your local pub"
   },
   {
     "id": "1dc25869521a",
@@ -942,22 +798,6 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "A new experimental dance work in development exploring the silliness and seriousness of having hair with Q&A discussion."
-  },
-  {
-    "id": "cf18187678c4",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Neutral Bay",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-25",
-    "end_date": "2026-11-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-the-oaks",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun, singalong Shakespeare in your local pub."
   },
   {
     "id": "53ac4c89d62d",
@@ -1072,22 +912,6 @@
     "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now.  "
   },
   {
-    "id": "aefd923561d6",
-    "title": "The New Writers’ sprint + retreat",
-    "venue": "Maybanke Community Centre",
-    "venue_id": "",
-    "suburb": "Pyrmont",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-17",
-    "end_date": "2026-10-17",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-new-writers-sprint",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Unlock your imagination, reflection, connection, way beyond journalling "
-  },
-  {
     "id": "a6d503b55c99",
     "title": "Break the 5th Wall",
     "venue": "",
@@ -1136,22 +960,6 @@
     "snippet": "Inner West Theatre Company presents the big band musical based on the life of conman Frank Abagnale Jr."
   },
   {
-    "id": "7d35465e1b38",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Annandale",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-16",
-    "end_date": "2026-11-06",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun, singalong Shakespeare in your local pub."
-  },
-  {
     "id": "f265bc88969c",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
     "venue": "",
@@ -1168,7 +976,7 @@
     "snippet": "Fast, fun, singalong Shakespeare in your local pub."
   },
   {
-    "id": "ace2025a7d0b",
+    "id": "90ee40cb24de",
     "title": "Rodgers and Hammerstein’s CAROUSEL",
     "venue": "Foundry Theatre",
     "venue_id": "foundry-theatre",
@@ -1176,7 +984,7 @@
     "genre": "play",
     "status": "active",
     "start_date": "2026-10-15",
-    "end_date": "2026-10-17",
+    "end_date": "2026-10-18",
     "booking_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
     "price_from": 75,
     "free_event": false,
@@ -1216,38 +1024,6 @@
     "snippet": "Popular Playhouse returns to Flight Path Theatre with another hilarious Bible spoof!"
   },
   {
-    "id": "0aa0431ea9a0",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Balmain",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-15",
-    "end_date": "2026-10-15",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-balmain",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Pub Shakespeare Company's (formerly Bar'd Work) new riotous, 90-minute adaptation of A Midsummer Night's Dream!"
-  },
-  {
-    "id": "90ee40cb24de",
-    "title": "Rodgers and Hammerstein’s CAROUSEL",
-    "venue": "Foundry Theatre",
-    "venue_id": "foundry-theatre",
-    "suburb": "Pyrmont",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-15",
-    "end_date": "2026-10-18",
-    "booking_url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry",
-    "price_from": 75,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": ""
-  },
-  {
     "id": "6477902cda94",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
     "venue": "",
@@ -1280,7 +1056,7 @@
     "snippet": ""
   },
   {
-    "id": "5168e225c780",
+    "id": "2d7221a319aa",
     "title": "Play School Live Concert 2026: Humpty's Big Celebration!",
     "venue": "Seymour Centre",
     "venue_id": "seymour-centre",
@@ -1326,22 +1102,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Burlesque Festival "
-  },
-  {
-    "id": "2d7221a319aa",
-    "title": "Play School Live Concert 2026: Humpty's Big Celebration!",
-    "venue": "Seymour Centre",
-    "venue_id": "seymour-centre",
-    "suburb": "Chippendale",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-10",
-    "end_date": "2026-10-10",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/play-school-live-concert-2026-humptys-big-celebration",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "2026 marks a remarkable milestone: Play School, Australia’s most beloved children’s television program, turns 60."
   },
   {
     "id": "ea8b63112add",
@@ -1536,22 +1296,6 @@
     "snippet": ""
   },
   {
-    "id": "1d41b579d7b5",
-    "title": "The Man Who Fell In Love With The Moon by Tom Spanbaurer",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-08",
-    "end_date": "2026-10-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-man-who-fell-in-love-with-the-moon-by-tom-spanbaurer",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Gay book club discussion"
-  },
-  {
     "id": "63140b2e0f64",
     "title": "Thieving Bastards - Card Cheats Exposed",
     "venue": "",
@@ -1696,7 +1440,7 @@
     "snippet": "Whilst her comedy debut was selling out, Carly’s notifications kept pinging! So she’s back with new, unhinged stories."
   },
   {
-    "id": "515b6db35b81",
+    "id": "1112e9687ec0",
     "title": "OPENING NIGHT | Kookaburra's Comedy Club | Sydney CBD",
     "venue": "Castlereagh Boutique Hotel",
     "venue_id": "castlereagh-hotel",
@@ -1726,22 +1470,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Let the velvet drapes draw you into a world of smoky allure and sultry surprise"
-  },
-  {
-    "id": "1112e9687ec0",
-    "title": "OPENING NIGHT | Kookaburra's Comedy Club | Sydney CBD",
-    "venue": "Castlereagh Boutique Hotel",
-    "venue_id": "castlereagh-hotel",
-    "suburb": "Sydney",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-02",
-    "end_date": "2026-10-02",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/happy-hour-comedy",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "It’s OPENING NIGHT for our brand-new stand up comedy show - at the CBD's most stylish hideaway!"
   },
   {
     "id": "91af27023a68",
@@ -2208,7 +1936,7 @@
     "snippet": ""
   },
   {
-    "id": "2d08454fe601",
+    "id": "f32666837af1",
     "title": "My Grandpa Doesn't Follow Me on Instagram: A Guide to trans-Generational Road Tripping",
     "venue": "Touring Hub at New Theatre",
     "venue_id": "new-theatre",
@@ -2254,22 +1982,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "An ethereal theatrical experience"
-  },
-  {
-    "id": "f32666837af1",
-    "title": "My Grandpa Doesn't Follow Me on Instagram: A Guide to trans-Generational Road Tripping",
-    "venue": "Touring Hub at New Theatre",
-    "venue_id": "new-theatre",
-    "suburb": "Newtown",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-09-23",
-    "end_date": "2026-09-26",
-    "booking_url": "https://www.todaytix.com/sydney/shows/47445-my-grandpa-doesnt-follow-me-on-instagram",
-    "price_from": 38,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": ""
   },
   {
     "id": "6bd30cd2aac3",
@@ -2545,22 +2257,6 @@
   },
   {
     "id": "45ae8f38f50f",
-    "title": "All Star Circus",
-    "venue": "The Entertainment Quarter",
-    "venue_id": "entertainment-quarter",
-    "suburb": "Moore Park",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-09-05",
-    "end_date": "2026-10-11",
-    "booking_url": "https://www.todaytix.com/sydney/shows/47451-all-star-circus",
-    "price_from": 22,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": "If you only see one show this fringe, make sure this is the one!"
-  },
-  {
-    "id": "feaf0c6e621c",
     "title": "All-Star Circus",
     "venue": "The Entertainment Quarter",
     "venue_id": "entertainment-quarter",
@@ -2569,8 +2265,8 @@
     "status": "active",
     "start_date": "2026-09-05",
     "end_date": "2026-10-11",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/all-star-circus",
-    "price_from": null,
+    "booking_url": "https://www.todaytix.com/sydney/shows/47451-all-star-circus",
+    "price_from": 22,
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "If you only see one show this fringe, make sure this is the one!"
@@ -2798,22 +2494,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Join Woollahra Life!’s Line Dancing classes and enjoy a fun, social, and active way to stay fit!"
-  },
-  {
-    "id": "dbc83eb4ba4c",
-    "title": "Matavai Dance Program",
-    "venue": "Redfern Community Centre",
-    "venue_id": "",
-    "suburb": "Redfern",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-07-27",
-    "end_date": "2026-09-28",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/matavai",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Cultural Dance for Young People"
   },
   {
     "id": "20dac19c5146",

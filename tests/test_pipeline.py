@@ -8,7 +8,7 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from classify import classify_production
-from dedup import canonical_key, deduplicate, merge_production, normalize, strip_attribution
+from dedup import canonical_key, deduplicate, merge_production, normalize, reindex, strip_attribution
 from filters import not_a_production
 from main import cleanup_state, send_notifications, sweep_deadlines
 
@@ -23,6 +23,11 @@ def item(title, **kw):
 
 def fresh_state():
     return {"productions": {}, "__dedup_index__": {}, "__notified__": {}}
+
+
+def json_copy(obj):
+    import json
+    return json.loads(json.dumps(obj, sort_keys=True))
 
 
 class TestNormalize(unittest.TestCase):
@@ -76,6 +81,20 @@ class TestFilters(unittest.TestCase):
         ]:
             self.assertTrue(not_a_production(title), title)
 
+    def test_junk_categories_catch_what_titles_miss(self):
+        # A book club and an artist talk look like ordinary titles; the
+        # source's own category is what gives them away.
+        self.assertTrue(not_a_production("The Line of Beauty by Alan Hollinghurst",
+                                         ["theatre-dance-and-film", "talks-courses-and-workshops"]))
+        self.assertTrue(not_a_production("Ignite Talks Sydney 2026",
+                                         ["talks-courses-and-workshops"]))
+        self.assertTrue(not_a_production("David Hockney: Bigger & Closer", ["exhibitions"]))
+
+    def test_tours_category_is_not_treated_as_junk(self):
+        # The source files Disney's The Lion King under tours-and-experiences.
+        self.assertIsNone(not_a_production("Disney's The Lion King",
+                                           ["theatre-dance-and-film", "tours-and-experiences"]))
+
     def test_real_shows_survive(self):
         for title in [
             "Play School Live Concert 2026: Humpty's Big Celebration!",
@@ -111,6 +130,67 @@ class TestDedup(unittest.TestCase):
         self.assertEqual(status, "new")
         self.assertEqual(state["productions"][pid2]["title"], "Vanya")
         self.assertEqual(state["productions"][pid2]["id"], pid2)
+
+
+class TestReindex(unittest.TestCase):
+    def test_collapses_records_orphaned_by_a_key_change(self):
+        # Two records for one show, ids from two different key rules.
+        state = fresh_state()
+        state["productions"] = {
+            "oldkey": {"id": "oldkey", "title": "All-Star Circus", "status": "active",
+                       "fetched_at": "2026-08-23", "start_date": "2026-08-01",
+                       "end_date": "2026-10-01", "venue": "Big Top"},
+            "newkey": {"id": "newkey", "title": "All Star Circus", "status": "active",
+                       "fetched_at": "2026-09-21", "start_date": "2026-08-01",
+                       "end_date": "2026-12-01", "venue": "Big Top"},
+        }
+        state["__dedup_index__"] = {"oldkey": "oldkey", "newkey": "newkey"}
+        reindex(state, today=TODAY)
+
+        self.assertEqual(len(state["productions"]), 1)
+        survivor = next(iter(state["productions"].values()))
+        # The newer record's extended end date wins.
+        self.assertEqual(survivor["end_date"], "2026-12-01")
+        # id, key and index agree again.
+        key = canonical_key("All Star Circus")
+        self.assertEqual(survivor["id"], key)
+        self.assertEqual(state["__dedup_index__"], {key: key})
+
+    def test_is_idempotent(self):
+        state = fresh_state()
+        state["productions"] = {
+            "a": {"id": "a", "title": "Vanya", "status": "active", "fetched_at": "2026-09-01"},
+        }
+        reindex(state, today=TODAY)
+        first = json_copy(state)
+        reindex(state, today=TODAY)
+        self.assertEqual(json_copy(state), first)
+
+    def test_suppression_survives_a_merge(self):
+        state = fresh_state()
+        state["productions"] = {
+            "old": {"id": "old", "title": "Free Salsa Classes", "status": "suppressed",
+                    "fetched_at": "2026-08-01"},
+            "new": {"id": "new", "title": "Free Salsa Classes", "status": "active",
+                    "fetched_at": "2026-09-01", "end_date": "2027-01-01"},
+        }
+        reindex(state, today=TODAY)
+        self.assertEqual(len(state["productions"]), 1)
+        self.assertEqual(next(iter(state["productions"].values()))["status"], "suppressed")
+
+    def test_a_fetch_after_reindex_finds_the_existing_record(self):
+        state = fresh_state()
+        state["productions"] = {
+            "oldkey": {"id": "oldkey", "title": "All-Star Circus", "status": "active",
+                       "fetched_at": "2026-08-23", "start_date": "2026-08-01",
+                       "end_date": "2026-10-01"},
+        }
+        state["__dedup_index__"] = {"oldkey": "oldkey"}
+        reindex(state, today=TODAY)
+        status, _ = deduplicate(item("All Star Circus", start_date="2026-08-01",
+                                     end_date="2026-10-01"), state, today=TODAY)
+        self.assertEqual(status, "existing")
+        self.assertEqual(len(state["productions"]), 1)
 
 
 class TestMerge(unittest.TestCase):
@@ -171,6 +251,20 @@ class TestCleanup(unittest.TestCase):
         state["productions"] = {
             "a": {"id": "a", "title": "Free Salsa Classes in Surry Hills", "status": "active", "genre": "dance"},
             "b": {"id": "b", "title": "Hamilton", "status": "active", "genre": "musical"},
+        }
+        cleanup_state(state)
+        self.assertEqual(state["productions"]["a"]["status"], "suppressed")
+        self.assertEqual(state["productions"]["b"]["status"], "active")
+
+    def test_stored_categories_are_re_filtered(self):
+        # These records predate category filtering, so only a stored category
+        # can retire them.
+        state = fresh_state()
+        state["productions"] = {
+            "a": {"id": "a", "title": "Villa Coco by Andrew Sean Greer", "status": "active",
+                  "genre": "play", "categories": ["talks-courses-and-workshops"]},
+            "b": {"id": "b", "title": "Vanya", "status": "active", "genre": "play",
+                  "categories": ["theatre-dance-and-film"]},
         }
         cleanup_state(state)
         self.assertEqual(state["productions"]["a"]["status"], "suppressed")

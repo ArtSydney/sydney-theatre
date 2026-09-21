@@ -122,6 +122,12 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
 .genre-family{background:rgba(36,157,143,0.15);color:#5dc4b8}
 .genre-unknown{background:rgba(154,149,144,0.2);color:var(--text-dim)}
 
+/* Status badges and suburb, previously written as inline styles */
+.show-card .badge{font-size:11px;font-weight:600}
+.show-card .badge-review{color:var(--gold)}
+.show-card .badge-closed{color:var(--text-dim)}
+.show-card .venue .suburb{font-size:12px;color:var(--text-dim)}
+
 .show-card .title{font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:4px}
 .show-card .venue{font-size:13px;color:var(--text-dim);margin-bottom:6px}
 .show-card .dates{font-size:13px;color:var(--text-dim)}
@@ -341,7 +347,7 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
       <div id="shows-active-filters" class="active-filters"></div>
       <div class="toggle-row">
         <label>Show closed</label>
-        <button class="toggle" id="toggle-closed" onclick="toggleClosed()"></button>
+        <button class="toggle" id="toggle-closed" type="button" aria-pressed="false" onclick="toggleClosed()"></button>
       </div>
       <div id="shows-list"></div>
     </div>
@@ -349,9 +355,9 @@ h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;font-weight:600}
     <!-- Calendar Tab -->
     <div id="tab-calendar" class="tab-panel">
       <div class="cal-header">
-        <button onclick="calNav(-1)">&#8249;</button>
+        <button type="button" aria-label="Previous month" onclick="calNav(-1)">&#8249;</button>
         <h3 id="cal-month-label"></h3>
-        <button onclick="calNav(1)">&#8250;</button>
+        <button type="button" aria-label="Next month" onclick="calNav(1)">&#8250;</button>
       </div>
       <div class="cal-grid" id="cal-grid"></div>
       <div id="cal-shows-below"></div>
@@ -414,29 +420,99 @@ let tonightGenre = 'all';
 let tonightVenue = 'all';
 let tonightSuburb = 'all';
 let filterContext = 'tonight';
-let calMonth = new Date().getMonth();
-let calYear = new Date().getFullYear();
+let calMonth, calYear;
+
+const GENRE_ORDER = ['play','musical','comedy','cabaret','opera','dance','family','unknown'];
+const KNOWN_GENRES = new Set(GENRE_ORDER);
 
 const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
+/* --- Dates ---------------------------------------------------------------
+   Everything is keyed off the date in Sydney, not the viewer's timezone and
+   not UTC. toISOString() gave the UTC date, so before 10am local the app
+   showed yesterday's line-up under today's heading, and viewers overseas
+   saw the wrong night entirely. */
+function sydneyNow() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Australia/Sydney',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false
+  }).formatToParts(new Date()).reduce((a, p) => (a[p.type] = p.value, a), {});
+  return { date: `${parts.year}-${parts.month}-${parts.day}`, parts };
+}
+function sydneyToday() { return sydneyNow().date; }
+
+function parseLocalDate(str) {
+  if (!str) return null;
+  const [y, m, d] = String(str).slice(0, 10).split('-').map(Number);
+  if (!y || !m || !d) return null;
+  return new Date(y, m - 1, d);
+}
+function dayKey(str) { return String(str || '').slice(0, 10); }
+
+/* One definition of "is this show running on this date", used by Tonight,
+   Shows and Calendar alike. They each had their own copy before. */
+function runsOn(s, dateStr) {
+  const start = dayKey(s.start_date);
+  const end = dayKey(s.end_date);
+  if (!start || start > dateStr) return false;
+  return !end || end >= dateStr;
+}
+function hasFinished(s, today) {
+  const end = dayKey(s.end_date);
+  return !!end && end < today;
+}
+
+/* --- Escaping -----------------------------------------------------------
+   Titles, venues and booking links come from scraped third-party pages, so
+   they are untrusted. esc() is for text, attr() for attribute values (the
+   old esc() left quotes intact, which let a venue name with a " break out
+   of an attribute), and safeUrl() keeps javascript: links out of hrefs. */
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+const attr = esc;
+function safeUrl(u) {
+  return (typeof u === 'string' && /^https?:\/\//i.test(u)) ? u : '';
+}
+function formatPrice(p) {
+  const n = Number(p);
+  if (!isFinite(n)) return '';
+  return n % 1 === 0 ? `$${n}` : `$${n.toFixed(2)}`;
+}
+
 async function init() {
-  try {
-    const [dataRes, theatreRes] = await Promise.all([
-      fetch('data-current.json?v=2').then(r => r.ok ? r.json() : []),
-      fetch('theatres.json?v=3').then(r => r.ok ? r.json() : [])
-    ]);
-    DATA = dataRes;
-    theatreRes.forEach(t => THEATRES[t.id] = t);
-  } catch(e) {
-    DATA = sampleData();
-  }
+  const today = sydneyToday();
+  const d = parseLocalDate(today);
+  calMonth = d.getMonth();
+  calYear = d.getFullYear();
+
+  const [data, theatres] = await Promise.all([
+    loadJSON('data-current.json?v=3', []),
+    loadJSON('theatres.json?v=3', [])
+  ]);
+  DATA = Array.isArray(data) && data.length ? data : sampleData();
+  if (Array.isArray(theatres)) theatres.forEach(t => THEATRES[t.id] = t);
   renderAll();
 }
 
+async function loadJSON(url, fallback) {
+  try {
+    const r = await fetch(url);
+    if (!r.ok) return fallback;
+    return await r.json();
+  } catch (e) {
+    console.warn('Failed to load', url, e);
+    return fallback;
+  }
+}
+
 function sampleData() {
-  const today = new Date();
-  const fmt = d => d.toISOString().split('T')[0];
+  const today = parseLocalDate(sydneyToday());
+  const fmt = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
   const offset = (days) => { const d = new Date(today); d.setDate(d.getDate() + days); return fmt(d); };
   return [
     { id:'1', title:'Hamilton', venue:'Capitol Theatre', suburb:'Haymarket', genre:'musical', status:'active', start_date:offset(-30), end_date:offset(60), booking_url:'https://www.capitoltheatre.com.au' },
@@ -449,25 +525,21 @@ function sampleData() {
 
 function renderAll() { renderTonight(); renderShows(); renderCalendar(); }
 
-// --- Filter drawer ---
+/* --- Filter drawer --- */
 function openFilterDrawer(ctx) {
   filterContext = ctx;
   const isTonight = ctx === 'tonight';
   const curVenue = isTonight ? tonightVenue : activeVenue;
   const curSuburb = isTonight ? tonightSuburb : activeSuburb;
 
-  // Get relevant data for populating options
-  const pool = isTonight ? getTonightShows() : DATA.filter(s => showClosed || (s.status !== 'closed' && s.status !== 'suppressed'));
+  const pool = isTonight ? getTonightShows() : getShowsPool();
   const venues = [...new Set(pool.map(s => s.venue).filter(Boolean))].sort();
   const suburbs = [...new Set(pool.map(s => s.suburb).filter(Boolean))].sort();
 
-  const vs = $('#filter-venue');
-  vs.innerHTML = '<option value="all">All venues</option>' +
-    venues.map(v => `<option value="${esc(v)}" ${v === curVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
-
-  const ss = $('#filter-suburb');
-  ss.innerHTML = '<option value="all">All suburbs</option>' +
-    suburbs.map(s => `<option value="${esc(s)}" ${s === curSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
+  $('#filter-venue').innerHTML = '<option value="all">All venues</option>' +
+    venues.map(v => `<option value="${attr(v)}" ${v === curVenue ? 'selected' : ''}>${esc(v)}</option>`).join('');
+  $('#filter-suburb').innerHTML = '<option value="all">All suburbs</option>' +
+    suburbs.map(s => `<option value="${attr(s)}" ${s === curSuburb ? 'selected' : ''}>${esc(s)}</option>`).join('');
 
   $('#filter-overlay').classList.add('open');
 }
@@ -509,39 +581,56 @@ function renderActiveFilterPills(ctx) {
   const isTonight = ctx === 'tonight';
   const venue = isTonight ? tonightVenue : activeVenue;
   const suburb = isTonight ? tonightSuburb : activeSuburb;
-  const container = $(`#${ctx === 'tonight' ? 'tonight' : 'shows'}-active-filters`);
+  const container = $(`#${isTonight ? 'tonight' : 'shows'}-active-filters`);
   let html = '';
-  if (venue !== 'all') html += `<span class="filter-pill" onclick="removeFilter('${ctx}','venue')">${esc(venue)} <span class="x">&times;</span></span>`;
-  if (suburb !== 'all') html += `<span class="filter-pill" onclick="removeFilter('${ctx}','suburb')">${esc(suburb)} <span class="x">&times;</span></span>`;
+  if (venue !== 'all') html += pill(ctx, 'venue', venue);
+  if (suburb !== 'all') html += pill(ctx, 'suburb', suburb);
   container.innerHTML = html;
+}
+function pill(ctx, field, label) {
+  return `<span class="filter-pill" data-action="remove-filter" data-ctx="${attr(ctx)}" data-field="${attr(field)}">${esc(label)} <span class="x">&times;</span></span>`;
+}
+
+function genreChips(genres, current, ctx, hasFilters) {
+  return genres.map(g =>
+    `<button class="filter-chip ${g === current ? 'active' : ''}" data-action="set-genre" data-ctx="${attr(ctx)}" data-genre="${attr(g)}">${g === 'all' ? 'All' : esc(capitalize(g))}</button>`
+  ).join('') +
+  `<button class="filter-chip${hasFilters ? ' active' : ''}" data-action="open-filters" data-ctx="${attr(ctx)}">&#9776; Filters</button>`;
 }
 
 function getTonightShows() {
-  const today = new Date().toISOString().split('T')[0];
-  return DATA.filter(s => s.status === 'active' && s.start_date <= today && (s.end_date >= today || !s.end_date));
+  const today = sydneyToday();
+  return DATA.filter(s => s.status === 'active' && runsOn(s, today));
 }
 
-// --- Tonight ---
+/* The Shows pool. data-current.json is a daily snapshot, so between runs it
+   still contains shows whose last night has passed; those were listed as
+   current. Treat a finished run as closed here too. */
+function getShowsPool() {
+  const today = sydneyToday();
+  return DATA.filter(s => {
+    if (s.status === 'suppressed') return false;
+    const finished = s.status === 'closed' || hasFinished(s, today);
+    return showClosed || !finished;
+  });
+}
+
+/* --- Tonight --- */
 function renderTonight() {
-  const today = new Date().toISOString().split('T')[0];
   const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  const d = new Date();
+  const d = parseLocalDate(sydneyToday());
   $('#tonight-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
 
   const allTonight = getTonightShows();
-
-  // Genre chips + Filters chip
-  const genres = ['all', ...new Set(allTonight.map(s => s.genre).filter(Boolean))];
-  const hasFilters = tonightVenue !== 'all' || tonightSuburb !== 'all';
-  const genreBar = $('#tonight-genre-filters');
-  genreBar.innerHTML = genres.map(g =>
-    `<button class="filter-chip ${g === tonightGenre ? 'active' : ''}" onclick="setTonightGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
-  ).join('') + `<button class="filter-chip${hasFilters ? ' active' : ''}" onclick="openFilterDrawer('tonight')">&#9776; Filters</button>`;
+  const genres = ['all', ...sortGenres(new Set(allTonight.map(s => s.genre).filter(Boolean)))];
+  if (!genres.includes(tonightGenre)) tonightGenre = 'all';
+  $('#tonight-genre-filters').innerHTML =
+    genreChips(genres, tonightGenre, 'tonight', tonightVenue !== 'all' || tonightSuburb !== 'all');
 
   renderActiveFilterPills('tonight');
 
-  let tonight = allTonight.filter(s => {
+  const tonight = allTonight.filter(s => {
     if (tonightGenre !== 'all' && s.genre !== tonightGenre) return false;
     if (tonightVenue !== 'all' && s.venue !== tonightVenue) return false;
     if (tonightSuburb !== 'all' && s.suburb !== tonightSuburb) return false;
@@ -549,54 +638,21 @@ function renderTonight() {
   });
 
   $('#tonight-count').textContent = tonight.length;
-  const container = $('#tonight-list');
-  if (tonight.length === 0) {
-    container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
-    return;
-  }
-
-  // Group by genre when showing all
-  if (tonightGenre === 'all') {
-    const genreOrder = ['play','musical','comedy','cabaret','opera','dance','family','unknown'];
-    const groups = {};
-    tonight.forEach(s => {
-      const g = s.genre || 'unknown';
-      if (!groups[g]) groups[g] = [];
-      groups[g].push(s);
-    });
-    let html = '';
-    for (const g of genreOrder) {
-      if (!groups[g] || groups[g].length === 0) continue;
-      html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
-      html += groups[g].map(showCard).join('');
-    }
-    for (const g of Object.keys(groups)) {
-      if (!genreOrder.includes(g)) {
-        html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
-        html += groups[g].map(showCard).join('');
-      }
-    }
-    container.innerHTML = html;
-  } else {
-    container.innerHTML = tonight.map(showCard).join('');
-  }
+  renderList($('#tonight-list'), tonight, tonightGenre === 'all');
 }
 
-function setTonightGenre(g) { tonightGenre = g; renderTonight(); }
-
-// --- Shows ---
+/* --- Shows --- */
 function renderShows() {
-  const genres = ['all', ...new Set(DATA.map(s => s.genre).filter(Boolean))];
-  const hasFilters = activeVenue !== 'all' || activeSuburb !== 'all';
-  const filterBar = $('#genre-filters');
-  filterBar.innerHTML = genres.map(g =>
-    `<button class="filter-chip ${g === activeGenre ? 'active' : ''}" onclick="setGenre('${g}')">${g === 'all' ? 'All' : capitalize(g)}</button>`
-  ).join('') + `<button class="filter-chip${hasFilters ? ' active' : ''}" onclick="openFilterDrawer('shows')">&#9776; Filters</button>`;
+  const pool = getShowsPool();
+  const genres = ['all', ...sortGenres(new Set(pool.map(s => s.genre).filter(Boolean)))];
+  if (!genres.includes(activeGenre)) activeGenre = 'all';
+  $('#genre-filters').innerHTML =
+    genreChips(genres, activeGenre, 'shows', activeVenue !== 'all' || activeSuburb !== 'all');
 
   renderActiveFilterPills('shows');
 
-  let filtered = DATA.filter(s => {
-    if (!showClosed && (s.status === 'closed' || s.status === 'suppressed')) return false;
+  const today = sydneyToday();
+  const filtered = pool.filter(s => {
     if (activeGenre !== 'all' && s.genre !== activeGenre) return false;
     if (activeVenue !== 'all' && s.venue !== activeVenue) return false;
     if (activeSuburb !== 'all' && s.suburb !== activeSuburb) return false;
@@ -604,112 +660,128 @@ function renderShows() {
   });
 
   filtered.sort((a, b) => {
-    if (a.status === 'active' && b.status !== 'active') return -1;
-    if (b.status === 'active' && a.status !== 'active') return 1;
-    return (b.start_date || '').localeCompare(a.start_date || '');
+    const aRunning = a.status === 'active' && !hasFinished(a, today);
+    const bRunning = b.status === 'active' && !hasFinished(b, today);
+    if (aRunning !== bRunning) return aRunning ? -1 : 1;
+    return dayKey(b.start_date).localeCompare(dayKey(a.start_date));
   });
 
-  const container = $('#shows-list');
-  if (filtered.length === 0) {
-    container.innerHTML = '<div class="empty-state"><div class="icon">🎭</div><p>No shows match this filter</p></div>';
-    return;
-  }
-
-  // Group by genre when showing all genres
-  if (activeGenre === 'all') {
-    const genreOrder = ['play','musical','comedy','cabaret','opera','dance','family','unknown'];
-    const groups = {};
-    filtered.forEach(s => {
-      const g = s.genre || 'unknown';
-      if (!groups[g]) groups[g] = [];
-      groups[g].push(s);
-    });
-    let html = '';
-    for (const g of genreOrder) {
-      if (!groups[g] || groups[g].length === 0) continue;
-      html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
-      html += groups[g].map(showCard).join('');
-    }
-    // Any genres not in genreOrder
-    for (const g of Object.keys(groups)) {
-      if (!genreOrder.includes(g)) {
-        html += `<div class="genre-section-header">${capitalize(g)} <span class="genre-section-count">${groups[g].length}</span></div>`;
-        html += groups[g].map(showCard).join('');
-      }
-    }
-    container.innerHTML = html;
-  } else {
-    container.innerHTML = filtered.map(showCard).join('');
-  }
+  renderList($('#shows-list'), filtered, activeGenre === 'all', today);
 }
 
-function showCard(s) {
-  const genreClass = 'genre-' + (s.genre || 'unknown');
+function sortGenres(set) {
+  const known = GENRE_ORDER.filter(g => set.has(g));
+  const extra = [...set].filter(g => !KNOWN_GENRES.has(g)).sort();
+  return [...known, ...extra];
+}
+
+function renderList(container, shows, grouped, today) {
+  if (shows.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="icon">&#127917;</div><p>No shows match this filter</p></div>';
+    return;
+  }
+  if (!grouped) {
+    container.innerHTML = shows.map(s => showCard(s, today)).join('');
+    return;
+  }
+  const groups = new Map();
+  shows.forEach(s => {
+    const g = s.genre || 'unknown';
+    if (!groups.has(g)) groups.set(g, []);
+    groups.get(g).push(s);
+  });
+  container.innerHTML = sortGenres(new Set(groups.keys())).map(g => {
+    const rows = groups.get(g);
+    return `<div class="genre-section-header">${esc(capitalize(g))} <span class="genre-section-count">${rows.length}</span></div>`
+      + rows.map(s => showCard(s, today)).join('');
+  }).join('');
+}
+
+/* A third of City of Sydney listings carry no venue name at all, which
+   rendered as an empty line followed by an orphaned "(Suburb)". Fall back
+   to the suburb on its own. */
+function venueLine(s) {
+  const venue = (s.venue || '').trim();
+  const suburb = (s.suburb || '').trim();
+  if (venue && suburb) return `${esc(venue)} <span class="suburb">(${esc(suburb)})</span>`;
+  if (venue) return esc(venue);
+  if (suburb) return `<span class="suburb">${esc(suburb)}</span>`;
+  return '<span class="suburb">Venue TBC</span>';
+}
+
+function showCard(s, today) {
+  const genre = s.genre || 'unknown';
+  const genreClass = 'genre-' + (KNOWN_GENRES.has(genre) ? genre : 'unknown');
+  const finished = today ? hasFinished(s, today) : false;
+  const isClosed = s.status === 'closed' || finished;
   const reviewClass = s.status === 'needs_review' ? ' needs-review' : '';
-  const dateStr = formatDateRange(s.start_date, s.end_date);
-  const bookLink = s.booking_url ? `<a class="book-link" href="${s.booking_url}" target="_blank" rel="noopener">Book tickets &rarr;</a>` : '';
-  const statusBadge = s.status === 'needs_review' ? ' <span style="color:var(--gold);font-size:11px">&#9679; Unconfirmed</span>' : '';
-  const closedBadge = s.status === 'closed' ? ' <span style="color:var(--text-dim);font-size:11px">&#9679; Closed</span>' : '';
-  const priceLine = s.price_from ? `<div class="price-badge">From $${s.price_from}</div>` : '';
+  const url = safeUrl(s.booking_url);
+  const bookLink = url && !isClosed
+    ? `<a class="book-link" href="${attr(url)}" target="_blank" rel="noopener noreferrer">Book tickets &rarr;</a>` : '';
+  const statusBadge = s.status === 'needs_review'
+    ? ' <span class="badge badge-review">&#9679; Unconfirmed</span>' : '';
+  const closedBadge = isClosed ? ' <span class="badge badge-closed">&#9679; Closed</span>' : '';
+  const priceLine = (s.price_from != null && !s.free_event)
+    ? `<div class="price-badge">From ${esc(formatPrice(s.price_from))}</div>` : '';
+  const freeLine = s.free_event ? '<div class="price-badge">Free</div>' : '';
 
   return `<div class="show-card${reviewClass}">
-    <span class="genre-tag ${genreClass}">${capitalize(s.genre || 'tbc')}</span>
+    <span class="genre-tag ${genreClass}">${esc(capitalize(genre))}</span>
     <div class="title">${esc(s.title)}${statusBadge}${closedBadge}</div>
-    <div class="venue">${esc(s.venue)}${s.suburb ? ' <span style="color:var(--text-dim);font-size:12px">(' + esc(s.suburb) + ')</span>' : ''}</div>
-    <div class="dates">${dateStr}</div>
-    ${priceLine}
+    <div class="venue">${venueLine(s)}</div>
+    <div class="dates">${formatDateRange(s.start_date, s.end_date)}</div>
+    ${freeLine}${priceLine}
     ${bookLink}
   </div>`;
 }
 
-function setGenre(g) { activeGenre = g; renderShows(); }
-
 function toggleClosed() {
   showClosed = !showClosed;
-  $('#toggle-closed').classList.toggle('on', showClosed);
+  const btn = $('#toggle-closed');
+  btn.classList.toggle('on', showClosed);
+  btn.setAttribute('aria-pressed', String(showClosed));
   renderShows();
 }
 
-// --- Calendar ---
+/* --- Calendar --- */
 function renderCalendar() {
   const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
   $('#cal-month-label').textContent = `${months[calMonth]} ${calYear}`;
 
-  const grid = $('#cal-grid');
   const dayLabels = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   let html = dayLabels.map(d => `<div class="cal-day-label">${d}</div>`).join('');
 
-  const firstDay = new Date(calYear, calMonth, 1);
-  let startDow = firstDay.getDay();
+  let startDow = new Date(calYear, calMonth, 1).getDay();
   startDow = startDow === 0 ? 6 : startDow - 1;
 
   const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
-  const todayStr = new Date().toISOString().split('T')[0];
+  const todayStr = sydneyToday();
 
-  const prevMonth = new Date(calYear, calMonth, 0);
+  const prevMonthLast = new Date(calYear, calMonth, 0).getDate();
   for (let i = startDow - 1; i >= 0; i--) {
-    html += `<div class="cal-cell other-month">${prevMonth.getDate() - i}</div>`;
+    html += `<div class="cal-cell other-month">${prevMonthLast - i}</div>`;
   }
 
   for (let d = 1; d <= daysInMonth; d++) {
     const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-    const isToday = dateStr === todayStr;
-    const running = DATA.filter(s =>
-      (s.status === 'active' || s.status === 'needs_review') &&
-      s.start_date && s.start_date <= dateStr &&
-      (s.end_date >= dateStr || !s.end_date)
-    );
-    const hasClass = running.length > 0 ? (running.length > 2 ? ' has-shows multi' : ' has-shows') : '';
-    const todayClass = isToday ? ' today' : '';
-    html += `<div class="cal-cell${todayClass}${hasClass}" onclick="openDay('${dateStr}')">${d}</div>`;
+    const count = showsOn(dateStr).length;
+    const hasClass = count > 0 ? (count > 2 ? ' has-shows multi' : ' has-shows') : '';
+    const todayClass = dateStr === todayStr ? ' today' : '';
+    const action = count > 0 ? ` data-action="open-day" data-date="${attr(dateStr)}" role="button" tabindex="0"` : '';
+    html += `<div class="cal-cell${todayClass}${hasClass}"${action}>${d}</div>`;
   }
 
-  const totalCells = startDow + daysInMonth;
-  const remaining = (7 - (totalCells % 7)) % 7;
+  const remaining = (7 - ((startDow + daysInMonth) % 7)) % 7;
   for (let i = 1; i <= remaining; i++) {
     html += `<div class="cal-cell other-month">${i}</div>`;
   }
-  grid.innerHTML = html;
+  $('#cal-grid').innerHTML = html;
+}
+
+function showsOn(dateStr) {
+  return DATA.filter(s =>
+    (s.status === 'active' || s.status === 'needs_review') && runsOn(s, dateStr)
+  );
 }
 
 function calNav(dir) {
@@ -720,36 +792,34 @@ function calNav(dir) {
 }
 
 function openDay(dateStr) {
-  const running = DATA.filter(s =>
-    (s.status === 'active' || s.status === 'needs_review') &&
-    s.start_date && s.start_date <= dateStr &&
-    (s.end_date >= dateStr || !s.end_date)
-  );
+  const running = showsOn(dateStr);
   if (running.length === 0) return;
 
-  const d = new Date(dateStr + 'T00:00:00');
+  const d = parseLocalDate(dateStr);
   const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   $('#drawer-title').textContent = `${running.length} show${running.length > 1 ? 's' : ''}`;
   $('#drawer-date').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
 
   $('#drawer-content').innerHTML = running.map(s => {
-    const startD = new Date(s.start_date + 'T00:00:00');
-    const endD = s.end_date ? new Date(s.end_date + 'T00:00:00') : startD;
-    const totalDays = Math.max(1, (endD - startD) / 86400000);
-    const clickedD = new Date(dateStr + 'T00:00:00');
-    const elapsed = Math.max(0, (clickedD - startD) / 86400000);
-    const pct = Math.min(100, (elapsed / totalDays) * 100);
-    const dateRange = formatDateRange(s.start_date, s.end_date);
-    const clickAttr = s.booking_url ? `onclick="window.open('${s.booking_url}','_blank')"` : '';
-    const clickClass = s.booking_url ? ' clickable' : '';
+    const startD = parseLocalDate(s.start_date);
+    const endD = parseLocalDate(s.end_date) || startD;
+    const clickedD = parseLocalDate(dateStr);
+    let pct = 0;
+    if (startD && endD) {
+      const totalDays = Math.max(1, (endD - startD) / 86400000);
+      pct = Math.min(100, Math.max(0, ((clickedD - startD) / 86400000 / totalDays) * 100));
+    }
+    const url = safeUrl(s.booking_url);
+    const link = url
+      ? `<a class="g-book" href="${attr(url)}" target="_blank" rel="noopener noreferrer">Book tickets &rarr;</a>` : '';
 
-    return `<div class="gantt-bar${clickClass}" ${clickAttr}>
+    return `<div class="gantt-bar${url ? ' clickable' : ''}">
       <div class="g-title">${esc(s.title)}</div>
-      <div class="g-venue">${esc(s.venue)}</div>
-      <div class="g-dates">${dateRange}</div>
+      <div class="g-venue">${venueLine(s)}</div>
+      <div class="g-dates">${formatDateRange(s.start_date, s.end_date)}</div>
       <div class="g-range"><div class="g-fill" style="width:${pct}%"></div></div>
-      ${s.booking_url ? '<div class="g-book">Book tickets &rarr;</div>' : ''}
+      ${link}
     </div>`;
   }).join('');
 
@@ -760,34 +830,58 @@ function closeDrawer() { $('#drawer-overlay').classList.remove('open'); }
 
 function switchTab(tab) {
   $$('.tab-panel').forEach(p => p.classList.remove('active'));
-  $(`#tab-${tab}`).classList.add('active');
-  $$('.nav-btn').forEach(b => b.classList.remove('active'));
-  $$(`.nav-btn[data-tab="${tab}"]`).forEach(b => b.classList.add('active'));
+  const panel = $(`#tab-${tab}`);
+  if (!panel) return;
+  panel.classList.add('active');
+  $$('.nav-btn').forEach(b => {
+    const on = b.dataset.tab === tab;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-current', on ? 'page' : 'false');
+  });
+  $('.content').scrollTop = 0;
 }
 
-function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : ''; }
-function esc(s) { const el = document.createElement('span'); el.textContent = s || ''; return el.innerHTML; }
+function capitalize(s) { return s ? String(s).charAt(0).toUpperCase() + String(s).slice(1) : ''; }
 
 function formatDateRange(start, end) {
-  if (!start) return 'Dates TBC';
-  const thisYear = new Date().getFullYear();
   const s = parseLocalDate(start);
+  if (!s) return 'Dates TBC';
+  const thisYear = parseLocalDate(sydneyToday()).getFullYear();
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const startStr = s.getFullYear() !== thisYear
-    ? `${s.getDate()} ${months[s.getMonth()]} ${s.getFullYear()}`
-    : `${s.getDate()} ${months[s.getMonth()]}`;
-  if (!end || end === start) return `<span>${startStr}</span>`;
+  const fmt = d => d.getFullYear() !== thisYear
+    ? `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`
+    : `${d.getDate()} ${months[d.getMonth()]}`;
   const e = parseLocalDate(end);
-  const endStr = e.getFullYear() !== thisYear
-    ? `${e.getDate()} ${months[e.getMonth()]} ${e.getFullYear()}`
-    : `${e.getDate()} ${months[e.getMonth()]}`;
-  return `<span>${startStr}</span> &ndash; <span>${endStr}</span>`;
+  if (!e || dayKey(end) === dayKey(start)) return `<span>${fmt(s)}</span>`;
+  return `<span>${fmt(s)}</span> &ndash; <span>${fmt(e)}</span>`;
 }
 
-function parseLocalDate(str) {
-  const [y, m, d] = str.split('-').map(Number);
-  return new Date(y, m - 1, d);
-}
+/* --- Events -------------------------------------------------------------
+   Delegated, so no scraped string is ever interpolated into an inline
+   handler. A title or venue containing an apostrophe used to produce
+   broken (and injectable) onclick="...('...')" markup. */
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-action]');
+  if (!el) return;
+  const { action, ctx, genre, field, date } = el.dataset;
+  if (action === 'set-genre') {
+    if (ctx === 'tonight') { tonightGenre = genre; renderTonight(); }
+    else { activeGenre = genre; renderShows(); }
+  } else if (action === 'open-filters') {
+    openFilterDrawer(ctx);
+  } else if (action === 'remove-filter') {
+    removeFilter(ctx, field);
+  } else if (action === 'open-day') {
+    openDay(date);
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeDrawer(); closeFilterDrawer(); return; }
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const cell = e.target.closest && e.target.closest('[data-action="open-day"]');
+  if (cell) { e.preventDefault(); openDay(cell.dataset.date); }
+});
 
 init();
 </script>

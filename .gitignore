@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets — .env.example is committed, .env is not
+.env
+.env.local
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp

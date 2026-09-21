@@ -12,6 +12,12 @@ Title alone is specific enough to identify a production in Sydney.
 import re
 import hashlib
 
+from localdate import sydney_today
+
+# Bump whenever canonical_key's behaviour changes, so reindex() knows the
+# stored ids were produced by an older rule.
+KEY_VERSION = 2
+
 # Common words to ignore in title matching
 STOP_WORDS = {
     "the", "a", "an", "of", "in", "at", "on", "and", "or", "to",
@@ -32,8 +38,17 @@ def strip_attribution(title):
       "David Williamson's Top Silk"  -> "Top Silk"
       "The Boys Are Kissing by Zak Zarafshan" -> "The Boys Are Kissing"
       "Noël Coward's Private Lives"  -> "Private Lives"
+      "Pinchgut Opera presents Coffee..." -> "Coffee..."
     """
     text = title.strip()
+
+    # Strip leading "Company Name presents ". Requires at least two
+    # capitalized words before "presents" so titles that merely contain the
+    # word ("Christmas Presents for All") are left alone.
+    text = re.sub(
+        r"^(?:[A-Z][\w\u2019'-]*\s+){1,3}[A-Z][\w\u2019'-]*\s+presents?\s+",
+        "", text,
+    )
 
     # Strip trailing " by Author Name" (1-4 capitalized words at end)
     text = re.sub(r"\s+by\s+[A-Z][a-zA-Z\u00e0-\u00ff\-]+(?:\s+[A-Z][a-zA-Z\u00e0-\u00ff\-]+){0,3}\s*$", "", text)
@@ -48,35 +63,81 @@ def strip_attribution(title):
 def normalize(text):
     """Normalize text for matching: lowercase, strip punctuation, remove stop words."""
     text = text.lower().strip()
-    # Normalize dashes and special chars
-    text = text.replace("\u2013", " ").replace("\u2014", " ").replace("\u2013", " ")
-    text = re.sub(r'[^\w\s]', '', text)
+    # Punctuation becomes a space, not nothing: dropping it outright made
+    # "All-Star Circus" normalize to "allstar circus" and never match the
+    # same show listed elsewhere as "All Star Circus".
+    text = re.sub(r"[^\w\s]+", " ", text)
     words = [w for w in text.split() if w not in STOP_WORDS]
     return " ".join(sorted(words))
 
 
-def deduplicate(item, state):
+def reindex(state, today=None):
+    """Rebuild __dedup_index__ from the productions, collapsing collisions.
+
+    A production's id *is* its canonical key, so improving canonical_key
+    changes it. The stored ids then no longer match what the next fetch
+    computes, the same show is filed again under a new id, and the site
+    lists it twice. (Spacing punctuation instead of deleting it did exactly
+    this to 13 shows.) Rebuilding from the productions themselves makes a
+    rule change self-healing instead of a data migration.
     """
-    Check if production already exists in state.
-    If new, add to state and return "new".
-    If existing, merge any new data and return "existing".
+    today = today or sydney_today()
+    productions = state.setdefault("productions", {})
+
+    groups = {}
+    for prod in productions.values():
+        groups.setdefault(canonical_key(prod.get("title", "")), []).append(prod)
+
+    rebuilt = {}
+    merged = 0
+    for key, group in groups.items():
+        # Oldest first: merge_production treats its second argument as the
+        # newer, more authoritative record.
+        group.sort(key=lambda p: p.get("fetched_at") or "")
+        base = group[0]
+        was_suppressed = any(p.get("status") == "suppressed" for p in group)
+        for other in group[1:]:
+            merge_production(base, other, today=today)
+            merged += 1
+        if was_suppressed:
+            base["status"] = "suppressed"
+        base["id"] = key
+        rebuilt[key] = base
+
+    if merged:
+        print(f"  [reindex] Merged {merged} duplicate record(s) after a key change")
+
+    state["productions"] = rebuilt
+    state["__dedup_index__"] = {key: key for key in rebuilt}
+    state["__key_version__"] = KEY_VERSION
+    return merged
+
+
+def deduplicate(item, state, today=None):
+    """Merge an incoming item into state.
+
+    Returns (status, pid) where status is "new", "existing" or "skip".
     """
     title = item.get("title", "")
 
     if not title:
-        return "skip"
+        return "skip", None
 
     key = canonical_key(title)
     dedup_index = state.setdefault("__dedup_index__", {})
     productions = state.setdefault("productions", {})
 
     if key in dedup_index:
-        # Existing: merge data if we have better info
         pid = dedup_index[key]
-        existing = productions.get(pid, {})
-        merged = merge_production(existing, item)
-        productions[pid] = merged
-        return "existing"
+        existing = productions.get(pid)
+        if existing:
+            # Existing: merge data if we have better info
+            productions[pid] = merge_production(existing, item, today=today)
+            return "existing", pid
+        # Index pointed at a production that is no longer in state. Fall
+        # through and rebuild the record rather than merging into {}, which
+        # used to produce an entry with no id and no title.
+        key = pid
 
     # New production
     pid = key
@@ -98,33 +159,80 @@ def deduplicate(item, state):
         "free_event": item.get("free_event", False),
         "price_from": item.get("price_from", None),
         "fetched_at": item.get("fetched_at", ""),
+        # Kept so cleanup_state can re-apply filters to stored records.
+        "categories": item.get("categories", []),
         "sessions": [],
     }
-    return "new"
+    _refresh_status(productions[pid], today or sydney_today())
+    return "new", pid
 
 
-def merge_production(existing, new):
-    """Merge new data into existing production, preferring non-empty values."""
-    for field in ["end_date", "start_date", "booking_url", "venue_id", "genre",
-                   "suburb", "snippet"]:
+def merge_production(existing, new, today=None):
+    """Merge new source data into an existing production.
+
+    Fields that sources genuinely revise (dates, venue, price, booking link)
+    are refreshed from the incoming record; fields we may have curated by hand
+    are only filled when empty.
+    """
+    today = today or sydney_today()
+
+    # Fill-if-empty only: never overwrite something we already know.
+    for field in ["venue_id", "suburb", "snippet", "source", "source_url"]:
         if not existing.get(field) and new.get(field):
+            existing[field] = new[field]
+
+    # Refresh-if-present: a source that re-lists a show is the authority on
+    # when it now runs. The old fill-if-empty behaviour meant an extended or
+    # rescheduled run was silently ignored forever.
+    for field in ["start_date", "end_date", "venue", "fetched_at", "categories"]:
+        if new.get(field) and new[field] != existing.get(field):
             existing[field] = new[field]
 
     # Prefer TodayTix booking URL over City of Sydney event page
     if new.get("source") == "todaytix" and new.get("booking_url"):
         existing["booking_url"] = new["booking_url"]
+    elif not existing.get("booking_url") and new.get("booking_url"):
+        existing["booking_url"] = new["booking_url"]
 
-    # Prefer TodayTix price
-    if new.get("price_from") and not existing.get("price_from"):
-        existing["price_from"] = new["price_from"]
+    # Prefer the lowest advertised price we have seen
+    new_price = new.get("price_from")
+    if new_price is not None:
+        old_price = existing.get("price_from")
+        if old_price is None or new_price < old_price:
+            existing["price_from"] = new_price
 
-    # Upgrade from needs_review if we now have dates
-    if existing.get("status") == "needs_review":
-        if existing.get("start_date") and existing.get("end_date"):
-            existing["status"] = "active"
+    if new.get("free_event"):
+        existing["free_event"] = True
 
-    # Update genre if was unknown
-    if existing.get("genre") == "unknown" and new.get("genre") and new["genre"] != "unknown":
+    # Update genre if it was unknown
+    if existing.get("genre") in ("", "unknown", None) and new.get("genre") not in ("", "unknown", None):
         existing["genre"] = new["genre"]
 
+    _refresh_status(existing, today)
     return existing
+
+
+def _refresh_status(prod, today):
+    """Re-derive status from the dates we now hold.
+
+    Runs in both directions: needs_review becomes active once dates arrive,
+    and a closed show whose source now advertises a future end date is
+    reopened (extensions, return seasons, and dates we had simply got wrong
+    used to stay closed permanently).
+    """
+    status = prod.get("status")
+    if status == "suppressed":
+        return  # a manual suppression always wins
+
+    start = prod.get("start_date") or ""
+    end = prod.get("end_date") or ""
+
+    if status == "needs_review" and start and end:
+        prod["status"] = "active"
+        status = "active"
+
+    if status == "closed" and end and end >= today:
+        prod["status"] = "active"
+        print(f"  [reopen] {prod.get('title', prod.get('id'))} now runs to {end}")
+    elif status == "active" and end and end < today:
+        prod["status"] = "closed"

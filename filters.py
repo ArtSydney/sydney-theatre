@@ -53,6 +53,18 @@ NOT_A_PRODUCTION = [
     r"\bopen mic\b",
     # Screenings: not stage productions. City of Sydney's "film"/"cinema" tags
     # catch most of them, but a series tagged only "performance" slips past.
+    # Community-hall regulars. A multi-purpose arts centre's feed carries
+    # dance-school recitals and school productions alongside its real
+    # season; they are private showcases, not public theatre.
+    r"\b(dance|performance|ballet|theatre) studio\b",
+    # "Studio 23 2026 Concert" is a recital; Studio 54 The Musical is not,
+    # so require the recital context.
+    r"\bstudio \d+\b.{0,40}\b(concert|recital|showcase|presentation)\b",
+    r"\b(college|grammar|preparatory|academy|high school|public school)\b[^|]{0,40}\bpresents\b",
+    r"\beisteddfod\b",
+    r"\bspeech night\b",
+    r"\bgraduation\b",
+    r"\bend of year concert\b",
     r"\b(movie|film) club\b",
     r"\bscreenings?\b",
     r"\bdouble feature\b",

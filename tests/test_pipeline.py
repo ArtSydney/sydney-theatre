@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from classify import classify_production
 from dedup import canonical_key, deduplicate, merge_production, normalize, reindex, strip_attribution
+from fetch import parse_spektrix_event
 from filters import not_a_production
 from main import cleanup_state, send_notifications, sweep_deadlines
 
@@ -312,6 +313,76 @@ class TestNotifyOnce(unittest.TestCase):
             self.assertEqual(sent, [])
         finally:
             notify.send_embed = original
+
+
+class TestSpektrixFeed(unittest.TestCase):
+    VENUE = {"id": "old-fitz-theatre", "name": "Old Fitz Theatre", "suburb": "Woolloomooloo",
+             "website": "https://www.oldfitztheatre.com.au"}
+    FEED = {"type": "spektrix", "client": "oldfitztheatre",
+            "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId={web_id}"}
+
+    def parse(self, **kw):
+        event = {"name": "Catch As Catch Can", "id": "1601APDLXXQ",
+                 "firstInstanceDateTime": "2026-10-09T19:30:00",
+                 "lastInstanceDateTime": "2026-10-31T17:00:00",
+                 "attribute_Type": "Mainstage", "description": "A play."}
+        event.update(kw)
+        return parse_spektrix_event(event, self.VENUE, self.FEED)
+
+    def test_maps_the_fields_the_pipeline_needs(self):
+        p = self.parse()
+        self.assertEqual(p["title"], "Catch As Catch Can")
+        self.assertEqual(p["start_date"], "2026-10-09")
+        self.assertEqual(p["end_date"], "2026-10-31")
+        self.assertEqual(p["venue_id"], "old-fitz-theatre")
+        self.assertEqual(p["suburb"], "Woolloomooloo")
+        self.assertEqual(p["genre"], "play")
+        self.assertEqual(p["source"], "venue-feed")
+
+    def test_booking_url_uses_the_numeric_web_id(self):
+        # The event id carries the web id the box office expects:
+        # "1601APDLXXQ" -> EventAvailability?EventId=1601
+        self.assertEqual(
+            self.parse()["booking_url"],
+            "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1601",
+        )
+
+    def test_programming_strand_is_stripped_from_the_title(self):
+        # Otherwise "LATE NIGHT: The Man" never matches the same show
+        # listed elsewhere as "The Man".
+        self.assertEqual(self.parse(name="LATE NIGHT: The Man")["title"], "The Man")
+        self.assertEqual(self.parse(name="READING: Prey by David Cole")["title"], "Prey by David Cole")
+        self.assertEqual(self.parse(name="ONE-OFF: Green Scenes")["title"], "Green Scenes")
+
+    def test_a_title_that_is_only_a_strand_is_left_alone(self):
+        self.assertEqual(self.parse(name="Reading: Ab")["title"], "Reading: Ab")
+
+    def test_junk_is_filtered_like_any_other_source(self):
+        self.assertIsNone(self.parse(name="Improv class for beginners"))
+
+    def test_missing_dates_fall_back_to_needs_review(self):
+        p = self.parse(firstInstanceDateTime=None, lastInstanceDateTime=None)
+        self.assertEqual(p["status"], "needs_review")
+
+    def test_unnamed_event_is_skipped(self):
+        self.assertIsNone(self.parse(name=""))
+
+
+class TestBookingUrlPreference(unittest.TestCase):
+    def test_venue_box_office_beats_an_aggregator_page(self):
+        existing = {"id": "x", "title": "V", "status": "active",
+                    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/v",
+                    "booking_source": "cityofsydney"}
+        merged = merge_production(existing, {"source": "venue-feed",
+                                             "booking_url": "https://box.office/e/1"}, today=TODAY)
+        self.assertEqual(merged["booking_url"], "https://box.office/e/1")
+
+    def test_aggregator_does_not_overwrite_the_box_office(self):
+        existing = {"id": "x", "title": "V", "status": "active",
+                    "booking_url": "https://box.office/e/1", "booking_source": "venue-feed"}
+        merged = merge_production(existing, {"source": "cityofsydney",
+                                             "booking_url": "https://whatson/e"}, today=TODAY)
+        self.assertEqual(merged["booking_url"], "https://box.office/e/1")
 
 
 class TestClassify(unittest.TestCase):

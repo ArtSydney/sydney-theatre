@@ -36,6 +36,7 @@ def fetch_all():
     results = []
     results.extend(fetch_todaytix())
     results.extend(fetch_cityofsydney())
+    results.extend(fetch_venue_feeds())
     return results
 
 
@@ -478,6 +479,146 @@ def _genre_from_tags(tags, name):
         genre = "dance"
 
     return genre
+
+
+# ============================================================
+# Venue feeds: a theatre's own box office, read directly
+#
+# The aggregators are incomplete. City of Sydney carried 1 of the 15 shows
+# Old Fitz had on sale, because a venue only appears there when someone
+# remembers to list it. A venue's own ticketing system is the primary
+# source and always current.
+#
+# Which venues have a usable feed is reference data, not something to
+# rediscover every morning, so it lives in theatres.json:
+#
+#   "feed": {"type": "spektrix", "client": "oldfitztheatre",
+#            "booking_url": "https://.../EventAvailability?EventId={web_id}"}
+#
+# There is no universal adapter. Sydney venues sit on a spread of
+# platforms, so each type here is written once and then reused by every
+# venue on that platform.
+# ============================================================
+
+# Spektrix publishes a documented read-only JSON API per client, which is
+# what the venue's own website consumes.
+SPEKTRIX_API = "https://system.spektrix.com/{client}/api/v3/events"
+
+# Programming strands the venue prefixes onto the title. They describe the
+# slot, not the show, and keeping them would stop "LATE NIGHT: The Man"
+# matching the same production listed elsewhere as "The Man".
+STRAND_PREFIX = re.compile(
+    r"^(late night|reading|one-off|one off|matinee|special event|encore)\s*[:\-]\s*",
+    re.I,
+)
+
+# attribute_Type is the venue's own programming label.
+SPEKTRIX_GENRE = {
+    "mainstage": "play",
+    "reading": "play",
+}
+
+
+def fetch_venue_feeds():
+    """Fetch every venue in theatres.json that publishes a usable feed."""
+    results = []
+    for venue in load_theatres():
+        feed = venue.get("feed") or {}
+        kind = feed.get("type")
+        if not kind:
+            continue
+        if kind == "spektrix":
+            results.extend(fetch_spektrix(venue, feed))
+        else:
+            print(f"  [venue-feed] Unknown feed type {kind!r} for {venue['id']}")
+    return results
+
+
+def fetch_spektrix(venue, feed):
+    """Read one Spektrix client's event list."""
+    client = feed.get("client")
+    if not client:
+        return []
+    label = venue.get("id", client)
+    print(f"  [{label}] Fetching Spektrix feed...")
+    try:
+        resp = requests.get(
+            SPEKTRIX_API.format(client=client),
+            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        events = resp.json()
+    except Exception as e:
+        print(f"  [{label}] Failed to fetch: {e}")
+        return []
+
+    if not isinstance(events, list):
+        print(f"  [{label}] Unexpected payload, skipping")
+        return []
+
+    results = []
+    for event in events:
+        prod = parse_spektrix_event(event, venue, feed)
+        if prod:
+            results.append(prod)
+    print(f"  [{label}] {len(results)} productions")
+    return results
+
+
+def parse_spektrix_event(event, venue, feed):
+    """Turn one Spektrix event into a production dict."""
+    raw_name = (event.get("name") or "").strip()
+    if not raw_name or len(raw_name) < 2:
+        return None
+
+    strand = ""
+    match = STRAND_PREFIX.match(raw_name)
+    name = raw_name
+    if match:
+        strand = match.group(1).title()
+        stripped = STRAND_PREFIX.sub("", raw_name).strip()
+        if len(stripped) >= 3:
+            name = stripped
+
+    junk = not_a_production(name)
+    if junk:
+        print(f"  [{venue.get('id')}] Skipping non-production: {name!r} ({junk})")
+        return None
+
+    start_date = (event.get("firstInstanceDateTime") or "")[:10]
+    end_date = (event.get("lastInstanceDateTime") or "")[:10]
+
+    # The numeric prefix of the event id is the web event id the venue's
+    # own purchase site uses: "4401APLL..." -> EventAvailability?EventId=4401
+    booking_url = venue.get("website", "")
+    template = feed.get("booking_url")
+    web_id = re.match(r"^(\d+)", str(event.get("id") or ""))
+    if template and web_id:
+        booking_url = template.replace("{web_id}", web_id.group(1))
+
+    genre = SPEKTRIX_GENRE.get((event.get("attribute_Type") or "").strip().lower(), "")
+
+    snippet = (event.get("description") or "").strip()
+    if strand:
+        snippet = f"{strand} at {venue.get('name', '')}. {snippet}".strip()
+
+    return {
+        "title": name,
+        "venue": venue.get("name", ""),
+        "venue_id": venue.get("id", ""),
+        "genre": genre,
+        "status": "active" if start_date else "needs_review",
+        "start_date": start_date,
+        "end_date": end_date,
+        "booking_url": booking_url,
+        "source": "venue-feed",
+        "source_url": booking_url,
+        "snippet": snippet[:300],
+        "suburb": venue.get("suburb", ""),
+        "free_event": False,
+        "fetched_at": utc_now_iso(),
+    }
 
 
 # ============================================================

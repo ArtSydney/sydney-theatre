@@ -356,7 +356,7 @@
     "title": "The Nutcracker",
     "venue": "Joan Sutherland Theatre | Sydney Opera House",
     "venue_id": "joan-sutherland-theatre",
-    "suburb": "",
+    "suburb": "Sydney",
     "genre": "dance",
     "status": "active",
     "start_date": "2026-11-28",
@@ -626,18 +626,18 @@
   {
     "id": "9468146c2057",
     "title": "Copland Dance Episodes",
-    "venue": "Joan Sutherland Theatre | Sydney Opera House",
+    "venue": "Sydney Opera House",
     "venue_id": "joan-sutherland-theatre",
-    "suburb": "",
+    "suburb": "Sydney",
     "genre": "dance",
     "status": "active",
     "start_date": "2026-11-06",
-    "end_date": "2026-11-21",
+    "end_date": "2026-11-22",
     "booking_url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd",
     "price_from": 70,
     "free_event": false,
     "source": "todaytix",
-    "snippet": ""
+    "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. "
   },
   {
     "id": "778f36b2741c",
@@ -654,22 +654,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Come for the therapy. Stay for the breakdown."
-  },
-  {
-    "id": "6064483196fc",
-    "title": "The Australian Ballet: Copland Dance Episodes",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-11-06",
-    "end_date": "2026-11-22",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-ballet-copland-dance-episodes",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. "
   },
   {
     "id": "aa320f190e2e",

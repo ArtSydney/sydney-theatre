@@ -31,6 +31,34 @@ anything keyed off the runner's date is a day out.
 - `docs/data-current.json` — active shows, what the site loads.
 - `docs/data.json` — the full archive, including closed shows.
 
+### Deduplication
+
+The same production reaches us from several sources under different names —
+TodayTix files *Copland Dance Episodes* under the room, City of Sydney files
+*The Australian Ballet: Copland Dance Episodes* under the building. Matching
+runs in three stages, each more cautious than the last:
+
+1. **Canonical key** — titles normalised (punctuation spaced, stop words and
+   author/company attribution stripped) and hashed. Exact, cheap, handles most
+   re-listings.
+2. **Corroborated match** — for titles that don't normalise identically,
+   Jaccard similarity over tokens *plus* venue agreement. Overlapping dates
+   alone are never enough; plenty of unrelated shows run the same fortnight.
+   Containment is never used: *The Man* is inside *The Choir of Man*.
+   A word that marks a separate event (a weekday, a number, "junior") blocks
+   the merge outright.
+3. **Adjudication** — `dedup-overrides.json` pins pairs as `same` or
+   `different` and always beats the rules. Pairs the rules decline to call are
+   written to `dedup-candidates.json` as a work queue, for a person or for
+   ArtsReviewer's LLM deduper. No LLM runs in the daily job.
+
+Venue rooms resolve to their building via `parent` in `theatres.json`, so the
+Drama Theatre and the Opera House compare equal.
+
+Every production keeps a `sightings` entry per source — what each one called
+it, and where. Merging is no longer destructive, so a wrong merge can be seen
+and reversed.
+
 ### Statuses
 
 | Status | Meaning |

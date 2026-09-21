@@ -1,0 +1,5 @@
+{
+  "_comment": "Adjudicated pairs. These always beat the matching rules. Keys are canonical_key(title) values, as printed in dedup-candidates.json. 'same' forces a merge, 'different' pins two records apart. Fill from dedup-candidates.json, by hand or via ArtsReviewer's LLM deduper.",
+  "same": [],
+  "different": []
+}

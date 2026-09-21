@@ -9,12 +9,13 @@ from datetime import date, timedelta
 from fetch import fetch_all
 from filters import not_a_production
 from classify import classify_production
-from dedup import deduplicate, reindex
+from dedup import consolidate, dedup_candidates, deduplicate, reindex
 from build_data import build_output
 from localdate import sydney_today
 from notify import notify_new, notify_opening_tonight, notify_closing_soon
 
 STATE_FILE = "seen.json"
+CANDIDATES_FILE = "dedup-candidates.json"
 
 # A normal run fetches ~190 listings. Far below that means a source is
 # down, not that Sydney stopped putting on plays.
@@ -144,6 +145,14 @@ def send_notifications(state, new_pids, closing_soon, today):
         once(f"closing:{prod['id']}:{today}", notify_closing_soon, prod)
 
 
+def write_dedup_candidates(state):
+    """Publish the pairs the rules would not call, for adjudication."""
+    candidates = dedup_candidates(state)
+    with open(CANDIDATES_FILE, "w", encoding="utf-8") as f:
+        json.dump(candidates, f, indent=2, ensure_ascii=False)
+    print(f"  {len(candidates)} dedup candidate(s) for review -> {CANDIDATES_FILE}")
+
+
 def run():
     print("=== Sydney Theatre Pipeline ===")
     state = load_state()
@@ -170,6 +179,7 @@ def run():
 
     print("\n[4/6] Cleaning up state...")
     cleanup_state(state)
+    consolidate(state, today)
 
     print("\n[5/6] Sweeping deadlines...")
     # A source outage looks exactly like "nothing is listed any more", so
@@ -190,6 +200,7 @@ def run():
 
     print("\n[6/6] Building output...")
     build_output(state)
+    write_dedup_candidates(state)
 
     print("\nDone.")
 

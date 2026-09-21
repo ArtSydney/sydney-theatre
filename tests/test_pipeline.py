@@ -9,7 +9,10 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from classify import classify_production
-from dedup import canonical_key, deduplicate, merge_production, normalize, reindex, strip_attribution
+from dedup import (canonical_key, consolidate, dedup_candidates, deduplicate,
+                   discriminating_difference, is_same_production, merge_production,
+                   normalize, record_sighting, reindex, strip_attribution,
+                   title_similarity, venue_root)
 from fetch import parse_spektrix_event
 from filters import not_a_production
 from main import STALE_AFTER_DAYS, cleanup_state, send_notifications, sweep_deadlines
@@ -193,6 +196,145 @@ class TestReindex(unittest.TestCase):
                                      end_date="2026-10-01"), state, today=TODAY)
         self.assertEqual(status, "existing")
         self.assertEqual(len(state["productions"]), 1)
+
+
+def show(title, venue="", suburb="", start="", end=""):
+    return {"title": title, "venue_id": venue, "suburb": suburb,
+            "start_date": start, "end_date": end}
+
+
+class TestSecondStageMatching(unittest.TestCase):
+    """Every case here came out of an audit of the real data."""
+
+    def assertMerges(self, a, b, why):
+        ok, reason = is_same_production(a, b)
+        self.assertTrue(ok, f"should merge ({why}): {reason}")
+
+    def assertSeparate(self, a, b, why):
+        ok, reason = is_same_production(a, b)
+        self.assertFalse(ok, f"should NOT merge ({why}): {reason}")
+
+    def test_company_prefix_across_sources(self):
+        # The duplicate this whole stage exists for: TodayTix filed it under
+        # the room, City of Sydney under the building and with the company
+        # name in front.
+        self.assertMerges(
+            show("Copland Dance Episodes", "joan-sutherland-theatre", "", "2026-11-06", "2026-11-21"),
+            show("The Australian Ballet: Copland Dance Episodes", "sydney-opera-house", "", "2026-11-06", "2026-11-22"),
+            "same show, room vs building")
+
+    def test_ampersand_and_author(self):
+        self.assertMerges(
+            show("Dixon & Daughters", "old-fitz-theatre", "", "2026-09-18", "2026-10-03"),
+            show("Dixon and Daughters by Deborah Bruce", "old-fitz-theatre", "", "2026-09-18", "2026-10-03"),
+            "& vs and, plus author")
+
+    # --- things that must never merge -----------------------------------
+
+    def test_qualified_title_is_a_different_show(self):
+        self.assertSeparate(
+            show("The Nutcracker on Ice", "coliseum-theatre", "", "2026-12-10", "2026-12-20"),
+            show("The Nutcracker", "joan-sutherland-theatre", "", "2026-11-28", "2026-12-16"),
+            "on Ice is a different production")
+
+    def test_short_title_is_not_swallowed_by_a_longer_one(self):
+        for other in ("The Man From Snowy River in Concert", "The Choir of Man"):
+            self.assertSeparate(
+                show(other, "coliseum-theatre", "", "2026-10-10", "2026-10-10"),
+                show("The Man", "old-fitz-theatre", "", "2026-09-21", "2026-10-02"),
+                "containment is not identity")
+
+    def test_different_weeknights_at_one_venue(self):
+        self.assertSeparate(
+            show("The Comedy Store Friday Showcase", "comedy-store", "Moore Park", "2026-10-01", "2026-12-01"),
+            show("The Comedy Store Saturday Showcase", "comedy-store", "Moore Park", "2026-10-01", "2026-12-01"),
+            "Friday is not Saturday")
+
+    def test_touring_show_at_different_venues(self):
+        self.assertSeparate(
+            show("The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks", "", "Neutral Bay", "2026-10-25", "2026-11-08"),
+            show("The Shakesbeer Sessions: A Midsummer Night's Dream Annandale", "", "Annandale", "2026-10-16", "2026-11-06"),
+            "same production, separate engagements")
+
+    def test_same_title_different_venue(self):
+        self.assertSeparate(
+            show("Macbeth", "bell-shakespeare", "", "2026-09-24", "2026-10-10"),
+            show("Macbeth", "the-pavilion", "", "2027-03-01", "2027-03-05"),
+            "venue disagreement is decisive")
+
+    def test_overlapping_dates_alone_never_merge(self):
+        self.assertSeparate(
+            show("Wolf by Circa", "old-fitz-theatre", "", "2026-10-21", "2026-10-21"),
+            show("Wolf by Circa", "the-pavilion", "", "2026-10-21", "2026-10-21"),
+            "concurrent runs are not evidence")
+
+    def test_numbered_and_junior_editions(self):
+        self.assertSeparate(
+            show("Cabaret Season 1", "hayes-theatre", "", "2026-10-01", "2026-10-20"),
+            show("Cabaret Season 2", "hayes-theatre", "", "2026-10-05", "2026-10-25"), "numbered")
+        self.assertSeparate(
+            show("Bluey's Big Play Junior", "capitol-theatre", "", "2026-10-01", "2026-10-20"),
+            show("Bluey's Big Play", "capitol-theatre", "", "2026-10-01", "2026-10-20"), "junior edition")
+
+
+class TestVenueFamilies(unittest.TestCase):
+    def test_a_room_resolves_to_its_building(self):
+        self.assertEqual(venue_root("drama-theatre"), "sydney-opera-house")
+        self.assertEqual(venue_root("sydney-opera-house"), "sydney-opera-house")
+
+    def test_an_unknown_venue_is_its_own_root(self):
+        self.assertEqual(venue_root("not-a-venue"), "not-a-venue")
+        self.assertEqual(venue_root(""), "")
+
+
+class TestDiscriminators(unittest.TestCase):
+    def test_weekday_difference_separates(self):
+        self.assertTrue(discriminating_difference("Comedy Friday", "Comedy Saturday"))
+
+    def test_company_prefix_does_not_separate(self):
+        self.assertFalse(discriminating_difference(
+            "The Australian Ballet: Copland Dance Episodes", "Copland Dance Episodes"))
+
+
+class TestSightings(unittest.TestCase):
+    def test_each_source_is_kept_once(self):
+        prod = {"title": "X"}
+        record_sighting(prod, {"source": "todaytix", "title": "X", "source_url": "u1"})
+        record_sighting(prod, {"source": "cityofsydney", "title": "X the Musical"})
+        record_sighting(prod, {"source": "todaytix", "title": "X", "source_url": "u2"})
+        self.assertEqual(len(prod["sightings"]), 2)
+        tt = [s for s in prod["sightings"] if s["source"] == "todaytix"][0]
+        self.assertEqual(tt["url"], "u2", "a later sighting replaces the earlier one")
+
+
+class TestConsolidate(unittest.TestCase):
+    def test_merges_an_existing_duplicate_and_is_idempotent(self):
+        state = fresh_state()
+        state["productions"] = {
+            "a": {"id": "a", "title": "Copland Dance Episodes", "status": "active",
+                  "venue_id": "drama-theatre", "start_date": "2026-11-06",
+                  "end_date": "2026-11-21", "fetched_at": "2026-09-01"},
+            "b": {"id": "b", "title": "The Australian Ballet: Copland Dance Episodes",
+                  "status": "active", "venue_id": "sydney-opera-house",
+                  "start_date": "2026-11-06", "end_date": "2026-11-22",
+                  "fetched_at": "2026-09-02"},
+        }
+        self.assertEqual(consolidate(state, TODAY), 1)
+        self.assertEqual(len(state["productions"]), 1)
+        self.assertEqual(consolidate(state, TODAY), 0)
+
+    def test_leaves_distinct_shows_alone(self):
+        state = fresh_state()
+        state["productions"] = {
+            "a": {"id": "a", "title": "The Nutcracker", "status": "active",
+                  "venue_id": "joan-sutherland-theatre", "start_date": "2026-11-28",
+                  "end_date": "2026-12-16", "fetched_at": "2026-09-01"},
+            "b": {"id": "b", "title": "The Nutcracker on Ice", "status": "active",
+                  "venue_id": "coliseum-theatre", "start_date": "2026-12-10",
+                  "end_date": "2026-12-20", "fetched_at": "2026-09-02"},
+        }
+        self.assertEqual(consolidate(state, TODAY), 0)
+        self.assertEqual(len(state["productions"]), 2)
 
 
 class TestMerge(unittest.TestCase):

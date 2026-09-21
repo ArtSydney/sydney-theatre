@@ -1,0 +1,497 @@
+[
+  {
+    "similarity": 0.86,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "6477902cda94",
+      "169499238d9a"
+    ],
+    "a": {
+      "id": "6477902cda94",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Balmain",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "169499238d9a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Marrickville",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.86,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "53ac4c89d62d",
+      "169499238d9a"
+    ],
+    "a": {
+      "id": "53ac4c89d62d",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Neutral Bay",
+      "start_date": "2026-10-25",
+      "end_date": "2026-11-08",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "169499238d9a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Marrickville",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.86,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "169499238d9a",
+      "f265bc88969c"
+    ],
+    "a": {
+      "id": "169499238d9a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Marrickville",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "f265bc88969c",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Annandale",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-06",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.86,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "169499238d9a",
+      "1dc25869521a"
+    ],
+    "a": {
+      "id": "169499238d9a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Marrickville",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "1dc25869521a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Pyrmont",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "6477902cda94",
+      "53ac4c89d62d"
+    ],
+    "a": {
+      "id": "6477902cda94",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Balmain",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "53ac4c89d62d",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Neutral Bay",
+      "start_date": "2026-10-25",
+      "end_date": "2026-11-08",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "6477902cda94",
+      "f265bc88969c"
+    ],
+    "a": {
+      "id": "6477902cda94",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Balmain",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "f265bc88969c",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Annandale",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-06",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "6477902cda94",
+      "1dc25869521a"
+    ],
+    "a": {
+      "id": "6477902cda94",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Balmain",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "1dc25869521a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Pyrmont",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "53ac4c89d62d",
+      "f265bc88969c"
+    ],
+    "a": {
+      "id": "53ac4c89d62d",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Neutral Bay",
+      "start_date": "2026-10-25",
+      "end_date": "2026-11-08",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "f265bc88969c",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Annandale",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-06",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "53ac4c89d62d",
+      "1dc25869521a"
+    ],
+    "a": {
+      "id": "53ac4c89d62d",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Neutral Bay",
+      "start_date": "2026-10-25",
+      "end_date": "2026-11-08",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "1dc25869521a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Pyrmont",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "9430e91f61b8",
+      "169499238d9a"
+    ],
+    "a": {
+      "id": "9430e91f61b8",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "St Peters",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "169499238d9a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Marrickville",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.75,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "f265bc88969c",
+      "1dc25869521a"
+    ],
+    "a": {
+      "id": "f265bc88969c",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Annandale",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-06",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "1dc25869521a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Pyrmont",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.67,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "6477902cda94",
+      "9430e91f61b8"
+    ],
+    "a": {
+      "id": "6477902cda94",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Balmain",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "9430e91f61b8",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "St Peters",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.67,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "53ac4c89d62d",
+      "9430e91f61b8"
+    ],
+    "a": {
+      "id": "53ac4c89d62d",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Neutral Bay",
+      "start_date": "2026-10-25",
+      "end_date": "2026-11-08",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "9430e91f61b8",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "St Peters",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.67,
+    "same_venue": false,
+    "dates_overlap": true,
+    "keys": [
+      "9430e91f61b8",
+      "f265bc88969c"
+    ],
+    "a": {
+      "id": "9430e91f61b8",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "St Peters",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "f265bc88969c",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Annandale",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-06",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  },
+  {
+    "similarity": 0.67,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "9430e91f61b8",
+      "1dc25869521a"
+    ],
+    "a": {
+      "id": "9430e91f61b8",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "St Peters",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "sources": [
+        "cityofsydney"
+      ]
+    },
+    "b": {
+      "id": "1dc25869521a",
+      "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+      "venue": "",
+      "venue_id": "",
+      "suburb": "Pyrmont",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "sources": [
+        "cityofsydney"
+      ]
+    }
+  }
+]

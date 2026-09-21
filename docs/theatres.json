@@ -81,7 +81,8 @@
     "booking_platform": "venue-direct",
     "capacity_tier": "mid",
     "lat": -33.8568,
-    "lng": 151.2153
+    "lng": 151.2153,
+    "parent": "sydney-opera-house"
   },
   {
     "id": "playhouse",
@@ -93,7 +94,8 @@
     "booking_platform": "venue-direct",
     "capacity_tier": "mid",
     "lat": -33.8568,
-    "lng": 151.2153
+    "lng": 151.2153,
+    "parent": "sydney-opera-house"
   },
   {
     "id": "belvoir-st-theatre",
@@ -351,5 +353,41 @@
     "suburb": "Sydney",
     "website": "https://coliseumtheatre.com.au/",
     "id": "coliseum-theatre"
+  },
+  {
+    "id": "joan-sutherland-theatre",
+    "name": "Joan Sutherland Theatre (Opera House)",
+    "address": "Bennelong Point, Sydney NSW 2000",
+    "suburb": "Sydney",
+    "website": "https://www.sydneyoperahouse.com",
+    "parent": "sydney-opera-house",
+    "booking_platform": "",
+    "instagram": "",
+    "lat": -33.8568,
+    "lng": 151.2153
+  },
+  {
+    "id": "studio-soh",
+    "name": "The Studio (Opera House)",
+    "address": "Bennelong Point, Sydney NSW 2000",
+    "suburb": "Sydney",
+    "website": "https://www.sydneyoperahouse.com",
+    "parent": "sydney-opera-house",
+    "booking_platform": "",
+    "instagram": "",
+    "lat": -33.8568,
+    "lng": 151.2153
+  },
+  {
+    "id": "concert-hall-soh",
+    "name": "Concert Hall (Opera House)",
+    "address": "Bennelong Point, Sydney NSW 2000",
+    "suburb": "Sydney",
+    "website": "https://www.sydneyoperahouse.com",
+    "parent": "sydney-opera-house",
+    "booking_platform": "",
+    "instagram": "",
+    "lat": -33.8568,
+    "lng": 151.2153
   }
 ]

@@ -16,10 +16,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 35,
-      "fetched_at": "2026-09-21T23:30:39.019184+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640246+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Bernie Dieter's Club Kabarett",
+          "venue": "Bay 20 | Carriageworks",
+          "start_date": "2026-10-08",
+          "end_date": "2026-11-08",
+          "url": "https://www.todaytix.com/sydney/shows/47655-bernie-dieters-club-kabarett-carriageworks"
+        }
+      ]
     },
     "43b5c9175984": {
       "id": "43b5c9175984",
@@ -56,10 +66,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-09-21T23:30:39.018917+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640020+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Shark Is Broken",
+          "venue": "Foundry Theatre",
+          "start_date": "2026-08-28",
+          "end_date": "2026-10-04",
+          "url": "https://www.todaytix.com/sydney/shows/46902-the-shark-is-broken-sydney"
+        }
+      ]
     },
     "20dab5edee3f": {
       "id": "20dab5edee3f",
@@ -77,13 +97,31 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 94.9,
-      "fetched_at": "2026-09-21T23:30:39.625568+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958112+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shawshank Redemption",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2027-01-02",
+          "end_date": "2027-01-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shawshank-redemption"
+        },
+        {
+          "source": "todaytix",
+          "title": "The Shawshank Redemption",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2027-01-02",
+          "end_date": "",
+          "url": "https://www.todaytix.com/sydney/shows/47400-the-shawshank-redemption"
+        }
+      ]
     },
     "8b761e091465": {
       "id": "8b761e091465",
@@ -101,13 +139,31 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T23:30:39.620875+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954678+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Fiddler on the Roof",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2026-07-31",
+          "end_date": "2026-10-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/fiddler-on-the-roof"
+        },
+        {
+          "source": "todaytix",
+          "title": "Fiddler on the Roof",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2026-07-31",
+          "end_date": "2026-10-03",
+          "url": "https://www.todaytix.com/sydney/shows/46138-fiddler-on-the-roof-theatre-royal-sydney"
+        }
+      ]
     },
     "a136d1cabee3": {
       "id": "a136d1cabee3",
@@ -144,10 +200,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-09-21T23:30:39.019502+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640525+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Nutcracker on Ice",
+          "venue": "Coliseum Theatre",
+          "start_date": "2026-12-10",
+          "end_date": "2026-12-20",
+          "url": "https://www.todaytix.com/sydney/shows/47593-the-nutcracker-on-ice"
+        }
+      ]
     },
     "d904ff3908b9": {
       "id": "d904ff3908b9",
@@ -165,14 +231,32 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620385+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954309+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "tours-and-experiences"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Disney's The Lion King",
+          "venue": "Capitol Theatre",
+          "start_date": "2026-04-18",
+          "end_date": "2026-10-04",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/disneys-the-lion-king"
+        },
+        {
+          "source": "todaytix",
+          "title": "THE LION KING",
+          "venue": "Capitol Theatre Sydney",
+          "start_date": "2026-04-18",
+          "end_date": "",
+          "url": "https://www.todaytix.com/sydney/shows/46373-the-lion-king-syd-2026"
+        }
+      ]
     },
     "2bef861a48de": {
       "id": "2bef861a48de",
@@ -190,13 +274,31 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624949+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957693+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "venue": "Sydney Lyric Theatre",
+          "start_date": "2026-11-14",
+          "end_date": "2027-01-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/a-beautiful-noise-the-neil-diamond-musical"
+        },
+        {
+          "source": "todaytix",
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "venue": "Sydney Lyric",
+          "start_date": "2026-11-14",
+          "end_date": "",
+          "url": "https://www.todaytix.com/sydney/shows/47040-a-beautiful-noise-at-the-sydney-lyric-theatre"
+        }
+      ]
     },
     "d1d504d68466": {
       "id": "d1d504d68466",
@@ -214,10 +316,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.019139+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640205+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Man From Snowy River in Concert",
+          "venue": "Coliseum Theatre",
+          "start_date": "2026-10-10",
+          "end_date": "2026-10-10",
+          "url": "https://www.todaytix.com/sydney/shows/47336-the-man-from-snowy-river-in-concert"
+        }
+      ]
     },
     "97527baa8f72": {
       "id": "97527baa8f72",
@@ -254,13 +366,31 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T23:30:39.620070+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954090+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Return of the Godz",
+          "venue": "The Entertainment Quarter",
+          "start_date": "2026-08-26",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/return-of-the-godz"
+        },
+        {
+          "source": "todaytix",
+          "title": "Return of the GODZ",
+          "venue": "The Virago | Fool's Paradise: Entertainment Quarter",
+          "start_date": "2026-08-26",
+          "end_date": "2026-10-11",
+          "url": "https://www.todaytix.com/sydney/shows/47452-return-of-the-godz-2026"
+        }
+      ]
     },
     "c306f596a49c": {
       "id": "c306f596a49c",
@@ -297,13 +427,31 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74.5,
-      "fetched_at": "2026-09-21T23:30:39.623032+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956360+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "SIX the Musical",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2026-10-09",
+          "end_date": "2026-11-22",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/six-the-musical"
+        },
+        {
+          "source": "todaytix",
+          "title": "SIX the Musical",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2026-10-09",
+          "end_date": "2026-12-20",
+          "url": "https://www.todaytix.com/sydney/shows/40215-six-the-musical-sydney"
+        }
+      ]
     },
     "911ad3ab6709": {
       "id": "911ad3ab6709",
@@ -340,14 +488,32 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 77,
-      "fetched_at": "2026-09-21T23:30:39.623767+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956900+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Cirque du Soleil – Kooza",
+          "venue": "The Entertainment Quarter",
+          "start_date": "2026-10-17",
+          "end_date": "2027-01-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/cirque-du-soleil-kooza"
+        },
+        {
+          "source": "todaytix",
+          "title": "Cirque Du Soleil KOOZA",
+          "venue": "Under the Big Top | The Entertainment Quarter",
+          "start_date": "2026-10-17",
+          "end_date": "2027-01-03",
+          "url": "https://www.todaytix.com/sydney/shows/45782-cirque-du-soleil-kooza-sydney"
+        }
+      ]
     },
     "45ae8f38f50f": {
       "id": "45ae8f38f50f",
@@ -365,14 +531,32 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T23:30:39.621314+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954987+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "All-Star Circus",
+          "venue": "The Entertainment Quarter",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/all-star-circus"
+        },
+        {
+          "source": "todaytix",
+          "title": "All Star Circus",
+          "venue": "The Virago | Fool's Paradise: Entertainment Quarter",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-11",
+          "url": "https://www.todaytix.com/sydney/shows/47451-all-star-circus"
+        }
+      ]
     },
     "325ff16141ce": {
       "id": "325ff16141ce",
@@ -390,13 +574,31 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 94,
-      "fetched_at": "2026-09-21T23:30:39.620041+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954068+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "How to succeed in business without really trying",
+          "venue": "Hayes Theatre Co",
+          "start_date": "2026-08-28",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/how-to-succeed-in-business-without-really-trying"
+        },
+        {
+          "source": "todaytix",
+          "title": "How To Succeed In Business Without Really Trying",
+          "venue": "Hayes Theatre",
+          "start_date": "2026-08-28",
+          "end_date": "2026-09-27",
+          "url": "https://www.todaytix.com/sydney/shows/45332-how-to-succeed-in-business-without-really-trying-hayes-theatre-co-2026"
+        }
+      ]
     },
     "4a690813267d": {
       "id": "4a690813267d",
@@ -433,10 +635,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 122,
-      "fetched_at": "2026-09-21T23:30:39.019212+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640273+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Whispering Jack: The John Farnham Musical",
+          "venue": "Roslyn Packer Theatre",
+          "start_date": "2026-11-15",
+          "end_date": "2027-01-03",
+          "url": "https://www.todaytix.com/sydney/shows/45309-whispering-jack-the-john-farnham-musical"
+        }
+      ]
     },
     "91af27023a68": {
       "id": "91af27023a68",
@@ -454,10 +666,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T23:30:39.019224+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640285+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Unfriend",
+          "venue": "Roslyn Packer Theatre",
+          "start_date": "2026-09-29",
+          "end_date": "2026-10-31",
+          "url": "https://www.todaytix.com/sydney/shows/45307-the-unfriend-sydney-theatre-company-2026"
+        }
+      ]
     },
     "90ee40cb24de": {
       "id": "90ee40cb24de",
@@ -475,10 +697,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-09-21T23:30:39.019320+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640361+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Rodgers and Hammerstein’s CAROUSEL",
+          "venue": "Foundry Theatre",
+          "start_date": "2026-10-15",
+          "end_date": "2026-10-18",
+          "url": "https://www.todaytix.com/sydney/shows/47262-rodgers-and-hammersteins-carousel-foundry"
+        }
+      ]
     },
     "b8d794c48196": {
       "id": "b8d794c48196",
@@ -496,13 +728,31 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T23:30:39.625152+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957840+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Macbeth",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-11-18",
+          "end_date": "2026-12-06",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/macbeth"
+        },
+        {
+          "source": "todaytix",
+          "title": "Macbeth",
+          "venue": "The Playhouse | Sydney Opera House",
+          "start_date": "2026-11-18",
+          "end_date": "2026-12-06",
+          "url": "https://www.todaytix.com/sydney/shows/45253-macbeth-bell-shakespeare-2026-syd"
+        }
+      ]
     },
     "ff770075b0ea": {
       "id": "ff770075b0ea",
@@ -520,10 +770,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 105,
-      "fetched_at": "2026-09-21T23:30:39.019238+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640297+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Girls & Boys",
+          "venue": "Wharf 1 Theatre - Walsh Bay Arts Precinct",
+          "start_date": "2026-09-17",
+          "end_date": "2026-11-01",
+          "url": "https://www.todaytix.com/sydney/shows/45306-girls-and-boys-sydney-theatre-company-2026"
+        }
+      ]
     },
     "59249c4410f9": {
       "id": "59249c4410f9",
@@ -541,13 +801,31 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 60,
-      "fetched_at": "2026-09-21T23:30:39.621027+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954789+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Elevator",
+          "venue": "Ensemble Theatre",
+          "start_date": "2026-09-18",
+          "end_date": "2026-10-18",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-elevator"
+        },
+        {
+          "source": "todaytix",
+          "title": "THE ELEVATOR",
+          "venue": "Ensemble Theatre",
+          "start_date": "2026-09-18",
+          "end_date": "2026-10-18",
+          "url": "https://www.todaytix.com/sydney/shows/45120-the-elevator-at-ensemble-theatre"
+        }
+      ]
     },
     "15bacad1856c": {
       "id": "15bacad1856c",
@@ -565,13 +843,23 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 59.95,
-      "fetched_at": "2026-09-21T23:30:39.621069+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954819+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Gentleman Magician’s Magical Soirée",
+          "venue": "",
+          "start_date": "2024-06-21",
+          "end_date": "2026-12-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-gentleman-magicians-magical-soiree-2"
+        }
+      ]
     },
     "a67fbb086f82": {
       "id": "a67fbb086f82",
@@ -589,10 +877,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 63,
-      "fetched_at": "2026-09-21T23:30:39.019455+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640481+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "A Room With A View",
+          "venue": "Upstairs Theatre | Belvoir St Theatre",
+          "start_date": "2026-10-03",
+          "end_date": "2026-11-01",
+          "url": "https://www.todaytix.com/sydney/shows/45261-a-room-with-a-view-belvoir-st-theatre-2026"
+        }
+      ]
     },
     "40bacafc9107": {
       "id": "40bacafc9107",
@@ -610,13 +908,23 @@
       "suburb": "The Rocks",
       "free_event": false,
       "price_from": 45,
-      "fetched_at": "2026-09-21T23:30:39.620417+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954331+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Claire Robin - Nun Slut",
+          "venue": "",
+          "start_date": "2026-09-23",
+          "end_date": "2026-10-04",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/claire-robin-nun-slut"
+        }
+      ]
     },
     "fe2532e9614b": {
       "id": "fe2532e9614b",
@@ -634,10 +942,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-09-21T23:30:39.019420+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640452+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Noël Coward's Private Lives",
+          "venue": "Theatre Royal Sydney",
+          "start_date": "2027-02-06",
+          "end_date": "2027-03-14",
+          "url": "https://www.todaytix.com/sydney/shows/47214-private-lives-theatre-royal-sydney"
+        }
+      ]
     },
     "188512a29e74": {
       "id": "188512a29e74",
@@ -655,10 +973,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.019692+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640705+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Nutcracker",
+          "venue": "Joan Sutherland Theatre | Sydney Opera House",
+          "start_date": "2026-11-28",
+          "end_date": "2026-12-16",
+          "url": "https://www.todaytix.com/sydney/shows/45244-the-nutcracker-the-australian-ballet-2026"
+        }
+      ]
     },
     "71982a778ff2": {
       "id": "71982a778ff2",
@@ -676,10 +1004,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 39,
-      "fetched_at": "2026-09-21T23:30:39.019382+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640421+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Girls Gone Wild",
+          "venue": "Made in Hub at PACT Centre for Emerging Artists",
+          "start_date": "2026-09-23",
+          "end_date": "2026-09-26",
+          "url": "https://www.todaytix.com/sydney/shows/47441-girls-gone-wild"
+        }
+      ]
     },
     "3a34df1bc353": {
       "id": "3a34df1bc353",
@@ -697,13 +1035,31 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 76,
-      "fetched_at": "2026-09-21T23:30:39.623091+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956406+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "We Are The Tigers",
+          "venue": "Hayes Theatre Co",
+          "start_date": "2026-10-09",
+          "end_date": "2026-11-08",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/we-are-the-tigers"
+        },
+        {
+          "source": "todaytix",
+          "title": "We Are The Tigers",
+          "venue": "Hayes Theatre",
+          "start_date": "2026-10-09",
+          "end_date": "2026-11-08",
+          "url": "https://www.todaytix.com/sydney/shows/45329-we-are-the-tigers-hayes-theatre-co-2026"
+        }
+      ]
     },
     "6b4f60efd4ce": {
       "id": "6b4f60efd4ce",
@@ -740,10 +1096,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 30,
-      "fetched_at": "2026-09-21T23:30:39.019547+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640568+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Dangerous When Wet",
+          "venue": "Randwick Town Hall",
+          "start_date": "2026-10-08",
+          "end_date": "2026-10-18",
+          "url": "https://www.todaytix.com/sydney/shows/47396-dangerous-when-wet-sydney"
+        }
+      ]
     },
     "b42b16ba05d6": {
       "id": "b42b16ba05d6",
@@ -786,23 +1152,44 @@
     "9468146c2057": {
       "id": "9468146c2057",
       "title": "Copland Dance Episodes",
-      "venue": "Joan Sutherland Theatre | Sydney Opera House",
+      "venue": "Sydney Opera House",
       "venue_id": "joan-sutherland-theatre",
       "genre": "dance",
       "status": "active",
       "start_date": "2026-11-06",
-      "end_date": "2026-11-21",
+      "end_date": "2026-11-22",
       "booking_url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd",
       "source": "todaytix",
       "source_url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd",
-      "snippet": "",
-      "suburb": "",
+      "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. ",
+      "suburb": "Sydney",
       "free_event": false,
       "price_from": 70,
-      "fetched_at": "2026-09-21T23:30:39.019597+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957576+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Australian Ballet: Copland Dance Episodes",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-11-06",
+          "end_date": "2026-11-22",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-ballet-copland-dance-episodes"
+        },
+        {
+          "source": "todaytix",
+          "title": "Copland Dance Episodes",
+          "venue": "Joan Sutherland Theatre | Sydney Opera House",
+          "start_date": "2026-11-06",
+          "end_date": "2026-11-21",
+          "url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd"
+        }
+      ],
+      "categories": [
+        "theatre-dance-and-film"
+      ]
     },
     "6bd30cd2aac3": {
       "id": "6bd30cd2aac3",
@@ -820,10 +1207,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 22.5,
-      "fetched_at": "2026-09-21T23:30:39.019747+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640758+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "QFWFQ",
+          "venue": "Qtopia | The Substation",
+          "start_date": "2026-09-22",
+          "end_date": "2026-09-26",
+          "url": "https://www.todaytix.com/sydney/shows/47432-qfwfq"
+        }
+      ]
     },
     "4fff4ab0dffa": {
       "id": "4fff4ab0dffa",
@@ -841,10 +1238,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 68,
-      "fetched_at": "2026-09-21T23:30:39.020161+00:00",
+      "fetched_at": "2026-09-21T23:46:47.641129+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Coconut Children (Đứa Trẻ Trái Dừa)",
+          "venue": "Upstairs Theatre | Belvoir St Theatre",
+          "start_date": "2026-11-21",
+          "end_date": "2026-12-20",
+          "url": "https://www.todaytix.com/sydney/shows/45262-the-coconut-children-belvoir-st-theatre-2026"
+        }
+      ]
     },
     "df2d202ebea7": {
       "id": "df2d202ebea7",
@@ -1043,14 +1450,24 @@
       "suburb": "Erskineville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622096+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955557+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Rat Klub Comedy Show | Monday Night | Moshpit Bar | King St.",
+          "venue": "",
+          "start_date": "2026-06-22",
+          "end_date": "2026-12-14",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/rat-klub-comedy-show-or-monday-night-or-moshpit-bar-or-king-st"
+        }
+      ]
     },
     "7f744127dca4": {
       "id": "7f744127dca4",
@@ -1087,13 +1504,23 @@
       "suburb": "Redfern",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619858+00:00",
+      "fetched_at": "2026-09-21T23:46:47.953934+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Dancing group for Chinese speakers",
+          "venue": "Ron Williams Community Centre",
+          "start_date": "2026-01-27",
+          "end_date": "2026-12-15",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers"
+        }
+      ]
     },
     "4c2a9d0578a9": {
       "id": "4c2a9d0578a9",
@@ -1284,14 +1711,24 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625034+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957755+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Sydney Town Hall organ recitals",
+          "venue": "George Street",
+          "start_date": "2026-09-21",
+          "end_date": "2026-12-23",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-recitals"
+        }
+      ]
     },
     "5756a52659de": {
       "id": "5756a52659de",
@@ -1309,14 +1746,24 @@
       "suburb": "Surry Hills",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622218+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955650+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Dom's Broadway Basement: Musical theatre piano bar",
+          "venue": "Low 302",
+          "start_date": "2026-08-26",
+          "end_date": "2026-11-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/doms-broadway-basement-or-musical-theatre-piano-bar"
+        }
+      ]
     },
     "ba08f9a834ab": {
       "id": "ba08f9a834ab",
@@ -1334,14 +1781,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620543+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954425+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Laugh Inn Comedy Club",
+          "venue": "",
+          "start_date": "2026-07-01",
+          "end_date": "2027-12-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-laugh-inn-comedy-club"
+        }
+      ]
     },
     "c9bff3e5520a": {
       "id": "c9bff3e5520a",
@@ -1378,13 +1835,23 @@
       "suburb": "Bellevue Hill",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620650+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954506+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Line Dancing at Woollahra Life!",
+          "venue": "",
+          "start_date": "2026-07-30",
+          "end_date": "2026-09-24",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/line-dancing-at-woollahra-life"
+        }
+      ]
     },
     "48190d995bbf": {
       "id": "48190d995bbf",
@@ -1777,10 +2244,20 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904186+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550172+00:00",
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Forget Me, Please.",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-11",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=801"
+        }
+      ]
     },
     "625b7217adfd": {
       "id": "625b7217adfd",
@@ -1931,13 +2408,23 @@
       "suburb": "Rozelle",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620835+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954649+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Captain Corelli's Mandolin",
+          "venue": "Genesian Theatre",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/captain-corellis-mandolin"
+        }
+      ]
     },
     "c8e442171032": {
       "id": "c8e442171032",
@@ -1955,13 +2442,23 @@
       "suburb": "Glebe",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622368+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955803+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Club De Tango: La Milonga",
+          "venue": "Glebe Town Hall",
+          "start_date": "2026-02-06",
+          "end_date": "2026-12-18",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/club-de-tango-la-milonga-2"
+        }
+      ]
     },
     "a4a08f8b3370": {
       "id": "a4a08f8b3370",
@@ -2017,13 +2514,23 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622599+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956012+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Sunday Sounds",
+          "venue": "Chinese Garden of Friendship",
+          "start_date": "2026-04-05",
+          "end_date": "2026-12-06",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/sunday-sounds"
+        }
+      ]
     },
     "2408e993d578": {
       "id": "2408e993d578",
@@ -2060,14 +2567,24 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622685+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956083+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Hayden Orpheum Comedy Club",
+          "venue": "Hayden Orpheum Picture Palace",
+          "start_date": "2026-07-15",
+          "end_date": "2026-12-09",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/hayden-orpheum-comedy-club"
+        }
+      ]
     },
     "34d23628c603": {
       "id": "34d23628c603",
@@ -2085,14 +2602,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620715+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954554+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "My Fair Lady",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-09-10",
+          "end_date": "2026-10-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/my-fair-lady"
+        }
+      ]
     },
     "ff20081e3dd7": {
       "id": "ff20081e3dd7",
@@ -2381,13 +2908,31 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904078+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550018+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Dixon and Daughters by Deborah Bruce",
+          "venue": "The Old Fitzroy Theatre",
+          "start_date": "2026-09-18",
+          "end_date": "2026-10-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/dixon-and-daughters-by-deborah-bruce"
+        },
+        {
+          "source": "venue-feed",
+          "title": "Dixon & Daughters",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-09-18",
+          "end_date": "2026-10-03",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1201"
+        }
+      ]
     },
     "ba1b8a1433f1": {
       "id": "ba1b8a1433f1",
@@ -2443,14 +2988,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622150+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955595+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "A Night at the Library",
+          "venue": "State Library of NSW",
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-01",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/a-night-at-the-library"
+        }
+      ]
     },
     "41a5fb3aab60": {
       "id": "41a5fb3aab60",
@@ -2468,14 +3023,24 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619789+00:00",
+      "fetched_at": "2026-09-21T23:46:47.953881+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Black Widow: Sex, Bugs & a High Death Toll",
+          "venue": "Qtopia Sydney",
+          "start_date": "2026-09-22",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/black-widow-sex-bugs-and-a-high-death-toll"
+        }
+      ]
     },
     "0622985fab8d": {
       "id": "0622985fab8d",
@@ -2493,14 +3058,24 @@
       "suburb": "Vaucluse",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619901+00:00",
+      "fetched_at": "2026-09-21T23:46:47.953960+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "tours-and-experiences"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Distillation performance by Luke Casserly",
+          "venue": "Vaucluse House",
+          "start_date": "2026-09-22",
+          "end_date": "2026-09-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/distillation-performance-by-luke-casserly"
+        }
+      ]
     },
     "75496dbfbebb": {
       "id": "75496dbfbebb",
@@ -2518,13 +3093,23 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619977+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954020+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "God’s Mistake",
+          "venue": "",
+          "start_date": "2026-09-22",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/gods-mistake"
+        }
+      ]
     },
     "e3166ce8acd4": {
       "id": "e3166ce8acd4",
@@ -2542,14 +3127,32 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620854+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954663+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Cirque Alice",
+          "venue": "Sydney Lyric Theatre",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/cirque-alice"
+        },
+        {
+          "source": "todaytix",
+          "title": "Cirque Alice",
+          "venue": "Sydney Lyric",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "url": "https://www.todaytix.com/sydney/shows/47961-cirque-alice26"
+        }
+      ]
     },
     "f3004f0106b3": {
       "id": "f3004f0106b3",
@@ -2567,14 +3170,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621107+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954847+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Scott Sisters: Pioneers of Science and Art",
+          "venue": "State Library of NSW",
+          "start_date": "2026-09-25",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-scott-sisters-pioneers-of-science-and-art"
+        }
+      ]
     },
     "e4d1cd8102d1": {
       "id": "e4d1cd8102d1",
@@ -2592,14 +3205,24 @@
       "suburb": "Redfern",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621234+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954937+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "We need to talk - Couples comedy show",
+          "venue": "",
+          "start_date": "2026-09-25",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/we-need-to-talk-couples-comedy-show"
+        }
+      ]
     },
     "eb8aed0776ae": {
       "id": "eb8aed0776ae",
@@ -2617,13 +3240,23 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621277+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954972+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Dragon Child and the twelve animals of the Zodiac",
+          "venue": "The Star",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-dragon-child-and-the-twelve-animals-of-the-zodiac"
+        }
+      ]
     },
     "233f78acc35d": {
       "id": "233f78acc35d",
@@ -2641,13 +3274,23 @@
       "suburb": "Ashfield",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621352+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955012+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Best of the Best West Coast Swing Showcase",
+          "venue": "Polish Club Ashfield",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/best-of-the-best-west-coast-swing-showcase"
+        }
+      ]
     },
     "fd69b8240785": {
       "id": "fd69b8240785",
@@ -2665,13 +3308,23 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621374+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955029+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Comedian vs ChatGPT",
+          "venue": "The Factory Theatre",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/comedian-vs-chatgpt"
+        }
+      ]
     },
     "4825a854bea4": {
       "id": "4825a854bea4",
@@ -2689,14 +3342,24 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621405+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955052+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Erth's Shark Dive: Live on Stage",
+          "venue": "Carriageworks",
+          "start_date": "2026-09-26",
+          "end_date": "2026-10-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/erths-shark-dive-live-on-stage"
+        }
+      ]
     },
     "78566bc53668": {
       "id": "78566bc53668",
@@ -2714,14 +3377,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621523+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955132+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Murder on the Nile",
+          "venue": "Castlereagh Boutique Hotel",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/murder-on-the-nile-sydney"
+        }
+      ]
     },
     "179ac387cedf": {
       "id": "179ac387cedf",
@@ -2739,13 +3412,23 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621596+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955192+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Monkey King Opera",
+          "venue": "The Concourse",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-monkey-king-opera"
+        }
+      ]
     },
     "741fb8bc06c6": {
       "id": "741fb8bc06c6",
@@ -2763,14 +3446,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621718+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955283+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Wild Things International Kids Festival",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-09-26",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/wild-things-international-kids-festival"
+        }
+      ]
     },
     "172045033b72": {
       "id": "172045033b72",
@@ -2788,14 +3481,24 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621876+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955397+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Grand Tour | Balmain Sinfonia",
+          "venue": "",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/heartlands-balmain-sinfonia"
+        }
+      ]
     },
     "36d55af0dc42": {
       "id": "36d55af0dc42",
@@ -2836,13 +3539,23 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622119+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955573+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Year in Tatters",
+          "venue": "Ensemble Theatre",
+          "start_date": "2026-09-28",
+          "end_date": "2026-10-24",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-year-in-tatters"
+        }
+      ]
     },
     "762fa9d21333": {
       "id": "762fa9d21333",
@@ -2860,14 +3573,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622306+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955727+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Carly Electric: Back In My Box",
+          "venue": "The Factory Theatre",
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/carly-electric-back-in-my-box"
+        }
+      ]
     },
     "c25bd1903370": {
       "id": "c25bd1903370",
@@ -2885,14 +3608,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622513+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955947+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "NARUTO: The Symphonic Experience",
+          "venue": "ICC Sydney",
+          "start_date": "2026-10-03",
+          "end_date": "2026-10-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/naruto-the-symphonic-experience"
+        }
+      ]
     },
     "fafdf737a85e": {
       "id": "fafdf737a85e",
@@ -2910,14 +3643,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622763+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956144+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Mooncake -One Moon. Many Stories. A New Play for Children 5+",
+          "venue": "Flight Path Theatre",
+          "start_date": "2026-10-07",
+          "end_date": "2026-10-08",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/mooncake-one-moon-many-stories-a-new-play-for-children-5"
+        }
+      ]
     },
     "6d4b872220a1": {
       "id": "6d4b872220a1",
@@ -2935,14 +3678,24 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622834+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956200+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Season Squad The Musical",
+          "venue": "",
+          "start_date": "2026-10-08",
+          "end_date": "2026-10-09",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/season-squad-the-musical"
+        }
+      ]
     },
     "f3a6bfe9bfd5": {
       "id": "f3a6bfe9bfd5",
@@ -2960,14 +3713,24 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622974+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956306+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Deep. Funny. Piano. Gay.",
+          "venue": "",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/deep-funny-piano-gay"
+        }
+      ]
     },
     "134862766bf3": {
       "id": "134862766bf3",
@@ -2985,14 +3748,24 @@
       "suburb": "North Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623070+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956388+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Trial by Jury and The Savoyards (Double Bill)",
+          "venue": "",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/trial-by-jury-and-the-savoyards-double-bill"
+        }
+      ]
     },
     "36384a42acd6": {
       "id": "36384a42acd6",
@@ -3010,13 +3783,23 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623106+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956417+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Echoform",
+          "venue": "",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-24",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/echoform"
+        }
+      ]
     },
     "2d7221a319aa": {
       "id": "2d7221a319aa",
@@ -3034,14 +3817,24 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623238+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956516+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Play School Live Concert 2026: Humpty's Big Celebration!",
+          "venue": "Seymour Centre",
+          "start_date": "2026-10-10",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/play-school-live-concert-2026-humptys-big-celebration"
+        }
+      ]
     },
     "4b90a476a5a0": {
       "id": "4b90a476a5a0",
@@ -3059,14 +3852,24 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623277+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956542+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The 60 Four: Hits of the 60s and 70s",
+          "venue": "Hayden Orpheum Picture Palace",
+          "start_date": "2026-10-10",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-60-four-hits-of-the-60s-and-70s"
+        }
+      ]
     },
     "5c34dc7dd3c0": {
       "id": "5c34dc7dd3c0",
@@ -3084,13 +3887,23 @@
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623336+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956574+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Australian burlesque festival - The big tease gala",
+          "venue": "The Concourse",
+          "start_date": "2026-10-10",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-burlesque-festival-the-big-tease-gala"
+        }
+      ]
     },
     "03375e2e2f2b": {
       "id": "03375e2e2f2b",
@@ -3108,13 +3921,23 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623462+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956666+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Monty Python's Spamalot",
+          "venue": "The Star",
+          "start_date": "2026-10-15",
+          "end_date": "2026-10-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/monty-pythons-spamalot"
+        }
+      ]
     },
     "b68a455f879b": {
       "id": "b68a455f879b",
@@ -3132,14 +3955,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623504+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956696+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Oh My God: A Comedy of Biblical Proportions!",
+          "venue": "Flight Path Theatre",
+          "start_date": "2026-10-15",
+          "end_date": "2026-10-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/oh-my-god-a-comedy-of-biblical-proportions"
+        }
+      ]
     },
     "a6d503b55c99": {
       "id": "a6d503b55c99",
@@ -3157,13 +3990,23 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623573+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956757+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Break the 5th Wall",
+          "venue": "",
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-17",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/break-the-5th-wall"
+        }
+      ]
     },
     "c88c07882187": {
       "id": "c88c07882187",
@@ -3181,13 +4024,23 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623899+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956995+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Next Fall by Geoffrey Nauffts",
+          "venue": "Eternity Playhouse",
+          "start_date": "2026-10-22",
+          "end_date": "2026-11-07",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/next-fall-by-geoffrey-nauffts"
+        }
+      ]
     },
     "c72601e78fc7": {
       "id": "c72601e78fc7",
@@ -3205,14 +4058,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624053+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957111+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Good Soldier Švejk",
+          "venue": "Castlereagh Boutique Hotel",
+          "start_date": "2026-10-23",
+          "end_date": "2026-10-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-good-soldier-svejk"
+        }
+      ]
     },
     "08c8c3a0b5d9": {
       "id": "08c8c3a0b5d9",
@@ -3230,13 +4093,23 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624392+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957286+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "‘Snowflake’ by Mike Bartlett",
+          "venue": "Ensemble Theatre",
+          "start_date": "2026-10-30",
+          "end_date": "2026-11-21",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/snowflake-by-mike-bartlett"
+        }
+      ]
     },
     "9346f1fc1ca7": {
       "id": "9346f1fc1ca7",
@@ -3278,14 +4151,24 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624571+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957410+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "community-and-causes"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Victor Valdes: Viva Mexico | Day of the Dead Spectacular",
+          "venue": "Seymour Centre",
+          "start_date": "2026-10-31",
+          "end_date": "2026-10-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/victor-valdes-viva-mexico-or-day-of-the-dead-spectacular"
+        }
+      ]
     },
     "c84a762b5a24": {
       "id": "c84a762b5a24",
@@ -3303,14 +4186,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624676+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957482+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Husband Stitch",
+          "venue": "Flight Path Theatre",
+          "start_date": "2026-11-04",
+          "end_date": "2026-11-07",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-husband-stitch"
+        }
+      ]
     },
     "3502962272e4": {
       "id": "3502962272e4",
@@ -3328,14 +4221,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624695+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957497+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Twisted Violet",
+          "venue": "Flight Path Theatre",
+          "start_date": "2026-11-04",
+          "end_date": "2026-11-07",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/twisted-violet"
+        }
+      ]
     },
     "778f36b2741c": {
       "id": "778f36b2741c",
@@ -3353,37 +4256,23 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624715+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957513+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
-    },
-    "6064483196fc": {
-      "id": "6064483196fc",
-      "title": "The Australian Ballet: Copland Dance Episodes",
-      "venue": "Sydney Opera House",
-      "venue_id": "sydney-opera-house",
-      "genre": "dance",
-      "status": "active",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-22",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-ballet-copland-dance-episodes",
-      "source": "cityofsydney",
-      "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-ballet-copland-dance-episodes",
-      "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. ",
-      "suburb": "Sydney",
-      "free_event": false,
-      "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624797+00:00",
-      "sessions": [],
-      "categories": [
-        "theatre-dance-and-film"
-      ],
-      "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Anticipated Collapse.",
+          "venue": "",
+          "start_date": "2026-11-06",
+          "end_date": "2026-11-07",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/anticipated-collapse"
+        }
+      ]
     },
     "73e1fb70022c": {
       "id": "73e1fb70022c",
@@ -3401,14 +4290,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624859+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957624+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "World Renowned Magician Joshua Jay: LOOK CLOSER",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-11-07",
+          "end_date": "2026-11-07",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/world-renowned-magician-joshua-jay-look-closer"
+        }
+      ]
     },
     "e0660c1dbdce": {
       "id": "e0660c1dbdce",
@@ -3426,14 +4325,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625175+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957862+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Memory of Water",
+          "venue": "Flight Path Theatre",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-28",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-memory-of-water"
+        }
+      ]
     },
     "403dbe50d2dc": {
       "id": "403dbe50d2dc",
@@ -3451,13 +4360,23 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625210+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957888+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Cocktail of Murder - Murder Mystery Dinner",
+          "venue": "Castlereagh Boutique Hotel",
+          "start_date": "2026-11-21",
+          "end_date": "2026-11-21",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/cocktail-of-murder-murder-mystery-dinner"
+        }
+      ]
     },
     "c482b5aca21e": {
       "id": "c482b5aca21e",
@@ -3475,14 +4394,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T23:30:39.625243+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957917+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Pinchgut Opera presents Semele by Handel",
+          "venue": "City Recital Hall",
+          "start_date": "2026-11-26",
+          "end_date": "2026-12-02",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel"
+        }
+      ]
     },
     "d6e5f16f94f8": {
       "id": "d6e5f16f94f8",
@@ -3524,13 +4453,31 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 100,
-      "fetched_at": "2026-09-21T23:30:39.625341+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957960+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Midnight Murder on the Christmas Cruise of Death",
+          "venue": "Ensemble Theatre",
+          "start_date": "2026-11-27",
+          "end_date": "2027-01-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/midnight-murder-on-the-christmas-cruise-of-death"
+        },
+        {
+          "source": "todaytix",
+          "title": "MIDNIGHT MURDER ON THE CHRISTMAS CRUISE OF DEATH",
+          "venue": "Ensemble Theatre",
+          "start_date": "2026-11-27",
+          "end_date": "2027-01-10",
+          "url": "https://www.todaytix.com/sydney/shows/45122-midnight-murder-on-the-christmas-cruise-of-death-at-ensemble-theatre"
+        }
+      ]
     },
     "724c6bb50d10": {
       "id": "724c6bb50d10",
@@ -3548,13 +4495,23 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625367+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957973+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Wake in Fright",
+          "venue": "Belvoir Street Theatre",
+          "start_date": "2026-12-02",
+          "end_date": "2026-12-19",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/wake-in-fright"
+        }
+      ]
     },
     "da05c7b9ff14": {
       "id": "da05c7b9ff14",
@@ -3572,13 +4529,23 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625424+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958015+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Paradise Hotel",
+          "venue": "KXT on Broadway",
+          "start_date": "2026-12-04",
+          "end_date": "2026-12-19",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/paradise-hotel"
+        }
+      ]
     },
     "f5771766a154": {
       "id": "f5771766a154",
@@ -3596,14 +4563,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625536+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958093+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "2026 Sydney comedy revue",
+          "venue": "State Theatre",
+          "start_date": "2026-12-29",
+          "end_date": "2026-12-29",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/2026-sydney-comedy-revue"
+        }
+      ]
     },
     "3684ae1dffab": {
       "id": "3684ae1dffab",
@@ -3640,10 +4617,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-09-21T23:30:39.019640+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640654+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Gospel According to Paul at Sydney Theatre Company",
+          "venue": "Wharf 1 Theatre - Walsh Bay Arts Precinct",
+          "start_date": "2026-11-06",
+          "end_date": "2026-12-20",
+          "url": "https://www.todaytix.com/sydney/shows/45308-the-gospel-according-to-paul-sydney-theatre-company-2026"
+        }
+      ]
     },
     "eb77cc7bdab6": {
       "id": "eb77cc7bdab6",
@@ -3699,14 +4686,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620602+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954469+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "BonkerZ Comedy Clubs Weekly \"Catch A Rising Comic\" Show",
+          "venue": "",
+          "start_date": "2026-08-20",
+          "end_date": "2026-12-24",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/valentine-2-for-1-show"
+        }
+      ]
     },
     "d18b9b2c6306": {
       "id": "d18b9b2c6306",
@@ -3743,14 +4740,24 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621847+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955376+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Club Flamingo",
+          "venue": "The Grand Electric",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/club-flamingo"
+        }
+      ]
     },
     "b9dddf957ba6": {
       "id": "b9dddf957ba6",
@@ -3806,14 +4813,24 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621453+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955085+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Fever Dream",
+          "venue": "Lansdowne Hotel",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/fever-dream"
+        }
+      ]
     },
     "1b7d5726533a": {
       "id": "1b7d5726533a",
@@ -3831,14 +4848,24 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622548+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955972+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Gruffalo's Child",
+          "venue": "Seymour Centre",
+          "start_date": "2026-10-03",
+          "end_date": "2026-10-04",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-gruffalos-child"
+        }
+      ]
     },
     "0ef60ae34591": {
       "id": "0ef60ae34591",
@@ -3856,14 +4883,24 @@
       "suburb": "Online",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622885+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956239+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Sydney Festival of Magic",
+          "venue": "Online",
+          "start_date": "2026-10-08",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-festival-of-magic"
+        }
+      ]
     },
     "f5d27d7ba64a": {
       "id": "f5d27d7ba64a",
@@ -3967,13 +5004,23 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624199+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957215+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Fuccbois: Live In Concert",
+          "venue": "Darling Quarter Theatre",
+          "start_date": "2026-10-27",
+          "end_date": "2026-11-14",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/fuccbois-live-in-concert"
+        }
+      ]
     },
     "d6d714d0add0": {
       "id": "d6d714d0add0",
@@ -3991,13 +5038,23 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625663+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958144+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Play Club",
+          "venue": "",
+          "start_date": "2027-01-28",
+          "end_date": "2027-01-28",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/play-club"
+        }
+      ]
     },
     "60d41591e657": {
       "id": "60d41591e657",
@@ -4034,10 +5091,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-09-21T23:30:39.020070+00:00",
+      "fetched_at": "2026-09-21T23:46:47.641050+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Fiesta",
+          "venue": "Verbrugghen Hall | Sydney Conservatorium of Music",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "url": "https://www.todaytix.com/sydney/shows/46754-fiesta-the-metropolitan-orchestra"
+        }
+      ]
     },
     "421baa2861b9": {
       "id": "421baa2861b9",
@@ -4074,13 +5141,31 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 81,
-      "fetched_at": "2026-09-21T23:30:39.624914+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957667+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Silver Tongue",
+          "venue": "Hayes Theatre Co",
+          "start_date": "2026-11-13",
+          "end_date": "2026-12-12",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/silver-tongue"
+        },
+        {
+          "source": "todaytix",
+          "title": "Silver Tongue",
+          "venue": "Hayes Theatre",
+          "start_date": "2026-11-13",
+          "end_date": "2026-12-12",
+          "url": "https://www.todaytix.com/sydney/shows/45328-silver-tongue-hayes-theatre-co-2026"
+        }
+      ]
     },
     "07ae5c2e87c8": {
       "id": "07ae5c2e87c8",
@@ -4121,13 +5206,23 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620003+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954039+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "How My Light is Spent",
+          "venue": "KXT on Broadway",
+          "start_date": "2026-09-11",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/how-my-light-is-spent"
+        }
+      ]
     },
     "68c589207147": {
       "id": "68c589207147",
@@ -4164,14 +5259,24 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621573+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955174+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Shipwreck Odyssey",
+          "venue": "Carriageworks",
+          "start_date": "2026-09-26",
+          "end_date": "2026-10-18",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/shipwreck-odyssey"
+        }
+      ]
     },
     "e8aaecd1828b": {
       "id": "e8aaecd1828b",
@@ -4189,14 +5294,24 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622660+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956063+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Typo (Clockwork Circus) at Fringe Kids",
+          "venue": "The Entertainment Quarter",
+          "start_date": "2026-10-05",
+          "end_date": "2026-10-11",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/typo-clockwork-circus-at-fringe-kids"
+        }
+      ]
     },
     "94415f5a6464": {
       "id": "94415f5a6464",
@@ -4214,14 +5329,24 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623665+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956824+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Sydney Cabaret Playlist",
+          "venue": "The Oxford Hotel",
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-16",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-cabaret-playlist"
+        }
+      ]
     },
     "664a58862591": {
       "id": "664a58862591",
@@ -4239,13 +5364,23 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624092+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957138+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Development Showing: Adieu Uncut Pubic Cubic!",
+          "venue": "",
+          "start_date": "2026-10-25",
+          "end_date": "2026-10-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/development-showing-adieu-uncut-pubic-cubic"
+        }
+      ]
     },
     "23e780b33d75": {
       "id": "23e780b33d75",
@@ -4263,14 +5398,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624761+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957549+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Stories That Must Be Heard: Circus Concerto by Chloé Charody",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-11-06",
+          "end_date": "2026-11-08",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/stories-that-must-be-heard-circus-concerto-by-chloe-charody"
+        }
+      ]
     },
     "e87cdcaeed6a": {
       "id": "e87cdcaeed6a",
@@ -4421,14 +5566,24 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619590+00:00",
+      "fetched_at": "2026-09-21T23:46:47.953727+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Unlock The Rocks Art & Culture Month",
+          "venue": "The Rocks Square",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-30",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-culture-month-in-the-rocks"
+        }
+      ]
     },
     "463a2bd04388": {
       "id": "463a2bd04388",
@@ -4465,13 +5620,23 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621553+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955154+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Roisin McAlinden - Fairytale: Ending",
+          "venue": "The Factory Theatre",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/roisin-mcalinden-fairytale-ending"
+        }
+      ]
     },
     "721ece42a7da": {
       "id": "721ece42a7da",
@@ -4489,14 +5654,24 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621687+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955259+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Unbound Street Performance Festival at The Rocks",
+          "venue": "The Rocks Square",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/unbound-street-performance-festival-at-the-rocks"
+        }
+      ]
     },
     "2ee54299b892": {
       "id": "2ee54299b892",
@@ -4514,10 +5689,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 55,
-      "fetched_at": "2026-09-21T23:30:39.019670+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640683+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Ying Fang sings Songs of the Auvergne",
+          "venue": "Concert Hall | Sydney Opera House",
+          "start_date": "2026-10-08",
+          "end_date": "2026-10-10",
+          "url": "https://www.todaytix.com/sydney/shows/45735-ying-fang-sings-songs-of-the-auvergne-sso-2026"
+        }
+      ]
     },
     "b7f505cb976b": {
       "id": "b7f505cb976b",
@@ -4573,13 +5758,23 @@
       "suburb": "Redfern",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621930+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955435+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "House of Ick – Sketch Comedy ITS",
+          "venue": "",
+          "start_date": "2026-09-27",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/house-of-ick-sketch-comedy-its"
+        }
+      ]
     },
     "84d23fff59a1": {
       "id": "84d23fff59a1",
@@ -4616,10 +5811,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 38,
-      "fetched_at": "2026-09-21T23:30:39.019920+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640924+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "My Grandpa Doesn't Follow Me on Instagram: A Guide to trans-Generational Road Tripping",
+          "venue": "Touring Hub at New Theatre",
+          "start_date": "2026-09-23",
+          "end_date": "2026-09-26",
+          "url": "https://www.todaytix.com/sydney/shows/47445-my-grandpa-doesnt-follow-me-on-instagram"
+        }
+      ]
     },
     "3cf4cebfb89c": {
       "id": "3cf4cebfb89c",
@@ -4733,10 +5938,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 73,
-      "fetched_at": "2026-09-21T23:30:39.019567+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640587+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Strong Is The New Pretty",
+          "venue": "Drama Theatre | Sydney Opera House",
+          "start_date": "2026-10-22",
+          "end_date": "2026-12-05",
+          "url": "https://www.todaytix.com/sydney/shows/47420-strong-is-the-new-pretty-sydney"
+        }
+      ]
     },
     "fbb6e731af28": {
       "id": "fbb6e731af28",
@@ -4797,14 +6012,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622715+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956107+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Marrickville Comedy Club | We Three",
+          "venue": "",
+          "start_date": "2026-09-02",
+          "end_date": "2026-12-16",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/kookaburras-comedy-or-sydney-stand-up-comedy-or-we-three"
+        }
+      ]
     },
     "b66c12b96465": {
       "id": "b66c12b96465",
@@ -4822,13 +6047,23 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620988+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954761+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Singlet Comedians: Andy Procopis & John Glover",
+          "venue": "The Comedy Store",
+          "start_date": "2026-09-25",
+          "end_date": "2026-09-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/singlet-comedians-andy-procopis-and-john-glover"
+        }
+      ]
     },
     "1112e9687ec0": {
       "id": "1112e9687ec0",
@@ -4846,14 +6081,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622259+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955681+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "OPENING NIGHT | Kookaburra's Comedy Club | Sydney CBD",
+          "venue": "Castlereagh Boutique Hotel",
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-02",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/happy-hour-comedy"
+        }
+      ]
     },
     "558444394872": {
       "id": "558444394872",
@@ -4871,14 +6116,24 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625723+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958166+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Shen Yun 2027",
+          "venue": "Capitol Theatre",
+          "start_date": "2027-03-03",
+          "end_date": "2027-03-14",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/shen-yun-sydney"
+        }
+      ]
     },
     "9064978ddda5": {
       "id": "9064978ddda5",
@@ -4915,14 +6170,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619748+00:00",
+      "fetched_at": "2026-09-21T23:46:47.953851+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Best of the Fest",
+          "venue": "",
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/best-of-the-fest"
+        }
+      ]
     },
     "e5ab8d7c0fdf": {
       "id": "e5ab8d7c0fdf",
@@ -4959,14 +6224,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619955+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954000+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Global Comedy",
+          "venue": "",
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/global-comedy"
+        }
+      ]
     },
     "01789b9a2a0a": {
       "id": "01789b9a2a0a",
@@ -5060,14 +6335,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620787+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954608+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "XXX Naughty comedy showcase",
+          "venue": "",
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/xxx-naughty-comedy-showcase"
+        }
+      ]
     },
     "38ebd4f6f603": {
       "id": "38ebd4f6f603",
@@ -5085,14 +6370,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621965+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955457+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "It's A Match! - Tinder comedy",
+          "venue": "",
+          "start_date": "2026-09-06",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/its-a-match-tinder-comedy"
+        }
+      ]
     },
     "7ddabfcce168": {
       "id": "7ddabfcce168",
@@ -5110,14 +6405,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620113+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954120+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Wicked women of comedy",
+          "venue": "",
+          "start_date": "2026-09-16",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/wicked-women-of-comedy"
+        }
+      ]
     },
     "e249c0ff72bd": {
       "id": "e249c0ff72bd",
@@ -5154,14 +6459,24 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.619677+00:00",
+      "fetched_at": "2026-09-21T23:46:47.953795+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Aidan Bannister: Magic",
+          "venue": "",
+          "start_date": "2026-09-22",
+          "end_date": "2026-09-26",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/aidan-bannister-magic"
+        }
+      ]
     },
     "fe01ce2a7fba": {
       "id": "fe01ce2a7fba",
@@ -5179,13 +6494,23 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620431+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954341+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Demo",
+          "venue": "Qtopia Sydney",
+          "start_date": "2026-09-23",
+          "end_date": "2026-09-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/demo"
+        }
+      ]
     },
     "256a5e7bb318": {
       "id": "256a5e7bb318",
@@ -5246,14 +6571,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623848+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956958+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Verdi in the City",
+          "venue": "Castlereagh Boutique Hotel",
+          "start_date": "2026-10-18",
+          "end_date": "2026-10-18",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/verdi-in-the-city"
+        }
+      ]
     },
     "16a0e9e038d4": {
       "id": "16a0e9e038d4",
@@ -5271,14 +6606,24 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625137+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957829+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Addams Family, the musical",
+          "venue": "Teatro at the Italian Forum",
+          "start_date": "2026-11-17",
+          "end_date": "2026-12-06",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-addams-family-the-musical"
+        }
+      ]
     },
     "4868fe0ebdab": {
       "id": "4868fe0ebdab",
@@ -5296,14 +6641,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625480+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958052+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Faulty Towers The Dining Experience",
+          "venue": "Castlereagh Boutique Hotel",
+          "start_date": "2026-12-10",
+          "end_date": "2026-12-12",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/faulty-towers-the-dining-experience"
+        }
+      ]
     },
     "a1a6950d4a0d": {
       "id": "a1a6950d4a0d",
@@ -5340,10 +6695,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 50,
-      "fetched_at": "2026-09-21T23:30:39.020018+00:00",
+      "fetched_at": "2026-09-21T23:46:47.641006+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Wolf",
+          "venue": "Q Theatre | The Joan, Penrith",
+          "start_date": "2026-10-07",
+          "end_date": "2026-10-08",
+          "url": "https://www.todaytix.com/sydney/shows/46018-wolf-at-the-joan-penrith"
+        }
+      ]
     },
     "5b8edffed513": {
       "id": "5b8edffed513",
@@ -5361,14 +6726,24 @@
       "suburb": "Camperdown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620493+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954389+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The River Ghost",
+          "venue": "",
+          "start_date": "2026-09-23",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-river-ghost"
+        }
+      ]
     },
     "aa62f8527389": {
       "id": "aa62f8527389",
@@ -5386,13 +6761,23 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625448+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958029+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Diva",
+          "venue": "Eternity Playhouse",
+          "start_date": "2026-12-09",
+          "end_date": "2026-12-20",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/diva"
+        }
+      ]
     },
     "2695d9a57e29": {
       "id": "2695d9a57e29",
@@ -5448,13 +6833,23 @@
       "suburb": "Bondi Junction",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624477+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957344+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Samhain (the original Halloween)",
+          "venue": "Waverley Library",
+          "start_date": "2026-10-31",
+          "end_date": "2026-10-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/samhain-the-original-halloween"
+        }
+      ]
     },
     "df5ec7bc8f16": {
       "id": "df5ec7bc8f16",
@@ -5472,14 +6867,24 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624895+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957653+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Dr Sketchy’s Sydney - November Edition",
+          "venue": "",
+          "start_date": "2026-11-10",
+          "end_date": "2026-11-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/dr-sketchys-sydney"
+        }
+      ]
     },
     "df656ca8dede": {
       "id": "df656ca8dede",
@@ -5497,14 +6902,24 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625404+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958001+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Red Light Confidential – 2026 Finale",
+          "venue": "",
+          "start_date": "2026-12-03",
+          "end_date": "2026-12-03",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/red-light-confidential"
+        }
+      ]
     },
     "5d559a55ee67": {
       "id": "5d559a55ee67",
@@ -5522,10 +6937,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-09-21T23:30:39.019943+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640942+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Mozart, Salieri & Pleyel",
+          "venue": "City Recital Hall",
+          "start_date": "2026-10-21",
+          "end_date": "2026-10-27",
+          "url": "https://www.todaytix.com/sydney/shows/48008-mozart-salieri-and-pleyel-syd"
+        }
+      ]
     },
     "76d154a3f542": {
       "id": "76d154a3f542",
@@ -5562,13 +6987,23 @@
       "suburb": "Balmain",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623551+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956734+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Balmain",
+          "venue": "",
+          "start_date": "2026-10-15",
+          "end_date": "2026-10-15",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-balmain"
+        }
+      ]
     },
     "eac21493ac05": {
       "id": "eac21493ac05",
@@ -5610,10 +7045,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.019707+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640719+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "A Christmas Carol",
+          "venue": "Roslyn Packer Theatre",
+          "start_date": "2027-11-11",
+          "end_date": "2027-12-26",
+          "url": "https://www.todaytix.com/sydney/shows/47920-a-christmas-carol-stc2027"
+        }
+      ]
     },
     "50fa2422c663": {
       "id": "50fa2422c663",
@@ -5631,10 +7076,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.019679+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640692+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Oedipus",
+          "venue": "Roslyn Packer Theatre",
+          "start_date": "2027-01-27",
+          "end_date": "2027-02-28",
+          "url": "https://www.todaytix.com/sydney/shows/47916-oedipus-stc2027"
+        }
+      ]
     },
     "d14d1e457bab": {
       "id": "d14d1e457bab",
@@ -5652,10 +7107,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.020119+00:00",
+      "fetched_at": "2026-09-21T23:46:47.641092+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Book of Liz",
+          "venue": "Wharf 1 Theatre - Walsh Bay Arts Precinct",
+          "start_date": "2027-05-29",
+          "end_date": "2027-07-04",
+          "url": "https://www.todaytix.com/sydney/shows/48002-the-book-of-liz-stc2027"
+        }
+      ]
     },
     "9b7601918721": {
       "id": "9b7601918721",
@@ -5673,10 +7138,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.020181+00:00",
+      "fetched_at": "2026-09-21T23:46:47.641146+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Picture Of Dorian Gray",
+          "venue": "Roslyn Packer Theatre",
+          "start_date": "2027-06-30",
+          "end_date": "2027-07-25",
+          "url": "https://www.todaytix.com/sydney/shows/47919-the-picture-of-dorian-gray-stc2027"
+        }
+      ]
     },
     "feb1468e048b": {
       "id": "feb1468e048b",
@@ -5694,10 +7169,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.020105+00:00",
+      "fetched_at": "2026-09-21T23:46:47.641080+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Miss Fisher's Murder Mysteries: Death By Deckchair",
+          "venue": "Roslyn Packer Theatre",
+          "start_date": "2027-05-08",
+          "end_date": "2027-06-13",
+          "url": "https://www.todaytix.com/sydney/shows/47917-miss-fishers-murder-mysteries-death-by-deckchair-stc2027"
+        }
+      ]
     },
     "bcc5ba80c8b3": {
       "id": "bcc5ba80c8b3",
@@ -5753,13 +7238,23 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621617+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955207+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Writer's Room",
+          "venue": "The Factory Theatre",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-writers-room"
+        }
+      ]
     },
     "ee7c9b7377be": {
       "id": "ee7c9b7377be",
@@ -5815,14 +7310,24 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623692+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956843+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Femme Fatale Burlesque Show",
+          "venue": "",
+          "start_date": "2026-09-18",
+          "end_date": "2026-10-16",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/femme-fatale-burlesque-show"
+        }
+      ]
     },
     "feb7729b24c3": {
       "id": "feb7729b24c3",
@@ -5840,13 +7345,23 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.621497+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955117+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Jeremy Moses is HARD TO WORK WITH | Sydney Fringe Comedy",
+          "venue": "The Factory Theatre",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-27",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/jeremy-moses-is-hard-to-work-with-or-sydney-fringe-comedy"
+        }
+      ]
     },
     "c43e779da56e": {
       "id": "c43e779da56e",
@@ -5864,14 +7379,24 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622445+00:00",
+      "fetched_at": "2026-09-21T23:46:47.955881+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Scarlet Burlesque",
+          "venue": "",
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-02",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/scarlet-cabaret-burlesque"
+        }
+      ]
     },
     "c7926ddf4f0c": {
       "id": "c7926ddf4f0c",
@@ -5889,14 +7414,24 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622949+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956288+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Champagne Cabaret",
+          "venue": "",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-09",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/champagne-cabaret"
+        }
+      ]
     },
     "d4d520db6a00": {
       "id": "d4d520db6a00",
@@ -5914,13 +7449,23 @@
       "suburb": "Petersham",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623608+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956782+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Catch Me If You Can: The Musical",
+          "venue": "",
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-24",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/catch-me-if-you-can-the-musical"
+        }
+      ]
     },
     "53ac4c89d62d": {
       "id": "53ac4c89d62d",
@@ -5938,14 +7483,24 @@
       "suburb": "Neutral Bay",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624139+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957172+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
+          "venue": "",
+          "start_date": "2026-10-25",
+          "end_date": "2026-11-08",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-the-oaks"
+        }
+      ]
     },
     "a6c60bb946fb": {
       "id": "a6c60bb946fb",
@@ -5987,14 +7542,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625612+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958127+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Hook's Neverland",
+          "venue": "Sydney Opera House",
+          "start_date": "2027-01-09",
+          "end_date": "2027-01-17",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/hooks-neverland"
+        }
+      ]
     },
     "9e4e08794e72": {
       "id": "9e4e08794e72",
@@ -6084,13 +7649,23 @@
       "suburb": "",
       "free_event": false,
       "price_from": 34,
-      "fetched_at": "2026-09-21T23:30:39.018955+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640054+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Table Top Shakespeare",
+          "venue": "The Studio | Sydney Opera House",
+          "start_date": "2026-09-22",
+          "end_date": "2026-09-27",
+          "url": "https://www.todaytix.com/sydney/shows/48129-table-top-shakespeare"
+        }
+      ]
     },
     "7eeff909b7ab": {
       "id": "7eeff909b7ab",
@@ -6108,14 +7683,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.620809+00:00",
+      "fetched_at": "2026-09-21T23:46:47.954627+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Waiting for Chloe",
+          "venue": "The Factory Theatre",
+          "start_date": "2026-09-24",
+          "end_date": "2026-09-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/waiting-for-chloe"
+        }
+      ]
     },
     "1d41b579d7b5": {
       "id": "1d41b579d7b5",
@@ -6157,14 +7742,24 @@
       "suburb": "Barangaroo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623013+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956345+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "It’s Gatsby Darling – cabaret show & dinner",
+          "venue": "",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-09",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/its-gatsby-darling-cabaret-show-and-dinner"
+        }
+      ]
     },
     "5aafb1107b18": {
       "id": "5aafb1107b18",
@@ -6254,14 +7849,24 @@
       "suburb": "St Peters",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624526+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957377+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shakesbeer Sessions: A Midsummer Night's Dream St Peters",
+          "venue": "",
+          "start_date": "2026-10-31",
+          "end_date": "2026-10-31",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-st-peters"
+        }
+      ]
     },
     "169499238d9a": {
       "id": "169499238d9a",
@@ -6279,14 +7884,24 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624613+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957438+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shakesbeer Sessions: A Midsummer Night's Dream",
+          "venue": "",
+          "start_date": "2026-11-01",
+          "end_date": "2026-11-01",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream"
+        }
+      ]
     },
     "b3c55a4c8628": {
       "id": "b3c55a4c8628",
@@ -6304,14 +7919,24 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.625511+00:00",
+      "fetched_at": "2026-09-21T23:46:47.958076+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Choir of Man",
+          "venue": "Sydney Opera House",
+          "start_date": "2026-12-11",
+          "end_date": "2027-01-24",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-choir-of-man"
+        }
+      ]
     },
     "7d8e739a1018": {
       "id": "7d8e739a1018",
@@ -6329,10 +7954,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 48,
-      "fetched_at": "2026-09-21T23:30:39.018989+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640084+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "Bryce Dessner & the Sydney Symphony",
+          "venue": "City Recital Hall",
+          "start_date": "2026-09-24",
+          "end_date": "2026-09-24",
+          "url": "https://www.todaytix.com/sydney/shows/45734-bryce-dessner-and-the-sydney-symphony-sso-2026"
+        }
+      ]
     },
     "f265bc88969c": {
       "id": "f265bc88969c",
@@ -6350,14 +7985,24 @@
       "suburb": "Annandale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.623740+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956878+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shakesbeer Sessions: A Midsummer Night's Dream Annandale",
+          "venue": "",
+          "start_date": "2026-10-16",
+          "end_date": "2026-11-06",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale"
+        }
+      ]
     },
     "1dc25869521a": {
       "id": "1dc25869521a",
@@ -6375,14 +8020,24 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.624342+00:00",
+      "fetched_at": "2026-09-21T23:46:47.957260+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
+          "venue": "",
+          "start_date": "2026-10-29",
+          "end_date": "2026-10-29",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont"
+        }
+      ]
     },
     "d047279eeae2": {
       "id": "d047279eeae2",
@@ -6400,10 +8055,20 @@
       "suburb": "",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-09-21T23:30:39.019834+00:00",
+      "fetched_at": "2026-09-21T23:46:47.640842+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "todaytix",
+          "title": "The Giant Balloon Show",
+          "venue": "The Bunker | Fool's Paradise: Entertainment Quarter",
+          "start_date": "2026-09-17",
+          "end_date": "2026-10-11",
+          "url": "https://www.todaytix.com/sydney/shows/48128-the-giant-balloon-show-26"
+        }
+      ]
     },
     "d677be36cafb": {
       "id": "d677be36cafb",
@@ -6421,13 +8086,23 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622629+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956038+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Stocktake at Belvoir 25A",
+          "venue": "Belvoir Street Theatre",
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-25",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/stocktake-at-belvoir-25a"
+        }
+      ]
     },
     "63140b2e0f64": {
       "id": "63140b2e0f64",
@@ -6445,13 +8120,23 @@
       "suburb": "Paddington",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.622918+00:00",
+      "fetched_at": "2026-09-21T23:46:47.956264+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "cityofsydney",
+          "title": "Thieving Bastards - Card Cheats Exposed",
+          "venue": "",
+          "start_date": "2026-10-08",
+          "end_date": "2026-10-10",
+          "url": "https://whatson.cityofsydney.nsw.gov.au/events/thieving-bastards-card-cheats-exposed"
+        }
+      ]
     },
     "1de05251c34b": {
       "id": "1de05251c34b",
@@ -6469,11 +8154,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904021+00:00",
+      "fetched_at": "2026-09-21T23:46:49.549905+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "All The More Reason",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-12-04",
+          "end_date": "2026-12-20",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2601"
+        }
+      ]
     },
     "ef39f4dbd3b5": {
       "id": "ef39f4dbd3b5",
@@ -6491,11 +8186,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904056+00:00",
+      "fetched_at": "2026-09-21T23:46:49.549985+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Catch As Catch Can",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-31",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1601"
+        }
+      ]
     },
     "682740cf9543": {
       "id": "682740cf9543",
@@ -6513,11 +8218,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904094+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550043+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Fitz Happens",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-09-08",
+          "end_date": "2026-09-12",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1001"
+        }
+      ]
     },
     "b1bc248a7ff2": {
       "id": "b1bc248a7ff2",
@@ -6535,11 +8250,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904119+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550079+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "A Number",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-11-10",
+          "end_date": "2026-11-15",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2002"
+        }
+      ]
     },
     "0b0fd4387fee": {
       "id": "0b0fd4387fee",
@@ -6557,11 +8282,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904138+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550109+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Comet Boombox",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-11-17",
+          "end_date": "2026-11-22",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2401"
+        }
+      ]
     },
     "3c48defee404": {
       "id": "3c48defee404",
@@ -6579,11 +8314,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904155+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550138+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Dick Swingin'",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-10-13",
+          "end_date": "2026-10-18",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=1801"
+        }
+      ]
     },
     "b2d54a6fe65e": {
       "id": "b2d54a6fe65e",
@@ -6601,11 +8346,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904233+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550241+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Infinite Scroll - A Late Night Sketch Comedy Show",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-12-08",
+          "end_date": "2026-12-13",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2801"
+        }
+      ]
     },
     "39c63ddb96a3": {
       "id": "39c63ddb96a3",
@@ -6623,11 +8378,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904246+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550264+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "The Man",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-09-21",
+          "end_date": "2026-10-02",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4401"
+        }
+      ]
     },
     "25ce3f78f5ad": {
       "id": "25ce3f78f5ad",
@@ -6645,11 +8410,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904262+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550290+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Green Scenes",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-10-18",
+          "end_date": "2026-10-18",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4801"
+        }
+      ]
     },
     "d5d7450938d6": {
       "id": "d5d7450938d6",
@@ -6667,11 +8442,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904319+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550337+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Arranged by Shekhar Raychaudhury",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-10-28",
+          "end_date": "2026-10-28",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5001"
+        }
+      ]
     },
     "cb19cc31e3bc": {
       "id": "cb19cc31e3bc",
@@ -6689,11 +8474,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904355+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550386+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Hamlet's Lillebror by Diane Keogh",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-09-24",
+          "end_date": "2026-09-24",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=3801"
+        }
+      ]
     },
     "ceacf0f246ee": {
       "id": "ceacf0f246ee",
@@ -6711,11 +8506,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904399+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550451+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "pornography of someone you know by Charlie Murphy",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-13",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4201"
+        }
+      ]
     },
     "00dfd219ddd9": {
       "id": "00dfd219ddd9",
@@ -6733,11 +8538,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904421+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550485+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Prey by David Cole",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4001"
+        }
+      ]
     },
     "467d4d96b2df": {
       "id": "467d4d96b2df",
@@ -6755,11 +8570,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904453+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550529+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Way Back Now by Taylor Venter",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-10-15",
+          "end_date": "2026-10-15",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4601"
+        }
+      ]
     },
     "53d03bf466c2": {
       "id": "53d03bf466c2",
@@ -6777,11 +8602,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904474+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550566+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Scenes From A Friendship",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-11-06",
+          "end_date": "2026-11-22",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2201"
+        }
+      ]
     },
     "46aaf4d021a0": {
       "id": "46aaf4d021a0",
@@ -6799,11 +8634,21 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-09-21T23:30:39.904488+00:00",
+      "fetched_at": "2026-09-21T23:46:49.550592+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-09-22"
+      "last_seen": "2026-09-22",
+      "sightings": [
+        {
+          "source": "venue-feed",
+          "title": "Show and Tells",
+          "venue": "Old Fitz Theatre",
+          "start_date": "2026-08-30",
+          "end_date": "2026-08-30",
+          "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=3401"
+        }
+      ]
     }
   },
   "__dedup_index__": {
@@ -6961,7 +8806,6 @@
     "c84a762b5a24": "c84a762b5a24",
     "3502962272e4": "3502962272e4",
     "778f36b2741c": "778f36b2741c",
-    "6064483196fc": "6064483196fc",
     "73e1fb70022c": "73e1fb70022c",
     "e0660c1dbdce": "e0660c1dbdce",
     "403dbe50d2dc": "403dbe50d2dc",
@@ -7114,7 +8958,8 @@
     "00dfd219ddd9": "00dfd219ddd9",
     "467d4d96b2df": "467d4d96b2df",
     "53d03bf466c2": "53d03bf466c2",
-    "46aaf4d021a0": "46aaf4d021a0"
+    "46aaf4d021a0": "46aaf4d021a0",
+    "6064483196fc": "9468146c2057"
   },
   "__notified__": {},
   "__key_version__": 2

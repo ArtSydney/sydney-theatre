@@ -49,8 +49,14 @@ runs in three stages, each more cautious than the last:
    the merge outright.
 3. **Adjudication** — `dedup-overrides.json` pins pairs as `same` or
    `different` and always beats the rules. Pairs the rules decline to call are
-   written to `dedup-candidates.json` as a work queue, for a person or for
-   ArtsReviewer's LLM deduper. No LLM runs in the daily job.
+   written to `dedup-candidates.json` as a work queue.
+
+   That queue is worked by `tools/adjudicate_dedup.py` in the ArtsReviewer
+   repo, which asks a local model about each pair and records only confident
+   verdicts; anything thinner stays in the queue for a person. **No model runs
+   in the daily job** — it applies verdicts already recorded. The prompt's bias
+   matches the pipeline's: when evidence is thin, answer *different*, because a
+   missed duplicate shows one extra row while a wrong merge deletes a real show.
 
 Venue rooms resolve to their building via `parent` in `theatres.json`, so the
 Drama Theatre and the Opera House compare equal.

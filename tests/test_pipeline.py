@@ -364,6 +364,61 @@ class TestDiscriminators(unittest.TestCase):
             "The Australian Ballet: Copland Dance Episodes", "Copland Dance Episodes"))
 
 
+class TestAdjudicationOverrides(unittest.TestCase):
+    """dedup-overrides.json beats the heuristics in both directions."""
+
+    def setUp(self):
+        import dedup
+        self.dedup = dedup
+        self._saved = dedup._overrides_cache
+
+    def tearDown(self):
+        self.dedup._overrides_cache = self._saved
+
+    def pin(self, verdict, title_a, title_b):
+        keys = sorted([canonical_key(title_a), canonical_key(title_b)])
+        self.dedup._overrides_cache = {"same": [], "different": []}
+        self.dedup._overrides_cache[verdict] = [tuple(keys)]
+
+    def two_shows(self, title_a, title_b, venue_a, venue_b, d1, d2):
+        return {
+            "productions": {
+                "a": {"id": "a", "title": title_a, "status": "active", "venue_id": venue_a,
+                      "venue": venue_a, "start_date": d1, "end_date": d1,
+                      "fetched_at": "2026-09-01"},
+                "b": {"id": "b", "title": title_b, "status": "active", "venue_id": venue_b,
+                      "venue": venue_b, "start_date": d2, "end_date": d2,
+                      "fetched_at": "2026-09-02"},
+            },
+            "__dedup_index__": {}, "__notified__": {},
+        }
+
+    def test_a_same_verdict_merges_what_the_rules_refused(self):
+        # Different venues, so the rules would keep these apart.
+        state = self.two_shows("The Lark", "The Lark", "belvoir-st-theatre",
+                               "riverside-theatres", "2026-09-23", "2026-11-01")
+        self.pin("same", "The Lark", "The Lark")
+        self.assertEqual(consolidate(state, TODAY), 1)
+        self.assertEqual(len(state["productions"]), 1)
+
+    def test_a_different_verdict_keeps_apart_what_the_rules_would_merge(self):
+        # Same title, same venue, same dates: the rules merge this on sight.
+        state = self.two_shows("Hamlet", "Hamlet", "belvoir-st-theatre",
+                               "belvoir-st-theatre", "2026-10-01", "2026-10-01")
+        self.pin("different", "Hamlet", "Hamlet")
+        self.assertEqual(consolidate(state, TODAY), 0)
+        self.assertEqual(len(state["productions"]), 2)
+
+    def test_an_adjudicated_pair_leaves_the_candidate_queue(self):
+        state = self.two_shows("Wolf", "Wolf by Circa", "old-fitz-theatre",
+                               "the-pavilion", "2026-10-07", "2026-10-21")
+        self.dedup._overrides_cache = {"same": [], "different": []}
+        before = len(dedup_candidates(state))
+        self.pin("different", "Wolf", "Wolf by Circa")
+        self.assertEqual(len(dedup_candidates(state)), 0)
+        self.assertGreaterEqual(before, 0)
+
+
 class TestSightings(unittest.TestCase):
     def test_each_source_is_kept_once(self):
         prod = {"title": "X"}

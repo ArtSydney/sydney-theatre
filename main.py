@@ -6,7 +6,7 @@ import os
 import tempfile
 from datetime import date, timedelta
 
-from fetch import fetch_all
+from fetch import fetch_all, match_venue_id
 from filters import not_a_production
 from classify import classify_production
 from dedup import consolidate, dedup_candidates, deduplicate, reindex
@@ -46,6 +46,31 @@ def save_state(state):
         if os.path.exists(tmp):
             os.unlink(tmp)
         raise
+
+
+def rematch_venues(state):
+    """Re-derive venue_id for stored records from their venue string.
+
+    Venue aliases get corrected over time -- City of Sydney's
+    sydney-lyric-theatre slug pointed at the Capitol for months, filing
+    A Beautiful Noise and Cirque Alice at the wrong theatre. Records keep
+    whatever the aliases said on the day they were first seen, so a fix
+    only ever helped new listings until now.
+    """
+    fixed = 0
+    for pid, prod in state["productions"].items():
+        venue = (prod.get("venue") or "").strip()
+        if not venue:
+            continue
+        derived = match_venue_id(venue)
+        if derived and derived != prod.get("venue_id"):
+            print(f"  [venue] {prod.get('title', pid)[:38]!r}: "
+                  f"{prod.get('venue_id') or 'none'} -> {derived}")
+            prod["venue_id"] = derived
+            fixed += 1
+    if fixed:
+        print(f"  Re-matched {fixed} venue(s)")
+    return fixed
 
 
 def cleanup_state(state):
@@ -178,6 +203,7 @@ def run():
     print(f"  {len(new_pids)} new productions")
 
     print("\n[4/6] Cleaning up state...")
+    rematch_venues(state)
     cleanup_state(state)
     consolidate(state, today)
 

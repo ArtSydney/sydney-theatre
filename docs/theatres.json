@@ -340,8 +340,19 @@
     "feed": {
       "type": "spektrix",
       "client": "pavilionperformingartscentre",
-      "enabled": false,
-      "note": "Multi-purpose arts centre: 103 events, but roughly two thirds are tribute acts, school concerts and dance-studio recitals rather than theatre. Discovery verified; left off pending a decision on whether to carry the venue."
+      "include_event_types": [
+        "Theatre, Musicals & Cabaret",
+        "Dance & Circus",
+        "Comedy",
+        "Kids & Families"
+      ],
+      "genre_map": {
+        "Theatre, Musicals & Cabaret": "",
+        "Dance & Circus": "dance",
+        "Comedy": "comedy",
+        "Kids & Families": "family"
+      },
+      "note": "Multi-purpose centre. Its own attribute_EventType sorts theatre from the school recitals, tribute acts and classical concerts that make up two thirds of the feed."
     }
   },
   {

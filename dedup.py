@@ -89,13 +89,23 @@ def reindex(state, today=None):
     today = today or sydney_today()
     productions = state.setdefault("productions", {})
 
+    # Group by title AND venue. Grouping on the title alone pulled a
+    # touring show's separate engagements back into one record every run,
+    # undoing the split that deduplicate() had just made.
     groups = {}
     for prod in productions.values():
-        groups.setdefault(canonical_key(prod.get("title", "")), []).append(prod)
+        base_key = canonical_key(prod.get("title", ""))
+        root = venue_root(prod.get("venue_id"))
+        groups.setdefault((base_key, root), []).append(prod)
 
     rebuilt = {}
     merged = 0
-    for key, group in groups.items():
+    used = set()
+    for (base_key, root), group in groups.items():
+        # The first engagement keeps the plain key; the others are
+        # qualified by venue, which is the id deduplicate() will look for.
+        key = base_key if base_key not in used else f"{base_key}-{root or 'alt'}"
+        used.add(base_key)
         # Oldest first: merge_production treats its second argument as the
         # newer, more authoritative record.
         group.sort(key=lambda p: p.get("fetched_at") or "")
@@ -299,6 +309,46 @@ def same_venue(a, b):
     return bool(sa and sa == sb)
 
 
+# Words shared by half the venue names in Sydney; matching on them says
+# nothing. "The Pavilion" and "Q Theatre | The Joan" both contain "the".
+_VENUE_STOP = {"the", "theatre", "theater", "sydney", "centre", "center",
+               "hall", "space", "studio", "room", "at", "of", "and", "on",
+               "performing", "arts", "performance", "co", "company", "st"}
+
+
+def _venue_words(prod):
+    words = re.sub(r"[^\w\s]", " ", (prod.get("venue") or "").lower()).split()
+    return {w for w in words if w not in _VENUE_STOP and len(w) > 2}
+
+
+def same_engagement(a, b):
+    """Are these the same run, or the same show playing two places?
+
+    A touring production keeps its title from venue to venue. Bell
+    Shakespeare's Macbeth plays the Playhouse in November and the Pavilion
+    in September; they share a canonical key, so without this check the
+    second engagement is swallowed and its dates disappear.
+    """
+    ra, rb = venue_root(a.get("venue_id")), venue_root(b.get("venue_id"))
+    if ra and rb:
+        return ra == rb
+
+    # One side never matched a venue, so compare what the sources called it
+    # -- but only when the runs do not overlap. Two listings of one run
+    # routinely word the venue differently ("Hayes Theatre Co" against
+    # "Hayes Theatre"), and those do overlap.
+    if dates_overlap(a, b):
+        return True
+    has_text = bool((a.get("venue") or "").strip()) and bool((b.get("venue") or "").strip())
+    wa, wb = _venue_words(a), _venue_words(b)
+    if not has_text:
+        return True          # one side names no venue: nothing to contradict
+    if not (wa and wb):
+        # Both name a venue but only in generic words. With runs that do
+        # not overlap there is nothing to confirm these are one engagement.
+        return False
+    return bool(wa & wb)     # share a distinctive venue word -> one run
+
 def is_same_production(a, b):
     """Corroborated match. Returns (bool, reason)."""
     ta, tb = title_tokens(a.get("title", "")), title_tokens(b.get("title", ""))
@@ -319,6 +369,8 @@ def is_same_production(a, b):
     if not venue:
         return False, f"different venue (sim {sim:.2f})"
 
+    if not same_engagement(a, b):
+        return False, "same title, different engagement"
     if sim >= STRONG_TITLE:
         return True, f"similar titles ({sim:.2f}) + same venue"
     if sim >= WEAK_TITLE and overlap:
@@ -340,7 +392,7 @@ def find_fuzzy_match(item, productions):
         if verdict == "same":
             return pid, "adjudicated same in " + OVERRIDES_FILE
         ok, reason = is_same_production(item, prod)
-        if not ok:
+        if not ok or not same_engagement(item, prod):
             continue
         sim = title_similarity(item.get("title", ""), prod.get("title", ""))
         if sim > best_sim:
@@ -365,6 +417,19 @@ def deduplicate(item, state, today=None):
     if key in dedup_index:
         pid = dedup_index[key]
         existing = productions.get(pid)
+        if existing and not same_engagement(existing, item):
+            # Same title, different engagement: a touring show at another
+            # venue. File it separately rather than letting it overwrite.
+            pid = f"{key}-{venue_root(item.get('venue_id')) or 'alt'}"
+            if pid in productions:
+                productions[pid] = merge_production(productions[pid], item, today=today)
+                record_sighting(productions[pid], item)
+                productions[pid]["last_seen"] = today or sydney_today()
+                return "existing", pid
+            print(f"  [dedup] {item.get('title','')!r} at "
+                  f"{item.get('venue','?')!r} is a separate engagement")
+            existing = None
+            key = pid
         if existing:
             # Existing: merge data if we have better info
             productions[pid] = merge_production(existing, item, today=today)
@@ -415,6 +480,7 @@ def deduplicate(item, state, today=None):
     }
     record_sighting(productions[pid], item)
     productions[pid]["last_seen"] = today or sydney_today()
+    close_open_ended(productions[pid])
     _refresh_status(productions[pid], today or sydney_today())
     return "new", pid
 
@@ -429,14 +495,14 @@ def merge_production(existing, new, today=None):
     today = today or sydney_today()
 
     # Fill-if-empty only: never overwrite something we already know.
-    for field in ["venue_id", "suburb", "snippet", "source", "source_url"]:
+    for field in ["venue", "venue_id", "suburb", "snippet", "source", "source_url"]:
         if not existing.get(field) and new.get(field):
             existing[field] = new[field]
 
     # Refresh-if-present: a source that re-lists a show is the authority on
     # when it now runs. The old fill-if-empty behaviour meant an extended or
     # rescheduled run was silently ignored forever.
-    for field in ["start_date", "end_date", "venue", "fetched_at", "categories"]:
+    for field in ["start_date", "end_date", "fetched_at", "categories"]:
         if new.get(field) and new[field] != existing.get(field):
             existing[field] = new[field]
 
@@ -461,8 +527,23 @@ def merge_production(existing, new, today=None):
     if existing.get("genre") in ("", "unknown", None) and new.get("genre") not in ("", "unknown", None):
         existing["genre"] = new["genre"]
 
+    close_open_ended(existing)
     _refresh_status(existing, today)
     return existing
+
+
+def close_open_ended(prod):
+    """A listing with a start and no end is a single performance.
+
+    Sources give an end date when there is a further performance; when they
+    do not, the show ran once. Treating the run as ending on its start date
+    means it closes the next morning instead of sitting on Tonight forever.
+    If a source later advertises a real end date, merge_production picks it
+    up and the run reopens.
+    """
+    if prod.get("start_date") and not (prod.get("end_date") or "").strip():
+        prod["end_date"] = prod["start_date"]
+    return prod
 
 
 def _refresh_status(prod, today):
@@ -569,7 +650,7 @@ def consolidate(state, today=None):
                 continue
             if verdict != "same":
                 ok, reason = is_same_production(keeper, other)
-                if not ok:
+                if not ok or not same_engagement(keeper, other):
                     continue
             else:
                 reason = "adjudicated same"

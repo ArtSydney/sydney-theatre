@@ -864,6 +864,22 @@
     "snippet": ""
   },
   {
+    "id": "7f283f7d0e7c",
+    "title": "Power Lines by Jared Stephenson",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-20",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5201",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
     "id": "b8d794c48196",
     "title": "Macbeth",
     "venue": "Sydney Opera House",
@@ -1408,6 +1424,22 @@
     "snippet": "A hilarious comedy-pop extravaganza packed with boyband nostalgia, original bangers and red flags."
   },
   {
+    "id": "e0f21c5c757a",
+    "title": "Worn by Lana Morgan",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5401",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
     "id": "664a58862591",
     "title": "Development Showing: Adieu Uncut Pubic Cubic!",
     "venue": "",
@@ -1774,6 +1806,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Late Night at Old Fitz Theatre. Setting his act in the smoky 1920s Prohibition era, Dick Swingin’ sees a darling cabaret showman performing as his company of vaudevillians to stage the greatest show on earth."
+  },
+  {
+    "id": "c055b8316064",
+    "title": "Isata Kanneh-Mason in Recital",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-10-12",
+    "end_date": "2026-10-12",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45736-isata-kanneh-mason-in-recital-sso-2026",
+    "price_from": 55,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
   },
   {
     "id": "d1d504d68466",

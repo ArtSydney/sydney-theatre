@@ -1440,6 +1440,22 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
+    "id": "b4a17a16b92b",
+    "title": "The Voice of Bryn Terfel",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-10-26",
+    "end_date": "2026-10-26",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45739-the-voice-of-bryn-terfel-sso-2026",
+    "price_from": 55,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "664a58862591",
     "title": "Development Showing: Adieu Uncut Pubic Cubic!",
     "venue": "",
@@ -1488,6 +1504,22 @@
     "snippet": ""
   },
   {
+    "id": "011a4431b4ab",
+    "title": "The Shakesbeer sessions:A Midsummer Night's Dream Leichhardt",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Leichhardt",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-24",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-leichhardt",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Fast, fun Shakespeare in your local pub"
+  },
+  {
     "id": "c72601e78fc7",
     "title": "The Good Soldier Švejk",
     "venue": "Castlereagh Boutique Hotel",
@@ -1502,6 +1534,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Scene Theatre Sydney presents a witty and thought-provoking stage adaptation of Jaroslav Hašek’s celebrated comic novel"
+  },
+  {
+    "id": "8db48aa3925e",
+    "title": "Shakesbeer session: Midsummer Night's Dream, Darlinghurst",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Darlinghurst",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-23",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/shakesbeer-session-midsummer-nights-dream-darlinghurst",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Fast, fun, singalong Shakespeare in your local pub."
   },
   {
     "id": "c88c07882187",
@@ -2458,7 +2506,7 @@
     "start_date": "2026-09-29",
     "end_date": "2026-10-31",
     "booking_url": "https://www.todaytix.com/sydney/shows/45307-the-unfriend-sydney-theatre-company-2026",
-    "price_from": 64,
+    "price_from": 63,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2992,6 +3040,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-09-23",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "83fb08143b73",
     "title": "Squatch Watch: Live",
     "venue": "Made in Hub at PACT Centre for Emerging Artists",
@@ -3102,22 +3166,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-09-22",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "41a5fb3aab60",

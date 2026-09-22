@@ -65,6 +65,8 @@ NOT_A_PRODUCTION = [
     r"\bspeech night\b",
     r"\bgraduation\b",
     r"\bend of year concert\b",
+    r"\b\d+(st|nd|rd|th)\s+annual\s+concert\b",
+    r"\bannual\s+(concert|showcase|recital)\b",
     r"\b(movie|film) club\b",
     r"\bscreenings?\b",
     r"\bdouble feature\b",

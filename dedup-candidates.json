@@ -67,6 +67,39 @@
     }
   },
   {
+    "similarity": 1.0,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "adb270e04691",
+      "adb270e04691"
+    ],
+    "a": {
+      "id": "adb270e04691",
+      "title": "Where is the Green Sheep?",
+      "venue": "The Pavilion Performing Arts Centre",
+      "venue_id": "the-pavilion-performing-arts-centre",
+      "suburb": "Sutherland",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-02",
+      "sources": [
+        "venue-feed"
+      ]
+    },
+    "b": {
+      "id": "adb270e04691-riverside-theatres",
+      "title": "Where Is The Green Sheep?",
+      "venue": "Riverside Theatres",
+      "venue_id": "riverside-theatres",
+      "suburb": "Parramatta",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-16",
+      "sources": [
+        "venue-feed"
+      ]
+    }
+  },
+  {
     "similarity": 0.86,
     "same_venue": false,
     "dates_overlap": false,

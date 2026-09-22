@@ -180,7 +180,9 @@ COS_VENUE_MAP = {
     "eternity-playhouse": "eternity-playhouse",
     "qtopia-sydney": "qtopia-sydney",
     "theatre-royal-sydney": "theatre-royal-sydney",
-    "sydney-lyric-theatre": "capitol-theatre",
+    # Sydney Lyric (Pyrmont) is not the Capitol (Haymarket). This alias
+    # filed A Beautiful Noise and Cirque Alice at the wrong theatre.
+    "sydney-lyric-theatre": "sydney-lyric-theatre",
     "state-theatre": "state-theatre",
     "city-recital-hall": "city-recital-hall",
     "icc-sydney": "icc-sydney",
@@ -590,6 +592,18 @@ def parse_spektrix_event(event, venue, feed):
         print(f"  [{venue.get('id')}] Skipping non-production: {name!r} ({junk})")
         return None
 
+    # A multi-purpose venue programmes far more than theatre, and labels it
+    # all itself. Where theatres.json names the types we want, trust the
+    # venue's own categorisation rather than guessing from titles.
+    event_type = (event.get("attribute_EventType") or "").strip()
+    wanted = feed.get("include_event_types")
+    if wanted and event_type not in wanted:
+        return None
+
+    # The venue's own "do not list this" flag.
+    if str(event.get("attribute_SLExcludeFromViewEventsPage")) == "True":
+        return None
+
     start_date = (event.get("firstInstanceDateTime") or "")[:10]
     end_date = (event.get("lastInstanceDateTime") or "")[:10]
 
@@ -601,7 +615,9 @@ def parse_spektrix_event(event, venue, feed):
     if template and web_id:
         booking_url = template.replace("{web_id}", web_id.group(1))
 
-    genre = SPEKTRIX_GENRE.get((event.get("attribute_Type") or "").strip().lower(), "")
+    genre = (feed.get("genre_map") or {}).get(event_type, "")
+    if not genre:
+        genre = SPEKTRIX_GENRE.get((event.get("attribute_Type") or "").strip().lower(), "")
 
     snippet = (event.get("description") or "").strip()
     if strand:
@@ -641,6 +657,9 @@ VENUE_ALIASES = {
     "roslyn packer theatre": "roslyn-packer-theatre",
     "sydney opera house": "sydney-opera-house",
     "capitol theatre": "capitol-theatre",
+    "capitol theatre sydney": "capitol-theatre",
+    "sydney lyric": "sydney-lyric-theatre",
+    "sydney lyric theatre": "sydney-lyric-theatre",
     "theatre royal sydney": "theatre-royal-sydney",
     "hayes theatre co": "hayes-theatre",
     "hayes theatre": "hayes-theatre",

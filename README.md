@@ -55,6 +55,12 @@ runs in three stages, each more cautious than the last:
 Venue rooms resolve to their building via `parent` in `theatres.json`, so the
 Drama Theatre and the Opera House compare equal.
 
+A touring production keeps its title from venue to venue, so every merge path
+also checks it is the same *engagement*: Bell Shakespeare's *Macbeth* plays the
+Opera House in November and the Pavilion in September, and those are two
+listings, not one. Where neither side matched a venue record, the venue wording
+is compared with generic words ("the", "theatre", "sydney") removed.
+
 Every production keeps a `sightings` entry per source — what each one called
 it, and where. Merging is no longer destructive, so a wrong merge can be seen
 and reversed.

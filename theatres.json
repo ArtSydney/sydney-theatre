@@ -262,7 +262,13 @@
     "capacity_tier": "large",
     "lat": -33.8832,
     "lng": 151.2107,
-    "type": "company"
+    "type": "company",
+    "feed": {
+      "type": "company-season",
+      "url": "https://opera.org.au/whats-on/sydney",
+      "genre": "opera",
+      "note": "A company season, not a venue feed: each listing is filed at the venue it plays."
+    }
   },
   {
     "id": "eternity-playhouse",
@@ -692,6 +698,18 @@
     "booking_platform": "",
     "instagram": "",
     "capacity_tier": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "mrs-macquaries-point",
+    "name": "Mrs Macquaries Point",
+    "address": "",
+    "suburb": "Sydney",
+    "website": "",
+    "booking_platform": "",
+    "instagram": "",
+    "capacity_tier": "large",
     "lat": null,
     "lng": null
   }

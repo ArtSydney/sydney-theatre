@@ -173,19 +173,21 @@ COS_VENUE_MAP = {
     "flight-path-theatre": "flight-path-theatre",
     "belvoir-street-theatre": "belvoir-st-theatre",
     "seymour-centre": "seymour-centre",
-    "the-concourse": "the-concourse",
+    "the-concourse": "concourse-chatswood",
     "carriageworks": "carriageworks",
     "the-factory-theatre": "factory-theatre",
-    "kxt-on-broadway": "kxt-on-broadway",
+    "kxt-on-broadway": "kxt",
     "eternity-playhouse": "eternity-playhouse",
     "qtopia-sydney": "qtopia-sydney",
-    "theatre-royal-sydney": "theatre-royal-sydney",
-    "sydney-lyric-theatre": "capitol-theatre",
+    "theatre-royal-sydney": "theatre-royal",
+    # Sydney Lyric (Pyrmont) is not the Capitol (Haymarket). This alias
+    # filed A Beautiful Noise and Cirque Alice at the wrong theatre.
+    "sydney-lyric-theatre": "sydney-lyric-theatre",
     "state-theatre": "state-theatre",
     "city-recital-hall": "city-recital-hall",
     "icc-sydney": "icc-sydney",
     "the-star": "the-star",
-    "riverside-theatres": "riverside-parramatta",
+    "riverside-theatres": "riverside-theatres",
     "the-entertainment-quarter": "entertainment-quarter",
     "hayden-orpheum-picture-palace": "hayden-orpheum",
     "civic-underground": "civic-underground",
@@ -590,6 +592,18 @@ def parse_spektrix_event(event, venue, feed):
         print(f"  [{venue.get('id')}] Skipping non-production: {name!r} ({junk})")
         return None
 
+    # A multi-purpose venue programmes far more than theatre, and labels it
+    # all itself. Where theatres.json names the types we want, trust the
+    # venue's own categorisation rather than guessing from titles.
+    event_type = (event.get("attribute_EventType") or "").strip()
+    wanted = feed.get("include_event_types")
+    if wanted and event_type not in wanted:
+        return None
+
+    # The venue's own "do not list this" flag.
+    if str(event.get("attribute_SLExcludeFromViewEventsPage")) == "True":
+        return None
+
     start_date = (event.get("firstInstanceDateTime") or "")[:10]
     end_date = (event.get("lastInstanceDateTime") or "")[:10]
 
@@ -601,7 +615,9 @@ def parse_spektrix_event(event, venue, feed):
     if template and web_id:
         booking_url = template.replace("{web_id}", web_id.group(1))
 
-    genre = SPEKTRIX_GENRE.get((event.get("attribute_Type") or "").strip().lower(), "")
+    genre = (feed.get("genre_map") or {}).get(event_type, "")
+    if not genre:
+        genre = SPEKTRIX_GENRE.get((event.get("attribute_Type") or "").strip().lower(), "")
 
     snippet = (event.get("description") or "").strip()
     if strand:
@@ -641,25 +657,28 @@ VENUE_ALIASES = {
     "roslyn packer theatre": "roslyn-packer-theatre",
     "sydney opera house": "sydney-opera-house",
     "capitol theatre": "capitol-theatre",
-    "theatre royal sydney": "theatre-royal-sydney",
+    "capitol theatre sydney": "capitol-theatre",
+    "sydney lyric": "sydney-lyric-theatre",
+    "sydney lyric theatre": "sydney-lyric-theatre",
+    "theatre royal sydney": "theatre-royal",
     "hayes theatre co": "hayes-theatre",
     "hayes theatre": "hayes-theatre",
     "ensemble theatre": "ensemble-theatre",
     "belvoir st theatre": "belvoir-st-theatre",
     "belvoir street theatre": "belvoir-st-theatre",
     "seymour centre": "seymour-centre",
-    "the concourse": "the-concourse",
-    "concourse chatswood": "the-concourse",
+    "the concourse": "concourse-chatswood",
+    "concourse chatswood": "concourse-chatswood",
     "carriageworks": "carriageworks",
     "the old fitzroy theatre": "old-fitz-theatre",
     "old fitz theatre": "old-fitz-theatre",
-    "kxt on broadway": "kxt-on-broadway",
+    "kxt on broadway": "kxt",
     "eternity playhouse": "eternity-playhouse",
     "darlinghurst theatre": "darlinghurst-theatre",
     "genesian theatre": "genesian-theatre",
     "glen street theatre": "glen-street-theatre",
-    "riverside theatres": "riverside-parramatta",
-    "riverside parramatta": "riverside-parramatta",
+    "riverside theatres": "riverside-theatres",
+    "riverside parramatta": "riverside-theatres",
     "the factory theatre": "factory-theatre",
     "factory theatre": "factory-theatre",
     "flight path theatre": "flight-path-theatre",
@@ -674,12 +693,23 @@ VENUE_ALIASES = {
     "wharf 1 theatre - walsh bay arts precinct": "roslyn-packer-theatre",
     "neilson studio | wharf 4/5, walsh bay arts precinct": "roslyn-packer-theatre",
     "bay 20 | carriageworks": "carriageworks",
-    "riverside live at phive": "riverside-parramatta",
+    "riverside live at phive": "riverside-theatres",
     "qtopia | the loading dock theatre": "qtopia-sydney",
     "tiktok entertainment centre | icc sydney": "icc-sydney",
     "under the big top | the entertainment quarter": "entertainment-quarter",
     "the virago | fool's paradise: entertainment quarter": "entertainment-quarter",
     "castlereagh boutique hotel": "castlereagh-hotel",
+    "made in hub at pact centre for emerging artists": "pact-centre",
+    "pact centre for emerging artists": "pact-centre",
+    "the bunker | fool's paradise: entertainment quarter": "entertainment-quarter",
+    "qtopia | the substation": "qtopia-sydney",
+    "qtopia | the loading dock theatre": "qtopia-sydney",
+    "the comedy store": "comedy-store",
+    "the grand electric": "the-grand-electric",
+    "darling quarter theatre": "darling-quarter-theatre",
+    "q theatre | the joan, penrith": "q-theatre-joan",
+    "teatro at the italian forum": "teatro-italian-forum",
+    "riverside live at phive": "riverside-theatres",
 }
 
 

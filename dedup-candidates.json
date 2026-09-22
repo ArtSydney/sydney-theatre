@@ -1,5 +1,72 @@
 [
   {
+    "similarity": 1.0,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "b8d794c48196",
+      "b8d794c48196"
+    ],
+    "a": {
+      "id": "b8d794c48196",
+      "title": "Macbeth",
+      "venue": "Sydney Opera House",
+      "venue_id": "sydney-opera-house",
+      "suburb": "Sydney",
+      "start_date": "2026-11-18",
+      "end_date": "2026-12-06",
+      "sources": [
+        "cityofsydney",
+        "todaytix"
+      ]
+    },
+    "b": {
+      "id": "b8d794c48196-the-pavilion-performing-arts-centre",
+      "title": "Bell Shakespeare's 'Macbeth'",
+      "venue": "The Pavilion Performing Arts Centre",
+      "venue_id": "the-pavilion-performing-arts-centre",
+      "suburb": "Sutherland",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "sources": [
+        "venue-feed"
+      ]
+    }
+  },
+  {
+    "similarity": 1.0,
+    "same_venue": false,
+    "dates_overlap": false,
+    "keys": [
+      "bf4397d8b4dc",
+      "bf4397d8b4dc"
+    ],
+    "a": {
+      "id": "bf4397d8b4dc",
+      "title": "Wolf",
+      "venue": "Q Theatre | The Joan, Penrith",
+      "venue_id": "q-theatre-joan",
+      "suburb": "",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-08",
+      "sources": [
+        "todaytix"
+      ]
+    },
+    "b": {
+      "id": "bf4397d8b4dc-the-pavilion-performing-arts-centre",
+      "title": "Wolf by Circa",
+      "venue": "The Pavilion Performing Arts Centre",
+      "venue_id": "the-pavilion-performing-arts-centre",
+      "suburb": "Sutherland",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "sources": [
+        "venue-feed"
+      ]
+    }
+  },
+  {
     "similarity": 0.86,
     "same_venue": false,
     "dates_overlap": false,

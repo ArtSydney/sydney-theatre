@@ -12,7 +12,7 @@ from classify import classify_production
 from dedup import (canonical_key, consolidate, dedup_candidates, deduplicate,
                    discriminating_difference, is_same_production, merge_production,
                    normalize, record_sighting, reindex, strip_attribution,
-                   title_similarity, venue_root)
+                   same_engagement, title_similarity, venue_root)
 from fetch import parse_spektrix_event
 from filters import not_a_production
 from main import STALE_AFTER_DAYS, cleanup_state, send_notifications, sweep_deadlines
@@ -275,6 +275,74 @@ class TestSecondStageMatching(unittest.TestCase):
         self.assertSeparate(
             show("Bluey's Big Play Junior", "capitol-theatre", "", "2026-10-01", "2026-10-20"),
             show("Bluey's Big Play", "capitol-theatre", "", "2026-10-01", "2026-10-20"), "junior edition")
+
+
+class TestSeparateEngagements(unittest.TestCase):
+    """A touring show keeps its title from venue to venue."""
+
+    def test_same_title_different_venue_is_a_different_engagement(self):
+        # Bell Shakespeare's Macbeth plays the Opera House in November and
+        # the Pavilion in September. Both normalise to "macbeth", so the
+        # exact key alone swallowed the second date.
+        a = {"title": "Macbeth", "venue_id": "playhouse", "venue": "The Playhouse",
+             "start_date": "2026-11-18", "end_date": "2026-12-06"}
+        b = {"title": "Bell Shakespeare's 'Macbeth'", "venue_id": "the-pavilion",
+             "venue": "The Pavilion Performing Arts Centre",
+             "start_date": "2026-09-24", "end_date": "2026-09-24"}
+        self.assertFalse(same_engagement(a, b))
+
+    def test_one_run_named_two_ways_is_still_one_engagement(self):
+        a = {"title": "We Are The Tigers", "venue_id": "hayes-theatre",
+             "venue": "Hayes Theatre Co", "start_date": "2026-10-09", "end_date": "2026-11-08"}
+        b = {"title": "We Are The Tigers", "venue_id": "hayes-theatre",
+             "venue": "Hayes Theatre", "start_date": "2026-10-09", "end_date": "2026-11-08"}
+        self.assertTrue(same_engagement(a, b))
+
+    def test_a_room_and_its_building_are_one_engagement(self):
+        a = {"title": "Copland Dance Episodes", "venue_id": "joan-sutherland-theatre",
+             "venue": "Joan Sutherland Theatre | Sydney Opera House",
+             "start_date": "2026-11-06", "end_date": "2026-11-21"}
+        b = {"title": "Copland Dance Episodes", "venue_id": "sydney-opera-house",
+             "venue": "Sydney Opera House", "start_date": "2026-11-06", "end_date": "2026-11-22"}
+        self.assertTrue(same_engagement(a, b))
+
+    def test_unmatched_venues_with_disjoint_runs_are_separate(self):
+        # Neither side matched a venue record, so only the venue wording and
+        # the dates can tell them apart.
+        a = {"title": "Wolf", "venue_id": "", "venue": "Q Theatre | The Joan, Penrith",
+             "start_date": "2026-10-07", "end_date": "2026-10-08"}
+        b = {"title": "Wolf", "venue_id": "", "venue": "The Pavilion Performing Arts Centre",
+             "start_date": "2026-10-21", "end_date": "2026-10-21"}
+        self.assertFalse(same_engagement(a, b))
+
+    def test_generic_venue_words_do_not_prove_a_match(self):
+        # "the", "theatre" and "sydney" appear in half the venue names in
+        # town; matching on them merged unrelated engagements.
+        a = {"title": "X", "venue": "The Sydney Theatre", "start_date": "2026-01-01",
+             "end_date": "2026-01-02"}
+        b = {"title": "X", "venue": "The Theatre Sydney Centre", "start_date": "2026-06-01",
+             "end_date": "2026-06-02"}
+        self.assertFalse(same_engagement(a, b))
+
+
+class TestOneNightEvents(unittest.TestCase):
+    def test_a_listing_with_no_end_date_closes_the_day_after(self):
+        state = fresh_state()
+        deduplicate(item("A Reading", start_date="2026-09-21", end_date=""),
+                    state, today="2026-09-21")
+        prod = next(iter(state["productions"].values()))
+        self.assertEqual(prod["end_date"], "2026-09-21",
+                         "no further date means the run ended that night")
+        sweep_deadlines(state, "2026-09-22")
+        self.assertEqual(prod["status"], "closed")
+
+    def test_a_real_end_date_still_wins_later(self):
+        state = fresh_state()
+        _, pid = deduplicate(item("Extended", start_date="2026-09-21", end_date=""),
+                             state, today="2026-09-21")
+        deduplicate(item("Extended", start_date="2026-09-21", end_date="2026-12-01"),
+                    state, today="2026-09-21")
+        self.assertEqual(state["productions"][pid]["end_date"], "2026-12-01")
 
 
 class TestVenueFamilies(unittest.TestCase):

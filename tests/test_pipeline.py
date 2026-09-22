@@ -13,7 +13,7 @@ from dedup import (canonical_key, consolidate, dedup_candidates, deduplicate,
                    discriminating_difference, is_same_production, merge_production,
                    normalize, record_sighting, reindex, strip_attribution,
                    same_engagement, title_similarity, venue_root)
-from fetch import parse_riverside_dates, parse_spektrix_event
+from fetch import extract_season_rows, parse_riverside_dates, parse_spektrix_event
 from filters import not_a_production
 from main import STALE_AFTER_DAYS, cleanup_state, send_notifications, sweep_deadlines
 
@@ -659,6 +659,26 @@ class TestRiversideDates(unittest.TestCase):
     def test_unparseable_text_is_refused_rather_than_guessed(self):
         self.check("Coming soon", "", "")
         self.check("", "", "")
+
+
+class TestCompanySeasonRows(unittest.TestCase):
+    PAGE = """
+    <div><h3>My Fair Lady</h3><p>Sydney Opera House,</p><p>22 September-31 October</p></div>
+    <div><h3>Aida on Sydney Harbour</h3><p>Mrs Macquaries Point</p><p>27 March-25 April</p></div>
+    <div><h3>Desandre &amp; Dunford</h3><p>City Recital Hall</p><p>18 October</p></div>
+    """
+
+    def test_reads_title_venue_and_dates(self):
+        rows = extract_season_rows(self.PAGE)
+        self.assertEqual(len(rows), 3)
+        self.assertEqual(rows[0], ("My Fair Lady", "Sydney Opera House", "22 September-31 October"))
+        self.assertEqual(rows[1][1], "Mrs Macquaries Point")
+
+    def test_entities_are_decoded(self):
+        self.assertEqual(extract_season_rows(self.PAGE)[2][0], "Desandre & Dunford")
+
+    def test_a_page_without_listings_yields_nothing(self):
+        self.assertEqual(extract_season_rows("<div><p>Coming soon</p></div>"), [])
 
 
 class TestBookingUrlPreference(unittest.TestCase):

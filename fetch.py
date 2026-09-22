@@ -537,6 +537,8 @@ def fetch_venue_feeds():
             results.extend(fetch_spektrix(venue, feed))
         elif kind == "riverside":
             results.extend(fetch_riverside(venue, feed))
+        elif kind == "company-season":
+            results.extend(fetch_company_season(venue, feed))
         else:
             print(f"  [venue-feed] Unknown feed type {kind!r} for {venue['id']}")
     return results
@@ -787,6 +789,114 @@ def parse_riverside_block(block, venue, today):
         "free_event": "free event" in block.lower(),
         "fetched_at": utc_now_iso(),
     }
+
+# ============================================================
+# Opera Australia: a company season, filed at the venues it plays
+#
+# Unlike a venue feed, every listing here carries its own venue -- most at
+# the Opera House, but Aida is on the harbour and a recital is at City
+# Recital Hall -- so each production is attributed to where it actually
+# plays rather than to the company.
+#
+# The page prints dates without a year ("2 January-17 March"). Guessing
+# would put a show twelve months out, so instead the season is read in the
+# order the page lists it, which is chronological: the year advances when a
+# month goes backwards.
+# ============================================================
+
+OPERA_AUSTRALIA_URL = "https://opera.org.au/whats-on/sydney"
+
+
+def fetch_company_season(venue, feed):
+    """Parse a company's season page. Each listing names its own venue."""
+    label = venue.get("id", "company")
+    url = feed.get("url") or OPERA_AUSTRALIA_URL
+    print(f"  [{label}] Fetching season page...")
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+        resp.raise_for_status()
+        page = resp.text
+    except Exception as e:
+        print(f"  [{label}] Failed to fetch: {e}")
+        return []
+
+    rows = extract_season_rows(page)
+    if not rows:
+        print(f"  [{label}] No listings found -- the page layout has probably changed")
+        return []
+
+    today = sydney_today()
+    year = int(today[:4])
+    last_month = int(today[5:7])
+
+    results = []
+    for title, venue_name, date_text in rows:
+        start_month = _first_month(date_text)
+        if start_month is None:
+            continue
+        # Chronological order: a month earlier than the previous one means
+        # the season has rolled into the next year.
+        if start_month < last_month:
+            year += 1
+        last_month = start_month
+
+        start_date, end_date = parse_riverside_dates(date_text, year)
+        if not start_date:
+            print(f"  [{label}] Skipping {title!r}: unparsed date {date_text!r}")
+            continue
+
+        junk = not_a_production(title)
+        if junk:
+            print(f"  [{label}] Skipping non-production: {title!r} ({junk})")
+            continue
+
+        venue_id = match_venue_id(venue_name)
+        results.append({
+            "title": title,
+            "venue": venue_name,
+            "venue_id": venue_id,
+            "genre": feed.get("genre", ""),
+            "status": "active",
+            "start_date": start_date,
+            "end_date": end_date,
+            "booking_url": url,
+            "source": "venue-feed",
+            "source_url": url,
+            "snippet": f"{venue.get('name', '')} season." if venue.get("name") else "",
+            "suburb": "",
+            "free_event": False,
+            "fetched_at": utc_now_iso(),
+        })
+    print(f"  [{label}] {len(results)} productions")
+    return results
+
+
+def _first_month(text):
+    m = re.search(r"\d{1,2}\s+([A-Za-z]+)", text)
+    return MONTHS.get(m.group(1).lower()) if m else None
+
+
+def extract_season_rows(page):
+    """(title, venue, dates) triples from the season listing.
+
+    The page renders each production as title, then venue, then dates on
+    consecutive lines, so the markup is stripped and read positionally.
+    """
+    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", page, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", "\n", text)
+    lines = [html.unescape(l).strip() for l in text.split("\n") if l.strip()]
+
+    rows = []
+    date_line = re.compile(r"^\d{1,2}\s+[A-Za-z]+(?:\s*[-\u2013]\s*\d{1,2}\s+[A-Za-z]+)?$")
+    for i, line in enumerate(lines):
+        if i < 2 or not date_line.match(line):
+            continue
+        venue_name = lines[i - 1].rstrip(",").strip()
+        title = lines[i - 2].strip()
+        if len(title) < 2 or len(venue_name) < 3:
+            continue
+        rows.append((title, venue_name, line))
+    return rows
 
 # ============================================================
 # Shared venue matching

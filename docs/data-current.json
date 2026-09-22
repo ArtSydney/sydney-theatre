@@ -336,6 +336,22 @@
     "snippet": "Late Night at Old Fitz Theatre. The Old Fitz’s first ever Chicago-style sketch comedy show. A six person cast dives headfirst into the double-edged sword of social media."
   },
   {
+    "id": "b04da46f4ede",
+    "title": "The Greatest Christmas Show",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-08",
+    "end_date": "2026-12-08",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-greatest-christmas-show/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "0aea19a97ae2",
     "title": "A Candlelight Christmas",
     "venue": "The Pavilion Performing Arts Centre",
@@ -432,6 +448,22 @@
     "snippet": "Beer. Horror. Maaaaate."
   },
   {
+    "id": "ad54cc8004e4",
+    "title": "Ruins / أطلال",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-02",
+    "end_date": "2026-12-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/ruins/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "063eab347cad",
     "title": "A Christmas Celebration",
     "venue": "The Pavilion Performing Arts Centre",
@@ -448,6 +480,22 @@
     "snippet": "A festive afternoon of music, theatre and Christmas favourites with soaring voices and warm moments."
   },
   {
+    "id": "2872613c4cc6",
+    "title": "Supper Club",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-29",
+    "end_date": "2026-11-29",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/supper-club/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "188512a29e74",
     "title": "The Nutcracker",
     "venue": "Joan Sutherland Theatre | Sydney Opera House",
@@ -461,6 +509,22 @@
     "price_from": null,
     "free_event": false,
     "source": "todaytix",
+    "snippet": ""
+  },
+  {
+    "id": "aa1ecb24f6be",
+    "title": "SZN7",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/szn7/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
     "snippet": ""
   },
   {
@@ -480,6 +544,22 @@
     "snippet": "A hilarious new comedy"
   },
   {
+    "id": "6fcc57152398",
+    "title": "Heartland : Exchange",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-27",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/heartland-exchange/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "c482b5aca21e",
     "title": "Pinchgut Opera presents Semele by Handel",
     "venue": "City Recital Hall",
@@ -494,6 +574,38 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Seduction, ambition and divine consequence"
+  },
+  {
+    "id": "5581988a54b8",
+    "title": "Write Together, Rise Together",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-26",
+    "end_date": "2026-12-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/write-together-rise-together/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "b5148435c314",
+    "title": "The Western Line",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-25",
+    "end_date": "2026-11-28",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-western-line/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "4fff4ab0dffa",
@@ -542,6 +654,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Encore – The Best of Broadway is a celebration of the songs, stories and unforgettable moments that make musical theatre so extraordinary."
+  },
+  {
+    "id": "9d9d945bc011",
+    "title": "Timor Leste – Ita Nia Lian, Ita Nia Istoria",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/timor-leste-ita-nia-lian-ita-nia-istoria/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "b8d794c48196",
@@ -832,6 +960,22 @@
     "snippet": "A funny, tender and deeply moving play about the people who witness our lives, shape who we become and remind us of who we’ve always been."
   },
   {
+    "id": "b34885b922c9",
+    "title": "Glow Up 2026",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/glow-up-2026/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "c84a762b5a24",
     "title": "The Husband Stitch",
     "venue": "Flight Path Theatre",
@@ -976,6 +1120,22 @@
     "snippet": "A laugh-out-loud, lump-in-your-throat festive showdown about generational differences."
   },
   {
+    "id": "d0ec1b6562b2",
+    "title": "Triple Treat",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-30",
+    "end_date": "2026-10-30",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/triple-treat/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "1dc25869521a",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
     "venue": "",
@@ -992,6 +1152,22 @@
     "snippet": "Fast, fun Shakespeare in your local pub"
   },
   {
+    "id": "9a760988f0c0",
+    "title": "Family Affairs with the Gilchrists",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-29",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/family-affairs-with-the-gilchrists/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "d5d7450938d6",
     "title": "Arranged by Shekhar Raychaudhury",
     "venue": "Old Fitz Theatre",
@@ -1006,6 +1182,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
+    "id": "279ac5909765",
+    "title": "The Australian Dream? with Tim Ross",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-28",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-australian-dream-with-tim-ross/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "9026e7ebbd8d",
@@ -1054,6 +1246,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Fast, fun, singalong Shakespeare in your local pub."
+  },
+  {
+    "id": "3ee842e3d6b3",
+    "title": "Ya Ossas يا قصص",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-25",
+    "end_date": "2026-10-25",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/ya-ossas/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "c72601e78fc7",
@@ -1134,6 +1342,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Australia's leading cirque troupe is ready to devour Sutherland"
+  },
+  {
+    "id": "49072de5dff5",
+    "title": "Parramatta Lanes: Jazz Bar",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-24",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/parramatta-lanes-jazz-bar/",
+    "price_from": null,
+    "free_event": true,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "d565bb2b61dd",
@@ -1440,6 +1664,22 @@
     "snippet": "A high‑energy theatrical dance experience showcasing world‑renowned Ballroom and Latin styles, performed by stunning international champion dancers."
   },
   {
+    "id": "167c1420fe7c",
+    "title": "Elsewhere in India: Jal Jungle Zameen",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-10",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/elsewhere-in-india-jal-jungle-zameen/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "ea8b63112add",
     "title": "SIX the Musical",
     "venue": "Theatre Royal Sydney",
@@ -1696,6 +1936,38 @@
     "snippet": ""
   },
   {
+    "id": "26c618ba837b",
+    "title": "Into the Box",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-07",
+    "end_date": "2026-10-10",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/into-the-box/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "adb270e04691-riverside-theatres",
+    "title": "Where Is The Green Sheep?",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-07",
+    "end_date": "2026-10-16",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "e46e3133d917",
     "title": "Cirque Nouvelle",
     "venue": "The Pavilion Performing Arts Centre",
@@ -1806,6 +2078,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "The Listies bring a turbo-charged mash-up of fan favourites, slapstick, songs and side-splitting fun."
+  },
+  {
+    "id": "047f807607a6",
+    "title": "Parra-Mela",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-03",
+    "end_date": "2026-10-03",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/parra-mela/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "762fa9d21333",
@@ -1966,6 +2254,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "NZ comedy duo Ginge & Minge bring their multi-award winning sketch comedy show all about ick to Improv Theatre Sydney"
+  },
+  {
+    "id": "95a8c07fc656",
+    "title": "Noor-e-Dastaan by Bhuwin",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-09-27",
+    "end_date": "2026-09-27",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/noor-e-dastaan-by-bhuwin/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "eb8aed0776ae",
@@ -2304,6 +2608,22 @@
     "snippet": "Comedians Andy Procopis and John Glover perform back-to-back sets of new material, in new singlets"
   },
   {
+    "id": "81fe65c63a14-riverside-theatres",
+    "title": "Bluey’s Big Play The Stage Show",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-09-25",
+    "end_date": "2026-09-26",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/blueys-big-play/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "3684ae1dffab",
     "title": "Barnaby: A Country Musical",
     "venue": "Pottery Lane Performance Space - Sydney Fringe Festival",
@@ -2478,6 +2798,38 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "An ethereal theatrical experience"
+  },
+  {
+    "id": "44135681526b",
+    "title": "The Lark",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-09-23",
+    "end_date": "2026-09-27",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-lark/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "d70a3269c0ea",
+    "title": "CAPA All Stars-Our Night to Shine",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-09-23",
+    "end_date": "2026-09-23",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/capa-all-stars-our-night-to-shine/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "6bd30cd2aac3",

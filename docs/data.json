@@ -58,7 +58,7 @@
     "start_date": "2027-07-23",
     "end_date": "2027-08-07",
     "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
+    "price_from": 84,
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
@@ -90,7 +90,7 @@
     "start_date": "2027-07-01",
     "end_date": "2027-08-07",
     "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
+    "price_from": 84,
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
@@ -126,6 +126,22 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
+  },
+  {
+    "id": "205d44138c62",
+    "title": "Two Psychics and a Medium",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-05-18",
+    "end_date": "2027-05-18",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "An unforgettable evening where extraordinary\r\nconnections, remarkable evidence and heartfelt messages celebrate that love is eternal."
   },
   {
     "id": "feb1468e048b",
@@ -298,7 +314,7 @@
     "start_date": "2027-02-05",
     "end_date": "2027-02-05",
     "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
+    "price_from": 84,
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
@@ -378,7 +394,7 @@
     "start_date": "2027-01-13",
     "end_date": "2027-03-23",
     "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
+    "price_from": 84,
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
@@ -426,7 +442,7 @@
     "start_date": "2027-01-02",
     "end_date": "2027-03-17",
     "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
+    "price_from": 84,
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
@@ -462,6 +478,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
+  },
+  {
+    "id": "fc77326a6648",
+    "title": "New Year’s Eve: Opera at Sydney Opera House",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-12-31",
+    "end_date": "2026-12-31",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/new-years-eve-opera-gala-concert-at-sydney-opera-house",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Kick off 2026 in operatic style with one of two spectacular performances at the Sydney Opera House"
   },
   {
     "id": "f5771766a154",
@@ -3152,6 +3184,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-09-24",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "3684ae1dffab",
     "title": "Barnaby: A Country Musical",
     "venue": "Pottery Lane Performance Space - Sydney Fringe Festival",
@@ -3232,6 +3280,22 @@
     "snippet": "Shakespeare’s most haunting thriller follows Macbeth, a famed Scottish general."
   },
   {
+    "id": "44135681526b",
+    "title": "The Lark",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-09-24",
+    "end_date": "2026-09-27",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-lark/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "40bacafc9107",
     "title": "Claire Robin – Nun Slut",
     "venue": "Fringe on The Rocks",
@@ -3262,22 +3326,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-09-23",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "83fb08143b73",
@@ -3344,29 +3392,13 @@
     "snippet": "An ethereal theatrical experience"
   },
   {
-    "id": "44135681526b",
-    "title": "The Lark",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-09-23",
-    "end_date": "2026-09-27",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/the-lark/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
     "id": "d70a3269c0ea",
     "title": "CAPA All Stars-Our Night to Shine",
     "venue": "Riverside Theatres",
     "venue_id": "riverside-theatres",
     "suburb": "Parramatta",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-09-23",
     "end_date": "2026-09-23",
     "booking_url": "https://riversideparramatta.com.au/whats-on/capa-all-stars-our-night-to-shine/",

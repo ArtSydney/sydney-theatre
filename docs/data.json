@@ -441,8 +441,8 @@
     "status": "active",
     "start_date": "2027-01-09",
     "end_date": "2027-01-17",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/hooks-neverland",
-    "price_from": null,
+    "booking_url": "https://www.todaytix.com/sydney/shows/48218-hooks-neverland",
+    "price_from": 79.9,
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A circus of the imagination"
@@ -1118,6 +1118,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Late Night at Old Fitz Theatre. A multi-generational story about love, companionship and the stories we tell ourselves about ownership, asking whether we should treat our machines the way we hope they might one day treat us."
+  },
+  {
+    "id": "d98b9ea3a07c",
+    "title": "Sydney Town Hall organ recitals",
+    "venue": "George Street",
+    "venue_id": "",
+    "suburb": "Sydney",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-11-16",
+    "end_date": "2026-12-23",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-recitals",
+    "price_from": null,
+    "free_event": true,
+    "source": "cityofsydney",
+    "snippet": "Be enchanted by the magic of Sydney Town Hall's grand organ, at a free ticketed concert in the heart of the city."
   },
   {
     "id": "b4f2bc1a4472",
@@ -2688,6 +2704,22 @@
     "snippet": "Every day is your first day. Every night is Stocktake."
   },
   {
+    "id": "0f72f48b078d",
+    "title": "Great Opera Hits",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-10-04",
+    "end_date": "2026-10-26",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Opera Australia season."
+  },
+  {
     "id": "a67fbb086f82",
     "title": "A Room With A View",
     "venue": "Upstairs Theatre | Belvoir St Theatre",
@@ -2848,6 +2880,22 @@
     "snippet": "A wild, fun and magical journey to find that elusive green sheep."
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-09-30",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "00dfd219ddd9",
     "title": "Prey by David Cole",
     "venue": "Old Fitz Theatre",
@@ -2910,38 +2958,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-09-29",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
-    "id": "0f72f48b078d",
-    "title": "Great Opera Hits",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-09-29",
-    "end_date": "2026-10-26",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Opera Australia season."
   },
   {
     "id": "adb270e04691-q-theatre-joan",
@@ -3662,22 +3678,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "d98b9ea3a07c",
-    "title": "Sydney Town Hall organ recitals",
-    "venue": "George Street",
-    "venue_id": "",
-    "suburb": "Sydney",
-    "genre": "musical",
-    "status": "active",
-    "start_date": "2026-09-21",
-    "end_date": "2026-12-23",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-recitals",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Be enchanted by the magic of Sydney Town Hall's grand organ, at a free ticketed concert in the heart of the city."
   },
   {
     "id": "39c63ddb96a3",

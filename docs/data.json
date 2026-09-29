@@ -1040,6 +1040,22 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
+    "id": "5c5be19b4e2d",
+    "title": "Dub Fiction",
+    "venue": "The Factory Theatre",
+    "venue_id": "factory-theatre",
+    "suburb": "Marrickville",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-19",
+    "end_date": "2026-11-19",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dub-fiction",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Watch improvisers dub a clip they have never seen before… live! Choose which clips become an improvised show on stage."
+  },
+  {
     "id": "b8d794c48196",
     "title": "Macbeth",
     "venue": "Sydney Opera House",
@@ -1166,6 +1182,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Urban arts festival "
+  },
+  {
+    "id": "2b7aeeb4fa8d",
+    "title": "2026 Gold!",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/2026-gold/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "6a95ce9b4579",
@@ -1774,6 +1806,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Fast, fun Shakespeare in your local pub"
+  },
+  {
+    "id": "ab92d9fae5ee",
+    "title": "Eggs",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-30",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6201",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Late Night at Old Fitz Theatre."
   },
   {
     "id": "c72601e78fc7",
@@ -2512,6 +2560,22 @@
     "snippet": "Experience the world’s greatest gaming scams at the new Magic Festival in Sydney"
   },
   {
+    "id": "98fdca6358b4",
+    "title": "Quest Bar Talk @ Glebe Hotel",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Glebe",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-10-08",
+    "end_date": "2026-10-08",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/quest-bar-talk-glebe-hotel",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Grab a drink and laugh with comedian Alexandra Hudson, then hear Dr Debra Aarons, a professor of humour, break it down."
+  },
+  {
     "id": "fafdf737a85e",
     "title": "Mooncake -One Moon. Many Stories. A New Play for Children 5+",
     "venue": "Flight Path Theatre",
@@ -2864,6 +2928,22 @@
     "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
+    "id": "0f72f48b078d",
+    "title": "Great Opera Hits",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-09-29",
+    "end_date": "2026-10-26",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Opera Australia season."
+  },
+  {
     "id": "adb270e04691-q-theatre-joan",
     "title": "Where is the Green Sheep?",
     "venue": "Q Theatre | The Joan, Penrith",
@@ -2894,22 +2974,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "The revue tradition returns to Sydney!"
-  },
-  {
-    "id": "0f72f48b078d",
-    "title": "Great Opera Hits",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-09-28",
-    "end_date": "2026-10-26",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Opera Australia season."
   },
   {
     "id": "c8da3280e6ee",

@@ -53,7 +53,7 @@
     "0266b3a71a64": {
       "id": "0266b3a71a64",
       "title": "The Shark Is Broken",
-      "venue": "Foundry Theatre",
+      "venue": "Foundry Theatre (Sydney Lyric)",
       "venue_id": "foundry-theatre",
       "genre": "play",
       "status": "active",
@@ -227,7 +227,7 @@
       "booking_url": "https://www.todaytix.com/sydney/shows/46373-the-lion-king-syd-2026",
       "source": "todaytix",
       "source_url": "https://www.todaytix.com/sydney/shows/46373-the-lion-king-syd-2026",
-      "snippet": "The world’s #1 musical is now playing at the Capitol Theatre, Sydney. ",
+      "snippet": "The world’s #1 musical is now playing at the Capitol Theatre, Sydney.",
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
@@ -484,7 +484,7 @@
       "booking_url": "https://www.todaytix.com/sydney/shows/45782-cirque-du-soleil-kooza-sydney",
       "source": "todaytix",
       "source_url": "https://www.todaytix.com/sydney/shows/45782-cirque-du-soleil-kooza-sydney",
-      "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now.  ",
+      "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now.",
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 77,
@@ -684,7 +684,7 @@
     "90ee40cb24de": {
       "id": "90ee40cb24de",
       "title": "Rodgers and Hammerstein’s CAROUSEL",
-      "venue": "Foundry Theatre",
+      "venue": "Foundry Theatre (Sydney Lyric)",
       "venue_id": "foundry-theatre",
       "genre": "play",
       "status": "active",
@@ -1177,7 +1177,7 @@
       "booking_url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd",
       "source": "todaytix",
       "source_url": "https://www.todaytix.com/sydney/shows/45265-copland-dance-episodes-the-australian-ballet-2026-syd",
-      "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. ",
+      "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes.",
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 70,
@@ -1300,7 +1300,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/burn-the-floor",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/burn-the-floor",
-      "snippet": "International dance sensation Burn The Floor returns home with its brand-new production ‘Luminous’",
+      "snippet": "International dance sensation Burn The Floor returns home with its brand-new production ‘Luminous’",
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
@@ -1387,7 +1387,7 @@
     "41f2f825f57f": {
       "id": "41f2f825f57f",
       "title": "Harlots by Emma Wright",
-      "venue": "The Old Fitzroy Theatre",
+      "venue": "Old Fitz Theatre",
       "venue_id": "old-fitz-theatre",
       "genre": "play",
       "status": "closed",
@@ -1462,7 +1462,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/rat-klub-comedy-show-or-monday-night-or-moshpit-bar-or-king-st",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/rat-klub-comedy-show-or-monday-night-or-moshpit-bar-or-king-st",
-      "snippet": "It's your Monday night stand-up, sketch comedy delight! Live, curated, professional, fresh, independent & weird. ",
+      "snippet": "It's your Monday night stand-up, sketch comedy delight! Live, curated, professional, fresh, independent & weird.",
       "suburb": "Erskineville",
       "free_event": false,
       "price_from": null,
@@ -1510,7 +1510,7 @@
       "venue": "Ron Williams Community Centre",
       "venue_id": "",
       "genre": "unknown",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-01-27",
       "end_date": "2026-12-15",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers",
@@ -1536,7 +1536,9 @@
           "end_date": "2026-12-15",
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers"
         }
-      ]
+      ],
+      "suppressed_reason": "not a production (dq: community dance group (\"Stay active, connect ... through dance\"), not a production)",
+      "dq_note": "2026-09-30 nightly DQ: suppressed, community dance group (\"Stay active, connect ... through dance\"), not a production"
     },
     "4c2a9d0578a9": {
       "id": "4c2a9d0578a9",
@@ -1603,7 +1605,7 @@
     "ab5591daf596": {
       "id": "ab5591daf596",
       "title": "Zoe’s Killer Instinct",
-      "venue": "The Old Fitzroy Theatre",
+      "venue": "Old Fitz Theatre",
       "venue_id": "old-fitz-theatre",
       "genre": "cabaret",
       "status": "closed",
@@ -1752,7 +1754,7 @@
       "venue": "Low 302",
       "venue_id": "",
       "genre": "musical",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-08-26",
       "end_date": "2026-11-25",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/doms-broadway-basement-or-musical-theatre-piano-bar",
@@ -1779,7 +1781,9 @@
           "end_date": "2026-11-25",
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/doms-broadway-basement-or-musical-theatre-piano-bar"
         }
-      ]
+      ],
+      "suppressed_reason": "not a production (dq: sing-along piano bar (audience sings \"hits of your choice\"), karaoke-style)",
+      "dq_note": "2026-09-30 nightly DQ: suppressed, sing-along piano bar (audience sings \"hits of your choice\"), karaoke-style"
     },
     "ba08f9a834ab": {
       "id": "ba08f9a834ab",
@@ -1900,7 +1904,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/alright-hey-bring-back-glamour-encore",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/alright-hey-bring-back-glamour-encore",
-      "snippet": "In a world that’s gotten undeniably ugly, Alright Hey is on a mission to Bring Back Glamour. ",
+      "snippet": "In a world that’s gotten undeniably ugly, Alright Hey is on a mission to Bring Back Glamour.",
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
@@ -2199,7 +2203,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-velvet-rendezvous",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-velvet-rendezvous",
-      "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease ",
+      "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease",
       "suburb": "Coogee",
       "free_event": false,
       "price_from": null,
@@ -2256,7 +2260,7 @@
       "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=801",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/forget-me-please",
-      "snippet": "A world premiere of Sophie Davis' play about love, memory and how trauma reshapes human connection. ",
+      "snippet": "A world premiere of Sophie Davis' play about love, memory and how trauma reshapes human connection.",
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
@@ -2278,7 +2282,7 @@
     "625b7217adfd": {
       "id": "625b7217adfd",
       "title": "Frumpus – Landed",
-      "venue": "PACT",
+      "venue": "PACT Centre for Emerging Artists",
       "venue_id": "pact-centre",
       "genre": "play",
       "status": "closed",
@@ -2297,7 +2301,7 @@
     "eb39fa9323a6": {
       "id": "eb39fa9323a6",
       "title": "Ichor",
-      "venue": "PACT",
+      "venue": "PACT Centre for Emerging Artists",
       "venue_id": "pact-centre",
       "genre": "play",
       "status": "closed",
@@ -2448,7 +2452,7 @@
       "venue": "Glebe Town Hall",
       "venue_id": "",
       "genre": "dance",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-02-06",
       "end_date": "2026-12-18",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-de-tango-la-milonga-2",
@@ -2474,7 +2478,9 @@
           "end_date": "2026-12-18",
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/club-de-tango-la-milonga-2"
         }
-      ]
+      ],
+      "suppressed_reason": "not a production (dq: social dance / tango lesson (\"Learn to dance authentic Argentine tango\"), recurring milonga)",
+      "dq_note": "2026-09-30 nightly DQ: suppressed, social dance / tango lesson (\"Learn to dance authentic Argentine tango\"), recurring milonga"
     },
     "a4a08f8b3370": {
       "id": "a4a08f8b3370",
@@ -2795,7 +2801,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/psycho-or-psychic",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/psycho-or-psychic",
-      "snippet": "Discover connection like never before - Fun, heartfelt and captivating. ",
+      "snippet": "Discover connection like never before - Fun, heartfelt and captivating.",
       "suburb": "Erskineville",
       "free_event": false,
       "price_from": null,
@@ -2871,7 +2877,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/strike-a-chord",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/strike-a-chord",
-      "snippet": "A bold contemporary flamenco work where guitar and dance ignite in an electrifying performance. ",
+      "snippet": "A bold contemporary flamenco work where guitar and dance ignite in an electrifying performance.",
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
@@ -2970,7 +2976,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-red-room",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-red-room",
-      "snippet": "Inspired by the opulence of a bygone era, experience an evening of glamour & tease in this cabaret burlesque revue ",
+      "snippet": "Inspired by the opulence of a bygone era, experience an evening of glamour & tease in this cabaret burlesque revue",
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
@@ -3251,7 +3257,7 @@
     "eb8aed0776ae": {
       "id": "eb8aed0776ae",
       "title": "The Dragon Child and the twelve animals of the Zodiac",
-      "venue": "The Star",
+      "venue": "The Star Event Centre",
       "venue_id": "the-star",
       "genre": "family",
       "status": "closed",
@@ -3907,7 +3913,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-burlesque-festival-the-big-tease-gala",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-burlesque-festival-the-big-tease-gala",
-      "snippet": "Burlesque Festival ",
+      "snippet": "Burlesque Festival",
       "suburb": "Chatswood",
       "free_event": false,
       "price_from": null,
@@ -3932,7 +3938,7 @@
     "03375e2e2f2b": {
       "id": "03375e2e2f2b",
       "title": "Monty Python's Spamalot",
-      "venue": "The Star",
+      "venue": "The Star Event Centre",
       "venue_id": "the-star",
       "genre": "musical",
       "status": "active",
@@ -4010,7 +4016,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/break-the-5th-wall",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/break-the-5th-wall",
-      "snippet": " The relentless cycle of training, cyphers and battles in a breaker’s search for identity.",
+      "snippet": "The relentless cycle of training, cyphers and battles in a breaker’s search for identity.",
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
@@ -4345,7 +4351,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-memory-of-water",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-memory-of-water",
-      "snippet": "Three sisters. One funeral. Grief, laughter, and the strange tides of memory. ",
+      "snippet": "Three sisters. One funeral. Grief, laughter, and the strange tides of memory.",
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
@@ -4506,7 +4512,7 @@
     "724c6bb50d10": {
       "id": "724c6bb50d10",
       "title": "Wake in Fright",
-      "venue": "Belvoir Street Theatre",
+      "venue": "Belvoir St Theatre",
       "venue_id": "belvoir-st-theatre",
       "genre": "play",
       "status": "active",
@@ -4540,7 +4546,7 @@
     "da05c7b9ff14": {
       "id": "da05c7b9ff14",
       "title": "Paradise Hotel",
-      "venue": "KXT on Broadway",
+      "venue": "KXT (Kings Cross Theatre)",
       "venue_id": "kxt",
       "genre": "play",
       "status": "active",
@@ -4754,7 +4760,7 @@
       "venue": "The Grand Electric",
       "venue_id": "the-grand-electric",
       "genre": "cabaret",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-09-05",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-flamingo",
@@ -4781,7 +4787,9 @@
           "end_date": "2026-10-10",
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/club-flamingo"
         }
-      ]
+      ],
+      "suppressed_reason": "not a production (dq: kids nightclub (\"Family nightclub, where kids rule the dance floor\"), activity not a show)",
+      "dq_note": "2026-09-30 nightly DQ: suppressed, kids nightclub (\"Family nightclub, where kids rule the dance floor\"), activity not a show"
     },
     "b9dddf957ba6": {
       "id": "b9dddf957ba6",
@@ -5217,7 +5225,7 @@
     "1ef74a939963": {
       "id": "1ef74a939963",
       "title": "How My Light is Spent",
-      "venue": "KXT on Broadway",
+      "venue": "KXT (Kings Cross Theatre)",
       "venue_id": "kxt",
       "genre": "musical",
       "status": "closed",
@@ -5279,7 +5287,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/shipwreck-odyssey",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/shipwreck-odyssey",
-      "snippet": "The whole family is invited to dive beneath the waves for a fantastical marine adventure from Box of Birds",
+      "snippet": "The whole family is invited to dive beneath the waves for a fantastical marine adventure from Box of Birds",
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
@@ -5586,7 +5594,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-culture-month-in-the-rocks",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-culture-month-in-the-rocks",
-      "snippet": "An unmissable month of art, comedy, poetry, music and more. ",
+      "snippet": "An unmissable month of art, comedy, poetry, music and more.",
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
@@ -6148,7 +6156,7 @@
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/shen-yun-sydney",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/shen-yun-sydney",
-      "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for. ",
+      "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for.",
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
@@ -6893,7 +6901,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "cabaret",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-11-10",
       "end_date": "2026-11-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dr-sketchys-sydney",
@@ -6920,7 +6928,9 @@
           "end_date": "2026-11-10",
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/dr-sketchys-sydney"
         }
-      ]
+      ],
+      "suppressed_reason": "not a production (dq: life-drawing class (listing describes itself as \"a life-drawing class with a twist\"))",
+      "dq_note": "2026-09-30 nightly DQ: suppressed, life-drawing class (listing describes itself as \"a life-drawing class with a twist\")"
     },
     "df656ca8dede": {
       "id": "df656ca8dede",
@@ -8117,7 +8127,7 @@
     "d677be36cafb": {
       "id": "d677be36cafb",
       "title": "Stocktake at Belvoir 25A",
-      "venue": "Belvoir Street Theatre",
+      "venue": "Belvoir St Theatre",
       "venue_id": "belvoir-st-theatre",
       "genre": "play",
       "status": "active",
@@ -11307,7 +11317,7 @@
       "booking_url": "https://thepavilionarts.au/",
       "source": "venue-feed",
       "source_url": "https://thepavilionarts.au/",
-      "snippet": "An unforgettable evening where extraordinary\r\nconnections, remarkable evidence and heartfelt messages celebrate that love is eternal.",
+      "snippet": "An unforgettable evening where extraordinary connections, remarkable evidence and heartfelt messages celebrate that love is eternal.",
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
@@ -11557,7 +11567,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "comedy",
-      "status": "active",
+      "status": "suppressed",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/quest-bar-talk-glebe-hotel",
@@ -11584,7 +11594,9 @@
         }
       ],
       "last_seen": "2026-09-30",
-      "booking_source": "cityofsydney"
+      "booking_source": "cityofsydney",
+      "suppressed_reason": "not a production (dq: talk (bar talk with a professor of humour), not a stage production)",
+      "dq_note": "2026-09-30 nightly DQ: suppressed, talk (bar talk with a professor of humour), not a stage production"
     },
     "5c5be19b4e2d": {
       "id": "5c5be19b4e2d",

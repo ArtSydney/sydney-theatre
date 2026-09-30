@@ -157,7 +157,7 @@
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",
-    "snippet": "An unforgettable evening where extraordinary\r\nconnections, remarkable evidence and heartfelt messages celebrate that love is eternal."
+    "snippet": "An unforgettable evening where extraordinary connections, remarkable evidence and heartfelt messages celebrate that love is eternal."
   },
   {
     "id": "feb1468e048b",
@@ -174,6 +174,22 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
+  },
+  {
+    "id": "f02ff09ea7a1",
+    "title": "Denise Scott - Tickety Boo",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-05-01",
+    "end_date": "2027-05-01",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "After more than a decade away from solo performance, beloved Australian comedian Denise Scott is making a triumphant return to the stage with her most personal show yet"
   },
   {
     "id": "ee7c9b7377be",
@@ -253,7 +269,7 @@
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
-    "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for. "
+    "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for."
   },
   {
     "id": "845749281f7e",
@@ -642,7 +658,7 @@
   {
     "id": "da05c7b9ff14",
     "title": "Paradise Hotel",
-    "venue": "KXT on Broadway",
+    "venue": "KXT (Kings Cross Theatre)",
     "venue_id": "kxt",
     "suburb": "Ultimo",
     "genre": "play",
@@ -690,7 +706,7 @@
   {
     "id": "724c6bb50d10",
     "title": "Wake in Fright",
-    "venue": "Belvoir Street Theatre",
+    "venue": "Belvoir St Theatre",
     "venue_id": "belvoir-st-theatre",
     "suburb": "Surry Hills",
     "genre": "play",
@@ -754,7 +770,7 @@
   {
     "id": "188512a29e74",
     "title": "The Nutcracker",
-    "venue": "Joan Sutherland Theatre | Sydney Opera House",
+    "venue": "Joan Sutherland Theatre (Opera House)",
     "venue_id": "joan-sutherland-theatre",
     "suburb": "Sydney",
     "genre": "dance",
@@ -1005,7 +1021,7 @@
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
-    "snippet": "Three sisters. One funeral. Grief, laughter, and the strange tides of memory. "
+    "snippet": "Three sisters. One funeral. Grief, laughter, and the strange tides of memory."
   },
   {
     "id": "16a0e9e038d4",
@@ -1152,22 +1168,6 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
-    "id": "df5ec7bc8f16",
-    "title": "Dr Sketchy’s Sydney - November Edition",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dr-sketchys-sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Where art meets cabaret! A life-drawing class with a twist"
-  },
-  {
     "id": "b1bc248a7ff2",
     "title": "A Number",
     "venue": "Old Fitz Theatre",
@@ -1229,7 +1229,7 @@
     "price_from": 70,
     "free_event": false,
     "source": "todaytix",
-    "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes. "
+    "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes."
   },
   {
     "id": "778f36b2741c",
@@ -1746,7 +1746,7 @@
   {
     "id": "0574d34f265f",
     "title": "Strong Is The New Pretty",
-    "venue": "Drama Theatre | Sydney Opera House",
+    "venue": "Drama Theatre (Opera House)",
     "venue_id": "drama-theatre",
     "suburb": "Sydney",
     "genre": "play",
@@ -1853,7 +1853,7 @@
     "price_from": 77,
     "free_event": false,
     "source": "todaytix",
-    "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now.  "
+    "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now."
   },
   {
     "id": "66c9f1a9087f",
@@ -1885,7 +1885,7 @@
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
-    "snippet": " The relentless cycle of training, cyphers and battles in a breaker’s search for identity."
+    "snippet": "The relentless cycle of training, cyphers and battles in a breaker’s search for identity."
   },
   {
     "id": "94415f5a6464",
@@ -1938,7 +1938,7 @@
   {
     "id": "90ee40cb24de",
     "title": "Rodgers and Hammerstein’s CAROUSEL",
-    "venue": "Foundry Theatre",
+    "venue": "Foundry Theatre (Sydney Lyric)",
     "venue_id": "foundry-theatre",
     "suburb": "Pyrmont",
     "genre": "play",
@@ -1954,7 +1954,7 @@
   {
     "id": "03375e2e2f2b",
     "title": "Monty Python's Spamalot",
-    "venue": "The Star",
+    "venue": "The Star Event Centre",
     "venue_id": "the-star",
     "suburb": "Pyrmont",
     "genre": "musical",
@@ -2058,7 +2058,7 @@
     "start_date": "2026-10-10",
     "end_date": "2026-10-10",
     "booking_url": "https://www.todaytix.com/sydney/shows/47336-the-man-from-snowy-river-in-concert",
-    "price_from": null,
+    "price_from": 69,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2109,7 +2109,7 @@
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
-    "snippet": "Burlesque Festival "
+    "snippet": "Burlesque Festival"
   },
   {
     "id": "2a3cf24d40ac-the-pavilion-performing-arts-centre",
@@ -2368,22 +2368,6 @@
     "snippet": "Experience the world’s greatest gaming scams at the new Magic Festival in Sydney"
   },
   {
-    "id": "98fdca6358b4",
-    "title": "Quest Bar Talk @ Glebe Hotel",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Glebe",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-08",
-    "end_date": "2026-10-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/quest-bar-talk-glebe-hotel",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Grab a drink and laugh with comedian Alexandra Hudson, then hear Dr Debra Aarons, a professor of humour, break it down."
-  },
-  {
     "id": "fafdf737a85e",
     "title": "Mooncake -One Moon. Many Stories. A New Play for Children 5+",
     "venue": "Flight Path Theatre",
@@ -2402,7 +2386,7 @@
   {
     "id": "bf4397d8b4dc",
     "title": "Wolf",
-    "venue": "Q Theatre | The Joan, Penrith",
+    "venue": "Q Theatre, The Joan",
     "venue_id": "q-theatre-joan",
     "suburb": "Penrith",
     "genre": "play",
@@ -2482,7 +2466,7 @@
   {
     "id": "d677be36cafb",
     "title": "Stocktake at Belvoir 25A",
-    "venue": "Belvoir Street Theatre",
+    "venue": "Belvoir St Theatre",
     "venue_id": "belvoir-st-theatre",
     "suburb": "Surry Hills",
     "genre": "play",
@@ -2663,29 +2647,13 @@
     "suburb": "Sydney",
     "genre": "family",
     "status": "active",
-    "start_date": "2026-09-30",
+    "start_date": "2026-10-01",
     "end_date": "2026-10-31",
     "booking_url": "https://opera.org.au/whats-on/sydney",
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
-    "id": "00dfd219ddd9",
-    "title": "Prey by David Cole",
-    "venue": "Old Fitz Theatre",
-    "venue_id": "old-fitz-theatre",
-    "suburb": "Woolloomooloo",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-09-30",
-    "end_date": "2026-09-30",
-    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4001",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Reading at Old Fitz Theatre."
   },
   {
     "id": "b6102cb6bb8e",
@@ -2704,22 +2672,6 @@
     "snippet": "Globally renowned children's entertainer Mario the Magic Maker stops for a magical stint in Sutherland."
   },
   {
-    "id": "5048c7520249",
-    "title": "The Bubble Show In Space",
-    "venue": "The Pavilion Performing Arts Centre",
-    "venue_id": "the-pavilion-performing-arts-centre",
-    "suburb": "Sutherland",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-09-30",
-    "end_date": "2026-09-30",
-    "booking_url": "https://thepavilionarts.au/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Embark on a soap-tastic adventure to the intergalactic wonder that is bubbles in space!"
-  },
-  {
     "id": "91af27023a68",
     "title": "The Unfriend",
     "venue": "Roslyn Packer Theatre",
@@ -2731,22 +2683,6 @@
     "end_date": "2026-10-31",
     "booking_url": "https://www.todaytix.com/sydney/shows/45307-the-unfriend-sydney-theatre-company-2026",
     "price_from": 62,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": ""
-  },
-  {
-    "id": "adb270e04691-q-theatre-joan",
-    "title": "Where is the Green Sheep?",
-    "venue": "Q Theatre | The Joan, Penrith",
-    "venue_id": "q-theatre-joan",
-    "suburb": "Penrith",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-09-29",
-    "end_date": "2026-09-30",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46017-where-is-the-green-sheep-at-the-joan-penrith",
-    "price_from": 51,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2813,7 +2749,7 @@
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
-    "snippet": "The whole family is invited to dive beneath the waves for a fantastical marine adventure from Box of Birds"
+    "snippet": "The whole family is invited to dive beneath the waves for a fantastical marine adventure from Box of Birds"
   },
   {
     "id": "e3166ce8acd4",
@@ -2976,22 +2912,6 @@
     "snippet": "If you only see one show this fringe, make sure this is the one!"
   },
   {
-    "id": "5448fcc6beb9",
-    "title": "Club Flamingo",
-    "venue": "The Grand Electric",
-    "venue_id": "the-grand-electric",
-    "suburb": "Surry Hills",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-09-05",
-    "end_date": "2026-10-10",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-flamingo",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Family nightclub, where kids rule the dance floor."
-  },
-  {
     "id": "8d8d79f7c72d",
     "title": "Captain Corelli's Mandolin",
     "venue": "Genesian Theatre",
@@ -3040,25 +2960,9 @@
     "snippet": ""
   },
   {
-    "id": "a3399e05e787",
-    "title": "Unlock The Rocks Art & Culture Month",
-    "venue": "The Rocks Square",
-    "venue_id": "",
-    "suburb": "Sydney",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-09-01",
-    "end_date": "2026-09-30",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-culture-month-in-the-rocks",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "An unmissable month of art, comedy, poetry, music and more. "
-  },
-  {
     "id": "0266b3a71a64",
     "title": "The Shark Is Broken",
-    "venue": "Foundry Theatre",
+    "venue": "Foundry Theatre (Sydney Lyric)",
     "venue_id": "foundry-theatre",
     "suburb": "Pyrmont",
     "genre": "play",
@@ -3086,22 +2990,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": "The biggest party to hit Mount Olympus since 500 BC is back, and the gods are ready to raise hell!"
-  },
-  {
-    "id": "5756a52659de",
-    "title": "Dom's Broadway Basement: Musical theatre piano bar",
-    "venue": "Low 302",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "musical",
-    "status": "active",
-    "start_date": "2026-08-26",
-    "end_date": "2026-11-25",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/doms-broadway-basement-or-musical-theatre-piano-bar",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Sing-a-long to the musical hits of your choice accompanied by an award-winning pianist"
   },
   {
     "id": "d67fa9991b90",
@@ -3181,7 +3069,7 @@
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
-    "snippet": "It's your Monday night stand-up, sketch comedy delight! Live, curated, professional, fresh, independent & weird. "
+    "snippet": "It's your Monday night stand-up, sketch comedy delight! Live, curated, professional, fresh, independent & weird."
   },
   {
     "id": "d904ff3908b9",
@@ -3197,7 +3085,7 @@
     "price_from": null,
     "free_event": false,
     "source": "todaytix",
-    "snippet": "The world’s #1 musical is now playing at the Capitol Theatre, Sydney. "
+    "snippet": "The world’s #1 musical is now playing at the Capitol Theatre, Sydney."
   },
   {
     "id": "7b38283609bb",
@@ -3214,38 +3102,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Experience a harmonious blend of nature and melody in the Chinese Garden of Friendship"
-  },
-  {
-    "id": "c8e442171032",
-    "title": "Club De Tango: La Milonga",
-    "venue": "Glebe Town Hall",
-    "venue_id": "",
-    "suburb": "Glebe",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-02-06",
-    "end_date": "2026-12-18",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-de-tango-la-milonga-2",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Learn to dance authentic Argentine tango"
-  },
-  {
-    "id": "1d1d658b0b4a",
-    "title": "Dancing group for Chinese speakers",
-    "venue": "Ron Williams Community Centre",
-    "venue_id": "",
-    "suburb": "Redfern",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-01-27",
-    "end_date": "2026-12-15",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dancing-group-for-chinese-speakers",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Stay active, connect and celebrate culture through dance! "
   },
   {
     "id": "15bacad1856c",

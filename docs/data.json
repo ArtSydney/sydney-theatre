@@ -1488,6 +1488,22 @@
     "snippet": "A man wakes in the woods with no memory. A genre-smashing horror meets Arthurian fairytale."
   },
   {
+    "id": "c179d3f8dd37",
+    "title": "Girl Band by Katy Warner",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-04",
+    "end_date": "2026-11-04",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/girl-band-screening/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "5c158bd2748d",
     "title": "Sir Stephen Hough in Recital",
     "venue": "City Recital Hall",
@@ -2554,7 +2570,7 @@
     "start_date": "2026-10-08",
     "end_date": "2026-10-10",
     "booking_url": "https://www.todaytix.com/sydney/shows/45735-ying-fang-sings-songs-of-the-auvergne-sso-2026",
-    "price_from": 55,
+    "price_from": 48,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2749,7 +2765,7 @@
     "price_from": 63,
     "free_event": false,
     "source": "todaytix",
-    "snippet": ""
+    "snippet": "Belvoir presents A Room with A View, written by E.M. Forster, adapted by Grace Chapple, directed by Hannah Goodwin"
   },
   {
     "id": "c25bd1903370",
@@ -2814,6 +2830,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
+  },
+  {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-02",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "762fa9d21333",
@@ -2896,22 +2928,6 @@
     "snippet": "A wild, fun and magical journey to find that elusive green sheep."
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-01",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "00dfd219ddd9",
     "title": "Prey by David Cole",
     "venue": "Old Fitz Theatre",
@@ -2934,7 +2950,7 @@
     "venue_id": "the-pavilion-performing-arts-centre",
     "suburb": "Sutherland",
     "genre": "family",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-09-30",
     "end_date": "2026-10-01",
     "booking_url": "https://thepavilionarts.au/",
@@ -3718,7 +3734,7 @@
     "venue_id": "state-library-nsw",
     "suburb": "Sydney",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-09-20",
     "end_date": "2026-10-01",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-night-at-the-library",

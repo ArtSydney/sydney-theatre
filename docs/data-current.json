@@ -768,6 +768,22 @@
     "snippet": ""
   },
   {
+    "id": "b48ebd980606",
+    "title": "READY TO MAMBO",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-29",
+    "end_date": "2026-11-29",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Australia’s favourite Venezuelan is back with a hilarious new show about dancing through tough times, finding joy in chaos and shaking off your worries to a Latino beat!"
+  },
+  {
     "id": "188512a29e74",
     "title": "The Nutcracker",
     "venue": "Joan Sutherland Theatre (Opera House)",
@@ -1360,6 +1376,22 @@
     "snippet": ""
   },
   {
+    "id": "fbf751d617ad",
+    "title": "Nosferatu: A Psychedelic Cinema Experience",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Marrickville",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-11-04",
+    "end_date": "2026-11-05",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/nosferatu-a-psychedelic-cinema-experience",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Cone of Confusion performs live an original soundtrack to the screening of 1922 silent film classic Nosferatu"
+  },
+  {
     "id": "5c158bd2748d",
     "title": "Sir Stephen Hough in Recital",
     "venue": "City Recital Hall",
@@ -1465,7 +1497,7 @@
     "status": "active",
     "start_date": "2026-10-30",
     "end_date": "2026-11-21",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/snowflake-by-mike-bartlett",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/snowflake",
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
@@ -2528,6 +2560,22 @@
     "snippet": "Belvoir presents A Room with A View, written by E.M. Forster, adapted by Grace Chapple, directed by Hannah Goodwin"
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-03",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "c25bd1903370",
     "title": "NARUTO: The Symphonic Experience",
     "venue": "ICC Sydney",
@@ -2592,22 +2640,6 @@
     "snippet": ""
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-02",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "762fa9d21333",
     "title": "Carly Electric: Back In My Box",
     "venue": "The Factory Theatre",
@@ -2622,54 +2654,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Whilst her comedy debut was selling out, Carly’s notifications kept pinging! So she’s back with new, unhinged stories."
-  },
-  {
-    "id": "1112e9687ec0",
-    "title": "OPENING NIGHT | Kookaburra's Comedy Club | Sydney CBD",
-    "venue": "Castlereagh Boutique Hotel",
-    "venue_id": "castlereagh-hotel",
-    "suburb": "Sydney",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-02",
-    "end_date": "2026-10-02",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/happy-hour-comedy",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "It’s OPENING NIGHT for our brand-new stand up comedy show - at the CBD's most stylish hideaway!"
-  },
-  {
-    "id": "c43e779da56e",
-    "title": "Scarlet Burlesque",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-10-02",
-    "end_date": "2026-10-02",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/scarlet-cabaret-burlesque",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Let the velvet drapes draw you into a world of smoky allure and sultry surprise"
-  },
-  {
-    "id": "adb270e04691",
-    "title": "Where is the Green Sheep?",
-    "venue": "The Pavilion Performing Arts Centre",
-    "venue_id": "the-pavilion-performing-arts-centre",
-    "suburb": "Sutherland",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-02",
-    "end_date": "2026-10-02",
-    "booking_url": "https://thepavilionarts.au/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "A wild, fun and magical journey to find that elusive green sheep."
   },
   {
     "id": "91af27023a68",
@@ -2782,22 +2766,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": "An absurd and very silly journey through religion and the body"
-  },
-  {
-    "id": "39c63ddb96a3",
-    "title": "The Man",
-    "venue": "Old Fitz Theatre",
-    "venue_id": "old-fitz-theatre",
-    "suburb": "Woolloomooloo",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-09-21",
-    "end_date": "2026-10-02",
-    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4401",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Late Night at Old Fitz Theatre. Tax makes Ben anxious. As a sole-trader, he’s been hoarding receipts all year. Now, he has to go through them all - and the audience is going to help."
   },
   {
     "id": "59249c4410f9",

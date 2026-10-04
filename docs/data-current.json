@@ -2480,6 +2480,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-06",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "e46e3133d917",
     "title": "Cirque Nouvelle",
     "venue": "The Pavilion Performing Arts Centre",
@@ -2512,20 +2528,20 @@
     "snippet": "Come on a journey with our writer, with their thoughts and ideas coming to life on stage in this all-ages circus show.."
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
+    "id": "0f72f48b078d",
+    "title": "Great Opera Hits",
     "venue": "Sydney Opera House",
     "venue_id": "sydney-opera-house",
     "suburb": "Sydney",
-    "genre": "family",
+    "genre": "opera",
     "status": "active",
-    "start_date": "2026-10-04",
-    "end_date": "2026-10-31",
+    "start_date": "2026-10-05",
+    "end_date": "2026-10-26",
     "booking_url": "https://opera.org.au/whats-on/sydney",
     "price_from": null,
     "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+    "source": "venue-feed",
+    "snippet": "Opera Australia season."
   },
   {
     "id": "d677be36cafb",
@@ -2544,22 +2560,6 @@
     "snippet": "Every day is your first day. Every night is Stocktake."
   },
   {
-    "id": "0f72f48b078d",
-    "title": "Great Opera Hits",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-10-04",
-    "end_date": "2026-10-26",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Opera Australia season."
-  },
-  {
     "id": "a67fbb086f82",
     "title": "A Room With A View",
     "venue": "Upstairs Theatre | Belvoir St Theatre",
@@ -2574,22 +2574,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": "Belvoir presents A Room with A View, written by E.M. Forster, adapted by Grace Chapple, directed by Hannah Goodwin"
-  },
-  {
-    "id": "1b7d5726533a",
-    "title": "The Gruffalo's Child",
-    "venue": "Seymour Centre",
-    "venue_id": "seymour-centre",
-    "suburb": "Chippendale",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-03",
-    "end_date": "2026-10-04",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-gruffalos-child",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Magical musical adaptation of the much-loved picture book."
   },
   {
     "id": "91af27023a68",
@@ -2670,22 +2654,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Fall down the rabbit hole and into a spectacular new world…"
-  },
-  {
-    "id": "40bacafc9107",
-    "title": "Claire Robin – Nun Slut",
-    "venue": "Fringe on The Rocks",
-    "venue_id": "",
-    "suburb": "The Rocks",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-09-23",
-    "end_date": "2026-10-04",
-    "booking_url": "https://www.todaytix.com/sydney/shows/47542-nun-slut",
-    "price_from": 45,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": "An absurd and very silly journey through religion and the body"
   },
   {
     "id": "59249c4410f9",
@@ -2816,22 +2784,6 @@
     "snippet": ""
   },
   {
-    "id": "0266b3a71a64",
-    "title": "The Shark Is Broken",
-    "venue": "Foundry Theatre (Sydney Lyric)",
-    "venue_id": "foundry-theatre",
-    "suburb": "Pyrmont",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-08-28",
-    "end_date": "2026-10-04",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46902-the-shark-is-broken-sydney",
-    "price_from": 75,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": ""
-  },
-  {
     "id": "bdd674d54d84",
     "title": "Return of the GODZ",
     "venue": "The Entertainment Quarter",
@@ -2910,22 +2862,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "It's your Monday night stand-up, sketch comedy delight! Live, curated, professional, fresh, independent & weird."
-  },
-  {
-    "id": "d904ff3908b9",
-    "title": "THE LION KING",
-    "venue": "Capitol Theatre",
-    "venue_id": "capitol-theatre",
-    "suburb": "Haymarket",
-    "genre": "musical",
-    "status": "active",
-    "start_date": "2026-04-18",
-    "end_date": "2026-10-04",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46373-the-lion-king-syd-2026",
-    "price_from": null,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": "The world’s #1 musical is now playing at the Capitol Theatre, Sydney."
   },
   {
     "id": "7b38283609bb",

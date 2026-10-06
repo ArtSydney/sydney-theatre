@@ -1280,6 +1280,22 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
+    "id": "1905104c5367",
+    "title": "I Love Your Faces: The Don Lane Story",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Kingsford",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-13",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/i-love-your-faces-the-don-lane-story",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A father. A son. A legacy brought to life. "
+  },
+  {
     "id": "df5ec7bc8f16",
     "title": "Dr Sketchy’s Sydney - November Edition",
     "venue": "",
@@ -2752,6 +2768,22 @@
     "snippet": "Dazzling Aussie acts, acrobatics, aerials and fire for all ages!"
   },
   {
+    "id": "0f72f48b078d",
+    "title": "Great Opera Hits",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-10-06",
+    "end_date": "2026-10-26",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Opera Australia season."
+  },
+  {
     "id": "e8aaecd1828b",
     "title": "Typo (Clockwork Circus) at Fringe Kids",
     "venue": "The Entertainment Quarter",
@@ -2766,22 +2798,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Come on a journey with our writer, with their thoughts and ideas coming to life on stage in this all-ages circus show.."
-  },
-  {
-    "id": "0f72f48b078d",
-    "title": "Great Opera Hits",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-10-05",
-    "end_date": "2026-10-26",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Opera Australia season."
   },
   {
     "id": "d677be36cafb",

@@ -800,6 +800,22 @@
     "snippet": ""
   },
   {
+    "id": "724c6bb50d10-carriageworks",
+    "title": "Wake In Fright",
+    "venue": "Bay 20 | Carriageworks",
+    "venue_id": "carriageworks",
+    "suburb": "Eveleigh",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-12-02",
+    "end_date": "2026-12-19",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45273-wake-in-fright-griffin-theatre-2026",
+    "price_from": 86,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "063eab347cad",
     "title": "A Christmas Celebration",
     "venue": "The Pavilion Performing Arts Centre",
@@ -1086,6 +1102,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Watch improvisers dub a clip they have never seen before… live! Choose which clips become an improvised show on stage."
+  },
+  {
+    "id": "5de3a43cf2bb",
+    "title": "Večeras Je Naša Fešta | Tonight is Our Party by Lea Šimić",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-19",
+    "end_date": "2026-11-19",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6401",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
   },
   {
     "id": "b8d794c48196",
@@ -1488,6 +1520,22 @@
     "snippet": ""
   },
   {
+    "id": "119d6ce059a8",
+    "title": "Orbit",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Dawes Point",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-14",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/orbit",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Four independent choreographers across two weeks of contemporary dance"
+  },
+  {
     "id": "c84a762b5a24",
     "title": "The Husband Stitch",
     "venue": "Flight Path Theatre",
@@ -1646,6 +1694,38 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "From the wit and warmth of Bette Midler to the breathtaking power of Barbra Streisand and the heartfelt melodies of Barry Manilow, this spectacular concert brings their greatest hits to life."
+  },
+  {
+    "id": "bed47e7f0e9e",
+    "title": "Take the Stage Presents: A Deathly Threat",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Five Dock",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-31",
+    "end_date": "2026-11-01",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/take-the-stage-presents-a-deathly-threat",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Interactive Halloween murder mystery. Can you solve the case?"
+  },
+  {
+    "id": "6aa796e833dc",
+    "title": "Voices of Harmony",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-31",
+    "end_date": "2026-10-31",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/voices-of-harmony/",
+    "price_from": null,
+    "free_event": true,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "08c8c3a0b5d9",
@@ -1966,6 +2046,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Vibrant beats, captivating performers and immersive art – all set against the historic backdrop of the Canopy Fountain"
+  },
+  {
+    "id": "19a38855609c",
+    "title": "Out of the Studio",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Dawes Point",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-24",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/out-of-the-studio",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "New contemporary dance works in development from Cassidy McDermott Smith and Shyamla"
   },
   {
     "id": "c88c07882187",
@@ -2312,7 +2408,7 @@
     "genre": "opera",
     "status": "active",
     "start_date": "2026-10-11",
-    "end_date": "2026-10-26",
+    "end_date": "2027-03-21",
     "booking_url": "https://opera.org.au/whats-on/sydney",
     "price_from": null,
     "free_event": false,
@@ -2608,6 +2704,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-08",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "6d4b872220a1",
     "title": "Season Squad The Musical",
     "venue": "",
@@ -2688,6 +2800,22 @@
     "snippet": "Experience the world’s greatest gaming scams at the new Magic Festival in Sydney"
   },
   {
+    "id": "adb270e04691-riverside-theatres",
+    "title": "Where Is The Green Sheep?",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-08",
+    "end_date": "2026-10-16",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "98fdca6358b4",
     "title": "Quest Bar Talk @ Glebe Hotel",
     "venue": "",
@@ -2702,22 +2830,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Grab a drink and laugh with comedian Alexandra Hudson, then hear Dr Debra Aarons, a professor of humour, break it down."
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-07",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "fafdf737a85e",
@@ -2762,22 +2874,6 @@
     "start_date": "2026-10-07",
     "end_date": "2026-10-10",
     "booking_url": "https://riversideparramatta.com.au/whats-on/into-the-box/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
-    "id": "adb270e04691-riverside-theatres",
-    "title": "Where Is The Green Sheep?",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-07",
-    "end_date": "2026-10-16",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",

@@ -218,7 +218,7 @@
     "start_date": "2027-03-27",
     "end_date": "2027-04-25",
     "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
+    "price_from": 84,
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
@@ -1840,6 +1840,22 @@
     "snippet": "Late Night at Old Fitz Theatre."
   },
   {
+    "id": "60379b54f1e3",
+    "title": "Eggs at The Old Fitz Theatre",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-30",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/eggs-at-the-old-fitz-theatre",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Female friendship, fertility and freaking the f**k out! "
+  },
+  {
     "id": "c72601e78fc7",
     "title": "The Good Soldier Švejk",
     "venue": "Castlereagh Boutique Hotel",
@@ -2368,6 +2384,22 @@
     "snippet": "Aren’t you just dying to be a Tiger?"
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-09",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "f3a6bfe9bfd5",
     "title": "Deep. Funny. Piano. Gay.",
     "venue": "",
@@ -2464,6 +2496,22 @@
     "snippet": "Swerving across gender and generation, the certainties of family, friendship and identity are prised apart - with devastating consequences."
   },
   {
+    "id": "adb270e04691-riverside-theatres",
+    "title": "Where Is The Green Sheep?",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-09",
+    "end_date": "2026-10-16",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "a89fe8beb961",
     "title": "Bernie Dieter's Club Kabarett",
     "venue": "Bay 20 | Carriageworks",
@@ -2494,22 +2542,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-08",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "6d4b872220a1",
@@ -2574,54 +2606,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Experience the world’s greatest gaming scams at the new Magic Festival in Sydney"
-  },
-  {
-    "id": "adb270e04691-riverside-theatres",
-    "title": "Where Is The Green Sheep?",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-08",
-    "end_date": "2026-10-16",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
-    "id": "fafdf737a85e",
-    "title": "Mooncake -One Moon. Many Stories. A New Play for Children 5+",
-    "venue": "Flight Path Theatre",
-    "venue_id": "flight-path-theatre",
-    "suburb": "Marrickville",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-07",
-    "end_date": "2026-10-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/mooncake-one-moon-many-stories-a-new-play-for-children-5",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "A magical puppetry play for children 5+ & families. Joyful, funny & quietly moving."
-  },
-  {
-    "id": "bf4397d8b4dc",
-    "title": "Wolf",
-    "venue": "Q Theatre, The Joan",
-    "venue_id": "q-theatre-joan",
-    "suburb": "Penrith",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-07",
-    "end_date": "2026-10-08",
-    "booking_url": "https://www.todaytix.com/sydney/shows/46018-wolf-at-the-joan-penrith",
-    "price_from": 50,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": ""
   },
   {
     "id": "26c618ba837b",

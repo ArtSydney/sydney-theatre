@@ -16,10 +16,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 35,
-      "fetched_at": "2026-10-09T23:52:06.400226+00:00",
+      "fetched_at": "2026-10-10T23:19:25.871982+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -97,13 +97,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 94.9,
-      "fetched_at": "2026-10-09T23:52:08.371443+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124771+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -200,10 +200,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-10-09T23:52:06.400825+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872390+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -231,14 +231,14 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:06.400241+00:00",
+      "fetched_at": "2026-10-10T23:19:25.871995+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "tours-and-experiences"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -274,13 +274,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370632+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124183+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -306,7 +306,7 @@
       "venue": "Coliseum Theatre",
       "venue_id": "coliseum-theatre",
       "genre": "play",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "booking_url": "https://www.todaytix.com/sydney/shows/47336-the-man-from-snowy-river-in-concert",
@@ -366,13 +366,13 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-10-09T23:52:08.366087+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120641+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -427,13 +427,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74.5,
-      "fetched_at": "2026-10-09T23:52:08.367251+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120949+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -488,14 +488,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 77,
-      "fetched_at": "2026-10-09T23:52:08.368616+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122538+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -531,14 +531,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-10-09T23:52:08.365869+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120816+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -635,10 +635,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 122,
-      "fetched_at": "2026-10-09T23:52:06.400513+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872169+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -666,10 +666,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 62,
-      "fetched_at": "2026-10-09T23:52:06.400364+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872066+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -697,10 +697,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 75,
-      "fetched_at": "2026-10-09T23:52:06.400656+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872304+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -728,13 +728,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 64,
-      "fetched_at": "2026-10-09T23:52:08.370855+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124349+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -770,10 +770,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 105,
-      "fetched_at": "2026-10-09T23:52:06.400605+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872182+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -801,13 +801,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 60,
-      "fetched_at": "2026-10-09T23:52:08.367269+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121046+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -843,13 +843,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 59.95,
-      "fetched_at": "2026-10-09T23:52:08.368498+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122339+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -885,10 +885,10 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": 63,
-      "fetched_at": "2026-10-09T23:52:08.365845+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120795+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -969,10 +969,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:06.400777+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872493+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -1000,10 +1000,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:06.400972+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872519+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -1062,13 +1062,13 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 76,
-      "fetched_at": "2026-10-09T23:52:08.365654+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121115+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -1123,10 +1123,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 30,
-      "fetched_at": "2026-10-09T23:52:06.400587+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872247+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -1192,10 +1192,10 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 70,
-      "fetched_at": "2026-10-09T23:52:08.370389+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124006+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -1265,10 +1265,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 63,
-      "fetched_at": "2026-10-09T23:52:06.400938+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872434+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -1477,14 +1477,14 @@
       "suburb": "Erskineville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.367469+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121340+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -1531,13 +1531,13 @@
       "suburb": "Redfern",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.367694+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121515+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -1740,14 +1740,14 @@
       "suburb": "Sydney",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370748+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124269+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -1775,14 +1775,14 @@
       "suburb": "Surry Hills",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371061+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124484+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -1812,14 +1812,14 @@
       "suburb": "Newtown",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.367120+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121838+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -2429,7 +2429,7 @@
       "venue": "Genesian Theatre",
       "venue_id": "genesian-theatre",
       "genre": "play",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-09-04",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/captain-corellis-mandolin",
@@ -2473,13 +2473,13 @@
       "suburb": "Glebe",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368343+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122219+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -2547,13 +2547,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370085+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123762+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -2600,14 +2600,14 @@
       "suburb": "Cremorne",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370528+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124106+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -2626,7 +2626,7 @@
       "venue_id": "sydney-opera-house",
       "genre": "family",
       "status": "active",
-      "start_date": "2026-10-10",
+      "start_date": "2026-10-11",
       "end_date": "2026-10-31",
       "booking_url": "https://opera.org.au/whats-on/sydney",
       "source": "cityofsydney",
@@ -2635,14 +2635,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.947500+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452274+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -2656,7 +2656,7 @@
           "source": "venue-feed",
           "title": "My Fair Lady",
           "venue": "Sydney Opera House",
-          "start_date": "2026-10-10",
+          "start_date": "2026-10-11",
           "end_date": "2026-10-31",
           "url": "https://opera.org.au/whats-on/sydney"
         }
@@ -2949,13 +2949,13 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715312+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673314+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3168,14 +3168,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.365944+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120831+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3487,14 +3487,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.366508+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121142+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3580,13 +3580,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.366393+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121063+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3744,7 +3744,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "comedy",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-09",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/deep-funny-piano-gay",
@@ -3789,14 +3789,14 @@
       "suburb": "North Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.366469+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121097+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3824,13 +3824,13 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368513+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122459+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3848,7 +3848,7 @@
       "venue": "Seymour Centre",
       "venue_id": "seymour-centre",
       "genre": "family",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/play-school-live-concert-2026-humptys-big-celebration",
@@ -3883,7 +3883,7 @@
       "venue": "Hayden Orpheum Picture Palace",
       "venue_id": "hayden-orpheum",
       "genre": "dance",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-60-four-hits-of-the-60s-and-70s",
@@ -3918,7 +3918,7 @@
       "venue": "The Concourse",
       "venue_id": "concourse-chatswood",
       "genre": "cabaret",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-australian-burlesque-festival-the-big-tease-gala",
@@ -3962,13 +3962,13 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368029+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121968+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -3996,14 +3996,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368152+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122071+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4031,13 +4031,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368223+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122126+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4065,13 +4065,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368814+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122795+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4099,14 +4099,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369183+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123084+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4134,13 +4134,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 95,
-      "fetched_at": "2026-10-09T23:52:08.369684+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123466+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4200,14 +4200,14 @@
       "suburb": "Chippendale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370004+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123701+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "community-and-causes"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4235,14 +4235,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370249+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123897+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4270,14 +4270,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370266+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123910+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4305,13 +4305,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370300+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123936+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4339,14 +4339,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370461+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124057+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4374,14 +4374,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370878+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124366+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4409,13 +4409,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370957+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124411+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4436,21 +4436,21 @@
       "status": "active",
       "start_date": "2026-11-26",
       "end_date": "2026-12-02",
-      "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
+      "booking_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
       "source": "cityofsydney",
       "source_url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel",
       "snippet": "Seduction, ambition and divine consequence",
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-10-09T23:52:08.371097+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124511+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
-      "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "booking_source": "todaytix",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4459,6 +4459,14 @@
           "start_date": "2026-11-26",
           "end_date": "2026-12-02",
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/pinchgut-opera-presents-semele-by-handel"
+        },
+        {
+          "source": "todaytix",
+          "title": "Pinchgut Opera's Semele",
+          "venue": "City Recital Hall",
+          "start_date": "2026-11-26",
+          "end_date": "2026-12-02",
+          "url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut"
         }
       ]
     },
@@ -4502,13 +4510,13 @@
       "suburb": "Kirribilli",
       "free_event": false,
       "price_from": 100,
-      "fetched_at": "2026-10-09T23:52:08.371160+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124558+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4544,13 +4552,13 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371200+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124588+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4578,13 +4586,13 @@
       "suburb": "Ultimo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371253+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124628+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4612,14 +4620,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371358+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124707+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4666,10 +4674,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 74,
-      "fetched_at": "2026-10-09T23:52:06.400864+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872475+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -4735,14 +4743,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.367892+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121886+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4934,14 +4942,14 @@
       "suburb": "Online",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.366285+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121032+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -4993,7 +5001,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 45,
-      "fetched_at": "2026-10-09T23:52:06.401342+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872747+00:00",
       "sessions": [],
       "booking_source": "todaytix",
       "sightings": [
@@ -5006,7 +5014,7 @@
           "url": "https://www.todaytix.com/sydney/shows/47257-sir-stephen-hough-in-recital"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11"
     },
     "da1a0a62ae00": {
       "id": "da1a0a62ae00",
@@ -5067,13 +5075,13 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369486+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123315+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5101,13 +5109,13 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371505+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124820+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5204,13 +5212,13 @@
       "suburb": "Potts Point",
       "free_event": false,
       "price_from": 81,
-      "fetched_at": "2026-10-09T23:52:08.370594+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124154+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5322,14 +5330,14 @@
       "suburb": "Eveleigh",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.366188+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120932+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5357,14 +5365,14 @@
       "suburb": "Moore Park",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.367155+00:00",
+      "fetched_at": "2026-10-10T23:19:27.121172+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5392,14 +5400,14 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368439+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122293+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5427,13 +5435,13 @@
       "suburb": "Randwick",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369328+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123196+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5461,14 +5469,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370351+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123975+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -5742,7 +5750,7 @@
       "venue": "Concert Hall | Sydney Opera House",
       "venue_id": "sydney-opera-house",
       "genre": "unknown",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-08",
       "end_date": "2026-10-10",
       "booking_url": "https://www.todaytix.com/sydney/shows/45735-ying-fang-sings-songs-of-the-auvergne-sso-2026",
@@ -6001,10 +6009,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 73,
-      "fetched_at": "2026-10-09T23:52:06.400415+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872106+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -6032,7 +6040,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 70,
-      "fetched_at": "2026-10-09T23:52:06.401080+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872607+00:00",
       "sessions": [],
       "booking_source": "todaytix",
       "sightings": [
@@ -6045,7 +6053,7 @@
           "url": "https://www.todaytix.com/sydney/shows/47914-bach-and-charpentier-music-for-christmas"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11"
     },
     "fb946b61033e": {
       "id": "fb946b61033e",
@@ -6087,14 +6095,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368767+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122758+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6191,14 +6199,14 @@
       "suburb": "Haymarket",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371602+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124902+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6646,14 +6654,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368724+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122723+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "music"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6681,14 +6689,14 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370842+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124339+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6716,14 +6724,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371303+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124666+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "food-and-drink"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6836,13 +6844,13 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371270+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124641+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6908,13 +6916,13 @@
       "suburb": "Bondi Junction",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369848+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123592+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6942,14 +6950,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370499+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124085+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -6979,14 +6987,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371234+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124614+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7014,10 +7022,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 65,
-      "fetched_at": "2026-10-09T23:52:06.400959+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872535+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -7064,13 +7072,13 @@
       "suburb": "Balmain",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368201+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122109+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7122,10 +7130,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:06.401139+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872658+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -7153,10 +7161,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:06.401124+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872672+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -7215,10 +7223,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:06.401365+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872770+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -7246,10 +7254,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:06.401320+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872798+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -7387,14 +7395,14 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368539+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122479+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7526,13 +7534,13 @@
       "suburb": "Petersham",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368257+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122151+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7560,14 +7568,14 @@
       "suburb": "Neutral Bay",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369378+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123233+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7619,14 +7627,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 79.9,
-      "fetched_at": "2026-10-09T23:52:08.371463+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124787+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "children-and-family"
       ],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7934,14 +7942,14 @@
       "suburb": "St Peters",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369952+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123663+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -7969,14 +7977,14 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370125+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123793+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -8004,14 +8012,14 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371332+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124688+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -8070,14 +8078,14 @@
       "suburb": "Annandale",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368588+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122517+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -8105,14 +8113,14 @@
       "suburb": "Pyrmont",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369618+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123415+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -8140,10 +8148,10 @@
       "suburb": "",
       "free_event": false,
       "price_from": 22,
-      "fetched_at": "2026-10-09T23:52:06.400754+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872509+00:00",
       "sessions": [],
       "booking_source": "todaytix",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "todaytix",
@@ -8171,13 +8179,13 @@
       "suburb": "Surry Hills",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.366211+00:00",
+      "fetched_at": "2026-10-10T23:19:27.120969+00:00",
       "sessions": [],
       "categories": [
         "theatre-dance-and-film"
       ],
       "booking_source": "cityofsydney",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "cityofsydney",
@@ -8195,7 +8203,7 @@
       "venue": "",
       "venue_id": "",
       "genre": "play",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-08",
       "end_date": "2026-10-10",
       "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/thieving-bastards-card-cheats-exposed",
@@ -8239,11 +8247,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715257+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673266+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8271,11 +8279,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715293+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673299+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8335,11 +8343,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715331+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673332+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8367,11 +8375,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715347+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673344+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8399,11 +8407,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715362+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673356+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8431,11 +8439,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715423+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673405+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8463,11 +8471,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715436+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673416+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8495,11 +8503,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715451+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673428+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8527,11 +8535,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715479+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673450+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8591,11 +8599,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715595+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673541+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8655,11 +8663,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715699+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673624+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8687,11 +8695,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715739+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673656+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8719,11 +8727,11 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715752+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673667+00:00",
       "categories": [],
       "sessions": [],
       "booking_source": "venue-feed",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "sightings": [
         {
           "source": "venue-feed",
@@ -8751,7 +8759,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218731+00:00",
+      "fetched_at": "2026-10-10T23:19:31.970986+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8764,7 +8772,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "063eab347cad": {
@@ -8783,7 +8791,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218769+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971019+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8796,7 +8804,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "d44f8a07252f": {
@@ -8815,7 +8823,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218791+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971033+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8828,7 +8836,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "bf802b520c7e": {
@@ -8847,7 +8855,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218815+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971052+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8860,7 +8868,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "1d87b0018eaf": {
@@ -8879,7 +8887,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218851+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971080+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8892,7 +8900,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "244adffbdc21": {
@@ -8911,7 +8919,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218892+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971113+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8924,7 +8932,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "dff894a3c55e": {
@@ -8943,7 +8951,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218900+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971120+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8956,7 +8964,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "90c34eb6fad5": {
@@ -8975,7 +8983,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.218915+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971133+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -8988,7 +8996,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "b8d794c48196-the-pavilion-performing-arts-centre": {
@@ -9007,7 +9015,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219005+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971193+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9020,7 +9028,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "f8a3eff6ac36": {
@@ -9039,7 +9047,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219024+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971207+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9052,7 +9060,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "81fe65c63a14": {
@@ -9071,7 +9079,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219051+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971229+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9084,7 +9092,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "1040e53fb8e2": {
@@ -9103,7 +9111,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219067+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971241+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9116,7 +9124,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "2a3cf24d40ac-the-pavilion-performing-arts-centre": {
@@ -9125,7 +9133,7 @@
       "venue": "The Pavilion Performing Arts Centre",
       "venue_id": "the-pavilion-performing-arts-centre",
       "genre": "dance",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "booking_url": "https://thepavilionarts.au/",
@@ -9135,7 +9143,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219080+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971251+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9148,7 +9156,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "845749281f7e": {
@@ -9167,7 +9175,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219099+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971265+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9180,7 +9188,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "0ac250d9cb25": {
@@ -9199,7 +9207,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219157+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971311+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9212,7 +9220,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "e46e3133d917": {
@@ -9231,7 +9239,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219171+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971321+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9244,7 +9252,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "84f9bd6d9aa4": {
@@ -9263,7 +9271,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219607+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971662+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9276,7 +9284,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "66c9f1a9087f": {
@@ -9295,7 +9303,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219658+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971702+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9308,7 +9316,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "72858d1af3c5": {
@@ -9327,7 +9335,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219741+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971767+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9340,7 +9348,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "aabf47e7f672": {
@@ -9359,7 +9367,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219765+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971786+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9372,7 +9380,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "ef630039c82f": {
@@ -9391,7 +9399,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219797+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971812+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9404,7 +9412,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "e662f9f6e79d": {
@@ -9423,7 +9431,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219828+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971835+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9436,7 +9444,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "e040d88c90c8": {
@@ -9455,7 +9463,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219965+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971943+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9468,7 +9476,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "b6102cb6bb8e": {
@@ -9487,7 +9495,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220025+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971990+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9500,7 +9508,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "552f8ce9f666": {
@@ -9519,7 +9527,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220108+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972055+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9532,7 +9540,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "c663da09bfb6": {
@@ -9551,7 +9559,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220145+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972083+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9564,7 +9572,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "24bb87637519": {
@@ -9583,7 +9591,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220156+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972093+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9596,7 +9604,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "f004650ea1c0": {
@@ -9615,7 +9623,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220238+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972157+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9628,7 +9636,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "099a3bf9d8ce": {
@@ -9647,7 +9655,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220462+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972332+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9660,7 +9668,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "5048c7520249": {
@@ -9679,7 +9687,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220526+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972383+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9692,7 +9700,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "87b6996ec3c5": {
@@ -9711,7 +9719,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220550+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972402+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9724,7 +9732,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "90841c603b1b": {
@@ -9743,7 +9751,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220577+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972423+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9756,7 +9764,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "27f47b1b733c": {
@@ -9775,7 +9783,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220596+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972438+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9788,7 +9796,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "84e5f56b8cca": {
@@ -9807,7 +9815,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220774+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972577+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9820,7 +9828,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "ac322c1ac12e": {
@@ -9839,7 +9847,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220902+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972679+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9852,7 +9860,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "adb270e04691": {
@@ -9871,7 +9879,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220934+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972695+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9884,7 +9892,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "bf4397d8b4dc-the-pavilion-performing-arts-centre": {
@@ -9903,7 +9911,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220946+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972705+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -9916,7 +9924,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "44135681526b": {
@@ -10085,7 +10093,7 @@
       "venue": "Riverside Theatres",
       "venue_id": "riverside-theatres",
       "genre": "play",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-07",
       "end_date": "2026-10-10",
       "booking_url": "https://riversideparramatta.com.au/whats-on/into-the-box/",
@@ -10118,7 +10126,7 @@
       "venue_id": "riverside-theatres",
       "genre": "play",
       "status": "active",
-      "start_date": "2026-10-10",
+      "start_date": "2026-10-14",
       "end_date": "2026-10-16",
       "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
       "source": "venue-feed",
@@ -10127,7 +10135,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.059773+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466070+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10135,12 +10143,12 @@
           "source": "venue-feed",
           "title": "Where Is The Green Sheep?",
           "venue": "Riverside Theatres",
-          "start_date": "2026-10-10",
+          "start_date": "2026-10-14",
           "end_date": "2026-10-16",
           "url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "167c1420fe7c": {
@@ -10149,7 +10157,7 @@
       "venue": "Riverside Theatres",
       "venue_id": "riverside-theatres",
       "genre": "play",
-      "status": "active",
+      "status": "closed",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "booking_url": "https://riversideparramatta.com.au/whats-on/elsewhere-in-india-jal-jungle-zameen/",
@@ -10191,7 +10199,7 @@
       "suburb": "Parramatta",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.059910+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466133+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10204,7 +10212,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/parramatta-lanes-jazz-bar/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "3ee842e3d6b3": {
@@ -10223,7 +10231,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.059998+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466195+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10236,7 +10244,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/ya-ossas/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "279ac5909765": {
@@ -10255,7 +10263,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060078+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466263+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10268,7 +10276,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/the-australian-dream-with-tim-ross/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "9a760988f0c0": {
@@ -10287,7 +10295,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060154+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466325+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10300,7 +10308,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/family-affairs-with-the-gilchrists/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "d0ec1b6562b2": {
@@ -10319,7 +10327,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060209+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466364+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10332,7 +10340,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/triple-treat/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "b34885b922c9": {
@@ -10351,7 +10359,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060417+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466538+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10364,7 +10372,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/glow-up-2026/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "9d9d945bc011": {
@@ -10383,7 +10391,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060616+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466698+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10396,7 +10404,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/timor-leste-ita-nia-lian-ita-nia-istoria/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "b5148435c314": {
@@ -10415,7 +10423,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060689+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466756+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10428,7 +10436,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/the-western-line/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "5581988a54b8": {
@@ -10447,7 +10455,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060747+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466802+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10460,7 +10468,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/write-together-rise-together/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "6fcc57152398": {
@@ -10479,7 +10487,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060793+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466840+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10492,7 +10500,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/heartland-exchange/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "aa1ecb24f6be": {
@@ -10511,7 +10519,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060833+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466872+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10524,7 +10532,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/szn7/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "2872613c4cc6": {
@@ -10543,7 +10551,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060870+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466915+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10556,7 +10564,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/supper-club/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "ad54cc8004e4": {
@@ -10575,7 +10583,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060940+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466960+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10588,7 +10596,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/ruins/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "b04da46f4ede": {
@@ -10607,7 +10615,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060995+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467002+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10620,7 +10628,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/the-greatest-christmas-show/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "0f72f48b078d": {
@@ -10639,7 +10647,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.947542+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452308+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10652,7 +10660,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "1fd0c9eedd65": {
@@ -10671,7 +10679,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.947580+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452337+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10684,7 +10692,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "48c2e61717a7": {
@@ -10703,7 +10711,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.947612+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452364+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -10716,7 +10724,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "a2327720cde5": {
@@ -10735,7 +10743,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947635+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452382+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -10766,7 +10774,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "8f98171ea8fc": {
@@ -10785,7 +10793,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947660+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452402+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -10816,7 +10824,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "23eb76e4db42": {
@@ -10835,7 +10843,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947687+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452422+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -10866,7 +10874,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "9ba9df8cfaf7": {
@@ -10885,7 +10893,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947739+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452463+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -10916,7 +10924,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "268d66b05323": {
@@ -10935,7 +10943,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947761+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452481+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -10966,7 +10974,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "794d562f8d87": {
@@ -10985,7 +10993,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947866+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452563+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11006,7 +11014,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "833436fd33fc": {
@@ -11025,7 +11033,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947900+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452589+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11046,7 +11054,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "92aee59cba38": {
@@ -11065,7 +11073,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947918+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452603+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -11096,7 +11104,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "0954a5571d86": {
@@ -11115,7 +11123,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": 84,
-      "fetched_at": "2026-10-09T23:52:11.947954+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452620+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -11146,7 +11154,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "4ad24e65fafc": {
@@ -11165,7 +11173,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.947977+00:00",
+      "fetched_at": "2026-10-10T23:19:30.452639+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11178,7 +11186,7 @@
           "url": "https://opera.org.au/whats-on/sydney"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "c055b8316064": {
@@ -11229,7 +11237,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715622+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673563+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11242,7 +11250,7 @@
           "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5201"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "e0f21c5c757a": {
@@ -11261,7 +11269,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715718+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673639+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11274,7 +11282,7 @@
           "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5401"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "b4a17a16b92b": {
@@ -11293,7 +11301,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 55,
-      "fetched_at": "2026-10-09T23:52:06.401205+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872730+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11306,7 +11314,7 @@
           "url": "https://www.todaytix.com/sydney/shows/45739-the-voice-of-bryn-terfel-sso-2026"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "todaytix"
     },
     "8db48aa3925e": {
@@ -11325,7 +11333,7 @@
       "suburb": "Darlinghurst",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369157+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123063+00:00",
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
@@ -11341,7 +11349,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/shakesbeer-session-midsummer-nights-dream-darlinghurst"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "011a4431b4ab": {
@@ -11360,7 +11368,7 @@
       "suburb": "Leichhardt",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369266+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123150+00:00",
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
@@ -11376,7 +11384,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-leichhardt"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "fc77326a6648": {
@@ -11395,7 +11403,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371400+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124740+00:00",
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
@@ -11411,7 +11419,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/new-years-eve-opera-gala-concert-at-sydney-opera-house"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "205d44138c62": {
@@ -11430,7 +11438,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220833+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972623+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11443,7 +11451,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "f8a8a77b888f": {
@@ -11526,7 +11534,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061095+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467082+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11539,7 +11547,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/the-quizzical-mr-jeff/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "372651ebe697": {
@@ -11558,7 +11566,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220164+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972099+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11571,7 +11579,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "add4dd5787e1": {
@@ -11590,7 +11598,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220325+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972223+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11603,7 +11611,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "498a628f5e62": {
@@ -11622,7 +11630,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715514+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673477+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11635,7 +11643,7 @@
           "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6001"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "794f9487eb65": {
@@ -11654,7 +11662,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715557+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673511+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11667,7 +11675,7 @@
           "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5801"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "98fdca6358b4": {
@@ -11723,7 +11731,7 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370894+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124378+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -11738,7 +11746,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/dub-fiction"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "ab92d9fae5ee": {
@@ -11757,7 +11765,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715372+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673365+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11770,7 +11778,7 @@
           "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6201"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "2b7aeeb4fa8d": {
@@ -11789,7 +11797,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060479+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466587+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11802,7 +11810,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/2026-gold/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "f02ff09ea7a1": {
@@ -11821,7 +11829,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.219513+00:00",
+      "fetched_at": "2026-10-10T23:19:31.971589+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11834,7 +11842,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "c179d3f8dd37": {
@@ -11853,7 +11861,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060374+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466502+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11866,7 +11874,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/girl-band-screening/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "fbf751d617ad": {
@@ -11885,7 +11893,7 @@
       "suburb": "Marrickville",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370227+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123870+00:00",
       "categories": [
         "theatre-dance-and-film",
         "music"
@@ -11901,7 +11909,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/nosferatu-a-psychedelic-cinema-experience"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "b48ebd980606": {
@@ -11920,7 +11928,7 @@
       "suburb": "Sutherland",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:13.220259+00:00",
+      "fetched_at": "2026-10-10T23:19:31.972173+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -11933,7 +11941,7 @@
           "url": "https://thepavilionarts.au/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "1905104c5367": {
@@ -11952,7 +11960,7 @@
       "suburb": "Kingsford",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370576+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124141+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -11967,7 +11975,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/i-love-your-faces-the-don-lane-story"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "c50c611d368d": {
@@ -11986,7 +11994,7 @@
       "suburb": "Darlinghurst",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.368855+00:00",
+      "fetched_at": "2026-10-10T23:19:27.122829+00:00",
       "categories": [
         "theatre-dance-and-film",
         "music"
@@ -12002,7 +12010,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-about-pop-up-performances-at-oxford-square"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "724c6bb50d10-carriageworks": {
@@ -12053,7 +12061,7 @@
       "suburb": "Dawes Point",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369110+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123027+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -12068,7 +12076,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/out-of-the-studio"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "bed47e7f0e9e": {
@@ -12087,7 +12095,7 @@
       "suburb": "Five Dock",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369886+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123622+00:00",
       "categories": [
         "theatre-dance-and-film",
         "nightlife"
@@ -12103,7 +12111,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/take-the-stage-presents-a-deathly-threat"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "119d6ce059a8": {
@@ -12122,7 +12130,7 @@
       "suburb": "Dawes Point",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.370280+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123920+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -12137,7 +12145,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/orbit"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "5de3a43cf2bb": {
@@ -12156,7 +12164,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.715672+00:00",
+      "fetched_at": "2026-10-10T23:19:27.673603+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12169,7 +12177,7 @@
           "url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6401"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "6aa796e833dc": {
@@ -12188,7 +12196,7 @@
       "suburb": "Parramatta",
       "free_event": true,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.060270+00:00",
+      "fetched_at": "2026-10-10T23:19:29.466412+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12201,7 +12209,7 @@
           "url": "https://riversideparramatta.com.au/whats-on/voices-of-harmony/"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "venue-feed"
     },
     "60379b54f1e3": {
@@ -12220,7 +12228,7 @@
       "suburb": "Woolloomooloo",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369218+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123111+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -12235,7 +12243,7 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/eggs-at-the-old-fitz-theatre"
         }
       ],
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "booking_source": "cityofsydney"
     },
     "43c2c8c1173f": {
@@ -12254,7 +12262,7 @@
       "suburb": "",
       "free_event": false,
       "price_from": 44.8,
-      "fetched_at": "2026-10-09T23:52:06.401154+00:00",
+      "fetched_at": "2026-10-10T23:19:25.872666+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12267,7 +12275,8 @@
           "url": "https://www.todaytix.com/sydney/shows/47510-les-femmes"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "todaytix"
     },
     "aee64ab2085b": {
       "id": "aee64ab2085b",
@@ -12285,7 +12294,7 @@
       "suburb": "Alexandria",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.369724+00:00",
+      "fetched_at": "2026-10-10T23:19:27.123496+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -12300,7 +12309,8 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-coven-an-unscripted-witchy-comedy-show"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "cityofsydney"
     },
     "ebb18a166bdb": {
       "id": "ebb18a166bdb",
@@ -12318,7 +12328,7 @@
       "suburb": "Sydney",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:08.371182+00:00",
+      "fetched_at": "2026-10-10T23:19:27.124575+00:00",
       "categories": [
         "theatre-dance-and-film"
       ],
@@ -12333,7 +12343,8 @@
           "url": "https://whatson.cityofsydney.nsw.gov.au/events/au-x-screenworks"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "cityofsydney"
     },
     "2380d04bc4e0": {
       "id": "2380d04bc4e0",
@@ -12351,7 +12362,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061160+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467133+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12364,7 +12375,8 @@
           "url": "https://riversideparramatta.com.au/whats-on/hamlet-dickinson-symposium/"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "venue-feed"
     },
     "8278306e2ccf": {
       "id": "8278306e2ccf",
@@ -12382,7 +12394,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061203+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467169+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12395,7 +12407,8 @@
           "url": "https://riversideparramatta.com.au/whats-on/othello-symposium/"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "venue-feed"
     },
     "5c50148313f3": {
       "id": "5c50148313f3",
@@ -12413,7 +12426,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061269+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467220+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12426,7 +12439,8 @@
           "url": "https://riversideparramatta.com.au/whats-on/henry-iv-part-1-symposium/"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "venue-feed"
     },
     "20aa50b3705b": {
       "id": "20aa50b3705b",
@@ -12444,7 +12458,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061314+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467257+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12457,7 +12471,8 @@
           "url": "https://riversideparramatta.com.au/whats-on/the-crucible-symposium/"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "venue-feed"
     },
     "5a75f2564749": {
       "id": "5a75f2564749",
@@ -12475,7 +12490,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061374+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467304+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12488,7 +12503,8 @@
           "url": "https://riversideparramatta.com.au/whats-on/julius-caesar-the-prince-symposium/"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "venue-feed"
     },
     "401530785d1c": {
       "id": "401530785d1c",
@@ -12506,7 +12522,7 @@
       "suburb": "Parramatta",
       "free_event": false,
       "price_from": null,
-      "fetched_at": "2026-10-09T23:52:11.061445+00:00",
+      "fetched_at": "2026-10-10T23:19:29.467358+00:00",
       "categories": [],
       "sessions": [],
       "sightings": [
@@ -12519,7 +12535,8 @@
           "url": "https://riversideparramatta.com.au/whats-on/the-tempest-symposium/"
         }
       ],
-      "last_seen": "2026-10-10"
+      "last_seen": "2026-10-11",
+      "booking_source": "venue-feed"
     }
   },
   "__dedup_index__": {
@@ -12936,14 +12953,14 @@
     "60379b54f1e3": "60379b54f1e3",
     "43c2c8c1173f": "43c2c8c1173f",
     "aee64ab2085b": "aee64ab2085b",
-    "6064483196fc": "9468146c2057",
     "ebb18a166bdb": "ebb18a166bdb",
     "2380d04bc4e0": "2380d04bc4e0",
     "8278306e2ccf": "8278306e2ccf",
     "5c50148313f3": "5c50148313f3",
     "20aa50b3705b": "20aa50b3705b",
     "5a75f2564749": "5a75f2564749",
-    "401530785d1c": "401530785d1c"
+    "401530785d1c": "401530785d1c",
+    "6064483196fc": "9468146c2057"
   },
   "__notified__": {},
   "__key_version__": 2

@@ -352,6 +352,22 @@
     "snippet": ""
   },
   {
+    "id": "9eaa1328f256",
+    "title": "Luke Heggie - Relic",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-04-23",
+    "end_date": "2027-04-23",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "In this crazy, mixed-up world, there are only two types of people: those who enjoy the work of Luke Heggie, and idiots."
+  },
+  {
     "id": "ee7c9b7377be",
     "title": "Amah and Nanna",
     "venue": "Wharf 1 Theatre - Walsh Bay Arts Precinct",
@@ -766,6 +782,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "The smash-hit, foot-stomping, feel-good pub musical opens this December"
+  },
+  {
+    "id": "d9e2abd2b8b1",
+    "title": "Brief Candle by Simon Thomson",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-11",
+    "end_date": "2026-12-11",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6601",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
   },
   {
     "id": "d2604a17d396",
@@ -2656,6 +2688,22 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-14",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "adb270e04691-riverside-theatres",
     "title": "Where Is The Green Sheep?",
     "venue": "Riverside Theatres",
@@ -2670,22 +2718,6 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-13",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "3c48defee404",

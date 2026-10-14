@@ -2448,6 +2448,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-15",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "03375e2e2f2b",
     "title": "Monty Python's Spamalot",
     "venue": "The Star Event Centre",
@@ -2512,22 +2528,6 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-14",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "adb270e04691-riverside-theatres",
     "title": "Where Is The Green Sheep?",
     "venue": "Riverside Theatres",
@@ -2535,7 +2535,7 @@
     "suburb": "Parramatta",
     "genre": "play",
     "status": "active",
-    "start_date": "2026-10-14",
+    "start_date": "2026-10-15",
     "end_date": "2026-10-16",
     "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
     "price_from": null,

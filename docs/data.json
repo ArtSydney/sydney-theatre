@@ -2128,6 +2128,22 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
+    "id": "0b6991a856a4",
+    "title": "Hot Nonsense - Monsterfvckers",
+    "venue": "Low 302",
+    "venue_id": "",
+    "suburb": "Surry Hills",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-29",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/hot-nonsense-monsterfvckers",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Stupid. Sexy. Fabulous. A variety night of drag, burlesque, comedy and more!"
+  },
+  {
     "id": "d5d7450938d6",
     "title": "Arranged by Shekhar Raychaudhury",
     "venue": "Old Fitz Theatre",
@@ -2464,6 +2480,22 @@
     "snippet": ""
   },
   {
+    "id": "8c2890c4e578",
+    "title": "Show Up! Star-Powered Variety Spectacular",
+    "venue": "Darling Quarter Theatre",
+    "venue_id": "darling-quarter-theatre",
+    "suburb": "Sydney",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-19",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/show-up-star-powered-variety-spectacular",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Comedy, music, cabaret and surprises with Nick Hardcastle at Darling Quarter Theatre."
+  },
+  {
     "id": "d565bb2b61dd",
     "title": "Verdi in the City",
     "venue": "Castlereagh Boutique Hotel",
@@ -2528,6 +2560,22 @@
     "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now."
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-17",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "aefd923561d6",
     "title": "The New Writers’ sprint + retreat",
     "venue": "Maybanke Community Centre",
@@ -2576,22 +2624,6 @@
     "snippet": "An interactive game of comedy and betrayal"
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-16",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "a6d503b55c99",
     "title": "Break the 5th Wall",
     "venue": "",
@@ -2614,7 +2646,7 @@
     "venue_id": "",
     "suburb": "Darlinghurst",
     "genre": "cabaret",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-16",
     "end_date": "2026-10-16",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-cabaret-playlist",
@@ -2662,7 +2694,7 @@
     "venue_id": "riverside-theatres",
     "suburb": "Parramatta",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-16",
     "end_date": "2026-10-16",
     "booking_url": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
@@ -4374,7 +4406,7 @@
     "venue_id": "",
     "suburb": "Surry Hills",
     "genre": "cabaret",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-09-18",
     "end_date": "2026-10-16",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/femme-fatale-burlesque-show",

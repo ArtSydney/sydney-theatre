@@ -176,6 +176,22 @@
     "snippet": "Four of Australia’s best-loved musical theatre and opera stars."
   },
   {
+    "id": "a80616f7c81b",
+    "title": "HEDDA GABLER",
+    "venue": "Ensemble Theatre",
+    "venue_id": "ensemble-theatre",
+    "suburb": "Kirribilli",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-06-11",
+    "end_date": "2027-07-10",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47718-hedda-gabler",
+    "price_from": 104,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "d14d1e457bab",
     "title": "The Book of Liz",
     "venue": "Wharf 1 Theatre - Walsh Bay Arts Precinct",
@@ -336,6 +352,22 @@
     "snippet": "After more than a decade away from solo performance, beloved Australian comedian Denise Scott is making a triumphant return to the stage with her most personal show yet"
   },
   {
+    "id": "f1db8e1cd486",
+    "title": "END OF THE RAINBOW",
+    "venue": "Ensemble Theatre",
+    "venue_id": "ensemble-theatre",
+    "suburb": "Kirribilli",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-04-30",
+    "end_date": "2027-06-05",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47709-end-of-the-rainbow",
+    "price_from": 99,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "91be5fc30d9c",
     "title": "Pinchgut Opera's Egisto",
     "venue": "Roslyn Packer Theatre",
@@ -384,6 +416,22 @@
     "snippet": ""
   },
   {
+    "id": "4d0d3a4b8776",
+    "title": "SPLIT ENDS",
+    "venue": "Ensemble Theatre",
+    "venue_id": "ensemble-theatre",
+    "suburb": "Kirribilli",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-03-30",
+    "end_date": "2027-04-24",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47651-split-ends",
+    "price_from": 104,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "794d562f8d87",
     "title": "Aida on Sydney Harbour",
     "venue": "Mrs Macquaries Point",
@@ -414,6 +462,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
+  },
+  {
+    "id": "b71f237fc0bb",
+    "title": "LIFE x 3",
+    "venue": "Ensemble Theatre",
+    "venue_id": "ensemble-theatre",
+    "suburb": "Kirribilli",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-03-19",
+    "end_date": "2027-04-18",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47649-life-x-3",
+    "price_from": 104,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
   },
   {
     "id": "72858d1af3c5",
@@ -560,6 +624,38 @@
     "snippet": ""
   },
   {
+    "id": "59e40dc14c97",
+    "title": "SLEEPING DOGS",
+    "venue": "Ensemble Theatre",
+    "venue_id": "ensemble-theatre",
+    "suburb": "Kirribilli",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-22",
+    "end_date": "2027-03-13",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47595-sleeping-dogs",
+    "price_from": 119,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
+    "id": "502c93438354",
+    "title": "A Loved Woman",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-20",
+    "end_date": "2027-01-23",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/a-loved-woman/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "3b8d49c93fda",
     "title": "The Quizzical Mr Jeff",
     "venue": "Riverside Theatres",
@@ -590,6 +686,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
+  },
+  {
+    "id": "647ca9b2136c",
+    "title": "The Boy Who Found His Way Home",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-11",
+    "end_date": "2027-01-12",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-boy-who-found-his-way-home/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "78f6ae03e181",
@@ -990,6 +1102,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "A festive afternoon of music, theatre and Christmas favourites with soaring voices and warm moments."
+  },
+  {
+    "id": "9500ecd9e786",
+    "title": "Seniors’ Christmas Celebration",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-01",
+    "end_date": "2026-12-01",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/seniors-christmas-celebration/",
+    "price_from": null,
+    "free_event": true,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "ebb18a166bdb",
@@ -1504,6 +1632,22 @@
     "snippet": "A father. A son. A legacy brought to life. "
   },
   {
+    "id": "e81e303128a8",
+    "title": "Samhain the Spirit of Woollahra Festival Concert",
+    "venue": "Woollahra Library at Double Bay",
+    "venue_id": "",
+    "suburb": "Double Bay",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-13",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/samhain-the-spirit-of-woollahra-festival-concert",
+    "price_from": null,
+    "free_event": true,
+    "source": "cityofsydney",
+    "snippet": "Samhain, the ancient Irish Celtic festival that gave the world Halloween will be celebrated in music, song & spoken word"
+  },
+  {
     "id": "b1bc248a7ff2",
     "title": "A Number",
     "venue": "Old Fitz Theatre",
@@ -1534,6 +1678,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "When one of Australia’s most talented comedians delves deep into his own life’s joys and sorrows, the result is an unforgettable night at the theatre that leaves an audience uplifted and quite simply experiencing...happiness."
+  },
+  {
+    "id": "d8830ed2c456",
+    "title": "RARA by Meg Denman",
+    "venue": "Flight Path Theatre",
+    "venue_id": "flight-path-theatre",
+    "suburb": "Marrickville",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-14",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/rara-by-meg-denman",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "The 2026 Katie Lees Fellowship play and a love letter to chronic illness and big dreams"
   },
   {
     "id": "73e1fb70022c",
@@ -1856,6 +2016,38 @@
     "snippet": ""
   },
   {
+    "id": "8662a11e7ec1",
+    "title": "Ready, Set, Listen! The Planets",
+    "venue": "The Studio | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2026-10-31",
+    "end_date": "2026-10-31",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45740-ready-set-listen-the-planets-sso-2026",
+    "price_from": 30,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
+    "id": "6adc11fe2454",
+    "title": "35MM: A Musical Exhibition",
+    "venue": "Tom Mann Theatre",
+    "venue_id": "",
+    "suburb": "Surry Hills",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-10-31",
+    "end_date": "2026-11-01",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/35mm-a-musical-exhibition",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A live performance delivering big voices, unforgettable songs and musical theatre that packs a punch"
+  },
+  {
     "id": "08c8c3a0b5d9",
     "title": "‘Snowflake’ by Mike Bartlett",
     "venue": "Ensemble Theatre",
@@ -2128,6 +2320,22 @@
     "snippet": ""
   },
   {
+    "id": "0f72f48b078d",
+    "title": "Great Opera Hits",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-10-25",
+    "end_date": "2027-03-21",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Opera Australia season."
+  },
+  {
     "id": "011a4431b4ab",
     "title": "The Shakesbeer sessions:A Midsummer Night's Dream Leichhardt",
     "venue": "",
@@ -2174,6 +2382,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Female friendship, fertility and freaking the f**k out! "
+  },
+  {
+    "id": "d5e60383115c",
+    "title": "Yerma",
+    "venue": "Genesian Theatre",
+    "venue_id": "genesian-theatre",
+    "suburb": "Rozelle",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-24",
+    "end_date": "2026-11-14",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/yerma",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A woman’s yearning for a child becomes an all-consuming obsession in Lorca’s haunting tragedy.  "
   },
   {
     "id": "c72601e78fc7",
@@ -2352,38 +2576,6 @@
     "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
-    "id": "0f72f48b078d",
-    "title": "Great Opera Hits",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-10-19",
-    "end_date": "2027-03-21",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Opera Australia season."
-  },
-  {
-    "id": "8c2890c4e578",
-    "title": "Show Up! Star-Powered Variety Spectacular",
-    "venue": "Darling Quarter Theatre",
-    "venue_id": "darling-quarter-theatre",
-    "suburb": "Sydney",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-19",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/show-up-star-powered-variety-spectacular",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Comedy, music, cabaret and surprises with Nick Hardcastle at Darling Quarter Theatre."
-  },
-  {
     "id": "31a051f8a3b0",
     "title": "Cirque Du Soleil KOOZA",
     "venue": "The Entertainment Quarter",
@@ -2398,6 +2590,22 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now."
+  },
+  {
+    "id": "a03b00b09edd",
+    "title": "ITS Iconic",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-10-17",
+    "end_date": "2026-11-21",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/its-iconic",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Queer history inspires queer comedy"
   },
   {
     "id": "d4d520db6a00",

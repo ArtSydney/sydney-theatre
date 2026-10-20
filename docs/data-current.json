@@ -368,6 +368,22 @@
     "snippet": ""
   },
   {
+    "id": "de82ff55fa6d",
+    "title": "Arj Barker - The Eleventh Hour",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-04-30",
+    "end_date": "2027-04-30",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Can you feel it? Things are coming to a head. \r\nFortunately they’re funny things, and it’s my head they’re coming to!"
+  },
+  {
     "id": "91be5fc30d9c",
     "title": "Pinchgut Opera's Egisto",
     "venue": "Roslyn Packer Theatre",
@@ -638,6 +654,22 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
+  },
+  {
+    "id": "72748bbcfaf5",
+    "title": "Breathing Archive",
+    "venue": "Eternity Playhouse",
+    "venue_id": "eternity-playhouse",
+    "suburb": "Darlinghurst",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-21",
+    "end_date": "2027-01-24",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/breathing-archive",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": " Inhale the wild edges of 90s queer Sydney"
   },
   {
     "id": "502c93438354",
@@ -1184,6 +1216,22 @@
     "snippet": ""
   },
   {
+    "id": "84d256a44a8c",
+    "title": "A Velvet Rendezvous",
+    "venue": "Coogee Diggers",
+    "venue_id": "",
+    "suburb": "Coogee",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-velvet-rendezvous",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease"
+  },
+  {
     "id": "aa1ecb24f6be",
     "title": "SZN7",
     "venue": "Riverside Theatres",
@@ -1582,6 +1630,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
+  },
+  {
+    "id": "6bcff08c68ab",
+    "title": "Medley",
+    "venue": "KXT on Broadway",
+    "venue_id": "kxt",
+    "suburb": "Ultimo",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/medley",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A fast-paced underwater underdog story about keeping your head above water when you keep getting pulled under."
   },
   {
     "id": "6a95ce9b4579",
@@ -2512,6 +2576,22 @@
     "snippet": "Fast, fun, singalong Shakespeare in your local pub "
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "5d559a55ee67",
     "title": "Mozart, Salieri & Pleyel",
     "venue": "City Recital Hall",
@@ -2558,22 +2638,6 @@
     "free_event": true,
     "source": "venue-feed",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-20",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "31a051f8a3b0",

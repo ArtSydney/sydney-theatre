@@ -368,6 +368,22 @@
     "snippet": ""
   },
   {
+    "id": "de82ff55fa6d",
+    "title": "Arj Barker - The Eleventh Hour",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-04-30",
+    "end_date": "2027-04-30",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Can you feel it? Things are coming to a head. \r\nFortunately they’re funny things, and it’s my head they’re coming to!"
+  },
+  {
     "id": "91be5fc30d9c",
     "title": "Pinchgut Opera's Egisto",
     "venue": "Roslyn Packer Theatre",
@@ -670,6 +686,22 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
+  },
+  {
+    "id": "72748bbcfaf5",
+    "title": "Breathing Archive",
+    "venue": "Eternity Playhouse",
+    "venue_id": "eternity-playhouse",
+    "suburb": "Darlinghurst",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-21",
+    "end_date": "2027-01-24",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/breathing-archive",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": " Inhale the wild edges of 90s queer Sydney"
   },
   {
     "id": "502c93438354",
@@ -1248,6 +1280,22 @@
     "snippet": ""
   },
   {
+    "id": "84d256a44a8c",
+    "title": "A Velvet Rendezvous",
+    "venue": "Coogee Diggers",
+    "venue_id": "",
+    "suburb": "Coogee",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-velvet-rendezvous",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease"
+  },
+  {
     "id": "aa1ecb24f6be",
     "title": "SZN7",
     "venue": "Riverside Theatres",
@@ -1680,6 +1728,22 @@
     "snippet": ""
   },
   {
+    "id": "6bcff08c68ab",
+    "title": "Medley",
+    "venue": "KXT on Broadway",
+    "venue_id": "kxt",
+    "suburb": "Ultimo",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/medley",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A fast-paced underwater underdog story about keeping your head above water when you keep getting pulled under."
+  },
+  {
     "id": "6a95ce9b4579",
     "title": "Silver Tongue",
     "venue": "Hayes Theatre Co",
@@ -2078,6 +2142,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Day of the Dead Spectacular"
+  },
+  {
+    "id": "5448fcc6beb9",
+    "title": "Club Flamingo",
+    "venue": "The Grand Electric",
+    "venue_id": "the-grand-electric",
+    "suburb": "Surry Hills",
+    "genre": "cabaret",
+    "status": "suppressed",
+    "start_date": "2026-10-31",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-flamingo",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Family nightclub, where kids rule the dance floor."
   },
   {
     "id": "00e0ea91d0ce",
@@ -2672,6 +2752,22 @@
     "snippet": "Fast, fun, singalong Shakespeare in your local pub "
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "5d559a55ee67",
     "title": "Mozart, Salieri & Pleyel",
     "venue": "City Recital Hall",
@@ -2718,22 +2814,6 @@
     "free_event": true,
     "source": "venue-feed",
     "snippet": ""
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-20",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "8c2890c4e578",
@@ -5456,22 +5536,6 @@
     "snippet": "Ross Purdy puts the \"destruction\" in \"deconstructionist alt comedy stand-up comedian\"."
   },
   {
-    "id": "5448fcc6beb9",
-    "title": "Club Flamingo",
-    "venue": "The Grand Electric",
-    "venue_id": "the-grand-electric",
-    "suburb": "Surry Hills",
-    "genre": "cabaret",
-    "status": "suppressed",
-    "start_date": "2026-09-05",
-    "end_date": "2026-10-10",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/club-flamingo",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Family nightclub, where kids rule the dance floor."
-  },
-  {
     "id": "ed654db4e5a8",
     "title": "Wes Carr - The Springsteen Songbook: Unplugged",
     "venue": "The Virago | Fool's Paradise: Entertainment Quarter",
@@ -5982,22 +6046,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Step into the rhythm of All In, a high-energy celebration of dance"
-  },
-  {
-    "id": "84d256a44a8c",
-    "title": "A Velvet Rendezvous",
-    "venue": "Coogee Diggers",
-    "venue_id": "",
-    "suburb": "Coogee",
-    "genre": "cabaret",
-    "status": "closed",
-    "start_date": "2026-08-29",
-    "end_date": "2026-08-29",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-velvet-rendezvous",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease"
   },
   {
     "id": "81fe65c63a14",

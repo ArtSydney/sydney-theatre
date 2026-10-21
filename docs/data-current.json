@@ -557,7 +557,7 @@
     "price_from": 84,
     "free_event": false,
     "source": "todaytix",
-    "snippet": ""
+    "snippet": "The theatrical comedy event of 2027 is coming to Sydney for five weeks only!"
   },
   {
     "id": "7b3dc25b9253",
@@ -1440,6 +1440,22 @@
     "snippet": ""
   },
   {
+    "id": "be8f0fb18b23",
+    "title": "It’s Gatsby Darling – cabaret show & dinner",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Barangaroo",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-20",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/its-gatsby-darling-cabaret-show-and-dinner",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Get ready to transport back to the roaring 20s at our “It’s Gatsby Darling” Cabaret Show"
+  },
+  {
     "id": "7f283f7d0e7c",
     "title": "Power Lines by Jared Stephenson",
     "venue": "Old Fitz Theatre",
@@ -1529,7 +1545,7 @@
     "status": "active",
     "start_date": "2026-11-17",
     "end_date": "2026-12-06",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-addams-family-the-musical",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48165-the-addams-family-musical-syd",
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",
@@ -1710,6 +1726,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Samhain, the ancient Irish Celtic festival that gave the world Halloween will be celebrated in music, song & spoken word"
+  },
+  {
+    "id": "927f01e2c354",
+    "title": "Vampire Bat - Improv In The Dark",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-13",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/vampire-bat-improv-in-the-dark",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Spooky vampire-themed improv entirely in the dark"
   },
   {
     "id": "b1bc248a7ff2",
@@ -2304,6 +2336,22 @@
     "snippet": "Reading at Old Fitz Theatre."
   },
   {
+    "id": "69a24cfbcbae",
+    "title": "An Evening Without Kate Bush",
+    "venue": "Foundry Theatre",
+    "venue_id": "foundry-theatre",
+    "suburb": "Pyrmont",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-28",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48401-an-evening-without-kate-bush",
+    "price_from": 45,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "b4a17a16b92b",
     "title": "The Voice of Bryn Terfel",
     "venue": "Concert Hall | Sydney Opera House",
@@ -2528,6 +2576,22 @@
     "snippet": "New contemporary dance works in development from Cassidy McDermott Smith and Shyamla"
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "c88c07882187",
     "title": "Next Fall by Geoffrey Nauffts",
     "venue": "Eternity Playhouse",
@@ -2576,22 +2640,6 @@
     "snippet": "Fast, fun, singalong Shakespeare in your local pub "
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "5d559a55ee67",
     "title": "Mozart, Salieri & Pleyel",
     "venue": "City Recital Hall",
@@ -2606,22 +2654,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "bf4397d8b4dc-the-pavilion-performing-arts-centre",
-    "title": "Wolf by Circa",
-    "venue": "The Pavilion Performing Arts Centre",
-    "venue_id": "the-pavilion-performing-arts-centre",
-    "suburb": "Sutherland",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-21",
-    "booking_url": "https://thepavilionarts.au/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Australia's leading cirque troupe is ready to devour Sutherland"
   },
   {
     "id": "49072de5dff5",

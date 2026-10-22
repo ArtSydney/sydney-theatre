@@ -528,6 +528,22 @@
     "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for."
   },
   {
+    "id": "f799ceb63d80",
+    "title": "Black is the Color of My Voice",
+    "venue": "Seymour Centre",
+    "venue_id": "seymour-centre",
+    "suburb": "Chippendale",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-02-24",
+    "end_date": "2027-02-27",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/black-is-the-color-of-my-voice",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "The acclaimed Nina Simone-inspired theatrical experience "
+  },
+  {
     "id": "845749281f7e",
     "title": "Cadel: Lungs on Legs",
     "venue": "The Pavilion Performing Arts Centre",
@@ -942,6 +958,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Vivienne Powell is bringing her solo play to Sydney following acclaimed Los Angeles and Edinburgh seasons"
+  },
+  {
+    "id": "5e095fa06b35",
+    "title": "DIVA starring Vivienne Powell",
+    "venue": "Eternity Playhouse",
+    "venue_id": "eternity-playhouse",
+    "suburb": "Darlinghurst",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-20",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/diva",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "At the heart of Diva is the powerful connection between music and memory"
   },
   {
     "id": "b2d54a6fe65e",
@@ -1568,6 +1600,22 @@
     "snippet": "Late Night at Old Fitz Theatre. A multi-generational story about love, companionship and the stories we tell ourselves about ownership, asking whether we should treat our machines the way we hope they might one day treat us."
   },
   {
+    "id": "367315746b26",
+    "title": "Excellence in the Arts",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-17",
+    "end_date": "2026-11-17",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/excellence-in-the-arts/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "d98b9ea3a07c",
     "title": "Sydney Town Hall organ recitals",
     "venue": "George Street",
@@ -1790,6 +1838,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "The 2026 Katie Lees Fellowship play and a love letter to chronic illness and big dreams"
+  },
+  {
+    "id": "de213cf2936e",
+    "title": "Pickpockets - Australian Premiere & Q&A w. Tim Minchin",
+    "venue": "The Ritz Cinema",
+    "venue_id": "",
+    "suburb": "Randwick",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-09",
+    "end_date": "2026-11-09",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/pickpockets-australian-premiere-and-q-and-a-w-tim-minchin",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Walk the red carpet for the Premiere of Sydney-Set Rom-Com Pickpockets"
   },
   {
     "id": "73e1fb70022c",
@@ -2512,6 +2576,22 @@
     "snippet": "A woman’s yearning for a child becomes an all-consuming obsession in Lorca’s haunting tragedy.  "
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "c72601e78fc7",
     "title": "The Good Soldier Švejk",
     "venue": "Castlereagh Boutique Hotel",
@@ -2576,22 +2656,6 @@
     "snippet": "New contemporary dance works in development from Cassidy McDermott Smith and Shyamla"
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-22",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "c88c07882187",
     "title": "Next Fall by Geoffrey Nauffts",
     "venue": "Eternity Playhouse",
@@ -2622,22 +2686,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "3863ce102009",
-    "title": "The Shakesbeer Sessions: Midsummer Night’s Dream Surry Hills",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Surry Hills",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-22",
-    "end_date": "2026-10-22",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-midsummer-nights-dream-surry-hills",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun, singalong Shakespeare in your local pub "
   },
   {
     "id": "5d559a55ee67",
@@ -2840,7 +2888,7 @@
     "genre": "cabaret",
     "status": "active",
     "start_date": "2026-10-08",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-14",
     "booking_url": "https://www.todaytix.com/sydney/shows/47655-bernie-dieters-club-kabarett-carriageworks",
     "price_from": 35,
     "free_event": false,

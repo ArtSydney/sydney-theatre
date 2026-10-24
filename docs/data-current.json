@@ -2528,6 +2528,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-25",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "664a58862591",
     "title": "Development Showing: Adieu Uncut Pubic Cubic!",
     "venue": "",
@@ -2590,38 +2606,6 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
-  },
-  {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-24",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
-    "id": "011a4431b4ab",
-    "title": "The Shakesbeer sessions:A Midsummer Night's Dream Leichhardt",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Leichhardt",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-24",
-    "end_date": "2026-10-24",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-leichhardt",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun Shakespeare in your local pub"
   },
   {
     "id": "ab92d9fae5ee",
@@ -2704,22 +2688,6 @@
     "snippet": "Vibrant beats, captivating performers and immersive art – all set against the historic backdrop of the Canopy Fountain"
   },
   {
-    "id": "19a38855609c",
-    "title": "Out of the Studio",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Dawes Point",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-10-23",
-    "end_date": "2026-10-24",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/out-of-the-studio",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "New contemporary dance works in development from Cassidy McDermott Smith and Shyamla"
-  },
-  {
     "id": "c88c07882187",
     "title": "Next Fall by Geoffrey Nauffts",
     "venue": "Eternity Playhouse",
@@ -2768,22 +2736,6 @@
     "snippet": ""
   },
   {
-    "id": "49072de5dff5",
-    "title": "Parramatta Lanes: Jazz Bar",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-24",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/parramatta-lanes-jazz-bar/",
-    "price_from": null,
-    "free_event": true,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
     "id": "31a051f8a3b0",
     "title": "Cirque Du Soleil KOOZA",
     "venue": "The Entertainment Quarter",
@@ -2814,22 +2766,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Queer history inspires queer comedy"
-  },
-  {
-    "id": "d4d520db6a00",
-    "title": "Catch Me If You Can: The Musical",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Petersham",
-    "genre": "musical",
-    "status": "active",
-    "start_date": "2026-10-16",
-    "end_date": "2026-10-24",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/catch-me-if-you-can-the-musical",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Inner West Theatre Company presents the big band musical based on the life of conman Frank Abagnale Jr."
   },
   {
     "id": "f265bc88969c",
@@ -2912,22 +2848,6 @@
     "snippet": "Aren’t you just dying to be a Tiger?"
   },
   {
-    "id": "36384a42acd6",
-    "title": "Echoform",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Marrickville",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-10-09",
-    "end_date": "2026-10-24",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/echoform",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "An underground immersive dance theatre experience"
-  },
-  {
     "id": "ef39f4dbd3b5",
     "title": "Catch As Catch Can",
     "venue": "Old Fitz Theatre",
@@ -3006,22 +2926,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "0bf3a46fcaa1",
-    "title": "The Year in Tatters",
-    "venue": "Ensemble Theatre",
-    "venue_id": "ensemble-theatre",
-    "suburb": "Kirribilli",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-09-28",
-    "end_date": "2026-10-24",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-year-in-tatters",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "The revue tradition returns to Sydney!"
   },
   {
     "id": "ff770075b0ea",

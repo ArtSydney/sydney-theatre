@@ -2448,6 +2448,22 @@
     "snippet": ""
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "9026e7ebbd8d",
     "title": "Fuccbois: Live In Concert",
     "venue": "Darling Quarter Theatre",
@@ -2496,6 +2512,22 @@
     "snippet": ""
   },
   {
+    "id": "0f72f48b078d",
+    "title": "Great Opera Hits",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-10-26",
+    "end_date": "2027-03-21",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Opera Australia season."
+  },
+  {
     "id": "b4a17a16b92b",
     "title": "The Voice of Bryn Terfel",
     "venue": "Concert Hall | Sydney Opera House",
@@ -2528,38 +2560,6 @@
     "snippet": ""
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-25",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
-    "id": "664a58862591",
-    "title": "Development Showing: Adieu Uncut Pubic Cubic!",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Randwick",
-    "genre": "dance",
-    "status": "active",
-    "start_date": "2026-10-25",
-    "end_date": "2026-10-25",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/development-showing-adieu-uncut-pubic-cubic",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "A new experimental dance work in development exploring the silliness and seriousness of having hair with Q&A discussion."
-  },
-  {
     "id": "53ac4c89d62d",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
     "venue": "",
@@ -2574,38 +2574,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Fast, fun, singalong Shakespeare in your local pub."
-  },
-  {
-    "id": "3ee842e3d6b3",
-    "title": "Ya Ossas يا قصص",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-25",
-    "end_date": "2026-10-25",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/ya-ossas/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
-    "id": "0f72f48b078d",
-    "title": "Great Opera Hits",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-10-25",
-    "end_date": "2027-03-21",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Opera Australia season."
   },
   {
     "id": "ab92d9fae5ee",
@@ -2670,22 +2638,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Scene Theatre Sydney presents a witty and thought-provoking stage adaptation of Jaroslav Hašek’s celebrated comic novel"
-  },
-  {
-    "id": "c50c611d368d",
-    "title": "Art & About pop-up performances at Oxford Square",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Darlinghurst",
-    "genre": "unknown",
-    "status": "active",
-    "start_date": "2026-10-23",
-    "end_date": "2026-10-25",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-about-pop-up-performances-at-oxford-square",
-    "price_from": null,
-    "free_event": true,
-    "source": "cityofsydney",
-    "snippet": "Vibrant beats, captivating performers and immersive art – all set against the historic backdrop of the Canopy Fountain"
   },
   {
     "id": "c88c07882187",
@@ -2784,22 +2736,6 @@
     "snippet": "Fast, fun, singalong Shakespeare in your local pub."
   },
   {
-    "id": "03375e2e2f2b",
-    "title": "Monty Python's Spamalot",
-    "venue": "The Star Event Centre",
-    "venue_id": "the-star",
-    "suburb": "Pyrmont",
-    "genre": "musical",
-    "status": "active",
-    "start_date": "2026-10-15",
-    "end_date": "2026-10-25",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/monty-pythons-spamalot",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Drew Anthony Creative brings one of Broadway's classic musicals to Sydney in a hilarious all-new reimagined production"
-  },
-  {
     "id": "b68a455f879b",
     "title": "Oh My God: A Comedy of Biblical Proportions!",
     "venue": "Flight Path Theatre",
@@ -2878,22 +2814,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "d677be36cafb",
-    "title": "Stocktake at Belvoir 25A",
-    "venue": "Belvoir St Theatre",
-    "venue_id": "belvoir-st-theatre",
-    "suburb": "Surry Hills",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-04",
-    "end_date": "2026-10-25",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/stocktake-at-belvoir-25a",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Every day is your first day. Every night is Stocktake."
   },
   {
     "id": "a67fbb086f82",

@@ -544,6 +544,38 @@
     "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for."
   },
   {
+    "id": "0567ea7b6e82",
+    "title": "A Beginner’s Guide to Ancient Egypt",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-02-26",
+    "end_date": "2027-02-26",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/a-beginners-guide-to-ancient-egypt/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "a03b00b09edd",
+    "title": "ITS Iconic",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-02-25",
+    "end_date": "2027-02-25",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/its-iconic/",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Queer history inspires queer comedy"
+  },
+  {
     "id": "f799ceb63d80",
     "title": "Black is the Color of My Voice",
     "venue": "Seymour Centre",
@@ -558,6 +590,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "The acclaimed Nina Simone-inspired theatrical experience "
+  },
+  {
+    "id": "c0b4a0b6742c",
+    "title": "Slurs From The Heart",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-02-17",
+    "end_date": "2027-02-20",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/slurs-from-the-heart/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "845749281f7e",
@@ -590,6 +638,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Gay book club"
+  },
+  {
+    "id": "51bd00de8fad",
+    "title": "Peter Allen: Not The Boy Next Door",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-02-10",
+    "end_date": "2027-02-14",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/peter-allen-not-the-boy-next-door/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "fe2532e9614b",
@@ -640,6 +704,54 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "92a8bf577706",
+    "title": "RAW Comedy",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-02-05",
+    "end_date": "2027-02-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/raw-comedy/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "b232ba1d32f2",
+    "title": "Goat Yarns: A Lunar New Year Festival",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-02-03",
+    "end_date": "2027-02-04",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/goat-yarns-a-lunar-new-year-festival/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "fa1d6a4ef054",
+    "title": "Emma Pask Quartet",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-30",
+    "end_date": "2027-01-30",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/emma-pask-quartet/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "23eb76e4db42",
     "title": "The Elixir of Love",
     "venue": "Sydney Opera House",
@@ -656,6 +768,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "a2761eea97ee",
+    "title": "Zodiac",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-29",
+    "end_date": "2027-01-29",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/zodiac/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "d6d714d0add0",
     "title": "Play Club",
     "venue": "",
@@ -670,6 +798,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Play Club will be serving up two low-fi but high energy readings of piping hot new Australian works."
+  },
+  {
+    "id": "2174fe20bdc1",
+    "title": "Piano Bar By Request",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-28",
+    "end_date": "2027-01-28",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/piano-bar-by-request/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "50fa2422c663",
@@ -768,6 +912,22 @@
     "snippet": ""
   },
   {
+    "id": "a4b2f5272d33",
+    "title": "Duo Ruut",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-16",
+    "end_date": "2027-01-16",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/duo-ruut/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "2b02e16f86b7",
     "title": "Truck Driver",
     "venue": "The Pavilion Performing Arts Centre",
@@ -800,22 +960,6 @@
     "snippet": "Gay book club"
   },
   {
-    "id": "3b8d49c93fda",
-    "title": "The Quizzical Mr Jeff",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2027-01-14",
-    "end_date": "2027-01-15",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/the-quizzical-mr-jeff/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
     "id": "8f98171ea8fc",
     "title": "The Magic Flute",
     "venue": "Sydney Opera House",
@@ -830,6 +974,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Opera Australia season."
+  },
+  {
+    "id": "3b8d49c93fda",
+    "title": "The Quizzical Mr Jeff",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-13",
+    "end_date": "2027-01-16",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-quizzical-mr-jeff/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "647ca9b2136c",
@@ -1070,6 +1230,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Gay book club"
+  },
+  {
+    "id": "0f372239da72",
+    "title": "A Very Cabaret Christmas",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-12-10",
+    "end_date": "2026-12-12",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/a-very-cabaret-christmas/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "aa62f8527389",
@@ -2592,6 +2768,22 @@
     "snippet": "Stupid. Sexy. Fabulous. A variety night of drag, burlesque, comedy and more!"
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "d5d7450938d6",
     "title": "Arranged by Shekhar Raychaudhury",
     "venue": "Old Fitz Theatre",
@@ -2640,22 +2832,6 @@
     "snippet": ""
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "9026e7ebbd8d",
     "title": "Fuccbois: Live In Concert",
     "venue": "Darling Quarter Theatre",
@@ -2678,7 +2854,7 @@
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-27",
     "end_date": "2026-10-27",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5401",
@@ -2966,7 +3142,7 @@
     "venue_id": "city-recital-hall",
     "suburb": "Sydney",
     "genre": "unknown",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-21",
     "end_date": "2026-10-27",
     "booking_url": "https://www.todaytix.com/sydney/shows/48008-mozart-salieri-and-pleyel-syd",
@@ -3118,22 +3294,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "An interactive game of comedy and betrayal"
-  },
-  {
-    "id": "a03b00b09edd",
-    "title": "ITS Iconic",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Alexandria",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-17",
-    "end_date": "2026-11-21",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/its-iconic",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Queer history inspires queer comedy"
   },
   {
     "id": "a6d503b55c99",

@@ -848,6 +848,22 @@
     "snippet": "Absurd and darkly funny, I Hide in Bathrooms is a revealing meditation on mortality and romance from performance artist Astrid Pill."
   },
   {
+    "id": "502c93438354",
+    "title": "A Loved Woman",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-21",
+    "end_date": "2027-01-23",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/a-loved-woman/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "72748bbcfaf5",
     "title": "Breathing Archive",
     "venue": "Eternity Playhouse",
@@ -862,22 +878,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": " Inhale the wild edges of 90s queer Sydney"
-  },
-  {
-    "id": "502c93438354",
-    "title": "A Loved Woman",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2027-01-20",
-    "end_date": "2027-01-23",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/a-loved-woman/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
   },
   {
     "id": "a4b2f5272d33",
@@ -1370,7 +1370,7 @@
     "start_date": "2026-12-02",
     "end_date": "2026-12-05",
     "booking_url": "https://riversideparramatta.com.au/whats-on/ruins/",
-    "price_from": null,
+    "price_from": 50,
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
@@ -1626,7 +1626,7 @@
     "start_date": "2026-11-25",
     "end_date": "2026-11-28",
     "booking_url": "https://riversideparramatta.com.au/whats-on/the-western-line/",
-    "price_from": null,
+    "price_from": 50,
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
@@ -1710,6 +1710,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
+  },
+  {
+    "id": "9eef5f82ecf4",
+    "title": "Celebrating Queer Icons - An Unscripted Comedy Show",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/celebrating-queer-icons-an-unscripted-comedy-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Based on your suggestions, the LGBTQ+ icons of history come alive in an unscripted comedy show"
   },
   {
     "id": "be8f0fb18b23",
@@ -1960,7 +1976,7 @@
     "genre": "play",
     "status": "active",
     "start_date": "2026-11-13",
-    "end_date": "2026-12-12",
+    "end_date": "2026-12-19",
     "booking_url": "https://www.todaytix.com/sydney/shows/45328-silver-tongue-hayes-theatre-co-2026",
     "price_from": 81,
     "free_event": false,
@@ -2048,6 +2064,22 @@
     "snippet": "An improvised hockey romance show"
   },
   {
+    "id": "fec7ac38fce7",
+    "title": "Runaway – Which Way Is Home?",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-12",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/runaway-which-way-is-home/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "b1bc248a7ff2",
     "title": "A Number",
     "venue": "Old Fitz Theatre",
@@ -2110,6 +2142,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Walk the red carpet for the Premiere of Sydney-Set Rom-Com Pickpockets"
+  },
+  {
+    "id": "0f88aee44321",
+    "title": "Unscripted Comedy Show",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-07",
+    "end_date": "2026-12-05",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/scripted-actors-with-unscripted-improvisers-a-comedy-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "House teams improvise an hour-long comedy show 'Big House' based off your suggestions."
   },
   {
     "id": "73e1fb70022c",
@@ -2464,6 +2512,22 @@
     "snippet": "A live performance delivering big voices, unforgettable songs and musical theatre that packs a punch"
   },
   {
+    "id": "423cf5690705",
+    "title": "ITS ALIIIVE! A Horror-Themed Comedy Show",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-10-31",
+    "end_date": "2026-10-31",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/its-aliiive-a-scary-unscripted-comedy-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "This Halloween, based on your suggestions, your fears come to life in this improvised comedy!"
+  },
+  {
     "id": "08c8c3a0b5d9",
     "title": "‘Snowflake’ by Mike Bartlett",
     "venue": "Ensemble Theatre",
@@ -2526,6 +2590,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Come join The Coven, an unscripted witchy show where big characters meet big laughs"
+  },
+  {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "1dc25869521a",
@@ -2592,54 +2672,6 @@
     "snippet": "Stupid. Sexy. Fabulous. A variety night of drag, burlesque, comedy and more!"
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-28",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
-    "id": "d5d7450938d6",
-    "title": "Arranged by Shekhar Raychaudhury",
-    "venue": "Old Fitz Theatre",
-    "venue_id": "old-fitz-theatre",
-    "suburb": "Woolloomooloo",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-28",
-    "end_date": "2026-10-28",
-    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5001",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Reading at Old Fitz Theatre."
-  },
-  {
-    "id": "279ac5909765",
-    "title": "The Australian Dream? with Tim Ross",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-28",
-    "end_date": "2026-10-28",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/the-australian-dream-with-tim-ross/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
     "id": "a8dfb1393f00",
     "title": "BLANC DE BLANC",
     "venue": "The Grand Electric",
@@ -2670,22 +2702,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A hilarious comedy-pop extravaganza packed with boyband nostalgia, original bangers and red flags."
-  },
-  {
-    "id": "69a24cfbcbae",
-    "title": "An Evening Without Kate Bush",
-    "venue": "Foundry Theatre",
-    "venue_id": "foundry-theatre",
-    "suburb": "Pyrmont",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-28",
-    "booking_url": "https://www.todaytix.com/sydney/shows/48401-an-evening-without-kate-bush",
-    "price_from": 45,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": ""
   },
   {
     "id": "53ac4c89d62d",

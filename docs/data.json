@@ -1136,6 +1136,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "5b56a154811a",
+    "title": "Anything Goes / Christmas Edition",
+    "venue": "The Oxford Hotel",
+    "venue_id": "",
+    "suburb": "Darlinghurst",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-12-23",
+    "end_date": "2026-12-23",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/anything-goes-christmas-edition",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "One last musical theatre blowout before Christmas: a festive community cabaret with John Milligan."
+  },
+  {
     "id": "0ac250d9cb25",
     "title": "Christmas in The Grandparents Club",
     "venue": "The Pavilion Performing Arts Centre",
@@ -1904,6 +1920,22 @@
     "snippet": "Three sisters. One funeral. Grief, laughter, and the strange tides of memory."
   },
   {
+    "id": "2f2913e92fad",
+    "title": "Dolls & Guys",
+    "venue": "The Oxford Hotel",
+    "venue_id": "",
+    "suburb": "Darlinghurst",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-18",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dolls-and-guys",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Iconic musical theatre roles, unexpected performers and bold casting choices, with John Milligan at the piano."
+  },
+  {
     "id": "16a0e9e038d4",
     "title": "The Addams Family, the musical",
     "venue": "Teatro at the Italian Forum",
@@ -1966,6 +1998,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Be enchanted by the magic of Sydney Town Hall's grand organ, at a free ticketed concert in the heart of the city."
+  },
+  {
+    "id": "2d112d7d626a",
+    "title": "And Roses Wilt In the End",
+    "venue": "The Entertainment Quarter",
+    "venue_id": "entertainment-quarter",
+    "suburb": "Moore Park",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-11-16",
+    "end_date": "2026-11-17",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/and-roses-wilt-in-the-end",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "NON returns to Sydney's iconic car park with a cinematic contemporary dance performance exploring life, love and time."
   },
   {
     "id": "b4f2bc1a4472",
@@ -2496,6 +2544,22 @@
     "snippet": "Cone of Confusion performs live an original soundtrack to the screening of 1922 silent film classic Nosferatu"
   },
   {
+    "id": "b8ecbfae00fa",
+    "title": "Be Our Jest",
+    "venue": "The Oxford Hotel",
+    "venue_id": "",
+    "suburb": "Darlinghurst",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-11-04",
+    "end_date": "2026-11-04",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/be-our-jest",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A community cabaret celebrating the funny side of musical theatre, with John Milligan at the piano."
+  },
+  {
     "id": "5c158bd2748d",
     "title": "Sir Stephen Hough in Recital",
     "venue": "City Recital Hall",
@@ -2526,6 +2590,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Fast, fun, singalong Shakespeare in your local pub."
+  },
+  {
+    "id": "6fe479c2d94c",
+    "title": "Big Gay Cabaret",
+    "venue": "The Beresford Hotel",
+    "venue_id": "beresford-hotel",
+    "suburb": "Surry Hills",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-01",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/big-gay-cabaret",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Sold out: an all-star afternoon of musical theatre, cabaret, drag, comedy and live music at The Beresford."
   },
   {
     "id": "53c9b20e18e9",
@@ -2688,6 +2768,22 @@
     "snippet": "This Halloween, based on your suggestions, your fears come to life in this improvised comedy!"
   },
   {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-10-30",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
+  },
+  {
     "id": "08c8c3a0b5d9",
     "title": "‘Snowflake’ by Mike Bartlett",
     "venue": "Ensemble Theatre",
@@ -2768,29 +2864,13 @@
     "snippet": "Come join The Coven, an unscripted witchy show where big characters meet big laughs"
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-29",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "1dc25869521a",
     "title": "The Shakesbeer Sessions: A Midsummer Night's Dream - Pyrmont",
     "venue": "",
     "venue_id": "",
     "suburb": "Pyrmont",
     "genre": "comedy",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-29",
     "end_date": "2026-10-29",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-pyrmont",
@@ -2806,7 +2886,7 @@
     "venue_id": "riverside-theatres",
     "suburb": "Parramatta",
     "genre": "family",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-29",
     "end_date": "2026-10-29",
     "booking_url": "https://riversideparramatta.com.au/whats-on/family-affairs-with-the-gilchrists/",
@@ -2822,7 +2902,7 @@
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-29",
     "end_date": "2026-10-29",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6001",
@@ -2838,7 +2918,7 @@
     "venue_id": "",
     "suburb": "Surry Hills",
     "genre": "cabaret",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-29",
     "end_date": "2026-10-29",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/hot-nonsense-monsterfvckers",
@@ -7582,6 +7662,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "Stay active, connect and celebrate culture through dance!"
+  },
+  {
+    "id": "c99259decf44",
+    "title": "Saturday Night Dinner Show at the Honeycomb Club",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Potts Point",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2025-11-08",
+    "end_date": "2026-12-19",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-night-cap-dinner-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Nestled in the neon heart of Kings Cross, this authentic burlesque cabaret dinner theatre awaits!"
   },
   {
     "id": "c306f596a49c",

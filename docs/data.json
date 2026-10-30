@@ -1024,6 +1024,22 @@
     "snippet": "A circus of the imagination"
   },
   {
+    "id": "8097c7ccc1a1",
+    "title": "Stardust Circus",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Rose Bay",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-01-08",
+    "end_date": "2027-01-31",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/stardust-circus",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Rose bay Stardust Circus returns January 2027"
+  },
+  {
     "id": "20dab5edee3f",
     "title": "The Shawshank Redemption",
     "venue": "Theatre Royal Sydney",
@@ -1150,6 +1166,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "One last musical theatre blowout before Christmas: a festive community cabaret with John Milligan."
+  },
+  {
+    "id": "5ebb442e6565",
+    "title": "Camp as Christmas: Wonder Mama's Christmas Cabaret",
+    "venue": "Qtopia Sydney",
+    "venue_id": "qtopia-sydney",
+    "suburb": "Darlinghurst",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-12-19",
+    "end_date": "2026-12-19",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/camp-as-christmas-wonder-mamas-christmas-cabaret",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Returning with some festive cheer at Qtopia's Loading Dock Theatre with her Camp as Christmas Cabaret!"
   },
   {
     "id": "0ac250d9cb25",
@@ -1294,6 +1326,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "At the heart of Diva is the powerful connection between music and memory"
+  },
+  {
+    "id": "ab89f3434db3",
+    "title": "A Whole New Show",
+    "venue": "The Oxford Hotel",
+    "venue_id": "",
+    "suburb": "Darlinghurst",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-09",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/a-whole-new-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Childhood favourites, movie musicals and animated classics in a nostalgic cabaret with John Milligan."
   },
   {
     "id": "b2d54a6fe65e",
@@ -1600,6 +1648,38 @@
     "snippet": ""
   },
   {
+    "id": "9d54ffc50917",
+    "title": "Teatro Flamenco with Diana Reyes Flamenco Dance Co",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Newtown",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-29",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/teatro-flamenco-with-diana-reyes-flamenco-dance-co",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Flamenco dance and music performance with live music"
+  },
+  {
+    "id": "fce30cbc6d58",
+    "title": "Ukrainian Theatre: Irma Vytovska in Kyivska Perepichka",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Balmain",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/ukrainian-theatre-irma-vytovska-in-kyivska-perepichka",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Discover contemporary Ukrainian theatre through ‘Kyivska Perepichka’ – raw, moving, bold and unforgettable"
+  },
+  {
     "id": "d6e5f16f94f8",
     "title": "Cabaret, Cocktails & Karaoke in November",
     "venue": "Seymour Centre",
@@ -1726,6 +1806,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
+  },
+  {
+    "id": "c6114915f808",
+    "title": "Molière malgré Elles | Molière, Her way",
+    "venue": "PACT",
+    "venue_id": "pact-centre",
+    "suburb": "Erskineville",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-24",
+    "end_date": "2026-11-28",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/moliere-malgre-elles-or-moliere-her-way",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A play in French with English surtitles that cast a modern light on the father of French comedy"
   },
   {
     "id": "4fff4ab0dffa",
@@ -2048,6 +2144,22 @@
     "snippet": ""
   },
   {
+    "id": "b9abd54d28de",
+    "title": "Improvised Senior Debating Championship - Comedy Show",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/improvised-senior-debating-championship-comedy-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "In a head to head battle of the wits, two teams of brilliant minds will debate a topic decided by YOU the audience."
+  },
+  {
     "id": "2bef861a48de",
     "title": "A Beautiful Noise: The Neil Diamond Musical",
     "venue": "Sydney Lyric Theatre",
@@ -2224,6 +2336,22 @@
     "snippet": ""
   },
   {
+    "id": "46e688acf780",
+    "title": "Improv Smackdown Competition Grand Final",
+    "venue": "Eternity Playhouse",
+    "venue_id": "eternity-playhouse",
+    "suburb": "Darlinghurst",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-11",
+    "end_date": "2026-11-11",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/improv-smackdown-competition-grand-final",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Join the best of the best from Improv Theatre Sydney at Eternity Playhouse for 2 epic hours of magic, mischief & mayhem!"
+  },
+  {
     "id": "df5ec7bc8f16",
     "title": "Dr Sketchy’s Sydney - November Edition",
     "venue": "",
@@ -2304,6 +2432,22 @@
     "snippet": "Walk the red carpet for the Premiere of Sydney-Set Rom-Com Pickpockets"
   },
   {
+    "id": "7ee2625d0827",
+    "title": "Improv Comedy Festival Opening Night Show",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Alexandria",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-08",
+    "end_date": "2026-11-08",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/improv-comedy-festival-opening-night-show",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Join us for the official opening of the ITS Comedy Festival 2026, followed by our opening show ITS The Sunday Megamix!"
+  },
+  {
     "id": "0f88aee44321",
     "title": "Unscripted Comedy Show",
     "venue": "",
@@ -2366,6 +2510,22 @@
     "free_event": true,
     "source": "cityofsydney",
     "snippet": "A conversation about Seymour's history, evolution, and what's next"
+  },
+  {
+    "id": "5c5fcb2f2894",
+    "title": "Bittersweet",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Dawes Point",
+    "genre": "opera",
+    "status": "active",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-07",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/bittersweet",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A musical tribute to Sigmund Romberg"
   },
   {
     "id": "9468146c2057",
@@ -2768,22 +2928,6 @@
     "snippet": "This Halloween, based on your suggestions, your fears come to life in this improvised comedy!"
   },
   {
-    "id": "34d23628c603",
-    "title": "My Fair Lady",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-10-30",
-    "end_date": "2026-10-31",
-    "booking_url": "https://opera.org.au/whats-on/sydney",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
-  },
-  {
     "id": "08c8c3a0b5d9",
     "title": "‘Snowflake’ by Mike Bartlett",
     "venue": "Ensemble Theatre",
@@ -2822,7 +2966,7 @@
     "venue_id": "riverside-theatres",
     "suburb": "Parramatta",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-30",
     "end_date": "2026-10-30",
     "booking_url": "https://riversideparramatta.com.au/whats-on/triple-treat/",
@@ -2838,7 +2982,7 @@
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-30",
     "end_date": "2026-10-30",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5801",
@@ -2854,7 +2998,7 @@
     "venue_id": "",
     "suburb": "Alexandria",
     "genre": "comedy",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-30",
     "end_date": "2026-10-30",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-coven-an-unscripted-witchy-comedy-show",
@@ -3126,7 +3270,7 @@
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "cabaret",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-24",
     "end_date": "2026-10-30",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6201",
@@ -3142,7 +3286,7 @@
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-24",
     "end_date": "2026-10-30",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/eggs-at-the-old-fitz-theatre",
@@ -5758,6 +5902,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Jimeoin delivers sharp observations, big physicality, and pure spontaneity."
+  },
+  {
+    "id": "34d23628c603",
+    "title": "My Fair Lady",
+    "venue": "Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "family",
+    "status": "active",
+    "start_date": "2026-09-10",
+    "end_date": "2026-10-31",
+    "booking_url": "https://opera.org.au/whats-on/sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Much loved musical celebrates 70 years since its glorious Broadway debut"
   },
   {
     "id": "52e0e390a1ab",

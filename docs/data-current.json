@@ -432,6 +432,22 @@
     "snippet": ""
   },
   {
+    "id": "35d0b00c3cbd",
+    "title": "Rufus Wainwright’s Want Symphonic",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-04-10",
+    "end_date": "2027-04-11",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47881-rufus-wainwrights-want-symphonic",
+    "price_from": 103,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "4d0d3a4b8776",
     "title": "SPLIT ENDS",
     "venue": "Ensemble Theatre",
@@ -528,6 +544,22 @@
     "snippet": "A beautiful, heavenly experience. 5,000 years of culture in one night. This is what you have been waiting for."
   },
   {
+    "id": "7a47e119535a",
+    "title": "Casting Off",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "cabaret",
+    "status": "active",
+    "start_date": "2027-02-27",
+    "end_date": "2027-02-27",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Three generations of spirited women talk, tumble and fly in a gutsy, poetic circus that challenges convention with humour, intimacy and daring acrobatics."
+  },
+  {
     "id": "0567ea7b6e82",
     "title": "A Beginner’s Guide to Ancient Egypt",
     "venue": "Riverside Theatres",
@@ -608,6 +640,22 @@
     "snippet": "An electrifying one-man theatrical triumph: Pedalling live, Connor Delves embodies Cadel Evans’ relentless journey to Tour de France glory."
   },
   {
+    "id": "2801cf415378",
+    "title": "Titanic Live in Concert",
+    "venue": "TikTok Entertainment Centre | ICC Sydney",
+    "venue_id": "icc-sydney",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-02-12",
+    "end_date": "2027-02-12",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47855-titanic-live-in-concert",
+    "price_from": 115,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "51bd00de8fad",
     "title": "Peter Allen: Not The Boy Next Door",
     "venue": "Riverside Theatres",
@@ -621,6 +669,22 @@
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "0f815d23f677",
+    "title": "Disney’s Moana Live-to-Film Concert",
+    "venue": "TikTok Entertainment Centre | ICC Sydney",
+    "venue_id": "icc-sydney",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-02-10",
+    "end_date": "2027-02-10",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48465-disneys-moana-live-to-film",
+    "price_from": 100,
+    "free_event": false,
+    "source": "todaytix",
     "snippet": ""
   },
   {
@@ -781,6 +845,22 @@
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "db2b45f9896c",
+    "title": "Cocktail Hour with Richard Lynn",
+    "venue": "Utzon Room | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-01-28",
+    "end_date": "2027-01-30",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47875-cocktail-hour-with-richard-lynn-stravinskys-soldiers-tale",
+    "price_from": 125,
+    "free_event": false,
+    "source": "todaytix",
     "snippet": ""
   },
   {
@@ -1328,6 +1408,22 @@
     "snippet": ""
   },
   {
+    "id": "d688443d78bf",
+    "title": "The Bones Brigade Burlesque at Chuck Trailers",
+    "venue": "",
+    "venue_id": "",
+    "suburb": "Sydney",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-bones-brigade-burlesque-at-chuck-trailers",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Forget the half-pipe… we’re bringing the bumps, grinds and bad intentions"
+  },
+  {
     "id": "0aea19a97ae2",
     "title": "A Candlelight Christmas",
     "venue": "The Pavilion Performing Arts Centre",
@@ -1536,6 +1632,22 @@
     "snippet": "Australia’s favourite Venezuelan is back with a hilarious new show about dancing through tough times, finding joy in chaos and shaking off your worries to a Latino beat!"
   },
   {
+    "id": "700e5562b0d0",
+    "title": "Rodney Marks Time",
+    "venue": "Bondi Pavilion",
+    "venue_id": "",
+    "suburb": "Bondi Beach",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-29",
+    "end_date": "2026-11-29",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/rodney-marks-time",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Wordplay comedy by a veteran comedian"
+  },
+  {
     "id": "188512a29e74",
     "title": "The Nutcracker",
     "venue": "Joan Sutherland Theatre (Opera House)",
@@ -1680,6 +1792,22 @@
     "snippet": "I’d love to meet you. Not through another screen. In the same room. Listening. Feeling. Being present together. "
   },
   {
+    "id": "c8cfa91be168",
+    "title": "Performance Stream 2026",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-27",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/performance-stream-2026/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "c482b5aca21e",
     "title": "Pinchgut Opera presents Semele by Handel",
     "venue": "City Recital Hall",
@@ -1758,6 +1886,38 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "A dynamic end‑of‑year showcase where Kids Playhouse students shine through energetic drama performances that celebrate imagination, confidence and creativity."
+  },
+  {
+    "id": "98a99cb9ab85",
+    "title": "Muse",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-23",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/muse/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "04ddabc7bac4",
+    "title": "The Fox - Director/Actor Q&A preview",
+    "venue": "Hayden Orpheum Picture Palace",
+    "venue_id": "hayden-orpheum",
+    "suburb": "Cremorne",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2026-11-22",
+    "end_date": "2026-11-22",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-fox-director-actor-q-and-a-preview",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "Special Q&A preview screening of acclaimed new Australian black comedy THE FOX"
   },
   {
     "id": "4fff4ab0dffa",
@@ -1886,6 +2046,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
+    "id": "140ddec877c1",
+    "title": "Cabaret of Curiosities - Gothla AU showcase",
+    "venue": "Red Rattler",
+    "venue_id": "",
+    "suburb": "Marrickville",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-20",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/cabaret-of-curiosities-gothla-au-showcase",
+    "price_from": null,
+    "free_event": false,
+    "source": "cityofsydney",
+    "snippet": "A night of gothic, metal, and dark fusion bellydance and burlesque featuring international and local dancers "
   },
   {
     "id": "5c5be19b4e2d",
@@ -2041,7 +2217,7 @@
     "status": "active",
     "start_date": "2026-11-16",
     "end_date": "2026-11-17",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/and-roses-wilt-in-the-end",
+    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/non-or-and-roses-wilt-in-the-end",
     "price_from": null,
     "free_event": false,
     "source": "cityofsydney",

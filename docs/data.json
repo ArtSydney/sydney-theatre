@@ -128,6 +128,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "fabb1d474de5",
+    "title": "Mackenzie",
+    "venue": "The Playhouse | Sydney Opera House",
+    "venue_id": "playhouse",
+    "suburb": "Sydney",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-07-21",
+    "end_date": "2027-08-14",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45196-mackenzie-bell-shakespeare-2027",
+    "price_from": null,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "92aee59cba38",
     "title": "Faust",
     "venue": "Sydney Opera House",
@@ -1568,6 +1584,22 @@
     "snippet": "A magical, interactive festive adventure created especially for little ones and their families, including the chance to get a professional Santa photo!"
   },
   {
+    "id": "40f3468cd695",
+    "title": "Reflection",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-05",
+    "end_date": "2026-12-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/reflection/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "da05c7b9ff14",
     "title": "Paradise Hotel",
     "venue": "KXT (Kings Cross Theatre)",
@@ -2870,7 +2902,7 @@
     "venue_id": "riverside-theatres",
     "suburb": "Parramatta",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-11-05",
     "end_date": "2026-11-05",
     "booking_url": "https://riversideparramatta.com.au/whats-on/glow-up-2026/",
@@ -2950,7 +2982,7 @@
     "venue_id": "",
     "suburb": "Marrickville",
     "genre": "unknown",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-11-04",
     "end_date": "2026-11-05",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/nosferatu-a-psychedelic-cinema-experience",

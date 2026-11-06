@@ -80,6 +80,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "d9b1feceb4b1",
+    "title": "Shostakovich & Prokofiev",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-08-19",
+    "end_date": "2027-08-19",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47997-shostakovich-and-prokofiev",
+    "price_from": 53,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "93871dad66ff",
     "title": "An Evening on Broadway",
     "venue": "Concert Hall | Sydney Opera House",
@@ -909,6 +925,22 @@
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "ca6c3858829c",
+    "title": "Lunchtime Classics with the Sydney Symphony",
+    "venue": "Sydney Town Hall",
+    "venue_id": "",
+    "suburb": "",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-01-29",
+    "end_date": "2027-01-29",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47850-lunchtime-classics-with-the-sydney-symphony",
+    "price_from": 44,
+    "free_event": false,
+    "source": "todaytix",
     "snippet": ""
   },
   {
@@ -3926,7 +3958,7 @@
     "venue_id": "",
     "suburb": "Annandale",
     "genre": "comedy",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-10-16",
     "end_date": "2026-11-06",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-annandale",

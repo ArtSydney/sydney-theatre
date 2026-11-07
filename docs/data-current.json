@@ -560,6 +560,22 @@
     "snippet": ""
   },
   {
+    "id": "947f0523da32",
+    "title": "Ready, Set, Listen! Peer Gynt",
+    "venue": "Utzon Room | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-03-13",
+    "end_date": "2027-03-13",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47883-ready-set-listen-peer-gynt",
+    "price_from": 30,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "72858d1af3c5",
     "title": "Frozen",
     "venue": "The Pavilion Performing Arts Centre",
@@ -1920,6 +1936,22 @@
     "snippet": ""
   },
   {
+    "id": "6c0d6f36d41e",
+    "title": "The Sydney Symphony performs Max Richter’s Four Seasons presented by the Sydney Symphony Orchestra",
+    "venue": "Coliseum Theatre",
+    "venue_id": "coliseum-theatre",
+    "suburb": "Sydney",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-27",
+    "booking_url": "https://www.todaytix.com/sydney/shows/45746-the-sydney-symphony-performs-max-richters-four-seasons-sso-2026",
+    "price_from": 56,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "c482b5aca21e",
     "title": "Pinchgut Opera presents Semele by Handel",
     "venue": "City Recital Hall",
@@ -2672,38 +2704,6 @@
     "snippet": "House teams improvise an hour-long comedy show 'Big House' based off your suggestions."
   },
   {
-    "id": "73e1fb70022c",
-    "title": "World Renowned Magician Joshua Jay: LOOK CLOSER",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/world-renowned-magician-joshua-jay-look-closer",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "World renowned magician Joshua Jay brings his acclaimed live show LOOK CLOSER to Sydney for one night only."
-  },
-  {
-    "id": "5c5fcb2f2894",
-    "title": "Bittersweet",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Dawes Point",
-    "genre": "opera",
-    "status": "active",
-    "start_date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/bittersweet",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "A musical tribute to Sigmund Romberg"
-  },
-  {
     "id": "9468146c2057",
     "title": "Copland Dance Episodes",
     "venue": "Sydney Opera House",
@@ -2718,22 +2718,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": "Experience a stunning explosion of colour, fun and music, in Justin Peck’s Copland dance episodes."
-  },
-  {
-    "id": "778f36b2741c",
-    "title": "Anticipated Collapse.",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Darlinghurst",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-11-06",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/anticipated-collapse",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Come for the therapy. Stay for the breakdown."
   },
   {
     "id": "aa320f190e2e",
@@ -2798,38 +2782,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Four independent choreographers across two weeks of contemporary dance"
-  },
-  {
-    "id": "c84a762b5a24",
-    "title": "The Husband Stitch",
-    "venue": "Flight Path Theatre",
-    "venue_id": "flight-path-theatre",
-    "suburb": "Marrickville",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-11-04",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-husband-stitch",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "A gothic horror – an intimate unravelling of womanhood, control, and the violence disguised as love."
-  },
-  {
-    "id": "3502962272e4",
-    "title": "Twisted Violet",
-    "venue": "Flight Path Theatre",
-    "venue_id": "flight-path-theatre",
-    "suburb": "Marrickville",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-11-04",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/twisted-violet",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "A man wakes in the woods with no memory. A genre-smashing horror meets Arthurian fairytale."
   },
   {
     "id": "08c8c3a0b5d9",
@@ -2910,22 +2862,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A woman’s yearning for a child becomes an all-consuming obsession in Lorca’s haunting tragedy.  "
-  },
-  {
-    "id": "c88c07882187",
-    "title": "Next Fall by Geoffrey Nauffts",
-    "venue": "Eternity Playhouse",
-    "venue_id": "eternity-playhouse",
-    "suburb": "Darlinghurst",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-22",
-    "end_date": "2026-11-07",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/next-fall-by-geoffrey-nauffts",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "A deeply moving & funny story of love, faith and family that asks what it costs to believe and what it might cost not to"
   },
   {
     "id": "0574d34f265f",

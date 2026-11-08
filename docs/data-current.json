@@ -880,6 +880,22 @@
     "snippet": ""
   },
   {
+    "id": "13f07f4a7c79",
+    "title": "Dance Classics presented by the Sydney Symphony Orchestra",
+    "venue": "Sydney Town Hall",
+    "venue_id": "",
+    "suburb": "",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-01-30",
+    "end_date": "2027-01-30",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47853-dance-classics-with-the-sydney-symphony",
+    "price_from": 54,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "23eb76e4db42",
     "title": "The Elixir of Love",
     "venue": "Sydney Opera House",
@@ -2672,22 +2688,6 @@
     "snippet": "Walk the red carpet for the Premiere of Sydney-Set Rom-Com Pickpockets"
   },
   {
-    "id": "7ee2625d0827",
-    "title": "Improv Comedy Festival Opening Night Show",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Alexandria",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-11-08",
-    "end_date": "2026-11-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/improv-comedy-festival-opening-night-show",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Join us for the official opening of the ITS Comedy Festival 2026, followed by our opening show ITS The Sunday Megamix!"
-  },
-  {
     "id": "0f88aee44321",
     "title": "Unscripted Comedy Show",
     "venue": "",
@@ -2734,22 +2734,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "23e780b33d75",
-    "title": "Stories That Must Be Heard: Circus Concerto by Chloé Charody",
-    "venue": "Sydney Opera House",
-    "venue_id": "sydney-opera-house",
-    "suburb": "Sydney",
-    "genre": "cabaret",
-    "status": "active",
-    "start_date": "2026-11-06",
-    "end_date": "2026-11-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/stories-that-must-be-heard-circus-concerto-by-chloe-charody",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "An electrifying concert fusing classical music and circus"
   },
   {
     "id": "53d03bf466c2",
@@ -2832,22 +2816,6 @@
     "snippet": "A hilarious comedy-pop extravaganza packed with boyband nostalgia, original bangers and red flags."
   },
   {
-    "id": "53ac4c89d62d",
-    "title": "The Shakesbeer Sessions: A Midsummer Night's Dream @The Oaks",
-    "venue": "",
-    "venue_id": "",
-    "suburb": "Neutral Bay",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-10-25",
-    "end_date": "2026-11-08",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/the-shakesbeer-sessions-a-midsummer-nights-dream-the-oaks",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Fast, fun, singalong Shakespeare in your local pub."
-  },
-  {
     "id": "d5e60383115c",
     "title": "Yerma",
     "venue": "Genesian Theatre",
@@ -2912,22 +2880,6 @@
     "snippet": "Remixing five hundred years of history into an 80-minute electrifying pop-concert fit for royalty."
   },
   {
-    "id": "3a34df1bc353",
-    "title": "We Are The Tigers",
-    "venue": "Hayes Theatre Co",
-    "venue_id": "hayes-theatre",
-    "suburb": "Potts Point",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-09",
-    "end_date": "2026-11-08",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45329-we-are-the-tigers-hayes-theatre-co-2026",
-    "price_from": 76,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": "Aren’t you just dying to be a Tiger?"
-  },
-  {
     "id": "a89fe8beb961",
     "title": "Bernie Dieter's Club Kabarett",
     "venue": "Bay 20 | Carriageworks",
@@ -2942,22 +2894,6 @@
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
-  },
-  {
-    "id": "a67fbb086f82",
-    "title": "A Room With A View",
-    "venue": "Upstairs Theatre | Belvoir St Theatre",
-    "venue_id": "belvoir-st-theatre",
-    "suburb": "Surry Hills",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-10-03",
-    "end_date": "2026-11-08",
-    "booking_url": "https://www.todaytix.com/sydney/shows/45261-a-room-with-a-view-belvoir-st-theatre-2026",
-    "price_from": 63,
-    "free_event": false,
-    "source": "todaytix",
-    "snippet": "Belvoir presents A Room with A View, written by E.M. Forster, adapted by Grace Chapple, directed by Hannah Goodwin"
   },
   {
     "id": "d98a31c031a2",

@@ -272,6 +272,22 @@
     "snippet": "An unforgettable evening where extraordinary connections, remarkable evidence and heartfelt messages celebrate that love is eternal."
   },
   {
+    "id": "59edfa9329e7",
+    "title": "The Flying Orchestra",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-05-15",
+    "end_date": "2027-05-15",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47969-the-flying-orchestra",
+    "price_from": 49,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "401530785d1c",
     "title": "The Tempest Symposium",
     "venue": "Riverside Theatres",
@@ -378,7 +394,7 @@
     "start_date": "2027-05-08",
     "end_date": "2027-06-13",
     "booking_url": "https://www.todaytix.com/sydney/shows/47917-miss-fishers-murder-mysteries-death-by-deckchair-stc2027",
-    "price_from": null,
+    "price_from": 74,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -656,6 +672,22 @@
     "snippet": "Three generations of spirited women talk, tumble and fly in a gutsy, poetic circus that challenges convention with humour, intimacy and daring acrobatics."
   },
   {
+    "id": "e78c5027cb62",
+    "title": "This is Me",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-02-27",
+    "end_date": "2027-02-27",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Through storytelling, comedy and music, This is Me is personal journey of identity, heartbreak, resilience and self-discovery, celebrating the courage to live authentically."
+  },
+  {
     "id": "0567ea7b6e82",
     "title": "A Beginner’s Guide to Ancient Egypt",
     "venue": "Riverside Theatres",
@@ -896,6 +928,22 @@
     "snippet": ""
   },
   {
+    "id": "f1cf407d68bf",
+    "title": "Ben Folds with the Sydney Symphony Orchestra",
+    "venue": "The Hordern Pavilion",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-02-03",
+    "end_date": "2027-02-04",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47854-ben-folds-with-the-sydney-symphony-orchestra",
+    "price_from": 84,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "fa1d6a4ef054",
     "title": "Emma Pask Quartet",
     "venue": "Riverside Theatres",
@@ -1034,7 +1082,7 @@
     "start_date": "2027-01-27",
     "end_date": "2027-02-28",
     "booking_url": "https://www.todaytix.com/sydney/shows/47916-oedipus-stc2027",
-    "price_from": null,
+    "price_from": 94,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2774,7 +2822,7 @@
     "venue_id": "the-pavilion-performing-arts-centre",
     "suburb": "Sutherland",
     "genre": "comedy",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-11-10",
     "end_date": "2026-11-10",
     "booking_url": "https://thepavilionarts.au/",

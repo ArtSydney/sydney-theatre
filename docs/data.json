@@ -1,5 +1,21 @@
 [
   {
+    "id": "e4f00638b8a1",
+    "title": "Prometheus",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-11-17",
+    "end_date": "2027-11-19",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/prometheus/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "625e3b59ae10",
     "title": "A Christmas Carol",
     "venue": "Roslyn Packer Theatre",
@@ -72,7 +88,7 @@
     "genre": "opera",
     "status": "active",
     "start_date": "2027-08-27",
-    "end_date": "2027-10-10",
+    "end_date": "2027-10-17",
     "booking_url": "https://opera.org.au/whats-on/sydney",
     "price_from": null,
     "free_event": false,
@@ -250,7 +266,7 @@
     "start_date": "2027-05-29",
     "end_date": "2027-07-04",
     "booking_url": "https://www.todaytix.com/sydney/shows/48002-the-book-of-liz-stc2027",
-    "price_from": null,
+    "price_from": 68,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -490,7 +506,7 @@
     "start_date": "2027-04-10",
     "end_date": "2027-05-16",
     "booking_url": "https://www.todaytix.com/sydney/shows/48001-amah-and-nanna-stc2027",
-    "price_from": null,
+    "price_from": 68,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -909,6 +925,22 @@
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "b5c098c64cc5",
+    "title": "Logan St",
+    "venue": "Wharf 1 Theatre - Walsh Bay Arts Precinct",
+    "venue_id": "roslyn-packer-theatre",
+    "suburb": "Walsh Bay",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-02-05",
+    "end_date": "2027-03-07",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47921-logan-st-stc2027",
+    "price_from": 68,
+    "free_event": false,
+    "source": "todaytix",
     "snippet": ""
   },
   {
@@ -1456,6 +1488,22 @@
     "snippet": "The Christmas Celebration of the Year - bursting with laughter, music, family chaos and festive heart."
   },
   {
+    "id": "e88a48f1652e",
+    "title": "Scene Dating",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-14",
+    "end_date": "2026-12-14",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6801",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "b3c55a4c8628",
     "title": "The Choir of Man",
     "venue": "Sydney Opera House",
@@ -1566,6 +1614,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
+  },
+  {
+    "id": "987503463f6b",
+    "title": "Viola and Sebastian by Ames May Nunn",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-10",
+    "end_date": "2026-12-10",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7201",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Reading at Old Fitz Theatre."
   },
   {
     "id": "aa62f8527389",
@@ -1774,6 +1838,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Red Light Confidential - Winners of 'Best Burlesque Event' in 2025!"
+  },
+  {
+    "id": "25bcb8c7dffc",
+    "title": "The Next Chapter",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-03",
+    "end_date": "2026-12-03",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-next-chapter/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "724c6bb50d10",
@@ -2208,6 +2288,22 @@
     "snippet": ""
   },
   {
+    "id": "dd9950bedfe3",
+    "title": "Senseless and Fitz",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-23",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7401",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "04ddabc7bac4",
     "title": "The Fox - Director/Actor Q&A preview",
     "venue": "Hayden Orpheum Picture Palace",
@@ -2222,6 +2318,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Special Q&A preview screening of acclaimed new Australian black comedy THE FOX"
+  },
+  {
+    "id": "939f5b7e0c39",
+    "title": "Folk at the Fitz",
+    "venue": "Old Fitz Theatre",
+    "venue_id": "old-fitz-theatre",
+    "suburb": "Woolloomooloo",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-22",
+    "end_date": "2026-11-22",
+    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7001",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "4fff4ab0dffa",
@@ -2472,7 +2584,7 @@
     "genre": "cabaret",
     "status": "active",
     "start_date": "2026-11-17",
-    "end_date": "2026-11-22",
+    "end_date": "2026-11-27",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2401",
     "price_from": null,
     "free_event": false,
@@ -2774,7 +2886,7 @@
     "venue_id": "eternity-playhouse",
     "suburb": "Darlinghurst",
     "genre": "comedy",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-11-11",
     "end_date": "2026-11-11",
     "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/improv-smackdown-competition-grand-final",
@@ -3032,7 +3144,7 @@
     "genre": "play",
     "status": "active",
     "start_date": "2026-11-06",
-    "end_date": "2026-11-22",
+    "end_date": "2026-11-28",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=2201",
     "price_from": null,
     "free_event": false,
@@ -3613,22 +3725,6 @@
     "price_from": 55,
     "free_event": false,
     "source": "todaytix",
-    "snippet": ""
-  },
-  {
-    "id": "e88a48f1652e",
-    "title": "Scene Dating",
-    "venue": "Old Fitz Theatre",
-    "venue_id": "old-fitz-theatre",
-    "suburb": "Woolloomooloo",
-    "genre": "play",
-    "status": "closed",
-    "start_date": "2026-10-26",
-    "end_date": "2026-10-26",
-    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6801",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
     "snippet": ""
   },
   {

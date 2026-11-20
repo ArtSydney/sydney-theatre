@@ -256,6 +256,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "a8a5e45b8385",
+    "title": "Andrea Lam in Recital",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-07-05",
+    "end_date": "2027-07-05",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47992-andrea-lam-in-recital",
+    "price_from": 53,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "833436fd33fc",
     "title": "The Pirates of Penzance",
     "venue": "Sydney Opera House",
@@ -720,6 +736,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "8394478f05cc",
+    "title": "Víkingur Ólafsson in Recital",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-03-21",
+    "end_date": "2027-03-21",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47879-vikingur-olafsson-in-recital",
+    "price_from": 63,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "b71f237fc0bb",
     "title": "LIFE x 3",
     "venue": "Ensemble Theatre",
@@ -782,6 +814,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Experience Disney’s Frozen live—a spectacular musical adventure presented by Miranda Musical Theatre Company."
+  },
+  {
+    "id": "b8df5e8979c5",
+    "title": "Angela Hewitt Recital",
+    "venue": "City Recital Hall",
+    "venue_id": "city-recital-hall",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-03-11",
+    "end_date": "2027-03-11",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48558-angela-hewitt-recital",
+    "price_from": 45,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
   },
   {
     "id": "4afa2c2282d0",
@@ -1117,6 +1165,22 @@
     "price_from": 84,
     "free_event": false,
     "source": "todaytix",
+    "snippet": ""
+  },
+  {
+    "id": "48741a7e6fd9",
+    "title": "Goat Yarns",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-02-03",
+    "end_date": "2027-02-04",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/goat-yarns-a-lunar-new-year-festival/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
     "snippet": ""
   },
   {
@@ -1626,6 +1690,22 @@
     "start_date": "2026-12-14",
     "end_date": "2026-12-14",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6801",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
+    "id": "3f736f27d595",
+    "title": "PRESS PLAY",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-14",
+    "end_date": "2026-12-14",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/press-play/",
     "price_from": null,
     "free_event": false,
     "source": "venue-feed",
@@ -2574,38 +2654,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A night of gothic, metal, and dark fusion bellydance and burlesque featuring international and local dancers "
-  },
-  {
-    "id": "5c5be19b4e2d",
-    "title": "Dub Fiction",
-    "venue": "The Factory Theatre",
-    "venue_id": "factory-theatre",
-    "suburb": "Marrickville",
-    "genre": "comedy",
-    "status": "active",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-19",
-    "booking_url": "https://whatson.cityofsydney.nsw.gov.au/events/dub-fiction",
-    "price_from": null,
-    "free_event": false,
-    "source": "cityofsydney",
-    "snippet": "Watch improvisers dub a clip they have never seen before… live! Choose which clips become an improvised show on stage."
-  },
-  {
-    "id": "5de3a43cf2bb",
-    "title": "Večeras Je Naša Fešta | Tonight is Our Party by Lea Šimić",
-    "venue": "Old Fitz Theatre",
-    "venue_id": "old-fitz-theatre",
-    "suburb": "Woolloomooloo",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-19",
-    "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6401",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "Reading at Old Fitz Theatre."
   },
   {
     "id": "b8d794c48196",

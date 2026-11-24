@@ -784,6 +784,22 @@
     "snippet": ""
   },
   {
+    "id": "d0b18a584700",
+    "title": "Víkingur Ólafsson Returns",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-03-17",
+    "end_date": "2027-03-20",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47882-vikingur-olafsson-returns",
+    "price_from": 73,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "fe53314676da",
     "title": "Magic Beach",
     "venue": "Riverside Theatres",
@@ -958,6 +974,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Queer history inspires queer comedy"
+  },
+  {
+    "id": "b84501969d02",
+    "title": "Simone Young & Gautier Capuçon",
+    "venue": "Concert Hall | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "unknown",
+    "status": "active",
+    "start_date": "2027-02-25",
+    "end_date": "2027-02-28",
+    "booking_url": "https://www.todaytix.com/sydney/shows/47874-simone-young-and-gautier-capucon",
+    "price_from": 73,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
   },
   {
     "id": "f799ceb63d80",
@@ -2550,7 +2582,7 @@
     "venue_id": "riverside-theatres",
     "suburb": "Parramatta",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-11-23",
     "end_date": "2026-11-23",
     "booking_url": "https://riversideparramatta.com.au/whats-on/muse/",
@@ -2566,7 +2598,7 @@
     "venue_id": "old-fitz-theatre",
     "suburb": "Woolloomooloo",
     "genre": "play",
-    "status": "active",
+    "status": "closed",
     "start_date": "2026-11-23",
     "end_date": "2026-11-23",
     "booking_url": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7401",

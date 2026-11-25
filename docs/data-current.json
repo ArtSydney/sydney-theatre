@@ -48,6 +48,22 @@
     "snippet": ""
   },
   {
+    "id": "bf5c79b90684",
+    "title": "Ready, Set, Listen! The Nutcracker",
+    "venue": "Utzon Room | Sydney Opera House",
+    "venue_id": "sydney-opera-house",
+    "suburb": "Sydney",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2027-11-20",
+    "end_date": "2027-11-20",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48088-ready-set-listen-the-nutcracker",
+    "price_from": 30,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "3dc69d4b83a0",
     "title": "Mixed Bill S27: Modern Masters",
     "venue": "Joan Sutherland Theatre | Sydney Opera House",
@@ -736,6 +752,22 @@
     "snippet": "Opera Australia season."
   },
   {
+    "id": "335cdc80f8f1",
+    "title": "Mrs. Doubtfire - The Musical",
+    "venue": "Capitol Theatre Sydney",
+    "venue_id": "capitol-theatre",
+    "suburb": "Haymarket",
+    "genre": "musical",
+    "status": "active",
+    "start_date": "2027-03-25",
+    "end_date": "2027-03-25",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48705-mrs-doubtfire-the-musical-sydney",
+    "price_from": null,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "268d66b05323",
     "title": "Eucalyptus",
     "venue": "Sydney Opera House",
@@ -1034,7 +1066,7 @@
     "start_date": "2027-02-12",
     "end_date": "2027-02-12",
     "booking_url": "https://www.todaytix.com/sydney/shows/47855-titanic-live-in-concert",
-    "price_from": 115,
+    "price_from": 99,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -1066,7 +1098,7 @@
     "start_date": "2027-02-10",
     "end_date": "2027-02-10",
     "booking_url": "https://www.todaytix.com/sydney/shows/48465-disneys-moana-live-to-film",
-    "price_from": 100,
+    "price_from": 91,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -1181,6 +1213,22 @@
     "price_from": 68,
     "free_event": false,
     "source": "todaytix",
+    "snippet": ""
+  },
+  {
+    "id": "1bc5c3a051d9",
+    "title": "RAW Comedy 2027",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "comedy",
+    "status": "active",
+    "start_date": "2027-02-05",
+    "end_date": "2027-02-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/raw-comedy/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
     "snippet": ""
   },
   {
@@ -1568,6 +1616,22 @@
     "snippet": "Rose bay Stardust Circus returns January 2027"
   },
   {
+    "id": "abf610c53d0e",
+    "title": "Cirque Empire",
+    "venue": "Coliseum Theatre",
+    "venue_id": "coliseum-theatre",
+    "suburb": "Sydney",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2027-01-07",
+    "end_date": "2027-01-16",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48568-cirque-empire",
+    "price_from": 74.3,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
+  },
+  {
     "id": "20dab5edee3f",
     "title": "The Shawshank Redemption",
     "venue": "Theatre Royal Sydney",
@@ -1578,7 +1642,7 @@
     "start_date": "2027-01-02",
     "end_date": "2027-01-31",
     "booking_url": "https://www.todaytix.com/sydney/shows/47400-the-shawshank-redemption",
-    "price_from": 94.9,
+    "price_from": 89,
     "free_event": false,
     "source": "todaytix",
     "snippet": "The story you love, live on stage."
@@ -1760,6 +1824,22 @@
     "snippet": ""
   },
   {
+    "id": "50b604a3db1f",
+    "title": "INFAMY",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-13",
+    "end_date": "2026-12-13",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/infamy/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "b3c55a4c8628",
     "title": "The Choir of Man",
     "venue": "Sydney Opera House",
@@ -1870,6 +1950,22 @@
     "free_event": false,
     "source": "venue-feed",
     "snippet": "Reading at Old Fitz Theatre."
+  },
+  {
+    "id": "69b73f184d5c",
+    "title": "Jenny Tian - When Life Gives You Oranges",
+    "venue": "The Concourse Theatre, Sydney",
+    "venue_id": "concourse-chatswood",
+    "suburb": "Chatswood",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-12-10",
+    "end_date": "2026-12-10",
+    "booking_url": "https://www.todaytix.com/sydney/shows/48650-jenny-tian-when-life-gives-you-oranges-concourse",
+    "price_from": 26,
+    "free_event": false,
+    "source": "todaytix",
+    "snippet": ""
   },
   {
     "id": "aa62f8527389",
@@ -2122,7 +2218,7 @@
     "start_date": "2026-12-02",
     "end_date": "2026-12-05",
     "booking_url": "https://riversideparramatta.com.au/whats-on/ruins/",
-    "price_from": 50,
+    "price_from": 38.75,
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
@@ -2330,7 +2426,7 @@
     "start_date": "2026-11-27",
     "end_date": "2027-01-10",
     "booking_url": "https://www.todaytix.com/sydney/shows/45122-midnight-murder-on-the-christmas-cruise-of-death-at-ensemble-theatre",
-    "price_from": 100,
+    "price_from": 70,
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A hilarious new comedy"
@@ -2426,7 +2522,7 @@
     "start_date": "2026-11-26",
     "end_date": "2026-12-02",
     "booking_url": "https://www.todaytix.com/sydney/shows/46243-semele-pinchgut",
-    "price_from": 74,
+    "price_from": 71.75,
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Seduction, ambition and divine consequence"
@@ -2458,7 +2554,7 @@
     "start_date": "2026-11-25",
     "end_date": "2026-11-28",
     "booking_url": "https://riversideparramatta.com.au/whats-on/the-western-line/",
-    "price_from": 50,
+    "price_from": 38.75,
     "free_event": false,
     "source": "venue-feed",
     "snippet": ""
@@ -2480,22 +2576,6 @@
     "snippet": "A play in French with English surtitles that cast a modern light on the father of French comedy"
   },
   {
-    "id": "9f32183092a0",
-    "title": "Kids Playhouse Presents: End of Year Showcase 2026",
-    "venue": "The Pavilion Performing Arts Centre",
-    "venue_id": "the-pavilion-performing-arts-centre",
-    "suburb": "Sutherland",
-    "genre": "family",
-    "status": "active",
-    "start_date": "2026-11-24",
-    "end_date": "2026-11-24",
-    "booking_url": "https://thepavilionarts.au/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": "A dynamic end‑of‑year showcase where Kids Playhouse students shine through energetic drama performances that celebrate imagination, confidence and creativity."
-  },
-  {
     "id": "4fff4ab0dffa",
     "title": "The Coconut Children (Đứa Trẻ Trái Dừa)",
     "venue": "Upstairs Theatre | Belvoir St Theatre",
@@ -2506,7 +2586,7 @@
     "start_date": "2026-11-21",
     "end_date": "2026-12-20",
     "booking_url": "https://www.todaytix.com/sydney/shows/45262-the-coconut-children-belvoir-st-theatre-2026",
-    "price_from": 63,
+    "price_from": 58,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2730,7 +2810,7 @@
     "start_date": "2026-10-22",
     "end_date": "2026-12-12",
     "booking_url": "https://www.todaytix.com/sydney/shows/47420-strong-is-the-new-pretty-sydney",
-    "price_from": 73,
+    "price_from": 54,
     "free_event": false,
     "source": "todaytix",
     "snippet": ""
@@ -2746,7 +2826,7 @@
     "start_date": "2026-10-17",
     "end_date": "2027-01-03",
     "booking_url": "https://www.todaytix.com/sydney/shows/45782-cirque-du-soleil-kooza-sydney",
-    "price_from": 77,
+    "price_from": 64,
     "free_event": false,
     "source": "todaytix",
     "snippet": "The internationally acclaimed Cirque du Soleil production ‘Kooza’ is coming to Sydney in 2026 with tickets on sale now."

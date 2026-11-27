@@ -1984,6 +1984,22 @@
     "snippet": ""
   },
   {
+    "id": "d7fbbcefb4b3",
+    "title": "K&V Dance Corp | 'Get Up & Dance'",
+    "venue": "The Pavilion Performing Arts Centre",
+    "venue_id": "the-pavilion-performing-arts-centre",
+    "suburb": "Sutherland",
+    "genre": "dance",
+    "status": "active",
+    "start_date": "2026-12-11",
+    "end_date": "2026-12-11",
+    "booking_url": "https://thepavilionarts.au/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": "Featuring the amazing performance students of K&V Dance Corp in a spectacular celebration of talent, energy and award winning choreography."
+  },
+  {
     "id": "d2604a17d396",
     "title": "The Nutcracker on Ice",
     "venue": "Coliseum Theatre",
@@ -2480,6 +2496,22 @@
     "snippet": "A Burlesque & Variety Evening of Decadence & Divine Tease"
   },
   {
+    "id": "5581988a54b8",
+    "title": "Write Together, Rise Together",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-28",
+    "end_date": "2026-12-05",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/write-together-rise-together/",
+    "price_from": null,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
+  },
+  {
     "id": "aa1ecb24f6be",
     "title": "SZN7",
     "venue": "Riverside Theatres",
@@ -2558,6 +2590,22 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "A hilarious new comedy"
+  },
+  {
+    "id": "b5148435c314",
+    "title": "The Western Line",
+    "venue": "Riverside Theatres",
+    "venue_id": "riverside-theatres",
+    "suburb": "Parramatta",
+    "genre": "play",
+    "status": "active",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-28",
+    "booking_url": "https://riversideparramatta.com.au/whats-on/the-western-line/",
+    "price_from": 38.75,
+    "free_event": false,
+    "source": "venue-feed",
+    "snippet": ""
   },
   {
     "id": "6fcc57152398",
@@ -2654,38 +2702,6 @@
     "free_event": false,
     "source": "cityofsydney",
     "snippet": "Seduction, ambition and divine consequence"
-  },
-  {
-    "id": "b5148435c314",
-    "title": "The Western Line",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-11-26",
-    "end_date": "2026-11-28",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/the-western-line/",
-    "price_from": 38.75,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
-  },
-  {
-    "id": "5581988a54b8",
-    "title": "Write Together, Rise Together",
-    "venue": "Riverside Theatres",
-    "venue_id": "riverside-theatres",
-    "suburb": "Parramatta",
-    "genre": "play",
-    "status": "active",
-    "start_date": "2026-11-26",
-    "end_date": "2026-12-05",
-    "booking_url": "https://riversideparramatta.com.au/whats-on/write-together-rise-together/",
-    "price_from": null,
-    "free_event": false,
-    "source": "venue-feed",
-    "snippet": ""
   },
   {
     "id": "c6114915f808",
@@ -8586,7 +8602,7 @@
     "start_date": "2026-05-17",
     "end_date": "2026-12-25",
     "booking_url": "https://www.todaytix.com/sydney/shows/46980-the-gentleman-magicians-magical-soiree",
-    "price_from": 50,
+    "price_from": 45,
     "free_event": false,
     "source": "todaytix",
     "snippet": "See a world class magic show intertwined with intriguing stories about early Sydney town."
